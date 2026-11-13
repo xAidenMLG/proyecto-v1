@@ -1,0 +1,101 @@
+{
+  "composicion": "casa_de_espejos",
+  "run": "D_familiarity_auto",
+  "keyword": "familiarity_auto",
+  "seed_doc": 5150,
+  "seed_harmony": 556,
+  "sha256_midi": "cb4080e240d16bbdf1614be1b9ac696f6d396804e65c6728c52ae7cb3cb7be36",
+  "compliance_fails": [],
+  "armonia": {
+    "eleccion_por_seccion": {
+      "outro": {
+        "entrada": "SOUL06",
+        "simbolos": [
+          "Cm9",
+          "Bb9",
+          "Abmaj7",
+          "G7"
+        ]
+      },
+      "chorus_2": {
+        "entrada": "BAL06",
+        "simbolos": [
+          "Cm",
+          "Bbadd9",
+          "Abmaj7",
+          "G7",
+          "Cm7",
+          "Bb",
+          "Ab",
+          "G7"
+        ]
+      },
+      "bridge_1": {
+        "entrada": "CINE04",
+        "simbolos": [
+          "Cm7",
+          "Ab",
+          "Bb",
+          "F"
+        ]
+      },
+      "break_1": {
+        "entrada": "CINE04",
+        "simbolos": [
+          "Cm",
+          "Ab",
+          "Bb",
+          "F"
+        ]
+      },
+      "chorus_1": {
+        "entrada": "BAL06",
+        "simbolos": [
+          "Cm",
+          "Bbmaj7",
+          "Abmaj7",
+          "G7",
+          "Cm9",
+          "Bb",
+          "Ab",
+          "G7"
+        ]
+      },
+      "pre_1": {
+        "entrada": "CINE01",
+        "simbolos": [
+          "Cm",
+          "Ab",
+          "Eb",
+          "Bb"
+        ]
+      },
+      "verse_1": {
+        "entrada": "BAL06",
+        "simbolos": [
+          "Cm",
+          "Bbmaj7",
+          "Abadd9",
+          "G7",
+          "Cm7",
+          "Bb",
+          "Ab",
+          "G7sus4"
+        ]
+      },
+      "intro": {
+        "entrada": "CINE01",
+        "simbolos": [
+          "Cm",
+          "Ab",
+          "Eb",
+          "Bb"
+        ]
+      }
+    },
+    "resumen": {
+      "reescritas": 8,
+      "respetadas": 0
+    }
+  }
+}

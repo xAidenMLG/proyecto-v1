@@ -1,0 +1,115 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Sax y Rhodes en el Puro",
+    "notes": "Demo 3: sax protagonista, Rhodes acompañante, vibráfono fuera, espacios de aire."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 82,
+    "seed": 2026
+  },
+  "harmony": {
+    "key": "C minor",
+    "language": "hybrid",
+    "harmonic_rhythm_bars": 2,
+    "progressions": {
+      "intro": [
+        "Cm",
+        "G"
+      ],
+      "verso_1": [
+        "Cm",
+        "Dm7b5",
+        "G",
+        "G7"
+      ],
+      "puente_aire": [
+        "G",
+        "A"
+      ],
+      "verso_2": [
+        "Cm",
+        "Cm",
+        "G",
+        "A",
+        "Cm",
+        "Cm",
+        "G",
+        "G7:2"
+      ],
+      "outro": [
+        "Cm",
+        "G"
+      ]
+    }
+  },
+  "instruments": {
+    "vibraphone": {
+      "enabled": false
+    }
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "rhodes",
+        "pad"
+      ]
+    },
+    {
+      "id": "verso_1",
+      "type": "verse",
+      "bars": 16,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ]
+    },
+    {
+      "id": "puente_aire",
+      "type": "bridge",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "rhodes"
+      ],
+      "active": [
+        "sax_tenor",
+        "rhodes",
+        "pad"
+      ]
+    },
+    {
+      "id": "verso_2",
+      "type": "verse",
+      "bars": 16,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ]
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "rhodes"
+      ],
+      "final": true
+    }
+  ],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 4
+    }
+  }
+}

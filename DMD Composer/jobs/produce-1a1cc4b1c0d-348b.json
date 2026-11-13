@@ -1,0 +1,44 @@
+{
+  "jid": "produce-1a1cc4b1c0d-348b",
+  "kind": "produce",
+  "scope": "produce:capitan:gen_0001",
+  "state": "ok",
+  "created_utc": "2026-11-11T20:27:16Z",
+  "started_utc": "2026-11-11T20:27:16Z",
+  "finished_utc": "2026-11-11T20:27:17Z",
+  "timeout": 330,
+  "result": {
+    "ok": true,
+    "midi": {
+      "estado": "aplicado",
+      "perfil": "sax_rhodes",
+      "seed": 469514,
+      "harmony": null,
+      "generado_utc": "2026-11-11T20:27:17.214909+00:00",
+      "duracion_s": 240.0,
+      "bpm": 84.0,
+      "compases": 84,
+      "nombre": "capitan_gen_0001",
+      "sha256": "f1ed2fa217bde318f088ed273da6c958ccdd2811a0d9fe3a36540c242ce38ce2",
+      "rutas": {
+        "midi": "C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001\\capitan_gen_0001.mid",
+        "evidencia": "C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001\\evidencia.json",
+        "config_efectiva": "C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001\\config_efectiva.json",
+        "events": "C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001\\events.json"
+      },
+      "verificado": true,
+      "compliance_fails": [],
+      "compliance_warns": [],
+      "eventos": {
+        "regenerar": "python scripts/produce.py doc.json --production sax_rhodes --seed 469514 --out C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001 --verify f1ed2fa217bde318f088ed273da6c958ccdd2811a0d9fe3a36540c242ce38ce2"
+      }
+    }
+  },
+  "error": null,
+  "log": [
+    "[2026-11-11T20:27:16Z] trabajo en ejecución",
+    "[2026-11-11T20:27:16Z] produciendo con el núcleo real: perfil=sax_rhodes seed=469514 events=True → C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001",
+    "[2026-11-11T20:27:16Z] proceso externo registrado (cancelable)",
+    "[2026-11-11T20:27:17Z] MIDI registrado y verificado: sha256=f1ed2fa217bde318…"
+  ]
+}

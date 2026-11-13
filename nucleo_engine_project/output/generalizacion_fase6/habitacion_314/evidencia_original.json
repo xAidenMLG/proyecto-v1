@@ -1,0 +1,25 @@
+{
+  "composicion": "habitacion_314",
+  "perfil": "original",
+  "seed": 4104,
+  "sha256": "845b464107b01a36c20942a9508023832745b607cf919a5a139779d294cf6714",
+  "bytes": 12066,
+  "bpm": 80.0,
+  "compases": 64,
+  "duracion_s": 192.0,
+  "notas_por_pista": {
+    "sax_tenor": 112,
+    "rhodes": 163,
+    "vibraphone": 2,
+    "bass": 156,
+    "drums": 528,
+    "pad": 116
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 0,
+    "determinismo": true
+  },
+  "fallos": []
+}

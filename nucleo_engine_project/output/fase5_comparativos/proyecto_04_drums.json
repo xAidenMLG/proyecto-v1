@@ -1,0 +1,2348 @@
+{
+  "schema": "midi-forge/1",
+  "meta": {
+    "name": "Nocturno Terminal",
+    "description": "FASE 5 — composición de comparación dark_triphop (identidad activa única). Mismo doc/seed/tempo/estructura para los 8 escenarios.",
+    "director": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1",
+      "source_schema": "dark-director/1",
+      "original": {
+        "schema": "dark-director/1",
+        "meta": {
+          "title": "Nocturno Terminal",
+          "notes": "FASE 5 — composición de comparación dark_triphop (identidad activa única). Mismo doc/seed/tempo/estructura para los 8 escenarios."
+        },
+        "direction": {
+          "identity": "dark_triphop",
+          "accessibility": "balanced"
+        },
+        "global": {
+          "bpm": 86,
+          "seed": 2026
+        },
+        "harmony": {
+          "key": "D minor",
+          "language": "pop_dream_pop",
+          "harmonic_rhythm_bars": 1,
+          "progressions": {
+            "verse": [
+              "Dm9",
+              "Bbmaj7",
+              "Fmaj9",
+              "C7sus4"
+            ],
+            "chorus": [
+              "Bbmaj9",
+              "Fmaj9",
+              "Gm9",
+              "A7sus4"
+            ]
+          }
+        },
+        "structure": [
+          {
+            "id": "intro",
+            "type": "intro",
+            "bars": 4,
+            "energy": 0.25,
+            "tension": 0.2,
+            "density": 0.25,
+            "focus": [
+              "rhodes",
+              "pad"
+            ],
+            "drums": "air"
+          },
+          {
+            "id": "verse_1",
+            "type": "verse",
+            "bars": 8,
+            "energy": 0.45,
+            "tension": 0.35,
+            "density": 0.45,
+            "focus": [
+              "sax_tenor",
+              "drums"
+            ],
+            "drums": "groove"
+          },
+          {
+            "id": "pre_1",
+            "type": "pre_chorus",
+            "bars": 4,
+            "energy": 0.6,
+            "tension": 0.55,
+            "density": 0.55,
+            "focus": [
+              "pad",
+              "vibraphone"
+            ],
+            "drums": "light"
+          },
+          {
+            "id": "chorus_1",
+            "type": "chorus",
+            "bars": 8,
+            "energy": 0.8,
+            "tension": 0.5,
+            "density": 0.65,
+            "focus": [
+              "sax_tenor",
+              "drums",
+              "bass"
+            ],
+            "drums": "heavy"
+          },
+          {
+            "id": "bridge_1",
+            "type": "bridge",
+            "bars": 4,
+            "energy": 0.5,
+            "tension": 0.6,
+            "density": 0.55,
+            "focus": [
+              "rhodes"
+            ],
+            "drums": "light"
+          },
+          {
+            "id": "break_1",
+            "type": "break",
+            "bars": 4,
+            "energy": 0.35,
+            "tension": 0.6,
+            "density": 0.3,
+            "focus": [
+              "vibraphone"
+            ],
+            "drums": "light",
+            "active": [
+              "vibraphone",
+              "rhodes",
+              "pad"
+            ]
+          },
+          {
+            "id": "verse_2",
+            "type": "verse",
+            "bars": 8,
+            "energy": 0.5,
+            "tension": 0.4,
+            "density": 0.5,
+            "focus": [
+              "sax_tenor"
+            ],
+            "drums": "groove"
+          },
+          {
+            "id": "chorus_2",
+            "type": "chorus",
+            "bars": 8,
+            "energy": 0.85,
+            "tension": 0.55,
+            "density": 0.7,
+            "focus": [
+              "sax_tenor",
+              "drums"
+            ],
+            "drums": "heavy",
+            "final": true
+          },
+          {
+            "id": "outro",
+            "type": "outro",
+            "bars": 4,
+            "energy": 0.2,
+            "tension": 0.15,
+            "density": 0.2,
+            "focus": [
+              "rhodes"
+            ],
+            "drums": "air"
+          }
+        ],
+        "ending": {
+          "fade_out": {
+            "enabled": true,
+            "bars": 3
+          }
+        }
+      }
+    }
+  },
+  "global": {
+    "bpm": 86,
+    "time_signature": [
+      4,
+      4
+    ],
+    "key": "D minor",
+    "ticks_per_beat": 480,
+    "seed": 2026,
+    "humanize": 1.0,
+    "velocity_cap": 110,
+    "pitch_bend_range": 2,
+    "preset": "triphop",
+    "repair_clashes": true
+  },
+  "tracks": [
+    {
+      "program": 66,
+      "volume": 100,
+      "pan": 72,
+      "reverb": 100,
+      "chorus": 30,
+      "detune": -35,
+      "offset_ticks": 14,
+      "jitter_ticks": 12,
+      "vel_jitter": 5,
+      "range": [
+        62,
+        81
+      ],
+      "mono": true,
+      "id": "sax_tenor",
+      "role": "lead",
+      "enabled": true,
+      "name": "sax_tenor",
+      "mute": false,
+      "solo": false,
+      "channel": 1
+    },
+    {
+      "program": 4,
+      "volume": 76,
+      "pan": 74,
+      "reverb": 72,
+      "chorus": 55,
+      "detune": 20,
+      "offset_ticks": 5,
+      "jitter_ticks": 5,
+      "vel_jitter": 4,
+      "range": [
+        45,
+        76
+      ],
+      "mono": false,
+      "id": "rhodes",
+      "role": "keys",
+      "enabled": true,
+      "name": "rhodes",
+      "mute": false,
+      "solo": false,
+      "channel": 2
+    },
+    {
+      "program": 11,
+      "volume": 58,
+      "pan": 92,
+      "reverb": 112,
+      "chorus": 40,
+      "detune": 0,
+      "offset_ticks": 16,
+      "jitter_ticks": 6,
+      "vel_jitter": 4,
+      "range": [
+        60,
+        88
+      ],
+      "mono": false,
+      "id": "vibraphone",
+      "role": "mallet",
+      "enabled": true,
+      "name": "vibraphone",
+      "mute": false,
+      "solo": false,
+      "channel": 3
+    },
+    {
+      "program": 38,
+      "volume": 112,
+      "pan": 64,
+      "reverb": 20,
+      "chorus": 0,
+      "detune": 0,
+      "offset_ticks": -3,
+      "jitter_ticks": 4,
+      "vel_jitter": 4,
+      "range": [
+        28,
+        52
+      ],
+      "mono": true,
+      "id": "bass",
+      "role": "bass",
+      "enabled": true,
+      "name": "bass",
+      "mute": false,
+      "solo": false,
+      "channel": 4
+    },
+    {
+      "program": null,
+      "volume": 106,
+      "pan": 64,
+      "reverb": 60,
+      "chorus": 0,
+      "detune": 0,
+      "offset_ticks": 0,
+      "jitter_ticks": 4,
+      "vel_jitter": 5,
+      "range": [
+        35,
+        82
+      ],
+      "mono": false,
+      "id": "drums",
+      "role": "drums",
+      "enabled": true,
+      "name": "drums",
+      "mute": false,
+      "solo": false,
+      "channel": 10
+    },
+    {
+      "program": 91,
+      "volume": 88,
+      "pan": 64,
+      "reverb": 120,
+      "chorus": 60,
+      "detune": 70,
+      "offset_ticks": 0,
+      "jitter_ticks": 6,
+      "vel_jitter": 3,
+      "range": [
+        40,
+        72
+      ],
+      "mono": false,
+      "id": "pad",
+      "role": "pad",
+      "enabled": true,
+      "name": "pad",
+      "mute": false,
+      "solo": false,
+      "channel": 6
+    }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "name": "intro",
+      "kind": "intro",
+      "bars": 4,
+      "final": false,
+      "chords": [
+        "Dm9"
+      ],
+      "chord_bars": 1,
+      "velocity": [
+        55,
+        65
+      ],
+      "blocks": {
+        "sax_tenor": {
+          "enabled": false,
+          "style": "none",
+          "params": {},
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "rhodes": {
+          "enabled": true,
+          "style": "hold",
+          "params": {
+            "voicing": {
+              "profile": "full"
+            },
+            "restrike_beats": 0
+          },
+          "velocity": 58,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "vibraphone": {
+          "enabled": true,
+          "style": "pings",
+          "params": {
+            "count": 1
+          },
+          "velocity": 44,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "bass": {
+          "enabled": false,
+          "style": "none",
+          "params": {},
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "drums": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "preset": "intro_air",
+            "vel_scale": 0.85,
+            "layers": [
+              {
+                "inst": "crash",
+                "at": [
+                  0
+                ],
+                "vel": 50,
+                "dur": 3.5,
+                "when": {
+                  "bars": [
+                    0
+                  ]
+                }
+              },
+              {
+                "inst": "closed_hat",
+                "grid": 0.5,
+                "vel": {
+                  "v0": 26,
+                  "v1": 48,
+                  "over": "steps"
+                },
+                "jitter": 0.02,
+                "when": {
+                  "last": true
+                }
+              }
+            ]
+          },
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "pad": {
+          "enabled": true,
+          "style": "sustain",
+          "params": {
+            "voicing": {
+              "profile": "rootfifth"
+            }
+          },
+          "velocity": 49,
+          "from_bar": 0,
+          "to_bar": null
+        }
+      },
+      "occurrence": 0
+    },
+    {
+      "id": "verse_1",
+      "name": "verse_1",
+      "kind": "verse",
+      "bars": 8,
+      "final": false,
+      "chords": [
+        "Dm9",
+        "Bbmaj7",
+        "Fmaj9",
+        "C7sus4"
+      ],
+      "chord_bars": 1,
+      "velocity": [
+        68,
+        80
+      ],
+      "blocks": {
+        "sax_tenor": {
+          "enabled": true,
+          "style": "auto",
+          "params": {
+            "range": [
+              62,
+              81
+            ],
+            "density": 0.4,
+            "long_prob": 0.9,
+            "motif_bars": 4
+          },
+          "velocity": 76,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "rhodes": {
+          "enabled": true,
+          "style": "broken",
+          "params": {
+            "voicing": {
+              "profile": "shell"
+            },
+            "rest_prob": 0.25
+          },
+          "velocity": 56,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "vibraphone": {
+          "enabled": true,
+          "style": "replies",
+          "params": {
+            "respond_to": "sax_tenor",
+            "prob": 0.45,
+            "max_per_bar": 2
+          },
+          "velocity": 50,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "bass": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "patterns": [
+              [
+                [
+                  0,
+                  "R",
+                  1.4,
+                  0
+                ],
+                [
+                  1.5,
+                  "F",
+                  1.4,
+                  -6
+                ],
+                [
+                  3.25,
+                  "R",
+                  0.5,
+                  -4
+                ]
+              ],
+              [
+                [
+                  0,
+                  "R",
+                  1.4,
+                  0
+                ],
+                [
+                  1.5,
+                  "F",
+                  1.4,
+                  -6
+                ],
+                [
+                  3.25,
+                  "F",
+                  0.5,
+                  -4
+                ]
+              ]
+            ],
+            "approach": {
+              "enabled": true,
+              "every": 2,
+              "offset": 1
+            },
+            "slide_in": {
+              "every": 8
+            },
+            "slide_out": true
+          },
+          "velocity": 70,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "drums": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "preset": "trip_verse",
+            "vel_scale": 1.03,
+            "layers": [
+              {
+                "inst": "kick",
+                "at": [
+                  0
+                ],
+                "vel": 92,
+                "offset": -0.006
+              },
+              {
+                "inst": "kick",
+                "pick": [
+                  1.75,
+                  2.5,
+                  3.25
+                ],
+                "prob": 0.6,
+                "vel_rand": [
+                  44,
+                  58
+                ],
+                "offset": -0.006
+              },
+              {
+                "inst": "snare2",
+                "at": [
+                  2
+                ],
+                "vel": 86,
+                "offset": 0.054
+              },
+              {
+                "inst": "rim",
+                "at": [
+                  3.5
+                ],
+                "vel": 50,
+                "prob": 0.25,
+                "offset": 0.037
+              },
+              {
+                "inst": "open_hat",
+                "at": [
+                  1.5,
+                  3.5
+                ],
+                "vel": 62,
+                "dur": 0.4,
+                "omit": 0.25,
+                "jitter": 0.02,
+                "drag": [
+                  0.2,
+                  0.037
+                ]
+              },
+              {
+                "inst": "closed_hat",
+                "pick": [
+                  0.75,
+                  2.75
+                ],
+                "prob": 0.4,
+                "vel_rand": [
+                  24,
+                  36
+                ],
+                "jitter": 0.025
+              },
+              {
+                "inst": "closed_hat",
+                "grid": 0.5,
+                "vel": [
+                  52,
+                  40
+                ],
+                "jitter": 0.02,
+                "drag": [
+                  0.2,
+                  0.037
+                ],
+                "skip_if_open": true
+              },
+              {
+                "inst": "snare2",
+                "pick": [
+                  2.75,
+                  3.75
+                ],
+                "prob": 0.288,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "rim",
+                "pick": [
+                  1.75,
+                  3.5
+                ],
+                "prob": 0.288,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "kick",
+                "at": [
+                  2.5
+                ],
+                "vel": 58,
+                "prob": 0.55,
+                "offset": -0.006,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    3
+                  ]
+                }
+              },
+              {
+                "inst": "open_hat",
+                "at": [
+                  3.5
+                ],
+                "vel_rand": [
+                  50,
+                  62
+                ],
+                "prob": 0.25,
+                "dur": 0.25,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    2
+                  ]
+                }
+              }
+            ]
+          },
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "pad": {
+          "enabled": true,
+          "style": "sustain",
+          "params": {
+            "voicing": {
+              "profile": "rootfifth"
+            }
+          },
+          "velocity": 47,
+          "from_bar": 0,
+          "to_bar": null
+        }
+      },
+      "occurrence": 0
+    },
+    {
+      "id": "pre_1",
+      "name": "pre_1",
+      "kind": "pre",
+      "bars": 4,
+      "final": false,
+      "chords": [
+        "Gmaj9",
+        "A7sus4"
+      ],
+      "chord_bars": 1,
+      "velocity": [
+        82,
+        96
+      ],
+      "blocks": {
+        "sax_tenor": {
+          "enabled": true,
+          "style": "auto",
+          "params": {
+            "range": [
+              62,
+              81
+            ],
+            "density": 0.4,
+            "long_prob": 0.9,
+            "motif_bars": 4
+          },
+          "velocity": 62,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "rhodes": {
+          "enabled": true,
+          "style": "hold",
+          "params": {
+            "voicing": {
+              "profile": "shell"
+            },
+            "restrike_beats": 4
+          },
+          "velocity": 52,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "vibraphone": {
+          "enabled": true,
+          "style": "replies",
+          "params": {
+            "respond_to": "sax_tenor",
+            "prob": 0.45,
+            "max_per_bar": 2
+          },
+          "velocity": 50,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "bass": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "patterns": [
+              [
+                [
+                  0,
+                  "R",
+                  3.3,
+                  0
+                ],
+                [
+                  3.4,
+                  "R",
+                  0.45,
+                  -10
+                ]
+              ]
+            ],
+            "approach": {
+              "enabled": true,
+              "every": 2,
+              "offset": 1
+            },
+            "slide_in": {
+              "every": 8
+            },
+            "slide_out": true
+          },
+          "velocity": 66,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "drums": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "preset": "trip_bridge",
+            "vel_scale": 0.95,
+            "fills": [
+              {
+                "when": {
+                  "last": true
+                },
+                "mute": [
+                  {
+                    "inst": "snare2",
+                    "from": 3.0
+                  }
+                ],
+                "rolls": [
+                  {
+                    "inst": "snare2",
+                    "start": 3.0,
+                    "steps": 4,
+                    "step": 0.25,
+                    "v0": 50,
+                    "v1": 78
+                  }
+                ]
+              }
+            ],
+            "layers": [
+              {
+                "inst": "kick",
+                "at": [
+                  0
+                ],
+                "vel": 84,
+                "offset": -0.006
+              },
+              {
+                "inst": "rim",
+                "at": [
+                  2
+                ],
+                "vel": 60,
+                "offset": 0.037,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    0
+                  ]
+                }
+              },
+              {
+                "inst": "open_hat",
+                "pick": [
+                  1.5,
+                  3.5
+                ],
+                "prob": 0.4,
+                "vel_rand": [
+                  46,
+                  58
+                ],
+                "dur": 0.4
+              },
+              {
+                "inst": "ride_bell",
+                "at": [
+                  0
+                ],
+                "vel": 55,
+                "dur": 0.5,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    0
+                  ]
+                }
+              },
+              {
+                "inst": "snare2",
+                "pick": [
+                  2.75,
+                  3.75
+                ],
+                "prob": 0.324,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "rim",
+                "pick": [
+                  1.75,
+                  3.5
+                ],
+                "prob": 0.324,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "kick",
+                "at": [
+                  2.5
+                ],
+                "vel": 58,
+                "prob": 0.55,
+                "offset": -0.006,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    3
+                  ]
+                }
+              }
+            ]
+          },
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "pad": {
+          "enabled": true,
+          "style": "sustain",
+          "params": {
+            "voicing": {
+              "profile": "rootfifth"
+            }
+          },
+          "velocity": 48,
+          "from_bar": 0,
+          "to_bar": null
+        }
+      },
+      "occurrence": 0
+    },
+    {
+      "id": "chorus_1",
+      "name": "chorus_1",
+      "kind": "chorus",
+      "bars": 8,
+      "final": false,
+      "chords": [
+        "Bbmaj9",
+        "Fmaj9",
+        "Gm9",
+        "A7sus4"
+      ],
+      "chord_bars": 1,
+      "velocity": [
+        98,
+        110
+      ],
+      "blocks": {
+        "sax_tenor": {
+          "enabled": true,
+          "style": "auto",
+          "params": {
+            "range": [
+              62,
+              81
+            ],
+            "density": 0.4,
+            "long_prob": 0.9,
+            "motif_bars": 4
+          },
+          "velocity": 92,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "rhodes": {
+          "enabled": true,
+          "style": "broken",
+          "params": {
+            "voicing": {
+              "profile": "shell"
+            },
+            "rest_prob": 0.25
+          },
+          "velocity": 70,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "vibraphone": {
+          "enabled": true,
+          "style": "replies",
+          "params": {
+            "respond_to": "sax_tenor",
+            "prob": 0.45,
+            "max_per_bar": 2
+          },
+          "velocity": 62,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "bass": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "patterns": [
+              [
+                [
+                  0,
+                  "R",
+                  1.4,
+                  2
+                ],
+                [
+                  1.5,
+                  "F",
+                  0.9,
+                  -4
+                ],
+                [
+                  2.5,
+                  "R",
+                  0.4,
+                  -8
+                ],
+                [
+                  3.25,
+                  "F",
+                  0.5,
+                  -4
+                ]
+              ],
+              [
+                [
+                  0,
+                  "R",
+                  1.4,
+                  2
+                ],
+                [
+                  1.5,
+                  "O",
+                  0.9,
+                  -6
+                ],
+                [
+                  3.25,
+                  "F",
+                  0.5,
+                  -4
+                ]
+              ]
+            ],
+            "approach": {
+              "enabled": true,
+              "every": 2,
+              "offset": 1
+            },
+            "slide_in": {
+              "every": 8
+            },
+            "slide_out": true
+          },
+          "velocity": 88,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "drums": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "preset": "trip_chorus",
+            "vel_scale": 1.13,
+            "fills": [
+              {
+                "when": {
+                  "last": true
+                },
+                "rolls": [
+                  {
+                    "inst": "snare2",
+                    "start": 3.0,
+                    "steps": 4,
+                    "step": 0.25,
+                    "v0": 62,
+                    "v1": 84
+                  }
+                ]
+              }
+            ],
+            "layers": [
+              {
+                "inst": "kick",
+                "at": [
+                  0,
+                  1.5
+                ],
+                "vel": [
+                  100,
+                  84
+                ],
+                "offset": -0.006,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    0
+                  ]
+                }
+              },
+              {
+                "inst": "kick",
+                "at": [
+                  0,
+                  2.75
+                ],
+                "vel": [
+                  100,
+                  82
+                ],
+                "offset": -0.006,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "snare2",
+                "at": [
+                  2
+                ],
+                "vel": 96,
+                "offset": 0.054
+              },
+              {
+                "inst": "clap",
+                "at": [
+                  2
+                ],
+                "vel": 80,
+                "dur": 0.2,
+                "offset": 0.0625
+              },
+              {
+                "inst": "open_hat",
+                "at": [
+                  1.5,
+                  3.5
+                ],
+                "vel": 70,
+                "dur": 0.4,
+                "omit": 0.15,
+                "jitter": 0.02,
+                "drag": [
+                  0.2,
+                  0.037
+                ]
+              },
+              {
+                "inst": "closed_hat",
+                "pick": [
+                  0.75,
+                  2.25,
+                  3.25
+                ],
+                "prob": 0.5,
+                "vel_rand": [
+                  26,
+                  40
+                ],
+                "jitter": 0.025
+              },
+              {
+                "inst": "closed_hat",
+                "grid": 0.5,
+                "vel": [
+                  64,
+                  48
+                ],
+                "jitter": 0.02,
+                "drag": [
+                  0.2,
+                  0.037
+                ],
+                "skip_if_open": true
+              },
+              {
+                "inst": "ride_bell",
+                "at": [
+                  0
+                ],
+                "vel": 70,
+                "dur": 0.5,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    0
+                  ]
+                }
+              },
+              {
+                "inst": "snare2",
+                "pick": [
+                  2.75,
+                  3.75
+                ],
+                "prob": 0.372,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "rim",
+                "pick": [
+                  1.75,
+                  3.5
+                ],
+                "prob": 0.372,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "kick",
+                "at": [
+                  2.75
+                ],
+                "vel": 58,
+                "prob": 0.55,
+                "offset": -0.006,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    3
+                  ]
+                }
+              }
+            ]
+          },
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "pad": {
+          "enabled": true,
+          "style": "sustain",
+          "params": {
+            "voicing": {
+              "profile": "rootfifth"
+            }
+          },
+          "velocity": 58,
+          "from_bar": 0,
+          "to_bar": null
+        }
+      },
+      "occurrence": 0
+    },
+    {
+      "id": "bridge_1",
+      "name": "bridge_1",
+      "kind": "bridge",
+      "bars": 4,
+      "final": false,
+      "chords": [
+        "Cmaj7",
+        "Gmaj9"
+      ],
+      "chord_bars": 1,
+      "velocity": [
+        68,
+        80
+      ],
+      "blocks": {
+        "sax_tenor": {
+          "enabled": true,
+          "style": "auto",
+          "params": {
+            "range": [
+              62,
+              81
+            ],
+            "density": 0.4,
+            "long_prob": 0.9,
+            "motif_bars": 4
+          },
+          "velocity": 62,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "rhodes": {
+          "enabled": true,
+          "style": "hold",
+          "params": {
+            "voicing": {
+              "profile": "shell"
+            },
+            "restrike_beats": 4
+          },
+          "velocity": 60,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "vibraphone": {
+          "enabled": true,
+          "style": "replies",
+          "params": {
+            "respond_to": "sax_tenor",
+            "prob": 0.45,
+            "max_per_bar": 2
+          },
+          "velocity": 46,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "bass": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "patterns": [
+              [
+                [
+                  0,
+                  "R",
+                  3.3,
+                  0
+                ],
+                [
+                  3.4,
+                  "R",
+                  0.45,
+                  -10
+                ]
+              ]
+            ],
+            "approach": {
+              "enabled": true,
+              "every": 2,
+              "offset": 1
+            },
+            "slide_in": {
+              "every": 8
+            },
+            "slide_out": true
+          },
+          "velocity": 66,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "drums": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "preset": "trip_bridge",
+            "vel_scale": 0.87,
+            "light_bars": 2,
+            "layers": [
+              {
+                "inst": "kick",
+                "at": [
+                  0
+                ],
+                "vel": 84,
+                "offset": -0.006
+              },
+              {
+                "inst": "rim",
+                "at": [
+                  2
+                ],
+                "vel": 60,
+                "offset": 0.037,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    0
+                  ]
+                }
+              },
+              {
+                "inst": "open_hat",
+                "pick": [
+                  1.5,
+                  3.5
+                ],
+                "prob": 0.4,
+                "vel_rand": [
+                  46,
+                  58
+                ],
+                "dur": 0.4
+              },
+              {
+                "inst": "ride_bell",
+                "at": [
+                  0
+                ],
+                "vel": 55,
+                "dur": 0.5,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    0
+                  ]
+                }
+              }
+            ]
+          },
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "pad": {
+          "enabled": true,
+          "style": "sustain",
+          "params": {
+            "voicing": {
+              "profile": "rootfifth"
+            }
+          },
+          "velocity": 40,
+          "from_bar": 0,
+          "to_bar": null
+        }
+      },
+      "occurrence": 0
+    },
+    {
+      "id": "break_1",
+      "name": "break_1",
+      "kind": "break",
+      "bars": 4,
+      "final": false,
+      "chords": [
+        "Dm9",
+        "Bbmaj7"
+      ],
+      "chord_bars": 1,
+      "velocity": [
+        68,
+        80
+      ],
+      "blocks": {
+        "sax_tenor": {
+          "enabled": false,
+          "style": "none",
+          "params": {},
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "rhodes": {
+          "enabled": true,
+          "style": "broken",
+          "params": {
+            "voicing": {
+              "profile": "shell"
+            },
+            "rest_prob": 0.45
+          },
+          "velocity": 56,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "vibraphone": {
+          "enabled": true,
+          "style": "replies",
+          "params": {
+            "respond_to": "sax_tenor",
+            "prob": 0.25,
+            "max_per_bar": 1
+          },
+          "velocity": 56,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "bass": {
+          "enabled": false,
+          "style": "none",
+          "params": {},
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "drums": {
+          "enabled": false,
+          "style": "none",
+          "params": {},
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "pad": {
+          "enabled": true,
+          "style": "sustain",
+          "params": {
+            "voicing": {
+              "profile": "rootfifth"
+            }
+          },
+          "velocity": 45,
+          "from_bar": 0,
+          "to_bar": null
+        }
+      },
+      "occurrence": 0
+    },
+    {
+      "id": "verse_2",
+      "name": "verse_2",
+      "kind": "verse",
+      "bars": 8,
+      "final": false,
+      "chords": [
+        "Dm9",
+        "Bbmaj7",
+        "Fmaj9",
+        "C7sus4"
+      ],
+      "chord_bars": 1,
+      "velocity": [
+        68,
+        80
+      ],
+      "blocks": {
+        "sax_tenor": {
+          "enabled": true,
+          "style": "auto",
+          "params": {
+            "range": [
+              62,
+              81
+            ],
+            "density": 0.4,
+            "long_prob": 0.9,
+            "motif_bars": 4
+          },
+          "velocity": 76,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "rhodes": {
+          "enabled": true,
+          "style": "broken",
+          "params": {
+            "voicing": {
+              "profile": "shell"
+            },
+            "rest_prob": 0.25
+          },
+          "velocity": 56,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "vibraphone": {
+          "enabled": true,
+          "style": "replies",
+          "params": {
+            "respond_to": "sax_tenor",
+            "prob": 0.45,
+            "max_per_bar": 2
+          },
+          "velocity": 50,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "bass": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "patterns": [
+              [
+                [
+                  0,
+                  "R",
+                  1.4,
+                  0
+                ],
+                [
+                  1.5,
+                  "F",
+                  1.4,
+                  -6
+                ],
+                [
+                  3.25,
+                  "R",
+                  0.5,
+                  -4
+                ]
+              ],
+              [
+                [
+                  0,
+                  "R",
+                  1.4,
+                  0
+                ],
+                [
+                  1.5,
+                  "F",
+                  1.4,
+                  -6
+                ],
+                [
+                  3.25,
+                  "F",
+                  0.5,
+                  -4
+                ]
+              ]
+            ],
+            "approach": {
+              "enabled": true,
+              "every": 2,
+              "offset": 1
+            },
+            "slide_in": {
+              "every": 8
+            },
+            "slide_out": true
+          },
+          "velocity": 70,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "drums": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "preset": "trip_verse",
+            "vel_scale": 1.0,
+            "layers": [
+              {
+                "inst": "kick",
+                "at": [
+                  0
+                ],
+                "vel": 92,
+                "offset": -0.006
+              },
+              {
+                "inst": "kick",
+                "pick": [
+                  1.75,
+                  2.5,
+                  3.25
+                ],
+                "prob": 0.6,
+                "vel_rand": [
+                  44,
+                  58
+                ],
+                "offset": -0.006
+              },
+              {
+                "inst": "snare2",
+                "at": [
+                  2
+                ],
+                "vel": 86,
+                "offset": 0.054
+              },
+              {
+                "inst": "rim",
+                "at": [
+                  3.5
+                ],
+                "vel": 50,
+                "prob": 0.25,
+                "offset": 0.037
+              },
+              {
+                "inst": "open_hat",
+                "at": [
+                  1.5,
+                  3.5
+                ],
+                "vel": 62,
+                "dur": 0.4,
+                "omit": 0.25,
+                "jitter": 0.02,
+                "drag": [
+                  0.2,
+                  0.037
+                ]
+              },
+              {
+                "inst": "closed_hat",
+                "pick": [
+                  0.75,
+                  2.75
+                ],
+                "prob": 0.4,
+                "vel_rand": [
+                  24,
+                  36
+                ],
+                "jitter": 0.025
+              },
+              {
+                "inst": "closed_hat",
+                "grid": 0.5,
+                "vel": [
+                  52,
+                  40
+                ],
+                "jitter": 0.02,
+                "drag": [
+                  0.2,
+                  0.037
+                ],
+                "skip_if_open": true
+              },
+              {
+                "inst": "snare2",
+                "pick": [
+                  2.75,
+                  3.75
+                ],
+                "prob": 0.3,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "rim",
+                "pick": [
+                  1.75,
+                  3.5
+                ],
+                "prob": 0.3,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "kick",
+                "at": [
+                  2.5
+                ],
+                "vel": 58,
+                "prob": 0.55,
+                "offset": -0.006,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    3
+                  ]
+                }
+              },
+              {
+                "inst": "open_hat",
+                "at": [
+                  3.5
+                ],
+                "vel_rand": [
+                  50,
+                  62
+                ],
+                "prob": 0.25,
+                "dur": 0.25,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    2
+                  ]
+                }
+              }
+            ]
+          },
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "pad": {
+          "enabled": true,
+          "style": "sustain",
+          "params": {
+            "voicing": {
+              "profile": "rootfifth"
+            }
+          },
+          "velocity": 47,
+          "from_bar": 0,
+          "to_bar": null
+        }
+      },
+      "occurrence": 1
+    },
+    {
+      "id": "chorus_2",
+      "name": "chorus_2",
+      "kind": "chorus",
+      "bars": 8,
+      "final": true,
+      "chords": [
+        "Bbmaj9",
+        "Fmaj9",
+        "Gm9",
+        "A7sus4"
+      ],
+      "chord_bars": 1,
+      "velocity": [
+        98,
+        110
+      ],
+      "blocks": {
+        "sax_tenor": {
+          "enabled": true,
+          "style": "auto",
+          "params": {
+            "range": [
+              62,
+              81
+            ],
+            "density": 0.6,
+            "long_prob": 0.9,
+            "motif_bars": 4
+          },
+          "velocity": 92,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "rhodes": {
+          "enabled": true,
+          "style": "broken",
+          "params": {
+            "voicing": {
+              "profile": "shell"
+            },
+            "rest_prob": 0.05
+          },
+          "velocity": 70,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "vibraphone": {
+          "enabled": true,
+          "style": "replies",
+          "params": {
+            "respond_to": "sax_tenor",
+            "prob": 0.6,
+            "max_per_bar": 2
+          },
+          "velocity": 62,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "bass": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "patterns": [
+              [
+                [
+                  0,
+                  "R",
+                  1.4,
+                  2
+                ],
+                [
+                  1.5,
+                  "F",
+                  0.9,
+                  -4
+                ],
+                [
+                  2.5,
+                  "R",
+                  0.4,
+                  -8
+                ],
+                [
+                  3.25,
+                  "F",
+                  0.5,
+                  -4
+                ]
+              ],
+              [
+                [
+                  0,
+                  "R",
+                  1.4,
+                  2
+                ],
+                [
+                  1.5,
+                  "O",
+                  0.9,
+                  -6
+                ],
+                [
+                  3.25,
+                  "F",
+                  0.5,
+                  -4
+                ]
+              ]
+            ],
+            "approach": {
+              "enabled": true,
+              "every": 2,
+              "offset": 1
+            },
+            "slide_in": {
+              "every": 8
+            },
+            "slide_out": true
+          },
+          "velocity": 86,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "drums": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "preset": "trip_chorus",
+            "vel_scale": 1.13,
+            "fills": [
+              {
+                "when": {
+                  "last": true
+                },
+                "rolls": [
+                  {
+                    "inst": "snare2",
+                    "start": 3.0,
+                    "steps": 4,
+                    "step": 0.25,
+                    "v0": 62,
+                    "v1": 84
+                  }
+                ]
+              }
+            ],
+            "layers": [
+              {
+                "inst": "kick",
+                "at": [
+                  0,
+                  1.5
+                ],
+                "vel": [
+                  100,
+                  84
+                ],
+                "offset": -0.006,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    0
+                  ]
+                }
+              },
+              {
+                "inst": "kick",
+                "at": [
+                  0,
+                  2.75
+                ],
+                "vel": [
+                  100,
+                  82
+                ],
+                "offset": -0.006,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "snare2",
+                "at": [
+                  2
+                ],
+                "vel": 96,
+                "offset": 0.054
+              },
+              {
+                "inst": "clap",
+                "at": [
+                  2
+                ],
+                "vel": 80,
+                "dur": 0.2,
+                "offset": 0.0625
+              },
+              {
+                "inst": "open_hat",
+                "at": [
+                  1.5,
+                  3.5
+                ],
+                "vel": 70,
+                "dur": 0.4,
+                "omit": 0.15,
+                "jitter": 0.02,
+                "drag": [
+                  0.2,
+                  0.037
+                ]
+              },
+              {
+                "inst": "closed_hat",
+                "pick": [
+                  0.75,
+                  2.25,
+                  3.25
+                ],
+                "prob": 0.5,
+                "vel_rand": [
+                  26,
+                  40
+                ],
+                "jitter": 0.025
+              },
+              {
+                "inst": "closed_hat",
+                "grid": 0.5,
+                "vel": [
+                  64,
+                  48
+                ],
+                "jitter": 0.02,
+                "drag": [
+                  0.2,
+                  0.037
+                ],
+                "skip_if_open": true
+              },
+              {
+                "inst": "ride_bell",
+                "at": [
+                  0
+                ],
+                "vel": 70,
+                "dur": 0.5,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    0
+                  ]
+                }
+              },
+              {
+                "inst": "snare2",
+                "pick": [
+                  2.75,
+                  3.75
+                ],
+                "prob": 0.384,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "rim",
+                "pick": [
+                  1.75,
+                  3.5
+                ],
+                "prob": 0.384,
+                "vel_rand": [
+                  20,
+                  34
+                ],
+                "offset": 0.05,
+                "when": {
+                  "bar_mod": [
+                    2,
+                    1
+                  ]
+                }
+              },
+              {
+                "inst": "kick",
+                "at": [
+                  2.75
+                ],
+                "vel": 58,
+                "prob": 0.55,
+                "offset": -0.006,
+                "when": {
+                  "bar_mod": [
+                    4,
+                    3
+                  ]
+                }
+              }
+            ]
+          },
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "pad": {
+          "enabled": true,
+          "style": "sustain",
+          "params": {
+            "voicing": {
+              "profile": "rootfifth"
+            }
+          },
+          "velocity": 58,
+          "from_bar": 0,
+          "to_bar": null
+        }
+      },
+      "occurrence": 1
+    },
+    {
+      "id": "outro",
+      "name": "outro",
+      "kind": "outro",
+      "bars": 4,
+      "final": false,
+      "chords": [
+        "Dadd9"
+      ],
+      "chord_bars": 1,
+      "velocity": [
+        55,
+        65
+      ],
+      "blocks": {
+        "sax_tenor": {
+          "enabled": true,
+          "style": "hold",
+          "params": {
+            "legato": 1.0
+          },
+          "velocity": [
+            60,
+            20
+          ],
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "rhodes": {
+          "enabled": true,
+          "style": "tail",
+          "params": {
+            "voicing": {
+              "profile": "full"
+            },
+            "notes_per_chord": 1
+          },
+          "velocity": 64,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "vibraphone": {
+          "enabled": true,
+          "style": "pings",
+          "params": {
+            "count": 1
+          },
+          "velocity": 44,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "bass": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "patterns": [
+              [
+                [
+                  0,
+                  "R",
+                  3.9,
+                  0
+                ]
+              ]
+            ],
+            "approach": {
+              "enabled": false
+            },
+            "slide_in": {
+              "every": 8
+            },
+            "slide_out": true
+          },
+          "velocity": 60,
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "drums": {
+          "enabled": true,
+          "style": "pattern",
+          "params": {
+            "preset": "intro_air",
+            "vel_scale": 0.85,
+            "layers": [
+              {
+                "inst": "crash",
+                "at": [
+                  0
+                ],
+                "vel": 50,
+                "dur": 3.5,
+                "when": {
+                  "bars": [
+                    0
+                  ]
+                }
+              },
+              {
+                "inst": "closed_hat",
+                "grid": 0.5,
+                "vel": {
+                  "v0": 26,
+                  "v1": 48,
+                  "over": "steps"
+                },
+                "jitter": 0.02,
+                "when": {
+                  "last": true
+                }
+              }
+            ]
+          },
+          "from_bar": 0,
+          "to_bar": null
+        },
+        "pad": {
+          "enabled": true,
+          "style": "sustain",
+          "params": {
+            "voicing": {
+              "profile": "rootfifth"
+            }
+          },
+          "velocity": 47,
+          "from_bar": 0,
+          "to_bar": null
+        }
+      },
+      "occurrence": 0
+    }
+  ],
+  "lead": {
+    "phrases": {}
+  },
+  "automation": [],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "cc": 11,
+      "start": {
+        "section": "outro",
+        "bar": 1
+      }
+    },
+    "tape_stop": {
+      "enabled": false,
+      "bars": 2,
+      "semitones": -8.4,
+      "range": 12,
+      "exponent": 1.7
+    }
+  },
+  "guardrails": {
+    "mallet_sparse": true,
+    "lead_mallet_overlap": true,
+    "lead_mono_range": true,
+    "bass_kick": true,
+    "four_on_floor": true,
+    "section_bounds": true,
+    "motif_repeat": true,
+    "lead_coverage": true
+  }
+}

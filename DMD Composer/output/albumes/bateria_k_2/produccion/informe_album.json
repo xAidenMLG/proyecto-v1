@@ -1,0 +1,188 @@
+{
+  "schema": "dmd-album-informe/1",
+  "album": "Bateria K",
+  "generado_utc": "2026-11-11T08:27:12.733830+00:00",
+  "resumen": {
+    "pistas_totales": 2,
+    "ok": 2,
+    "fallo": 0,
+    "no_ejecutadas": 0,
+    "duracion_total_s": 302.2,
+    "avisos_plan": [
+      "W-A4: el perfil 'drums' cubre 1/2 pistas (> 40%) — perfiles explícitos del compositor: se respetan",
+      "W-A4: el perfil 'full' cubre 1/2 pistas (> 40%) — perfiles explícitos del compositor: se respetan",
+      "W-A5: ventana track01–track02 sin pista de respiro (original/atmospheric)",
+      "W-A7: 'track01' con BPM 93 fuera del rango de referencia 76–92 (Dark Trip Hop)"
+    ]
+  },
+  "pistas": [
+    {
+      "indice": 1,
+      "id": "track01",
+      "titulo": "Track 01",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "drums",
+      "perfil_origen": "especificado",
+      "seed": 296522,
+      "seed_origen": "especificado",
+      "harmony": null,
+      "bpm": 93,
+      "tonalidad": "B minor",
+      "compases": 52,
+      "duracion_s": 134.2,
+      "sha256_midi": "b25bd019ea7920cd6df717446ed037302950f9e5757e85b66fa0ccfd1a085c2e",
+      "sha256_doc": "ebef3fcb09fadefec12880d040ba7b80100d37049747d0fda153eea0139bc016",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "lead_coverage",
+        "section_bounds",
+        "motif_repeat"
+      ],
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion/01_track01"
+    },
+    {
+      "indice": 2,
+      "id": "track02",
+      "titulo": "Track 02",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "full",
+      "perfil_origen": "especificado",
+      "seed": 346470,
+      "seed_origen": "especificado",
+      "harmony": null,
+      "bpm": 80,
+      "tonalidad": "E minor",
+      "compases": 56,
+      "duracion_s": 168.0,
+      "sha256_midi": "e33fdd6e8f18f82604d6943f7ce595dd68bc552bca086d06701998ea4ba5bf06",
+      "sha256_doc": "64eef64c2a14e3dfac684e982813559c50ab0885d927f1dce5af45aa349fabeb",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion/02_track02"
+    }
+  ],
+  "diversidad": {
+    "pre": {
+      "perfiles": {
+        "drums": 1,
+        "full": 1
+      },
+      "frac_max_config": 0.4,
+      "exceso_perfil": [
+        {
+          "perfil": "drums",
+          "cuenta": 1,
+          "frac": 0.5
+        },
+        {
+          "perfil": "full",
+          "cuenta": 1,
+          "frac": 0.5
+        }
+      ],
+      "respiro_cada": 5,
+      "ventanas_sin_respiro": [
+        [
+          "track01",
+          "track02"
+        ]
+      ],
+      "consecutivos_iguales": [],
+      "tonalidades_pegadas": [],
+      "bpm_fuera_de_rango": [
+        {
+          "pista": "track01",
+          "bpm": 93
+        }
+      ],
+      "bpm_rango_sano": [
+        76,
+        92
+      ],
+      "distancia_tonal_consecutivas": [
+        5
+      ]
+    },
+    "post": {
+      "duplicados_exactos": [],
+      "similares_sospechosos": [],
+      "umbral_similitud": 0.85,
+      "pares_analizados": 1
+    },
+    "curva_energia": {
+      "objetivo": null,
+      "real": [
+        0.0,
+        0.0
+      ],
+      "desviacion": null
+    }
+  },
+  "coherencia": {
+    "identidad": "dark_triphop",
+    "identidad_ok": true,
+    "tonalidades": [
+      "B minor",
+      "E minor"
+    ],
+    "bpm_valores": [
+      80,
+      93
+    ],
+    "bpm_rango_referencia": [
+      76,
+      92
+    ],
+    "bpm_todos_en_rango": false,
+    "distancia_tonal_consecutivas": [
+      5
+    ],
+    "tonalidades_pegadas": []
+  },
+  "tecnico_vs_musical": {
+    "metricas_tecnicas": [
+      "duplicados exactos por SHA256 del MIDI",
+      "similitud material por Jaccard de huellas (umbral 0.85)",
+      "distribución y fracción de perfiles",
+      "variedad en consecutivas (perfil+tonalidad+BPM)",
+      "ventanas de respiro",
+      "rango de BPM de referencia",
+      "distancia tonal entre consecutivas",
+      "adherencia a curva de energía",
+      "compliance del validador de forge por pista"
+    ],
+    "pendiente_escucha": [
+      "coherencia de identidad audible entre pistas",
+      "fatiga de densidad o saturación de perfiles",
+      "naturalidad de las transiciones entre pistas (orden de reproducción)",
+      "calidad de las progresiones familiares activadas (si las hay)",
+      "equilibrio sax/Rhodes/vibes/batería en el conjunto"
+    ]
+  },
+  "reproducibilidad": {
+    "semilla_album": 294418,
+    "versiones": {
+      "album": "8.0.0",
+      "jazz_engine": "7.0.0",
+      "contrato": {
+        "contract": "dark-director/1",
+        "contract_rev": "3.2",
+        "compiler_version": "0.1.0",
+        "compiler_stage": "fase1",
+        "target_schema": "midi-forge/1"
+      }
+    },
+    "regenerar_album": "python3 -m album producir /home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion/album.json --out /home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion --forzar",
+    "regenerar_pistas": {
+      "track01": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion/01_track01/doc.json --production drums --seed 296522 --out /home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion/01_track01 --verify b25bd019ea7920cd6df717446ed037302950f9e5757e85b66fa0ccfd1a085c2e",
+      "track02": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion/02_track02/doc.json --production full --seed 346470 --out /home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion/02_track02 --verify e33fdd6e8f18f82604d6943f7ce595dd68bc552bca086d06701998ea4ba5bf06"
+    },
+    "manifiesto": "manifiesto.json"
+  }
+}

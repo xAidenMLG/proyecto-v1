@@ -1,0 +1,68 @@
+{
+  "composicion": "Golden Path (ejemplo DMD STUDIO)",
+  "perfil_produccion": "full",
+  "seed": 2026,
+  "sha256_midi": "0d03759a36b12421b32ebadb0d53b345a9f6dbd8c5f5cdc8519c1cb9734140d0",
+  "sha256_doc": "52b07b9c812ab1318ff6e8694923d7f6436b2d13fdcd964f1be3e1f7d0479bd4",
+  "fecha_generacion_utc": "2026-11-10T05:27:11.635671+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 86.0,
+  "compases": 104,
+  "duracion_s": 290.2,
+  "notas_por_pista": {
+    "sax_tenor": 49,
+    "rhodes": 266,
+    "vibraphone": 21,
+    "bass": 248,
+    "drums": 883,
+    "pad": 180
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "section_bounds"
+  ],
+  "avisos_compilador": [
+    "W410: density del sax no aplicable en 'chorus_1' (bloque efectivo de material escrito)",
+    "W410: density del sax no aplicable en 'chorus_2' (bloque efectivo de material escrito)",
+    "W403: vibraphone con density efectiva 0.7 en banda B3 y mallet_sparse ON ('chorus_2')",
+    "W421: transición 'break_1' → 'outro': bass inactivo en el origen, approach omitido; el split sí se aplica"
+  ],
+  "resumen_actividad": {
+    "frases_sax": 5,
+    "rhodes_melodico_por_seccion": {
+      "intro": 0,
+      "verse_1": 0,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "verse_2": 3,
+      "chorus_2": 0,
+      "bridge_1": 3,
+      "break_1": 0,
+      "outro": 2
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse_1": 0,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "verse_2": 2,
+      "chorus_2": 0,
+      "bridge_1": 0,
+      "break_1": 1,
+      "outro": 0
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production full --seed 2026 --out /home/z/my-project/nucleo_engine_project/studio_data/projects/golden_path_ejemplo/generations/gen_0001/golden_path_demo --verify 0d03759a36b12421b32ebadb0d53b345a9f6dbd8c5f5cdc8519c1cb9734140d0",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"golden_path_demo.mid\" -F salida.wav -r 44100"
+  }
+}

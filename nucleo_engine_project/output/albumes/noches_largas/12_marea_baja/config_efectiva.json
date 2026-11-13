@@ -1,0 +1,20 @@
+{
+  "engines": {
+    "sax": true,
+    "rhodes": false,
+    "drums": false,
+    "vibes": false
+  },
+  "seed": 4312,
+  "harmony": {
+    "keyword": "emotional_resolution",
+    "variacion": "subtle"
+  },
+  "production": "sax",
+  "density": {
+    "sax": 1.0,
+    "rhodes": 1.0,
+    "vibes": 1.0,
+    "drums": 1.0
+  }
+}

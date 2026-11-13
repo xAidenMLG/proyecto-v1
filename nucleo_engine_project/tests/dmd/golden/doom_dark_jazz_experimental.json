@@ -1,0 +1,229 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Harbor of Ash",
+    "notes": "doom_dark_jazz × experimental × hybrid — alternancia de estados: DOOM (intro/bridge/outro: drones de strings bare + piano hold + bass long, sax tonos largos o ausente) ↔ DARK JAZZ (theme_a/theme_b/break: sax expresivo, rhodes rootless, vibráfono que dialoga, bajo con conducción aproximada y ride). El estrato Doom respira dentro de las secciones DJ (strings hold 'bar' a velocidad baja). El tema de theme_a reaparece como tonos largos en el outro; en break_1 el dúo sax↔vibráfono se construye con frases escritas dispersas (el vibráfono responde en los huecos: mecanismo replies). Bajo upright (programa 32). Clusters B3 sobre strings en bridge (sin pad: mecanismo tension de gen_chordal verificado)."
+  },
+  "direction": {
+    "identity": "doom_dark_jazz",
+    "accessibility": "experimental"
+  },
+  "global": {
+    "bpm": 62,
+    "seed": 47
+  },
+  "harmony": {
+    "key": "D phrygian",
+    "language": "hybrid",
+    "resolution": "chromatic",
+    "harmonic_rhythm_bars": 2
+  },
+  "instruments": {
+    "sax_tenor": {
+      "register": [
+        58,
+        79
+      ]
+    },
+    "bass": {
+      "type": "upright"
+    }
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 8,
+      "focus": [
+        "strings",
+        "bass"
+      ]
+    },
+    {
+      "id": "theme_a",
+      "type": "verse",
+      "bars": 16,
+      "focus": [
+        "sax_tenor",
+        "rhodes"
+      ]
+    },
+    {
+      "id": "theme_b",
+      "type": "verse",
+      "bars": 16,
+      "energy": 0.45,
+      "tension": 0.6,
+      "focus": [
+        "vibraphone",
+        "sax_tenor"
+      ]
+    },
+    {
+      "id": "bridge_1",
+      "type": "bridge",
+      "bars": 8,
+      "focus": [
+        "strings",
+        "piano"
+      ]
+    },
+    {
+      "id": "break_1",
+      "type": "break",
+      "bars": 16,
+      "focus": [
+        "sax_tenor",
+        "vibraphone"
+      ]
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 8,
+      "focus": [
+        "strings",
+        "vibraphone"
+      ],
+      "final": true
+    }
+  ],
+  "development": {
+    "melody": {
+      "phrases": {
+        "theme_a": [
+          {
+            "bar": 0,
+            "beat": 0.0,
+            "pitch": 65,
+            "dur": 2.0
+          },
+          {
+            "bar": 1,
+            "beat": 1.0,
+            "pitch": 68,
+            "dur": 1.5
+          },
+          {
+            "bar": 2,
+            "beat": 0.5,
+            "pitch": 70,
+            "dur": 2.0
+          },
+          {
+            "bar": 3,
+            "beat": 0.0,
+            "pitch": 72,
+            "dur": 3.0
+          },
+          {
+            "bar": 4,
+            "beat": 0.0,
+            "pitch": 70,
+            "dur": 1.5
+          },
+          {
+            "bar": 5,
+            "beat": 1.5,
+            "pitch": 67,
+            "dur": 1.0
+          },
+          {
+            "bar": 6,
+            "beat": 0.0,
+            "pitch": 65,
+            "dur": 2.5
+          },
+          {
+            "bar": 7,
+            "beat": 2.0,
+            "pitch": 63,
+            "dur": 2.0
+          }
+        ],
+        "break_1": [
+          {
+            "bar": 0,
+            "beat": 0.0,
+            "pitch": 62,
+            "dur": 1.5
+          },
+          {
+            "bar": 1,
+            "beat": 1.5,
+            "pitch": 65,
+            "dur": 1.0
+          },
+          {
+            "bar": 3,
+            "beat": 0.0,
+            "pitch": 67,
+            "dur": 2.0
+          },
+          {
+            "bar": 5,
+            "beat": 2.0,
+            "pitch": 65,
+            "dur": 1.5
+          },
+          {
+            "bar": 6,
+            "beat": 0.0,
+            "pitch": 62,
+            "dur": 2.5
+          },
+          {
+            "bar": 8,
+            "beat": 0.0,
+            "pitch": 70,
+            "dur": 1.5
+          },
+          {
+            "bar": 9,
+            "beat": 1.0,
+            "pitch": 72,
+            "dur": 1.0
+          },
+          {
+            "bar": 11,
+            "beat": 0.0,
+            "pitch": 70,
+            "dur": 2.0
+          },
+          {
+            "bar": 13,
+            "beat": 2.0,
+            "pitch": 67,
+            "dur": 1.5
+          },
+          {
+            "bar": 14,
+            "beat": 0.0,
+            "pitch": 65,
+            "dur": 2.5
+          }
+        ]
+      }
+    },
+    "motifs": {
+      "tema": {
+        "from_section": "theme_a",
+        "sections": [
+          "outro"
+        ],
+        "transpose_st": 0
+      }
+    },
+    "responses": {
+      "vibraphone": {
+        "responds_to": "sax_tenor"
+      }
+    }
+  },
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 4
+    }
+  }
+}

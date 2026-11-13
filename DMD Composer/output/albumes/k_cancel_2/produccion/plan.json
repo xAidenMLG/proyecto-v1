@@ -1,0 +1,188 @@
+{
+  "schema": "dmd-album-plan/1",
+  "album": "K Cancel",
+  "identidad": "dark_triphop",
+  "semilla_album": 115435,
+  "restricciones": {
+    "perfil_frac_max": 0.4,
+    "respiro_cada": 5,
+    "prohibir_consecutivos_iguales": true
+  },
+  "raiz": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel_2/produccion",
+  "creado_utc": "2026-11-11T08:40:26.580165+00:00",
+  "versiones": {
+    "album": "8.0.0",
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "pistas": [
+    {
+      "indice": 1,
+      "id": "track01",
+      "titulo": "Track 01",
+      "rol": null,
+      "doc": "docs/track01.json",
+      "doc_resuelto": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel_2/produccion/docs/track01.json",
+      "sha256_doc": "56822b62068439f25e984e61ae753f45728e67f23346103827270fbe948ee351",
+      "perfil": "sax_vibes",
+      "seed": 558922,
+      "origen_seed": "especificado",
+      "harmony": null,
+      "digest": {
+        "titulo": "K Cancel · Track 01",
+        "bpm": 82,
+        "seed_global": 558922,
+        "tonalidad": "E minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": null,
+        "compases": 60,
+        "n_secciones": 6,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "chorus",
+          "bridge",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.0,
+        "energia_max": 0.0,
+        "tension_media": 0.0,
+        "densidad_media": 0.0,
+        "secciones_con_material_escrito": [],
+        "ending": []
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 2,
+      "id": "track02",
+      "titulo": "Track 02",
+      "rol": null,
+      "doc": "docs/track02.json",
+      "doc_resuelto": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel_2/produccion/docs/track02.json",
+      "sha256_doc": "a5f189a22103a7e178fd66643e243d8e5dd8c86b0a1a90e4f45329633c3efcae",
+      "perfil": "full",
+      "seed": 289703,
+      "origen_seed": "especificado",
+      "harmony": null,
+      "digest": {
+        "titulo": "K Cancel · Track 02",
+        "bpm": 72,
+        "seed_global": 289703,
+        "tonalidad": "B minor",
+        "lenguaje": "experimental",
+        "resolucion": null,
+        "compases": 52,
+        "n_secciones": 6,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "chorus",
+          "bridge",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.0,
+        "energia_max": 0.0,
+        "tension_media": 0.0,
+        "densidad_media": 0.0,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 3,
+      "id": "track03",
+      "titulo": "Track 03",
+      "rol": null,
+      "doc": "docs/track03.json",
+      "doc_resuelto": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel_2/produccion/docs/track03.json",
+      "sha256_doc": "efb6e51cd9b7c64deff40b9f589a572cd311d355a692f84248789f9367e0db10",
+      "perfil": "atmospheric",
+      "seed": 133178,
+      "origen_seed": "especificado",
+      "harmony": null,
+      "digest": {
+        "titulo": "K Cancel · Track 03",
+        "bpm": 89,
+        "seed_global": 133178,
+        "tonalidad": "G minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": null,
+        "compases": 92,
+        "n_secciones": 8,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "break",
+          "verse",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.0,
+        "energia_max": 0.0,
+        "tension_media": 0.0,
+        "densidad_media": 0.0,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    }
+  ],
+  "errores_documentos": [],
+  "analisis": {
+    "diversidad_pre": {
+      "perfiles": {
+        "sax_vibes": 1,
+        "full": 1,
+        "atmospheric": 1
+      },
+      "frac_max_config": 0.4,
+      "exceso_perfil": [],
+      "respiro_cada": 5,
+      "ventanas_sin_respiro": [],
+      "consecutivos_iguales": [],
+      "tonalidades_pegadas": [],
+      "bpm_fuera_de_rango": [
+        {
+          "pista": "track02",
+          "bpm": 72
+        }
+      ],
+      "bpm_rango_sano": [
+        76,
+        92
+      ],
+      "distancia_tonal_consecutivas": [
+        5,
+        4
+      ]
+    },
+    "curva_energia": {
+      "objetivo": null,
+      "real": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "desviacion": null
+    },
+    "avisos": [
+      "W-A7: 'track02' con BPM 72 fuera del rango de referencia 76–92 (Dark Trip Hop)"
+    ]
+  }
+}

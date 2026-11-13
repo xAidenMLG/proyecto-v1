@@ -1,0 +1,135 @@
+{
+  "formato": "song-map/1",
+  "obra": "Vibraphone Desnudo",
+  "contrato": "dark-director/1 rev 3.2",
+  "tonalidad": "D minor",
+  "bpm": 71,
+  "compases_totales": 40,
+  "duracion_total_seg": 135.21,
+  "secciones": [
+    {
+      "orden": 1,
+      "id": "intro",
+      "nombre_visible": "Intro",
+      "tipo_funcional": "intro",
+      "compas_inicial": 1,
+      "compas_final": 8,
+      "compases": 8,
+      "progresion": [
+        "Dm",
+        "F"
+      ],
+      "fuente_armonia": "progressions_id",
+      "chord_bars": 2,
+      "tonalidad": "D minor",
+      "grid_por_compas": [
+        "Dm",
+        "Dm",
+        "F",
+        "F",
+        "Dm",
+        "Dm",
+        "F",
+        "F"
+      ],
+      "duracion_seg": 27.04
+    },
+    {
+      "orden": 2,
+      "id": "solo",
+      "nombre_visible": "Solo de Vibes",
+      "tipo_funcional": "break",
+      "compas_inicial": 9,
+      "compas_final": 24,
+      "compases": 16,
+      "progresion": [
+        "Dm",
+        "Bb",
+        "F",
+        "C"
+      ],
+      "fuente_armonia": "progressions_id",
+      "chord_bars": 2,
+      "tonalidad": "D minor",
+      "grid_por_compas": [
+        "Dm",
+        "Dm",
+        "Bb",
+        "Bb",
+        "F",
+        "F",
+        "C",
+        "C",
+        "Dm",
+        "Dm",
+        "Bb",
+        "Bb",
+        "F",
+        "F",
+        "C",
+        "C"
+      ],
+      "duracion_seg": 54.08
+    },
+    {
+      "orden": 3,
+      "id": "eco",
+      "nombre_visible": "Eco",
+      "tipo_funcional": "break",
+      "compas_inicial": 25,
+      "compas_final": 32,
+      "compases": 8,
+      "progresion": [
+        "Gm",
+        "Dm"
+      ],
+      "fuente_armonia": "progressions_id",
+      "chord_bars": 2,
+      "tonalidad": "D minor",
+      "grid_por_compas": [
+        "Gm",
+        "Gm",
+        "Dm",
+        "Dm",
+        "Gm",
+        "Gm",
+        "Dm",
+        "Dm"
+      ],
+      "duracion_seg": 27.04
+    },
+    {
+      "orden": 4,
+      "id": "outro",
+      "nombre_visible": "Outro",
+      "tipo_funcional": "outro",
+      "compas_inicial": 33,
+      "compas_final": 40,
+      "compases": 8,
+      "progresion": [
+        "Dm",
+        "Bb"
+      ],
+      "fuente_armonia": "progressions_id",
+      "chord_bars": 2,
+      "tonalidad": "D minor",
+      "grid_por_compas": [
+        "Dm",
+        "Dm",
+        "Bb",
+        "Bb",
+        "Dm",
+        "Dm",
+        "Bb",
+        "Bb"
+      ],
+      "duracion_seg": 27.04
+    }
+  ],
+  "notas_para_letras": [
+    "[Intro]  (1–8, 8 compases · Dm - F)",
+    "[Solo de Vibes]  (9–24, 16 compases · Dm - Bb - F - C)",
+    "[Eco]  (25–32, 8 compases · Gm - Dm)",
+    "[Outro]  (33–40, 8 compases · Dm - Bb)"
+  ]
+}

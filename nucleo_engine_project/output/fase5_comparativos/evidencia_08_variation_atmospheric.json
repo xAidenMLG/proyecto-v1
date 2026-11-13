@@ -1,0 +1,416 @@
+{
+  "escenario": "08_variation_atmospheric",
+  "sha256_midi": "864b9302591f2655fdcdee6f3128a9b5f82464cea5b143959eb4e1e62fd18d57",
+  "bytes": 9371,
+  "bpm": 86.0,
+  "compases": 52,
+  "duracion_segundos": 145.1,
+  "seed": 2026,
+  "motores": {
+    "sax": true,
+    "rhodes": true,
+    "drums": true,
+    "vibes": true
+  },
+  "variacion": "atmospheric",
+  "notas_por_pista": {
+    "sax_tenor": 33,
+    "rhodes": 134,
+    "vibraphone": 15,
+    "bass": 124,
+    "drums": 460,
+    "pad": 92
+  },
+  "frases_sax": [
+    {
+      "seccion": "verse_1",
+      "accion": "statement",
+      "transform": null,
+      "notas": 9
+    },
+    {
+      "seccion": "chorus_1",
+      "accion": "develop",
+      "transform": "displace",
+      "notas": 9
+    },
+    {
+      "seccion": "bridge_1",
+      "accion": "suspend",
+      "transform": null,
+      "notas": 1
+    },
+    {
+      "seccion": "verse_2",
+      "accion": "develop",
+      "transform": "invert",
+      "notas": 9
+    },
+    {
+      "seccion": "chorus_2",
+      "accion": "develop",
+      "transform": "fragment",
+      "notas": 5
+    }
+  ],
+  "frases_sax_total": 5,
+  "rhodes_melodico_por_seccion": {
+    "intro": 0,
+    "verse_1": 0,
+    "pre_1": 0,
+    "chorus_1": 0,
+    "bridge_1": 3,
+    "break_1": 0,
+    "verse_2": 3,
+    "chorus_2": 0,
+    "outro": 2
+  },
+  "vibes_eco_por_seccion": {
+    "intro": 0,
+    "verse_1": 0,
+    "pre_1": 0,
+    "chorus_1": 0,
+    "bridge_1": 1,
+    "break_1": 0,
+    "verse_2": 2,
+    "chorus_2": 0,
+    "outro": 0
+  },
+  "densidad_notas_por_compas": {
+    "sax_tenor": 0.63,
+    "rhodes": 2.58,
+    "vibraphone": 0.29,
+    "bass": 2.38,
+    "drums": 8.85,
+    "pad": 1.77
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "section_bounds",
+    "motif_repeat"
+  ],
+  "choques_semitono": 0,
+  "avisos_compilador": [
+    "W403: vibraphone con density efectiva 0.7 en banda B3 y mallet_sparse ON ('chorus_2')",
+    "W421: transición 'break_1' → 'verse_2': bass inactivo en el origen, approach omitido; el split sí se aplica"
+  ],
+  "evidencia_motores": {
+    "profile": "dark_triphop",
+    "identity_proyecto": "dark_triphop",
+    "engines": {
+      "sax": true,
+      "rhodes": true,
+      "drums": true,
+      "vibes": true
+    },
+    "seed": 2026,
+    "variation": "atmospheric",
+    "sax": {
+      "frases": [
+        {
+          "seccion": "intro",
+          "accion": "silencio"
+        },
+        {
+          "seccion": "verse_1",
+          "accion": "statement",
+          "transform": null,
+          "notas": 9,
+          "compases": [
+            0,
+            1
+          ],
+          "objetivos_armonicos": 3,
+          "tensiones": 0
+        },
+        {
+          "seccion": "pre_1",
+          "accion": "silencio"
+        },
+        {
+          "seccion": "chorus_1",
+          "accion": "develop",
+          "transform": "displace",
+          "notas": 9,
+          "compases": [
+            0,
+            1
+          ],
+          "objetivos_armonicos": 3,
+          "tensiones": 0
+        },
+        {
+          "seccion": "bridge_1",
+          "accion": "suspend",
+          "transform": null,
+          "notas": 1,
+          "compases": [
+            1
+          ],
+          "objetivos_armonicos": 1,
+          "tensiones": 0
+        },
+        {
+          "seccion": "break_1",
+          "accion": "silencio"
+        },
+        {
+          "seccion": "verse_2",
+          "accion": "develop",
+          "transform": "invert",
+          "notas": 9,
+          "compases": [
+            0,
+            1
+          ],
+          "objetivos_armonicos": 3,
+          "tensiones": 0
+        },
+        {
+          "seccion": "chorus_2",
+          "accion": "develop",
+          "transform": "fragment",
+          "notas": 5,
+          "compases": [
+            0,
+            1
+          ],
+          "objetivos_armonicos": 3,
+          "tensiones": 0
+        },
+        {
+          "seccion": "outro",
+          "accion": "silencio"
+        }
+      ],
+      "secciones_con_sax": 5,
+      "secciones_total": 9,
+      "respetadas_material_compositor": [],
+      "secciones_silenciadas": 2
+    },
+    "drums": {
+      "secciones": [
+        {
+          "seccion": "intro",
+          "actitud": "keep",
+          "preset": "intro_air",
+          "cambios": []
+        },
+        {
+          "seccion": "verse_1",
+          "actitud": "vary",
+          "preset": "trip_verse",
+          "cambios": [
+            "ghost:snare2",
+            "ghost:rim",
+            "accent_kick@2.5",
+            "hat_var"
+          ]
+        },
+        {
+          "seccion": "pre_1",
+          "actitud": "build",
+          "preset": "trip_bridge",
+          "cambios": [
+            "ghost:snare2",
+            "ghost:rim",
+            "accent_kick@2.5",
+            "fill_transicion"
+          ]
+        },
+        {
+          "seccion": "chorus_1",
+          "actitud": "build",
+          "preset": "trip_chorus",
+          "cambios": [
+            "ghost:snare2",
+            "ghost:rim",
+            "accent_kick@2.75"
+          ]
+        },
+        {
+          "seccion": "bridge_1",
+          "actitud": "drop",
+          "preset": "trip_bridge",
+          "cambios": [
+            "vel_scale--0.08"
+          ]
+        },
+        {
+          "seccion": "break_1",
+          "actitud": "drop",
+          "cambios": 0,
+          "razon": "bloque_drums_ausente"
+        },
+        {
+          "seccion": "verse_2",
+          "actitud": "vary",
+          "preset": "trip_verse",
+          "cambios": [
+            "ghost:snare2",
+            "ghost:rim",
+            "accent_kick@2.5",
+            "hat_var"
+          ]
+        },
+        {
+          "seccion": "chorus_2",
+          "actitud": "build",
+          "preset": "trip_chorus",
+          "cambios": [
+            "ghost:snare2",
+            "ghost:rim",
+            "accent_kick@2.75"
+          ]
+        },
+        {
+          "seccion": "outro",
+          "actitud": "keep",
+          "preset": "intro_air",
+          "cambios": []
+        }
+      ]
+    },
+    "vibes_params": {
+      "secciones": [
+        {
+          "seccion": "verse_1",
+          "prob": 0.3,
+          "max_per_bar": 1
+        },
+        {
+          "seccion": "pre_1",
+          "prob": 0.35,
+          "max_per_bar": 1
+        },
+        {
+          "seccion": "chorus_1",
+          "prob": 0.4,
+          "max_per_bar": 2
+        },
+        {
+          "seccion": "bridge_1",
+          "prob": 0.3,
+          "max_per_bar": 1
+        },
+        {
+          "seccion": "break_1",
+          "prob": 0.25,
+          "max_per_bar": 1
+        },
+        {
+          "seccion": "verse_2",
+          "prob": 0.3,
+          "max_per_bar": 1
+        },
+        {
+          "seccion": "chorus_2",
+          "prob": 0.4,
+          "max_per_bar": 2
+        }
+      ]
+    },
+    "rhodes": {
+      "evidencia": [
+        {
+          "seccion": "intro",
+          "modo": "independent",
+          "notas": 0,
+          "razon": "espacio"
+        },
+        {
+          "seccion": "verse_1",
+          "modo": "response",
+          "notas": 0,
+          "razon": "espacio"
+        },
+        {
+          "seccion": "pre_1",
+          "modo": "support",
+          "notas": 0
+        },
+        {
+          "seccion": "chorus_1",
+          "modo": "counterpoint",
+          "notas": 0,
+          "razon": "espacio"
+        },
+        {
+          "seccion": "bridge_1",
+          "modo": "independent",
+          "notas": 3
+        },
+        {
+          "seccion": "break_1",
+          "modo": "support",
+          "notas": 0
+        },
+        {
+          "seccion": "verse_2",
+          "modo": "response",
+          "notas": 3
+        },
+        {
+          "seccion": "chorus_2",
+          "modo": "counterpoint",
+          "notas": 0,
+          "razon": "espacio"
+        },
+        {
+          "seccion": "outro",
+          "modo": "independent",
+          "notas": 2
+        }
+      ],
+      "secciones_melodicas": 3
+    },
+    "vibes_eco": {
+      "evidencia": [
+        {
+          "seccion": "intro",
+          "ecos": 0,
+          "razon": "sin_frase_sax"
+        },
+        {
+          "seccion": "verse_1",
+          "ecos": 0,
+          "razon": "espacio"
+        },
+        {
+          "seccion": "pre_1",
+          "ecos": 0,
+          "razon": "sin_frase_sax"
+        },
+        {
+          "seccion": "chorus_1",
+          "ecos": 0,
+          "razon": "espacio"
+        },
+        {
+          "seccion": "bridge_1",
+          "ecos": 1
+        },
+        {
+          "seccion": "break_1",
+          "ecos": 0,
+          "razon": "sin_frase_sax"
+        },
+        {
+          "seccion": "verse_2",
+          "ecos": 2
+        },
+        {
+          "seccion": "chorus_2",
+          "ecos": 0,
+          "razon": "espacio"
+        },
+        {
+          "seccion": "outro",
+          "ecos": 0,
+          "razon": "sin_frase_sax"
+        }
+      ],
+      "secciones_con_eco": 2
+    }
+  }
+}

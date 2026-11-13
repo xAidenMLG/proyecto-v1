@@ -1,0 +1,817 @@
+{
+  "meta": {
+    "name": "Shadow Corner — Dream Pop / Trip-Hop / Dark Jazz Hybrid",
+    "description": "Trip-hop is the rhythmic and production foundation; dream pop shapes the melodic language and harmonic familiarity; dark jazz is expressed through the instrumental voices and phrasing: tenor sax lead, Rhodes piano, and vibraphone. Intimate, nocturnal, hazy, melancholic, and memorable.",
+    "source_files": [
+      "shadow_corner.mid",
+      "shadow_corner.mp3"
+    ],
+    "note": "Las secciones suman 88 compases (aprox. 4:05.6 a 86 BPM en 4/4). La duración se conserva deliberadamente para este experimento; no acortar ni reestructurar sin autorización.",
+    "version": "3.0-triphop-dreampop-darkjazz-hybrid",
+    "upgrade_note": "Rebuilt as a deliberate hybrid. Trip-hop remains the engine (laid-back breakbeat, deep bass, dusty texture and restrained groove). Dream pop becomes the melodic/harmonic identity (singable sustained phrases, open chords, soft emotional lift, recurring motifs). Dark jazz is the instrumental character rather than the harmonic genre: tenor sax is the lead voice, Rhodes supplies the harmonic bed, and vibraphone adds sparse luminous responses."
+  },
+  "global": {
+    "bpm": 84,
+    "time_signature": [
+      4,
+      4
+    ],
+    "ticks_per_beat": 480,
+    "key_signature": "D minor",
+    "mode": "D Aeolian / natural minor as the emotional center, with F major as its relative-major source for dream-pop lift. Core notes: D E F G A Bb C. Use occasional E natural and C natural as stable color tones; avoid making the harmony sound like a jazz-standard progression.",
+    "total_bars": 88,
+    "duration_seconds": 251.43
+  },
+  "tracks": [
+    {
+      "name": "Atmospheric pad (dream-pop haze)",
+      "channel": 0,
+      "program": 91,
+      "gm_name": "Pad 4 (choir)",
+      "range": [
+        38,
+        62
+      ],
+      "cc7_volume": 48,
+      "cc91_reverb": 118,
+      "timing_offset_ticks": 0,
+      "gain": 0.58,
+      "role": "Wide, soft, blurred background. Long root/fifth or root/octave tones; never compete with sax. Slow attacks and long releases should be implemented by the renderer if available."
+    },
+    {
+      "name": "Deep bass (trip-hop foundation)",
+      "channel": 1,
+      "program": 38,
+      "gm_name": "Synth Bass 1",
+      "range": [
+        26,
+        48
+      ],
+      "cc7_volume": 108,
+      "cc91_reverb": 8,
+      "timing_offset_ticks": -8,
+      "gain": 1.0,
+      "role": "Round, dark, centered low end. Mostly root notes with occasional fifth or octave movement. Sub-heavy but controlled; do not turn the whole mix into a constant 808 wall."
+    },
+    {
+      "name": "Lead tenor saxophone (dark-jazz voice)",
+      "channel": 2,
+      "program": 66,
+      "gm_name": "Tenor Sax",
+      "range": [
+        58,
+        79
+      ],
+      "cc7_volume": 96,
+      "cc91_reverb": 88,
+      "timing_offset_ticks": 12,
+      "gain": 0.92,
+      "role": "Main melodic identity. Warm, breathy, intimate tenor register; long notes, soft attacks, slight scoops and falls only at phrase endings. Do not write bebop runs or constant improvisation. The melody must remain singable and dream-pop familiar."
+    },
+    {
+      "name": "Rhodes electric piano (harmonic bed)",
+      "channel": 3,
+      "program": 4,
+      "gm_name": "Electric Piano 1",
+      "range": [
+        45,
+        76
+      ],
+      "cc7_volume": 76,
+      "cc91_reverb": 72,
+      "timing_offset_ticks": 5,
+      "gain": 0.78,
+      "role": "Primary chord color and pulse. Soft, rounded Rhodes voicings with 7ths/9ths used sparingly. Broken chords or gently repeated chord tones; avoid bright funk comping and dense jazz voicings."
+    },
+    {
+      "name": "Vibraphone (dreamlike dark-jazz accents)",
+      "channel": 4,
+      "program": 11,
+      "gm_name": "Vibraphone",
+      "range": [
+        60,
+        88
+      ],
+      "cc7_volume": 58,
+      "cc91_reverb": 112,
+      "timing_offset_ticks": 16,
+      "gain": 0.62,
+      "role": "Sparse high-register replies, two- or three-note fragments, and occasional sustained color tones. It should answer the sax or leave a small glint between phrases; never double every sax note."
+    },
+    {
+      "name": "Drums (dusty trip-hop breakbeat)",
+      "channel": 9,
+      "kit": "GM standard",
+      "cc7_volume": 92,
+      "cc91_reverb": 34,
+      "map": {
+        "kick": 36,
+        "snare": 40,
+        "clap": 39,
+        "rimshot": 37,
+        "closed_hat": 42,
+        "open_hat": 46,
+        "ride_bell": 53
+      },
+      "humanization": {
+        "kick_ticks": -4,
+        "snare_ticks": 28,
+        "clap_ticks": 32,
+        "rim_ticks": 18,
+        "hats": "irregular low-velocity 16ths; jitter +-10 ticks; omit 25-35%; occasional late hat"
+      },
+      "role": "The track must still feel like trip-hop first: slow, heavy, swung/laid-back breakbeat, dry snare, restrained kick syncopation, dusty hats. No four-on-the-floor, no busy trap rolls, no rock backbeat."
+    }
+  ],
+  "harmony": {
+    "progressions": {
+      "intro": [
+        "Dm(add9)",
+        "Bbmaj7"
+      ],
+      "verse_1": [
+        "Dm9",
+        "Bbmaj7",
+        "Fadd9",
+        "Cadd9"
+      ],
+      "verse_2": [
+        "Dm9",
+        "Fmaj7",
+        "Cadd9",
+        "Bbmaj7"
+      ],
+      "pre_chorus": [
+        "Gm7",
+        "Bbmaj7",
+        "Fadd9",
+        "Cadd9"
+      ],
+      "chorus": [
+        "Bbmaj7",
+        "Fadd9",
+        "Dm9",
+        "Cadd9"
+      ],
+      "bridge": [
+        "Gm9",
+        "Dm9",
+        "Bbmaj7",
+        "Cadd9"
+      ],
+      "outro": [
+        "Dm(add9)",
+        "Bbmaj7",
+        "Fadd9",
+        "Cadd9"
+      ]
+    },
+    "harmonic_rhythm": "One chord every 2 bars. Keep the progression emotionally clear and loopable; do not add chord changes merely to make the harmony more sophisticated.",
+    "voicings": {
+      "rhodes": "Use compact, warm voicings in the middle register. Favor rootless color tones only when the bass clearly supplies the root. Keep 3rds and 7ths audible enough to define the chord; add 9ths as soft color.",
+      "pad": "Long root/fifth or root/octave tones, very low in the mix. Avoid semitone clusters as a default.",
+      "vibraphone": "Use isolated 9ths, 6ths, fifths, or short chord fragments in the upper register. Leave space around the sax.",
+      "voice_leading": "Prefer common tones and small movements. Let the harmony feel like a familiar dream-pop cycle, not a sequence of unrelated jazz substitutions."
+    },
+    "tension": [
+      "Use occasional suspended/add9 color rather than constant dissonance.",
+      "A single chromatic approach note may lead into a sax target at a phrase boundary, but the main melody should stay inside D natural minor / F major.",
+      "Create emotional tension through sustained notes over changing chords, delayed resolution, and arrangement space."
+    ],
+    "harmonic_intent": "The relative-major colors (F, Bb, C) provide the familiar, floating dream-pop surface, while D minor remains the emotional center. Dark jazz should come from sax tone, Rhodes voicings, vibraphone resonance, phrasing, and space—not from making every chord harmonically obscure."
+  },
+  "arrangement": {
+    "sections": [
+      {
+        "name": "intro",
+        "start_bar": 1,
+        "bars": 8,
+        "start_time": "0:00",
+        "velocity": [
+          52,
+          60
+        ],
+        "instruments": [
+          "pad",
+          "rhodes",
+          "vibraphone_sparse",
+          "vinyl_crackle"
+        ],
+        "notes": "Atmospheric opening: Rhodes establishes the chord color; pad is soft and wide; one or two vibraphone notes leave long tails. No drums or bass until the groove enters."
+      },
+      {
+        "name": "verse_1",
+        "start_bar": 9,
+        "bars": 16,
+        "start_time": "0:22",
+        "velocity": [
+          62,
+          70
+        ],
+        "instruments": [
+          "pad",
+          "bass",
+          "tenor_sax",
+          "rhodes",
+          "vibraphone_sparse",
+          "drums"
+        ],
+        "strings": "full en el 1er loop, bare en el 2o",
+        "notes": "Trip-hop pocket stays restrained. Sax phrases are sparse and vocal-like; Rhodes holds warm chord shapes; vibraphone answers only in phrase gaps."
+      },
+      {
+        "name": "bridge",
+        "start_bar": 25,
+        "bars": 8,
+        "start_time": "1:07",
+        "velocity": [
+          55,
+          64
+        ],
+        "instruments": [
+          "pad",
+          "bass_sparse",
+          "tenor_sax",
+          "rhodes",
+          "vibraphone",
+          "drums_sparse"
+        ],
+        "notes": "Strip back the beat. Expose the sax over Rhodes; vibraphone offers isolated replies. Avoid jazz soloing."
+      },
+      {
+        "name": "chorus",
+        "start_bar": 33,
+        "bars": 16,
+        "start_time": "1:29",
+        "velocity": [
+          78,
+          90
+        ],
+        "instruments": [
+          "pad_wider",
+          "bass",
+          "tenor_sax_hook",
+          "rhodes",
+          "vibraphone_sparse",
+          "drums_fuller"
+        ],
+        "notes": "Main dream-pop lift over the same trip-hop foundation. Sax hook is clear and repeatable; vibraphone adds only selected high notes."
+      },
+      {
+        "name": "verse_2",
+        "start_bar": 49,
+        "bars": 16,
+        "start_time": "2:14",
+        "velocity": [
+          64,
+          74
+        ],
+        "instruments": [
+          "pad",
+          "bass",
+          "tenor_sax_variation",
+          "rhodes",
+          "vibraphone_sparse",
+          "drums"
+        ],
+        "strings": "bare primero, full despues",
+        "notes": "Return to lower energy. Preserve the groove and introduce a small sax phrase variation; keep the same harmonic familiarity."
+      },
+      {
+        "name": "final_chorus",
+        "start_bar": 65,
+        "bars": 16,
+        "start_time": "2:59",
+        "velocity": [
+          80,
+          92
+        ],
+        "instruments": [
+          "pad_widest",
+          "bass",
+          "tenor_sax_hook",
+          "rhodes",
+          "vibraphone_selective",
+          "drums_fuller"
+        ],
+        "notes": "C2 then C1. Emotional peak comes from width, sustain and motif recognition, not extra notes or a louder sax solo."
+      },
+      {
+        "name": "outro",
+        "start_bar": 81,
+        "bars": 8,
+        "start_time": "3:43",
+        "velocity": [
+          60,
+          18
+        ],
+        "instruments": [
+          "pad",
+          "bass_fading",
+          "tenor_sax_last_phrase",
+          "rhodes_tail",
+          "vibraphone_tail",
+          "drums_fade",
+          "vinyl_crackle"
+        ],
+        "notes": "Drums fade first; sax gives one final short statement; Rhodes and vibraphone tails dissolve into the pad."
+      }
+    ]
+  },
+  "melody": {
+    "principle": "Dream-pop melodic language performed by a dark, breathy tenor sax: memorable stepwise shapes, small leaps, sustained notes, clear rests, and repeated motifs. Avoid bebop vocabulary, virtuosic runs, excessive chromaticism, and constant fills. The sax should feel like a human voice.",
+    "phrases_beats_from_loop_start": {
+      "verse_1_loop_a": [
+        {
+          "beat": 5.0,
+          "pitch": 69,
+          "dur": 3.0,
+          "role": "soft_entry"
+        },
+        {
+          "beat": 9.0,
+          "pitch": 72,
+          "dur": 3.0,
+          "role": "gentle_lift"
+        },
+        {
+          "beat": 13.0,
+          "pitch": 74,
+          "dur": 4.0,
+          "role": "held_color_tone"
+        },
+        {
+          "beat": 21.0,
+          "pitch": 72,
+          "dur": 2.0,
+          "role": "falling_reply"
+        },
+        {
+          "beat": 25.0,
+          "pitch": 69,
+          "dur": 5.0,
+          "role": "phrase_release"
+        }
+      ],
+      "verse_1_loop_b": [
+        {
+          "beat": 3.0,
+          "pitch": 69,
+          "dur": 2.5,
+          "role": "motif_reentry"
+        },
+        {
+          "beat": 7.0,
+          "pitch": 72,
+          "dur": 2.5,
+          "role": "motif_lift"
+        },
+        {
+          "beat": 11.0,
+          "pitch": 74,
+          "dur": 3.5,
+          "role": "held_peak"
+        },
+        {
+          "beat": 17.0,
+          "pitch": 76,
+          "dur": 2.0,
+          "role": "brief_emotional_lift"
+        },
+        {
+          "beat": 21.0,
+          "pitch": 74,
+          "dur": 2.5,
+          "role": "step_down"
+        },
+        {
+          "beat": 25.0,
+          "pitch": 69,
+          "dur": 5.0,
+          "role": "settle"
+        }
+      ],
+      "verse_2_loop_a": [
+        {
+          "beat": 4.0,
+          "pitch": 69,
+          "dur": 3.0,
+          "role": "soft_reentry"
+        },
+        {
+          "beat": 8.0,
+          "pitch": 72,
+          "dur": 3.0,
+          "role": "rising_answer"
+        },
+        {
+          "beat": 12.0,
+          "pitch": 74,
+          "dur": 3.0,
+          "role": "held_note"
+        },
+        {
+          "beat": 18.0,
+          "pitch": 77,
+          "dur": 2.0,
+          "role": "small_peak"
+        },
+        {
+          "beat": 22.0,
+          "pitch": 74,
+          "dur": 2.5,
+          "role": "fall"
+        },
+        {
+          "beat": 27.0,
+          "pitch": 72,
+          "dur": 3.0,
+          "role": "soft_resolution"
+        }
+      ],
+      "verse_2_loop_b": [
+        {
+          "beat": 3.0,
+          "pitch": 72,
+          "dur": 2.5,
+          "role": "variation_start"
+        },
+        {
+          "beat": 7.0,
+          "pitch": 74,
+          "dur": 3.0,
+          "role": "step_up"
+        },
+        {
+          "beat": 11.0,
+          "pitch": 77,
+          "dur": 3.0,
+          "role": "emotional_peak"
+        },
+        {
+          "beat": 17.0,
+          "pitch": 76,
+          "dur": 2.0,
+          "role": "soft_fall"
+        },
+        {
+          "beat": 21.0,
+          "pitch": 74,
+          "dur": 2.5,
+          "role": "motif_return"
+        },
+        {
+          "beat": 26.0,
+          "pitch": 69,
+          "dur": 4.0,
+          "role": "long_release"
+        }
+      ],
+      "pre_chorus": [
+        {
+          "beat": 5.0,
+          "pitch": 72,
+          "dur": 3.0,
+          "role": "build"
+        },
+        {
+          "beat": 13.0,
+          "pitch": 74,
+          "dur": 3.0,
+          "role": "lift"
+        },
+        {
+          "beat": 21.0,
+          "pitch": 77,
+          "dur": 4.0,
+          "role": "suspended_peak"
+        },
+        {
+          "beat": 29.0,
+          "pitch": 76,
+          "dur": 2.0,
+          "role": "hold_back_before_chorus"
+        }
+      ],
+      "bridge": [
+        {
+          "beat": 9.0,
+          "pitch": 77,
+          "dur": 4.0,
+          "role": "exposed_long_note"
+        },
+        {
+          "beat": 17.0,
+          "pitch": 76,
+          "dur": 3.0,
+          "role": "falling_color"
+        },
+        {
+          "beat": 25.0,
+          "pitch": 72,
+          "dur": 4.0,
+          "role": "quiet_release"
+        }
+      ],
+      "chorus_hook_c1": [
+        {
+          "beat": 1.0,
+          "pitch": 74,
+          "dur": 3.0,
+          "role": "motif_A_start"
+        },
+        {
+          "beat": 5.0,
+          "pitch": 77,
+          "dur": 3.0,
+          "role": "motif_A_peak"
+        },
+        {
+          "beat": 9.0,
+          "pitch": 76,
+          "dur": 3.0,
+          "role": "motif_A_fall"
+        },
+        {
+          "beat": 13.0,
+          "pitch": 72,
+          "dur": 3.5,
+          "role": "motif_A_release"
+        },
+        {
+          "beat": 17.0,
+          "pitch": 74,
+          "dur": 3.0,
+          "role": "motif_A_repeat"
+        },
+        {
+          "beat": 21.0,
+          "pitch": 77,
+          "dur": 3.0,
+          "role": "motif_A_peak_repeat"
+        },
+        {
+          "beat": 25.0,
+          "pitch": 76,
+          "dur": 2.5,
+          "role": "motif_A_fall_repeat"
+        },
+        {
+          "beat": 29.0,
+          "pitch": 69,
+          "dur": 3.0,
+          "role": "motif_A_resolution"
+        }
+      ],
+      "chorus_hook_c2": [
+        {
+          "beat": 1.0,
+          "pitch": 74,
+          "dur": 2.5,
+          "role": "motif_A_start"
+        },
+        {
+          "beat": 5.0,
+          "pitch": 77,
+          "dur": 3.0,
+          "role": "motif_A_peak"
+        },
+        {
+          "beat": 9.0,
+          "pitch": 79,
+          "dur": 2.5,
+          "role": "lifted_response"
+        },
+        {
+          "beat": 13.0,
+          "pitch": 77,
+          "dur": 3.0,
+          "role": "fall_from_peak"
+        },
+        {
+          "beat": 17.0,
+          "pitch": 76,
+          "dur": 3.0,
+          "role": "answer_start"
+        },
+        {
+          "beat": 21.0,
+          "pitch": 74,
+          "dur": 3.0,
+          "role": "answer_fall"
+        },
+        {
+          "beat": 25.0,
+          "pitch": 72,
+          "dur": 2.5,
+          "role": "soft_return"
+        },
+        {
+          "beat": 29.0,
+          "pitch": 69,
+          "dur": 3.0,
+          "role": "resolution"
+        }
+      ],
+      "outro": [
+        {
+          "beat": 2.0,
+          "pitch": 74,
+          "dur": 5.0,
+          "role": "last_sax_statement"
+        },
+        {
+          "beat": 18.0,
+          "pitch": 72,
+          "dur": 5.0,
+          "role": "soft_echo"
+        },
+        {
+          "beat": 26.0,
+          "pitch": 69,
+          "dur": 5.5,
+          "role": "final_release"
+        }
+      ]
+    },
+    "layout": {
+      "verse": "Sparse sax phrase A in first 8 bars; phrase B in second 8 bars with a slightly higher emotional peak.",
+      "chorus": "C1 is the main 8-bar hook; C2 is a related 8-bar variation. Repeat with small arrangement changes, not a new melody.",
+      "chorus_final": "Play C2 then C1. The final C1 should feel like recognition and emotional return, not a bigger jazz solo."
+    },
+    "bends": {
+      "sax_scoop": "Optional subtle approach from approximately -0.2 semitone to target over 100-140 ticks; only on selected phrase entries.",
+      "sax_fall": "Optional fall of approximately -0.2 semitone near the end of selected sustained notes; never on every note.",
+      "implementation_warning": "Pitch bend is channel-wide in MIDI. Use a dedicated sax channel and configure the bend range before applying bends. If the renderer cannot support this safely, omit bends rather than affecting other tracks."
+    }
+  },
+  "rhythm": {
+    "bass": {
+      "pattern": "Deep, restrained trip-hop bass. Long root notes with occasional fifth or octave pickup; main attacks on beat 1 and selected offbeat anticipations around beat 3.5. Leave gaps for kick.",
+      "outro": "One long root note per bar, gradually reducing velocity.",
+      "bridge": "One long note every 2 bars; allow the bridge to breathe.",
+      "sound_note": "Prioritize low fundamental and controlled sub energy. Avoid bright plucked bass attack or constant 808 slides."
+    },
+    "drums": {
+      "verse": "Half-time trip-hop pocket. Kick on beat 1 with occasional syncopated ghost kick; snare on beat 3, slightly late; sparse closed hats with uneven velocity and omissions.",
+      "pre_chorus": "Reduce hat density and simplify kick; create anticipation through space, not a drum fill.",
+      "bridge": "Kick on 1, rim/snare on 3 every other bar, occasional soft hat. Keep the sax exposed.",
+      "chorus": "Slightly fuller breakbeat: alternate syncopated kicks, dry snare on 3, restrained clap layer, subtle open-hat accents. Preserve the laid-back trip-hop swing; do not turn it into dance pop.",
+      "outro": "Kick and snare disappear over the first 3 bars; leave pad, Rhodes tail, and room texture."
+    },
+    "groove_identity": "The listener should identify the track as trip-hop from the pocket, bass/drum relationship, dusty transients, and negative space—even when the melody and chords lean dream pop."
+  },
+  "dynamics": {
+    "range": "General velocities 48-82; chorus peaks around 88-90. Avoid constant maximum intensity.",
+    "pad": "Very low in intro and verses; widen gradually in chorus without masking the sax.",
+    "sax": "Lead is clear but not loud or aggressive. Verse intimate; chorus slightly more open; bridge exposed and restrained.",
+    "rhodes": "Warm midrange support. Avoid excessive velocity that creates a bright, percussive attack.",
+    "vibraphone": "Sparse, low-velocity accents; let reverb tails overlap naturally but do not create continuous shimmer.",
+    "fade": "Outro velocities taper from approximately 60 to 18. Long audio fade can be applied by the renderer.",
+    "humanization": "Small timing offsets and velocity variation. Keep sax phrasing intentional; humanization must not destabilize the groove."
+  },
+  "mp3_render": {
+    "synth": "FluidSynth + GeneralUser-GS.sf2 (or another verified GM soundfont)",
+    "extras": [
+      "Soft vinyl crackle and tape hiss, subtle and mostly in intro/outro",
+      "Low-pass around 8-9 kHz as a starting point; preserve sax presence and vibraphone definition",
+      "Moderate room/plate reverb on sax; long diffuse reverb on pad and vibraphone; short/dry room on drums",
+      "Rhodes with gentle chorus or stereo modulation if available; keep low end mono",
+      "Loudness target around -18 LUFS integrated for reference preview; do not hard-limit the transients",
+      "Optional 18-22 second exponential fade at the end"
+    ],
+    "mix_priority": [
+      "1. Trip-hop groove and bass remain the foundation",
+      "2. Tenor sax melody is the recognizable foreground",
+      "3. Rhodes defines the harmonic world",
+      "4. Vibraphone adds selective color and replies",
+      "5. Pad and noise create atmosphere without filling every gap"
+    ]
+  },
+  "validation": {
+    "errors": [],
+    "bars": 88,
+    "expected_tracks": 6,
+    "status": "Specification updated; generated MIDI must be validated after Claude renders it.",
+    "checks_to_run": [
+      "GM program assignments",
+      "sax monophony and range",
+      "vibraphone sparsity",
+      "bar count and note boundaries",
+      "trip-hop groove preservation"
+    ]
+  },
+  "claude_generation_brief": {
+    "purpose": "Generate a MIDI and preview rendering for a hybrid composition where trip-hop is the base, dream pop shapes the melodic/harmonic language, and dark jazz supplies the instrumental character.",
+    "priority_order": [
+      "1. Preserve a convincing laid-back trip-hop drum/bass pocket.",
+      "2. Make the tenor sax hook memorable, lyrical, spacious, and familiar in a dream-pop sense.",
+      "3. Use Rhodes as the main harmonic instrument with open, warm chord voicings.",
+      "4. Use vibraphone sparingly for high-register responses and color.",
+      "5. Keep the atmosphere dark, hazy, intimate, and restrained."
+    ],
+    "must_do": [
+      "Use the tenor sax track as the sole primary lead melody.",
+      "Use the active chorus_hook_c1 and chorus_hook_c2 phrases as the main chorus material.",
+      "Treat sax phrases as monophonic; do not overlap notes unless an intentional legato overlap is needed.",
+      "Use Rhodes for chord voicings and gentle broken-chord motion; do not make it a busy jazz comping track.",
+      "Use vibraphone as a sparse secondary voice, mainly in gaps between sax phrases.",
+      "Keep the trip-hop groove slow, heavy, swung/laid-back, and slightly dusty.",
+      "Preserve the 88-bar arrangement and the 4/4 meter.",
+      "Respect the specified pitch ranges, channel assignments, and note durations.",
+      "If GM program numbering is zero-based in the MIDI library, use the exact program values supplied in tracks."
+    ],
+    "creative_freedom": [
+      "You may add a few Rhodes chord tones or vibraphone replies where the arrangement explicitly leaves space.",
+      "You may make subtle voicing inversions to improve voice leading.",
+      "You may vary drum ghost notes between repeated sections while preserving the pocket.",
+      "You may use small sax articulations and phrase-end bends if MIDI implementation supports them correctly."
+    ],
+    "do_not": [
+      "Do not turn the track into straight dream pop, shoegaze, jazz fusion, lounge jazz, or cinematic orchestral music.",
+      "Do not write bebop runs, virtuosic sax solos, constant vibraphone arpeggios, or dense Rhodes chords.",
+      "Do not replace the trip-hop beat with four-on-the-floor or trap percussion.",
+      "Do not make every chord a complex jazz extension; harmonic familiarity is intentional.",
+      "Do not add a second competing lead melody.",
+      "Do not fill every rest. Silence is part of the arrangement.",
+      "Do not use the choir pad as a lead instrument.",
+      "Do not use the original baseline hook arrays from earlier versions if they are present; use the active phrases in this file."
+    ],
+    "deliverables": [
+      "shadow_corner_hybrid.mid",
+      "shadow_corner_hybrid_preview.wav",
+      "A short implementation report listing tempo, bars, tracks, program numbers, and any unsupported MIDI/render instructions."
+    ]
+  },
+  "musical_appeal_engine": {
+    "design_intent": "Increase the chance of a memorable and replayable composition through clear melodic identity, a stable groove, harmonic familiarity, and controlled contrast. This is a compositional design heuristic, not a prediction of commercial success.",
+    "genre_hierarchy": {
+      "foundation": "Trip-hop: drum pocket, bass weight, dusty production, negative space.",
+      "melodic_language": "Dream pop: lyrical contour, sustained notes, memorable repetition, floating harmonic color.",
+      "instrumental_identity": "Dark jazz: tenor sax phrasing, Rhodes warmth, vibraphone resonance and selective improvisational inflection.",
+      "rule": "The three influences have different jobs. Do not blend them equally in every bar."
+    },
+    "principles": [
+      "A memorable melodic contour is more valuable than note density.",
+      "The chorus should be recognizable after one or two listens.",
+      "Repeat the central motif before introducing variation.",
+      "Use chord color to create emotional lift, not harmonic obscurity.",
+      "Let the sax breathe; use vibraphone to answer rather than double it.",
+      "Keep the drum/bass relationship stable enough to anchor the hybrid."
+    ],
+    "hook_architecture": {
+      "main_motif": "A compact rising-and-falling shape built around D-F-E-C colors in D minor.",
+      "c1": "Main motif statement and repeat, with long notes and clear rests.",
+      "c2": "Related variation that lifts briefly, then resolves toward A/G/F/D-related tones.",
+      "test": "Check whether a listener can hum or recognize the contour without hearing the exact soundfont."
+    },
+    "arrangement_energy": [
+      "Intro: establish haze and Rhodes color before the beat arrives.",
+      "Verse: low-density groove and intimate sax phrases.",
+      "Pre-chorus: create lift by thinning the drums and raising the melodic register slightly.",
+      "Chorus: fuller trip-hop pocket, wider pad, and the recurring sax motif.",
+      "Bridge: strip back the groove and expose sax/Rhodes/vibraphone interaction.",
+      "Outro: remove drums and leave the harmonic atmosphere to decay."
+    ],
+    "human_evaluation_rubric": {
+      "scale": "1-5, manually evaluated; do not invent scores.",
+      "criteria": [
+        "Can the listener recognize the sax motif after one pass?",
+        "Does the beat still feel unmistakably trip-hop?",
+        "Does the melody feel emotionally familiar rather than technically clever?",
+        "Does the vibraphone add a memorable color without clutter?",
+        "Would the listener replay the chorus?"
+      ],
+      "method": "Compare this hybrid against the previous Shadow Corner version at matched playback level. Change one major variable per next iteration."
+    },
+    "automated_checks": [
+      "Check sax monophony and note range.",
+      "Check no accidental overlaps between sax and vibraphone in the same register.",
+      "Check that the chorus motif repeats with consistent rhythm.",
+      "Check that bass and kick do not collide excessively.",
+      "Check that vibraphone notes are sparse and mostly occur in sax gaps.",
+      "Do not claim that automated MIDI checks can measure catchiness."
+    ]
+  },
+  "midi_implementation_notes": {
+    "beat_indexing": "Beat positions are 1-based within each phrase/loop; fractional beats are allowed.",
+    "pitch": "pitch is a MIDI note number. Sax melody is written for concert pitch; do not transpose unless the target soundfont/instrument workflow explicitly requires it.",
+    "duration": "dur is measured in quarter-note beats.",
+    "ticks": "480 ticks per quarter note.",
+    "channels": "MIDI channel values are zero-based in this JSON. Channel 9 is the standard percussion channel (human MIDI channel 10).",
+    "program_numbers": "General MIDI program values are zero-based. Tenor Sax=66, Electric Piano 1=4, Vibraphone=11, Synth Bass 1=38, Choir Pad=91.",
+    "pitch_bend": "Pitch bend is a 14-bit channel message. Configure bend range via RPN on the sax channel only. Do not share the sax channel with other pitched tracks.",
+    "non_midi_rendering": "Reverb character, chorus, tape hiss, vinyl crackle, low-pass filtering, stereo width, loudness and fades are audio-rendering tasks, not ordinary MIDI note events.",
+    "gain": "gain and descriptive role fields are renderer metadata, not standard MIDI events.",
+    "validation": [
+      "Confirm 84 BPM, 4/4, 88 bars.",
+      "Confirm six tracks and correct GM programs.",
+      "Confirm sax lead notes are monophonic and within range.",
+      "Confirm vibraphone is sparse and does not double the sax throughout.",
+      "Confirm bass is low enough to provide weight without masking kick.",
+      "Confirm all note end times stay within their intended sections.",
+      "Confirm tempo and time-signature metadata are written to the MIDI file.",
+      "Report unsupported renderer-specific instructions instead of silently ignoring them."
+    ]
+  }
+}

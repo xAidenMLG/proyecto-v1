@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "name": "Shadow Corner",
+    "description": "Trip-hop oscuro y sofocante: beat roto y retrasado, bajo profundo con slides, lead minimalista casi hablado, cuerdas abiertas, texturas sucias y fade de cinta. Composicion original; no reproduce ninguna cancion existente.",
+    "source_files": ["shadow_corner.mid", "shadow_corner.mp3"],
+    "note": "Las secciones suman 88 compases (4:06 a 86 BPM), no los 2:20-2:30 del pedido original."
+  },
+  "global": {
+    "bpm": 86, "time_signature": [4, 4], "ticks_per_beat": 480,
+    "key_signature": "D minor (1 bemol, modo menor)",
+    "mode": "D eolico con toques bluesy (Ab como blue note, Eb/Bb como segunda menor)",
+    "total_bars": 88, "duration_seconds": 245.6
+  },
+  "tracks": [
+    {"name": "Pad (choir, distant)", "channel": 0, "program": 91, "gm_name": "Pad 4 (choir)", "range": [36, 56],
+     "cc7_volume": 70, "cc91_reverb": 120, "detune_bend": 70, "timing_offset_ticks": 0, "gain": 0.8},
+    {"name": "Bass (electric finger)", "channel": 1, "program": 33, "range": [31, 52], "cc7_volume": 105,
+     "cc91_reverb": 20, "timing_offset_ticks": -6, "gain": 1.0},
+    {"name": "Lead (voice)", "channel": 2, "program": 85, "gm_name": "Lead 6 (voice)", "range": [62, 81],
+     "cc7_volume": 95, "cc91_reverb": 105, "detune_bend": -35, "timing_offset_ticks": 14, "gain": 1.05},
+    {"name": "Synth Strings 1", "channel": 3, "program": 50, "range": [48, 74], "cc7_volume": 80,
+     "cc91_reverb": 100, "detune_bend": -90, "timing_offset_ticks": 18, "gain": 0.8},
+    {"name": "Texture (electric piano 2)", "channel": 4, "program": 5, "range": [50, 79], "cc7_volume": 80,
+     "cc91_reverb": 95, "detune_bend": 55, "timing_offset_ticks": 10, "gain": 0.8},
+    {"name": "Drums (trip-hop)", "channel": 9, "kit": "GM standard", "cc7_volume": 100, "cc91_reverb": 70,
+     "map": {"kick": 36, "snare": 40, "clap": 39, "rimshot": 37, "closed_hat": 42, "open_hat": 46, "ride_bell": 53},
+     "humanization": {"kick_ticks": -3, "snare_ticks": 26, "clap_ticks": 30, "rim_ticks": 18,
+                      "hats": "jitter +-12 y 20% arrastrados +18"}}
+  ],
+  "harmony": {
+    "progressions": {
+      "verse_1": ["Dm", "Bb", "C", "Dm"], "verse_2": ["Dm", "Gm", "C", "F"], "bridge": ["Gm", "Dm", "C", "Bb"],
+      "chorus": ["Dm", "C", "Bb", "Am"], "outro": ["Dm", "Bb", "C", "Dm"]
+    },
+    "harmonic_rhythm": "un acorde cada 2 compases"
+  },
+  "arrangement": {"sections": [
+    {"name": "intro", "start_bar": 1, "bars": 8, "velocity": [52, 60], "instruments": ["pad", "texture", "vinyl_crackle"],
+     "notes": "sin ritmo ni bajo; clusters D/Eb y sample entrecortado"},
+    {"name": "verse_1", "start_bar": 9, "bars": 16, "velocity": [62, 70],
+     "instruments": ["pad", "bass", "lead", "strings", "texture", "drums"], "strings": "full en el 1er loop, bare en el 2o"},
+    {"name": "bridge", "start_bar": 25, "bars": 8, "velocity": [55, 64],
+     "instruments": ["pad", "bass", "lead", "strings", "texture", "drums"],
+     "notes": "cuerdas solo en acordes 2 y 4; 3 notas de lead; kick + rimshot"},
+    {"name": "chorus", "start_bar": 33, "bars": 16, "velocity": [78, 90],
+     "instruments": ["pad", "bass", "lead", "strings", "texture", "drums"],
+     "notes": "hook de 8 compases x2, arpegio de la textura mas denso, hats abiertos"},
+    {"name": "verse_2", "start_bar": 49, "bars": 16, "velocity": [64, 74],
+     "instruments": ["pad", "bass", "lead", "strings", "texture", "drums"], "strings": "bare primero, full despues"},
+    {"name": "final_chorus", "start_bar": 65, "bars": 16, "velocity": [80, 92],
+     "instruments": ["pad", "bass", "lead", "strings", "texture", "drums"],
+     "notes": "hook invertido (C2 luego C1), clusters en el pad"},
+    {"name": "outro", "start_bar": 81, "bars": 8, "velocity": [60, 18],
+     "instruments": ["pad", "bass", "lead", "texture", "drums (compases 1-3)", "vinyl_crackle"],
+     "notes": "ultimos 2 compases: pitch bend descendente en todas las pistas (cinta que se apaga)"}
+  ]},
+  "melody": {
+    "principle": "pocas notas, mucho silencio",
+    "phrases_beats_from_loop_start": {
+      "verse_1_loop_a": [{"beat":6.0,"pitch":69,"dur":3.0},{"beat":10.0,"pitch":65,"dur":2.5},{"beat":13.0,"pitch":62,"dur":1.5},{"beat":17.0,"pitch":67,"dur":3.0},{"beat":21.0,"pitch":64,"dur":2.0},{"beat":26.0,"pitch":62,"dur":5.0}],
+      "verse_1_loop_b": [{"beat":4.0,"pitch":74,"dur":2.0},{"beat":7.0,"pitch":72,"dur":1.5},{"beat":9.5,"pitch":70,"dur":3.0},{"beat":14.0,"pitch":69,"dur":1.5},{"beat":17.5,"pitch":67,"dur":2.5},{"beat":20.5,"pitch":68,"dur":0.9},{"beat":21.5,"pitch":67,"dur":2.0},{"beat":26.0,"pitch":62,"dur":4.0}],
+      "verse_2_loop_a": [{"beat":3.0,"pitch":69,"dur":3.5},{"beat":8.5,"pitch":70,"dur":3.0},{"beat":13.0,"pitch":67,"dur":2.0},{"beat":17.0,"pitch":64,"dur":3.0},{"beat":21.5,"pitch":67,"dur":1.5},{"beat":24.5,"pitch":69,"dur":3.0},{"beat":29.0,"pitch":65,"dur":2.5}],
+      "verse_2_loop_b": [{"beat":2.0,"pitch":74,"dur":3.0},{"beat":6.0,"pitch":72,"dur":2.0},{"beat":9.0,"pitch":70,"dur":2.5},{"beat":12.0,"pitch":68,"dur":1.0},{"beat":13.0,"pitch":67,"dur":2.5},{"beat":17.5,"pitch":72,"dur":2.0},{"beat":20.5,"pitch":70,"dur":2.0},{"beat":24.0,"pitch":69,"dur":3.5},{"beat":28.5,"pitch":65,"dur":3.0}],
+      "bridge": [{"beat":9.0,"pitch":70,"dur":4.5},{"beat":17.0,"pitch":68,"dur":2.0},{"beat":26.0,"pitch":69,"dur":3.0}],
+      "chorus_hook_c1": [{"beat":1.0,"pitch":74,"dur":2.5},{"beat":4.0,"pitch":77,"dur":3.5},{"beat":8.5,"pitch":76,"dur":3.0},{"beat":12.0,"pitch":72,"dur":3.5},{"beat":16.5,"pitch":74,"dur":3.0},{"beat":20.0,"pitch":70,"dur":3.5},{"beat":24.5,"pitch":69,"dur":3.0},{"beat":28.0,"pitch":67,"dur":3.5}],
+      "chorus_hook_c2": [{"beat":1.0,"pitch":77,"dur":2.5},{"beat":4.0,"pitch":79,"dur":3.5},{"beat":8.5,"pitch":79,"dur":3.0},{"beat":12.0,"pitch":76,"dur":3.5},{"beat":16.5,"pitch":77,"dur":3.0},{"beat":20.0,"pitch":74,"dur":3.5},{"beat":24.5,"pitch":72,"dur":3.0},{"beat":28.0,"pitch":68,"dur":1.5},{"beat":29.5,"pitch":69,"dur":2.5}],
+      "outro": [{"beat":2.0,"pitch":69,"dur":5.0},{"beat":18.0,"pitch":67,"dur":4.0},{"beat":26.0,"pitch":62,"dur":5.5}]
+    },
+    "layout": {"verse": "loop A (compases 1-8) + loop B (9-16)", "chorus": "C1 + C2; coro final C2 + C1"},
+    "bends": {"lead_scoop": "-0.5 semitono -> 0 en ~120 ticks", "lead_fall": "0 -> -0.5 semitono en los ultimos 220 ticks", "bass_slide": "tono entero"}
+  },
+  "dynamics": {"fade": "velocidades 60 -> 18 en el outro + tape-stop + fade exp de 25 s en el MP3"}
+}

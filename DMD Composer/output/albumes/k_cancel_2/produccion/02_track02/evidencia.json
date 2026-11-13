@@ -1,0 +1,57 @@
+{
+  "composicion": "K Cancel · Track 02",
+  "perfil_produccion": "full",
+  "seed": 289703,
+  "sha256_midi": "685d1d9eb269999f309dfce1b2c176b0575ec891248f566262ceca77a89a2079",
+  "sha256_doc": "a5f189a22103a7e178fd66643e243d8e5dd8c86b0a1a90e4f45329633c3efcae",
+  "fecha_generacion_utc": "2026-11-11T08:40:26.728937+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 72.0,
+  "compases": 52,
+  "duracion_s": 173.3,
+  "notas_por_pista": {
+    "sax_tenor": 42,
+    "rhodes": 123,
+    "vibraphone": 18,
+    "bass": 130,
+    "drums": 461,
+    "pad": 78
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [],
+  "resumen_actividad": {
+    "frases_sax": 4,
+    "rhodes_melodico_por_seccion": {
+      "intro": 2,
+      "verse": 3,
+      "chorus": 2,
+      "bridge": 0,
+      "chorus_2": 0,
+      "outro": 0
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse": 2,
+      "chorus": 1,
+      "bridge": 0,
+      "chorus_2": 0,
+      "outro": 0
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production full --seed 289703 --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel_2/produccion/02_track02 --verify 685d1d9eb269999f309dfce1b2c176b0575ec891248f566262ceca77a89a2079",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"02_track02.mid\" -F salida.wav -r 44100"
+  }
+}

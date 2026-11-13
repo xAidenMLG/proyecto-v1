@@ -1,0 +1,45 @@
+{
+  "composicion": "Bateria K · Track 01",
+  "perfil_produccion": "drums",
+  "seed": 296522,
+  "sha256_midi": "b25bd019ea7920cd6df717446ed037302950f9e5757e85b66fa0ccfd1a085c2e",
+  "sha256_doc": "ebef3fcb09fadefec12880d040ba7b80100d37049747d0fda153eea0139bc016",
+  "fecha_generacion_utc": "2026-11-11T08:27:12.729500+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 93.0,
+  "compases": 52,
+  "duracion_s": 134.2,
+  "notas_por_pista": {
+    "sax_tenor": 90,
+    "rhodes": 107,
+    "vibraphone": 2,
+    "bass": 132,
+    "drums": 468,
+    "pad": 84
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "lead_coverage",
+    "section_bounds",
+    "motif_repeat"
+  ],
+  "avisos_compilador": [],
+  "resumen_actividad": {
+    "frases_sax": 0,
+    "rhodes_melodico_por_seccion": {},
+    "vibes_eco_por_seccion": null
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production drums --seed 296522 --out /home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion/01_track01 --verify b25bd019ea7920cd6df717446ed037302950f9e5757e85b66fa0ccfd1a085c2e",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"01_track01.mid\" -F salida.wav -r 44100"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "dmd-album/1",
+  "album": "Bateria K",
+  "identidad": "dark_triphop",
+  "semilla_album": 294418,
+  "objetivo": {
+    "pistas": 2
+  },
+  "pistas": [
+    {
+      "id": "track01",
+      "doc": "docs/track01.json",
+      "titulo": "Track 01",
+      "seed": 296522,
+      "perfil": "drums"
+    },
+    {
+      "id": "track02",
+      "doc": "docs/track02.json",
+      "titulo": "Track 02",
+      "seed": 346470,
+      "perfil": "full"
+    }
+  ]
+}

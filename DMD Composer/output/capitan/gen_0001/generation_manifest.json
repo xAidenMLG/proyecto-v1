@@ -1,0 +1,356 @@
+{
+  "formato": "generation-manifest/1",
+  "composer_version": "1.2.0",
+  "timestamp": 1794428829.3278203,
+  "obra": "Capitan",
+  "pid": "capitan",
+  "seed_used": 469514,
+  "decisiones": {
+    "fijadas": {
+      "identity": "dark_triphop",
+      "harmony_mode": "guided"
+    },
+    "automaticas": {
+      "accessibility": "balanced",
+      "bpm": 84,
+      "key": "C major",
+      "language": "hybrid",
+      "harmonic_rhythm_bars": 1,
+      "ending": "tape_stop",
+      "seed": 469514
+    },
+    "libres": [
+      "resolution",
+      "protagonist",
+      "spaces"
+    ]
+  },
+  "preferencias_composer": {
+    "nota": "NO llegan al doc.json: condicionan cómo elige Composer",
+    "diversity": {
+      "valor": "balanced",
+      "efecto": "aplana o endurece las pools (restrained → adventurous)"
+    },
+    "mood": {
+      "estado": "fixed",
+      "valor": "neutral",
+      "efecto": "define las pools ponderadas (tonalidad, lenguaje, atmósfera…) con las que Composer elige"
+    },
+    "atmosphere": {
+      "estado": "auto",
+      "valor": "medium",
+      "efecto": "sesga el perfil de producción sugerido y los avisos de coherencia de espacios"
+    },
+    "groove": {
+      "estado": "auto",
+      "valor": "steady",
+      "efecto": "solo sesga la curva de BPM AUTOMÁTICO; no es un campo del contrato ni parámetro del motor"
+    }
+  },
+  "armonia": {
+    "modo_global": "guided",
+    "modo_real_del_doc": "native",
+    "secciones_guiadas": [],
+    "secciones_con_acordes_literales": [],
+    "secciones_nativas": [
+      "chorus",
+      "chorus_2",
+      "intro",
+      "outro",
+      "verse",
+      "verse_2"
+    ],
+    "secciones_sin_decision": [
+      "chorus",
+      "chorus_2",
+      "intro",
+      "outro",
+      "verse",
+      "verse_2"
+    ],
+    "fuente_por_seccion": {
+      "intro": "receta_n1",
+      "verse": "receta_n1",
+      "chorus": "receta_n1",
+      "verse_2": "receta_n1",
+      "chorus_2": "receta_n1",
+      "outro": "receta_n1"
+    },
+    "f7": {
+      "activo_en_doc": false,
+      "nota": "F7 (Familiarity Engine) es OPCIONAL y de Studio: el doc NUNCA la contiene; se pasa como keyword al producir (nunca se mezcla sola)"
+    }
+  },
+  "protagonista": {
+    "id": null,
+    "propuesta": {
+      "estado": "no_generada"
+    },
+    "efecto_doc": null
+  },
+  "produccion": {
+    "perfil": "sax_rhodes",
+    "origen": "composer",
+    "estado": "aplicado",
+    "llega_al_doc": false,
+    "nota": "El perfil NO es un campo del contrato y Composer no genera MIDI: esta selección solo se hace real al producir el MIDI en el pipeline de DMD. Nunca se declara aplicada por el hecho de estar registrada.",
+    "instruccion": {
+      "studio": "Importa el doc.json de esta generación en DMD Studio y genera con Producción='sax_rhodes' y seed=469514 (o vacío: el doc ya lleva global.seed)",
+      "cli": "python scripts/produce.py doc.json --production sax_rhodes --seed 469514 --out <carpeta_de_salida>",
+      "verificacion": "el SHA256 del MIDI resultante queda en la evidencia de Studio/produce.py",
+      "carpeta_doc": null
+    },
+    "f7_keyword": null,
+    "f7_variation": null,
+    "midi_sha256": "f1ed2fa217bde318f088ed273da6c958ccdd2811a0d9fe3a36540c242ce38ce2",
+    "aplicado_utc": "2026-11-11T20:27:17.214909+00:00"
+  },
+  "log_explicabilidad": [
+    {
+      "axis": "seed",
+      "estado": "auto",
+      "valor": 469514,
+      "razon": "semilla generada deterministamente (guardada en global.seed para reproducir)",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "mood",
+      "estado": "fixed",
+      "valor": "neutral",
+      "razon": "decisión del usuario · NO va al doc: define las preferencias ponderadas (tonalidades, lenguaje, atmósfera…) con las que Composer elige",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "identity",
+      "estado": "fixed",
+      "valor": "dark_triphop",
+      "razon": "decisión del usuario",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "accessibility",
+      "estado": "auto",
+      "valor": "balanced",
+      "razon": "preferencia ponderada por mood 'neutral'",
+      "descartadas": [
+        "commercial (peso 2)",
+        "experimental (peso 1)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "language",
+      "estado": "auto",
+      "valor": "hybrid",
+      "razon": "preferencia ponderada por mood 'neutral'",
+      "descartadas": [
+        "pop_dream_pop (peso 3)",
+        "experimental (peso 1)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "atmosphere",
+      "estado": "auto",
+      "valor": "medium",
+      "razon": "preferencia ponderada por mood 'neutral' · NO llega al doc",
+      "descartadas": [
+        "spacious (peso 3)",
+        "dense (peso 2)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "groove",
+      "estado": "auto",
+      "valor": "steady",
+      "razon": "preferencia ponderada por mood 'neutral' · si el BPM fuera automático, este groove sesgaría su curva (el groove no es tempo) · NO llega al doc",
+      "descartadas": [
+        "laid_back (peso 3)",
+        "driving (peso 2)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "bpm",
+      "estado": "auto",
+      "valor": 84,
+      "razon": "curva por mood 'neutral' dentro del rango típico de dark_triphop [70, 96] (zona media; groove 'steady' sesga la zona)",
+      "descartadas": [
+        "zona baja (melancólico/oscuro)",
+        "zona alta (driving/esperanzador)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "key",
+      "estado": "auto",
+      "valor": "C major",
+      "razon": "tonalidad favorecida por mood 'neutral' (reglas de compatibilidad: menor para oscuro/melancólico, mayor para esperanzador)",
+      "descartadas": [
+        "A minor (peso 2)",
+        "D minor (peso 2)",
+        "F major (peso 1)",
+        "G major (peso 1)",
+        "E minor (peso 1)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "resolution",
+      "estado": "free",
+      "valor": null,
+      "razon": "default del lenguaje (sin campo)",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "harmonic_rhythm_bars",
+      "estado": "auto",
+      "valor": 1,
+      "razon": "default de la receta dark_triphop (1) con jitter; regla de compatibilidad: nunca menor que la receta en identidades doom",
+      "descartadas": [
+        "2 (peso 2)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "protagonist",
+      "estado": "free",
+      "valor": null,
+      "razon": "sin protagonista: ni enabled ni focos propuestos (libertad total del motor)",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "harmony_mode",
+      "estado": "fixed",
+      "valor": "guided",
+      "razon": "native = recetas N1 del motor · guided = progresiones explícitas por sección",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "spaces",
+      "estado": "free",
+      "valor": null,
+      "razon": "sin preferencia",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "production",
+      "estado": "auto",
+      "valor": "sax_rhodes",
+      "razon": "perfil coherente con atmósfera 'medium' · perfil de producción de STUDIO: NO llega al doc ni al validador; se transmite como INSTRUCCIÓN al producir MIDI",
+      "descartadas": [
+        "full (peso 5)",
+        "sax_vibes (peso 2)",
+        "atmospheric (peso 2)",
+        "drums (peso 1)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "ending",
+      "estado": "auto",
+      "valor": "tape_stop",
+      "razon": "cierre coherente con mood 'neutral'",
+      "descartadas": [
+        "fade_out (peso 7)",
+        "none (peso 1)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "structure",
+      "estado": "auto",
+      "valor": [
+        "intro:8",
+        "verse:20",
+        "chorus:16",
+        "verse:16",
+        "chorus:16",
+        "outro:8"
+      ],
+      "razon": "plantilla estructural de mood 'neutral' (plantilla #1)",
+      "descartadas": [],
+      "reglas": []
+    }
+  ],
+  "build": {
+    "harmony_mode": "guided",
+    "language": "hybrid",
+    "key": "C major",
+    "progressions_secciones": [],
+    "chords_literales": [],
+    "secciones_nativas": [
+      "chorus",
+      "chorus_2",
+      "intro",
+      "outro",
+      "verse",
+      "verse_2"
+    ],
+    "secciones_sin_decision": [
+      "chorus",
+      "chorus_2",
+      "intro",
+      "outro",
+      "verse",
+      "verse_2"
+    ],
+    "modo_real_del_doc": "native",
+    "identity": "dark_triphop",
+    "accessibility": "balanced",
+    "nativas_n1": true
+  },
+  "doc_sha256": "35a4a1c7f447a1e8e6f7a4fc79409d5043a35c64e0ceecb33d96737d3a5592e4",
+  "contrato": {
+    "contract": "dark-director/1",
+    "contract_rev": "3.2",
+    "compiler_version": "0.1.0",
+    "compiler_stage": "fase1",
+    "target_schema": "midi-forge/1",
+    "jazz_engine_version": "7.0.0",
+    "identidad_activa": "dark_triphop",
+    "identidades_archivadas": [
+      "doom_triphop",
+      "doom_dark_jazz"
+    ]
+  },
+  "album": null,
+  "validacion": {
+    "ok": true,
+    "errores": 0,
+    "avisos": 0,
+    "compila": true
+  },
+  "midi": {
+    "estado": "aplicado",
+    "perfil": "sax_rhodes",
+    "seed": 469514,
+    "harmony": null,
+    "generado_utc": "2026-11-11T20:27:17.214909+00:00",
+    "duracion_s": 240.0,
+    "bpm": 84.0,
+    "compases": 84,
+    "nombre": "capitan_gen_0001",
+    "sha256": "f1ed2fa217bde318f088ed273da6c958ccdd2811a0d9fe3a36540c242ce38ce2",
+    "rutas": {
+      "midi": "C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001\\capitan_gen_0001.mid",
+      "evidencia": "C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001\\evidencia.json",
+      "config_efectiva": "C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001\\config_efectiva.json",
+      "events": "C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001\\events.json"
+    },
+    "verificado": true,
+    "compliance_fails": [],
+    "compliance_warns": [],
+    "eventos": {
+      "regenerar": "python scripts/produce.py doc.json --production sax_rhodes --seed 469514 --out C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001 --verify f1ed2fa217bde318f088ed273da6c958ccdd2811a0d9fe3a36540c242ce38ce2"
+    }
+  }
+}

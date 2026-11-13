@@ -1,0 +1,48 @@
+{
+  "composicion": "calles_de_neon",
+  "perfil": "sax",
+  "seed": 9021,
+  "sha256": "a2301615778b6c3ec7fc46ed226a96afa2438419047a14a43af3f5d4052fad88",
+  "bytes": 8039,
+  "bpm": 92.0,
+  "compases": 36,
+  "duracion_s": 93.9,
+  "notas_por_pista": {
+    "sax_tenor": 30,
+    "rhodes": 102,
+    "vibraphone": 17,
+    "bass": 104,
+    "drums": 403,
+    "pad": 66
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 0,
+    "lead_coherencia_armonica": 1.0,
+    "rhodes_secciones_melodicas": [],
+    "rhodes_modos": {},
+    "rhodes_fuera_registro": 0,
+    "rhodes_pisa_sax": 0,
+    "vibes_eco_fuera_registro": 0,
+    "vibes_ecos_en_secciones_sin_sax": [],
+    "vibes_presupuesto": 2,
+    "vibes_usadas": 2,
+    "drums_fills": [],
+    "drums_actitudes": {
+      "intro": "keep",
+      "verse_1": "vary",
+      "chorus_1": "build",
+      "verse_2": "vary",
+      "chorus_2": "build"
+    },
+    "secciones_triple_melodia": [],
+    "sax_share": 0.8,
+    "determinismo": true
+  },
+  "fallos": [],
+  "frases_sax": 3,
+  "rhodes_melodico": {},
+  "vibes_eco": null,
+  "seed_distinta_cambia": true
+}

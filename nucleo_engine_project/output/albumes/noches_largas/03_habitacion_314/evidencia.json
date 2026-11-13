@@ -1,0 +1,119 @@
+{
+  "composicion": "Habitación 314",
+  "perfil_produccion": "atmospheric",
+  "seed": 2026,
+  "sha256_midi": "7252a5953f2a2993d261a1b13732fdcb141320df969f7c04aee32840c4d92d4e",
+  "sha256_doc": "68cbe50f667837977df14e6a086ece595b5a9b11d8272ece1ef68f3d85fe6f65",
+  "fecha_generacion_utc": "2026-11-09T06:06:47.136572+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 80.0,
+  "compases": 64,
+  "duracion_s": 192.0,
+  "notas_por_pista": {
+    "sax_tenor": 37,
+    "rhodes": 189,
+    "vibraphone": 18,
+    "bass": 156,
+    "drums": 562,
+    "pad": 129
+  },
+  "compliance_fails": [],
+  "compliance_warns": [],
+  "avisos_compilador": [
+    "W403: vibraphone con density efectiva 0.7 en banda B3 y mallet_sparse ON ('chorus_2')",
+    "W421: transición 'break_1' → 'bridge_1': bass inactivo en el origen, approach omitido; el split sí se aplica"
+  ],
+  "resumen_actividad": {
+    "frases_sax": 6,
+    "rhodes_melodico_por_seccion": {
+      "intro": 0,
+      "verse_1": 0,
+      "verse_2": 3,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "break_1": 0,
+      "bridge_1": 3,
+      "verse_3": 2,
+      "chorus_2": 0,
+      "outro": 2
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse_1": 0,
+      "verse_2": 2,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "break_1": 1,
+      "bridge_1": 0,
+      "verse_3": 1,
+      "chorus_2": 0,
+      "outro": 0
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production atmospheric --seed 2026 --out output/albumes/noches_largas/03_habitacion_314 --verify 7252a5953f2a2993d261a1b13732fdcb141320df969f7c04aee32840c4d92d4e",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"03_habitacion_314.mid\" -F salida.wav -r 44100"
+  },
+  "harmonia": {
+    "activacion": {
+      "keyword": "melancholic",
+      "variacion": "medium"
+    },
+    "resumen": {
+      "reescritas": 10,
+      "respetadas": 0
+    },
+    "eleccion": {
+      "outro": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "chorus_2": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "verse_3": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "bridge_1": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "break_1": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "chorus_1": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "pre_1": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "verse_2": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "verse_1": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "intro": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      }
+    },
+    "respetadas_material": []
+  }
+}

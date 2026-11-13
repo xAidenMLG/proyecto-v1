@@ -1,0 +1,16 @@
+{
+  "engines": {
+    "sax": true,
+    "rhodes": false,
+    "drums": false,
+    "vibes": false
+  },
+  "seed": 3113,
+  "production": "sax",
+  "density": {
+    "sax": 1.0,
+    "rhodes": 1.0,
+    "vibes": 1.0,
+    "drums": 1.0
+  }
+}

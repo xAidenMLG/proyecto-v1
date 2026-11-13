@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DMD COMPOSER</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="/static/css/composer.css">
+</head>
+<body>
+<header id="topbar">
+  <div class="brand">
+    <span class="brand-mark">◈</span>
+    <strong>DMD COMPOSER</strong>
+    <span class="brand-sub">composición por restricciones</span>
+  </div>
+  <nav id="nav">
+    <button data-view="setup" class="active">1 · Setup</button>
+    <button data-view="structure">2 · Estructura</button>
+    <button data-view="harmony">3 · Armonía</button>
+    <button data-view="randomizer">4 · Randomizador</button>
+    <button data-view="preview">5 · Preview</button>
+    <button data-view="output">6 · Output</button>
+  </nav>
+  <div id="dmd-status" title="Estado de la integración con el DMD real">…</div>
+  <button id="dmd-refresh" class="btn small" title="Re-introspecciona el DMD real ahora (catálogos, recetas, fingerprint)">Verificar DMD</button>
+</header>
+
+<main>
+  <aside id="sidebar">
+    <div class="sb-title">Proyecto</div>
+    <select id="proj-select"></select>
+    <div class="sb-row">
+      <button id="proj-new" class="btn">Nuevo</button>
+      <button id="proj-dup" class="btn">Duplicar</button>
+      <button id="proj-del" class="btn danger">Borrar</button>
+    </div>
+    <div id="proj-meta" class="sb-meta"></div>
+    <div class="sb-title">Estado de decisiones</div>
+    <div id="dec-counter" class="sb-meta"></div>
+  </aside>
+
+  <section id="view"></section>
+</main>
+
+<footer id="statusbar">
+  <span id="status-msg">Listo.</span>
+  <span id="status-seed"></span>
+</footer>
+
+<script src="/static/js/api.js"></script>
+<script src="/static/js/state.js"></script>
+<script src="/static/js/player.js"></script>
+<script src="/static/js/views.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

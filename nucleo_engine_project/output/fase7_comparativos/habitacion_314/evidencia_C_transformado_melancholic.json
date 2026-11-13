@@ -1,0 +1,134 @@
+{
+  "composicion": "habitacion_314",
+  "run": "C_transformado_melancholic",
+  "keyword": "melancholic",
+  "seed_doc": 4104,
+  "seed_harmony": 410,
+  "sha256_midi": "7433a0f98558d3224e3d0d99837fbc2366a4ce3642a2bdee2f02137c69b395b4",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/habitacion_314/doc.json --dark-director --production full --seed 4104 -o regen.mid --harmony melancholic --harmony-seed 410 --harmony-variacion rich",
+  "compliance_fails": [],
+  "duracion_s": 192.0,
+  "armonia": {
+    "eleccion_por_seccion": {
+      "outro": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "Dsus4"
+        ]
+      },
+      "chorus_2": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Ebmaj7",
+          "Dsus4",
+          "Gm",
+          "Fadd9",
+          "Ebadd9",
+          "Ebmaj7"
+        ]
+      },
+      "verse_3": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "Fmaj7",
+          "Eb",
+          "Dmaj7",
+          "Gm9",
+          "Fmaj7",
+          "Eb",
+          "D"
+        ]
+      },
+      "bridge_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "Fmaj7",
+          "Ebmaj7",
+          "D",
+          "Gm",
+          "Fadd9",
+          "Eb",
+          "Dsus4"
+        ]
+      },
+      "break_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Ebadd9",
+          "Dsus4"
+        ]
+      },
+      "chorus_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "Fmaj7",
+          "Eb",
+          "D",
+          "Gm7",
+          "F",
+          "Eb",
+          "Dsus4"
+        ]
+      },
+      "pre_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Ebadd9",
+          "Dsus4"
+        ]
+      },
+      "verse_2": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Ebmaj7",
+          "Dmaj7",
+          "Gm",
+          "Fadd9",
+          "Ebmaj7",
+          "Dsus4"
+        ]
+      },
+      "verse_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "Fadd9",
+          "Eb",
+          "D",
+          "Gm",
+          "Fmaj7",
+          "Ebmaj7",
+          "Dsus4"
+        ]
+      },
+      "intro": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm7",
+          "Fmaj7",
+          "Ebmaj7",
+          "Dsus4"
+        ]
+      }
+    },
+    "respetadas_material": [],
+    "resumen": {
+      "reescritas": 10,
+      "respetadas": 0
+    }
+  }
+}

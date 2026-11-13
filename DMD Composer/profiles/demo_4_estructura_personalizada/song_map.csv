@@ -1,0 +1,11 @@
+orden,id,nombre_visible,tipo_funcional,compas_inicial,compas_final,compases,progresion,chord_bars,tonalidad,duracion_seg
+1,intro,Intro,intro,1,4,4,C - Em - Am - G,1,C major,13.52
+2,verso_1,Verse 1,verse,5,20,16,C - Em - Am - G,1,C major,54.08
+3,pre,Pre-Chorus,pre_chorus,21,28,8,F - C - Am - G,1,C major,27.04
+4,verso_2,Verse 2,verse,29,44,16,C - Em - Am - G,1,C major,54.08
+5,estribillo,Chorus,chorus,45,60,16,F - C - Am - G,1,C major,54.08
+6,preludio,Preludio,break,61,68,8,Am - F - C - G,1,C major,27.04
+7,verso_3,Verse 3,verse,69,84,16,C - Em - Am - G,1,C major,54.08
+8,estribillo_2,Chorus Final,chorus,85,100,16,F - C - Am - G,1,C major,54.08
+9,puente,Bridge,bridge,101,108,8,F - C - Am - G,1,C major,27.04
+10,outro,Outro,outro,109,116,8,C - Em - Am - G,1,C major,27.04

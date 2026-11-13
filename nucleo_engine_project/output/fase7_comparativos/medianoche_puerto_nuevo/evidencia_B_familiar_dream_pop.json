@@ -1,0 +1,90 @@
+{
+  "composicion": "medianoche_puerto_nuevo",
+  "run": "B_familiar_dream_pop",
+  "keyword": "dream_pop",
+  "seed_doc": 3113,
+  "seed_harmony": 311,
+  "sha256_midi": "72595ddb7c65e2073135f4f734c94ba3c2e3ded2f68010c61756be433f6412cf",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/medianoche_puerto_nuevo/doc.json --dark-director --production full --seed 3113 -o regen.mid --harmony dream_pop --harmony-seed 311 --harmony-variacion none",
+  "compliance_fails": [],
+  "duracion_s": 184.6,
+  "armonia": {
+    "eleccion_por_seccion": {
+      "outro": {
+        "entrada": "DREAM07",
+        "simbolos": [
+          "F#m",
+          "E",
+          "B",
+          "F#m"
+        ]
+      },
+      "chorus_2": {
+        "entrada": "DREAM07",
+        "simbolos": [
+          "F#m",
+          "E",
+          "B",
+          "F#m",
+          "Bm",
+          "C#7"
+        ]
+      },
+      "bridge_1": {
+        "entrada": "DREAM07",
+        "simbolos": [
+          "F#m",
+          "E",
+          "B",
+          "F#m"
+        ]
+      },
+      "chorus_1": {
+        "entrada": "DREAM07",
+        "simbolos": [
+          "F#m",
+          "E",
+          "B",
+          "F#m"
+        ]
+      },
+      "pre_1": {
+        "entrada": "DREAM07",
+        "simbolos": [
+          "F#m",
+          "F#m"
+        ]
+      },
+      "verse_2": {
+        "entrada": "DREAM07",
+        "simbolos": [
+          "F#m",
+          "E",
+          "B",
+          "F#m"
+        ]
+      },
+      "verse_1": {
+        "entrada": "DREAM07",
+        "simbolos": [
+          "F#m",
+          "E",
+          "B",
+          "F#m"
+        ]
+      },
+      "intro": {
+        "entrada": "DREAM07",
+        "simbolos": [
+          "F#m",
+          "F#m"
+        ]
+      }
+    },
+    "respetadas_material": [],
+    "resumen": {
+      "reescritas": 8,
+      "respetadas": 0
+    }
+  }
+}

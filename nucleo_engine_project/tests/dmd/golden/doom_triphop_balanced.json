@@ -1,0 +1,170 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Rust Cathedral",
+    "notes": "doom_triphop × balanced × hybrid — cadena de transformación estructural: familiaridad (verse_1, motivo escrito) → deformación (verse_2 + pre_chorus implícito en variantes; rim en compases impares) → ruptura (break_1: drums OFF, clusters B3, glints del vibráfono en el vacío) → reconstrucción (chorus: groove heavy + armonía hybrid disonante + motivo reaparece transpuesto en AMBOS estribillos) → nueva ruptura (chorus_2 con tension B3 y tape_stop)."
+  },
+  "direction": {
+    "identity": "doom_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 70,
+    "seed": 23
+  },
+  "harmony": {
+    "key": "D minor",
+    "language": "hybrid",
+    "harmonic_rhythm_bars": 2
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 8,
+      "focus": [
+        "pad",
+        "strings"
+      ]
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 16,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ]
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 16,
+      "energy": 0.5,
+      "tension": 0.6,
+      "focus": [
+        "sax_tenor",
+        "bass"
+      ]
+    },
+    {
+      "id": "break_1",
+      "type": "break",
+      "bars": 8,
+      "focus": [
+        "pad",
+        "vibraphone"
+      ]
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 16,
+      "focus": [
+        "sax_tenor",
+        "drums",
+        "bass"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 16,
+      "energy": 0.85,
+      "tension": 0.7,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "resolution": "deceptive"
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 8,
+      "focus": [
+        "strings",
+        "rhodes"
+      ],
+      "final": true
+    }
+  ],
+  "development": {
+    "melody": {
+      "phrases": {
+        "verse_1": [
+          {
+            "bar": 0,
+            "beat": 0.0,
+            "pitch": 74,
+            "dur": 1.5
+          },
+          {
+            "bar": 1,
+            "beat": 0.5,
+            "pitch": 72,
+            "dur": 1.0
+          },
+          {
+            "bar": 2,
+            "beat": 0.0,
+            "pitch": 70,
+            "dur": 2.0
+          },
+          {
+            "bar": 3,
+            "beat": 1.0,
+            "pitch": 69,
+            "dur": 1.5
+          },
+          {
+            "bar": 4,
+            "beat": 0.0,
+            "pitch": 67,
+            "dur": 2.0
+          },
+          {
+            "bar": 5,
+            "beat": 1.5,
+            "pitch": 70,
+            "dur": 1.0
+          },
+          {
+            "bar": 6,
+            "beat": 0.0,
+            "pitch": 72,
+            "dur": 1.5
+          },
+          {
+            "bar": 7,
+            "beat": 2.0,
+            "pitch": 69,
+            "dur": 2.0
+          }
+        ]
+      }
+    },
+    "motifs": {
+      "m1": {
+        "from_section": "verse_1",
+        "sections": [
+          "chorus_1",
+          "chorus_2"
+        ],
+        "transpose_st": 1,
+        "loop_bars": 8
+      }
+    },
+    "responses": {
+      "vibraphone": {
+        "responds_to": "sax_tenor"
+      }
+    }
+  },
+  "ending": {
+    "tape_stop": {
+      "enabled": true,
+      "bars": 3
+    }
+  }
+}

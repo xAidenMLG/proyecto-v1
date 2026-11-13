@@ -1,0 +1,60 @@
+{
+  "composicion": "K Cancel · Track 03",
+  "perfil_produccion": "atmospheric",
+  "seed": 403651,
+  "sha256_midi": "9bc2bd44663bf1b3efda536b0b1dd462119f0182076d51ea4b644619d5b54145",
+  "sha256_doc": "57b8417b5b99e5810f4b50dc4c68556d7a3295dde8e75da55bed06309ef11490",
+  "fecha_generacion_utc": "2026-11-11T08:27:07.964987+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 76.0,
+  "compases": 56,
+  "duracion_s": 176.8,
+  "notas_por_pista": {
+    "sax_tenor": 36,
+    "rhodes": 138,
+    "vibraphone": 16,
+    "bass": 146,
+    "drums": 512,
+    "pad": 92
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [
+    "W411: combinación identidad×accessibility×language poco convencional (9/27): dark_triphop/commercial/experimental",
+    "W404: commercial sin material de hook en ningún chorus (ni phrases, ni motif, ni loop_bars)"
+  ],
+  "resumen_actividad": {
+    "frases_sax": 4,
+    "rhodes_melodico_por_seccion": {
+      "intro": 2,
+      "verse": 2,
+      "chorus": 2,
+      "bridge": 0,
+      "chorus_2": 0,
+      "outro": 0
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse": 0,
+      "chorus": 0,
+      "bridge": 0,
+      "chorus_2": 0,
+      "outro": 2
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production atmospheric --seed 403651 --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/03_track03 --verify 9bc2bd44663bf1b3efda536b0b1dd462119f0182076d51ea4b644619d5b54145",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"03_track03.mid\" -F salida.wav -r 44100"
+  }
+}

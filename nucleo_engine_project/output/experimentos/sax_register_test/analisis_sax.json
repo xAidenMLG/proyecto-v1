@@ -1,0 +1,1019 @@
+{
+  "archivo": "output/experimentos/sax_register_test/sax_register_test.mid",
+  "tpq": 480,
+  "pistas": [
+    {
+      "indice": 1,
+      "nombre": "sax_tenor",
+      "programa": 66,
+      "num_notas": 30
+    },
+    {
+      "indice": 2,
+      "nombre": "rhodes",
+      "programa": 4,
+      "num_notas": 92
+    },
+    {
+      "indice": 3,
+      "nombre": "vibraphone",
+      "programa": 11,
+      "num_notas": 19
+    },
+    {
+      "indice": 4,
+      "nombre": "bass",
+      "programa": 38,
+      "num_notas": 90
+    },
+    {
+      "indice": 5,
+      "nombre": "drums",
+      "programa": null,
+      "num_notas": 323
+    },
+    {
+      "indice": 6,
+      "nombre": "pad",
+      "programa": 91,
+      "num_notas": 59
+    }
+  ],
+  "sax": {
+    "pista": "sax_tenor",
+    "programa_gm": 66,
+    "total_notas": 30,
+    "total_notas_spec_json": 26
+  },
+  "secciones": [
+    {
+      "seccion": "intro",
+      "con_frase_spec": false,
+      "notas_reales": 0,
+      "rango_compases": "0-3",
+      "resumen": {
+        "n": 0
+      }
+    },
+    {
+      "seccion": "verse_1",
+      "con_frase_spec": true,
+      "n_spec": 6,
+      "n_real": 6,
+      "comparacion": [
+        {
+          "bar_abs": 4,
+          "beat": 0.5,
+          "pitch": 67,
+          "dur": 1.5,
+          "vel": 68,
+          "pitch_nombre": "G4",
+          "estado": "exacto",
+          "real": {
+            "pitch": 67,
+            "nombre": "G4",
+            "bar": 4,
+            "beat": 0.485,
+            "dur": 1.415,
+            "vel": 72,
+            "dif_semitonos": 0,
+            "dif_vel": 4,
+            "dif_dur": -0.085
+          }
+        },
+        {
+          "bar_abs": 5,
+          "beat": 0.0,
+          "pitch": 69,
+          "dur": 1.5,
+          "vel": 70,
+          "pitch_nombre": "A4",
+          "estado": "exacto",
+          "real": {
+            "pitch": 69,
+            "nombre": "A4",
+            "bar": 5,
+            "beat": 0.015,
+            "dur": 1.375,
+            "vel": 68,
+            "dif_semitonos": 0,
+            "dif_vel": -2,
+            "dif_dur": -0.125
+          }
+        },
+        {
+          "bar_abs": 6,
+          "beat": 1.0,
+          "pitch": 72,
+          "dur": 1.0,
+          "vel": 72,
+          "pitch_nombre": "C5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 72,
+            "nombre": "C5",
+            "bar": 6,
+            "beat": 0.994,
+            "dur": 0.948,
+            "vel": 67,
+            "dif_semitonos": 0,
+            "dif_vel": -5,
+            "dif_dur": -0.052
+          }
+        },
+        {
+          "bar_abs": 7,
+          "beat": 0.5,
+          "pitch": 71,
+          "dur": 1.5,
+          "vel": 68,
+          "pitch_nombre": "B4",
+          "estado": "exacto",
+          "real": {
+            "pitch": 71,
+            "nombre": "B4",
+            "bar": 7,
+            "beat": 0.527,
+            "dur": 1.346,
+            "vel": 65,
+            "dif_semitonos": 0,
+            "dif_vel": -3,
+            "dif_dur": -0.154
+          }
+        },
+        {
+          "bar_abs": 9,
+          "beat": 0.0,
+          "pitch": 74,
+          "dur": 2.0,
+          "vel": 74,
+          "pitch_nombre": "D5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 74,
+            "nombre": "D5",
+            "bar": 8,
+            "beat": 3.994,
+            "dur": 1.85,
+            "vel": 78,
+            "dif_semitonos": 0,
+            "dif_vel": 4,
+            "dif_dur": -0.15
+          }
+        },
+        {
+          "bar_abs": 10,
+          "beat": 1.0,
+          "pitch": 72,
+          "dur": 1.5,
+          "vel": 70,
+          "pitch_nombre": "C5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 72,
+            "nombre": "C5",
+            "bar": 10,
+            "beat": 1.021,
+            "dur": 1.398,
+            "vel": 74,
+            "dif_semitonos": 0,
+            "dif_vel": 4,
+            "dif_dur": -0.102
+          }
+        }
+      ],
+      "extras": [],
+      "rango_compases": "4-11",
+      "resumen": {
+        "n": 6,
+        "min": 67,
+        "max": 74,
+        "min_nombre": "G4",
+        "max_nombre": "D5",
+        "media": 70.83,
+        "mediana": 72,
+        "ambito_semitonos": 7,
+        "distribucion_registros": {
+          "grave(<C4)": 0,
+          "medio(C4-B4)": 3,
+          "agudo(C5-B5)": 3,
+          "sobreagudo(>=C6)": 0
+        }
+      }
+    },
+    {
+      "seccion": "pre_1",
+      "con_frase_spec": true,
+      "n_spec": 4,
+      "n_real": 4,
+      "comparacion": [
+        {
+          "bar_abs": 12,
+          "beat": 0.0,
+          "pitch": 72,
+          "dur": 1.0,
+          "vel": 72,
+          "pitch_nombre": "C5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 72,
+            "nombre": "C5",
+            "bar": 12,
+            "beat": 0.01,
+            "dur": 0.933,
+            "vel": 70,
+            "dif_semitonos": 0,
+            "dif_vel": -2,
+            "dif_dur": -0.067
+          }
+        },
+        {
+          "bar_abs": 13,
+          "beat": 0.5,
+          "pitch": 74,
+          "dur": 1.0,
+          "vel": 74,
+          "pitch_nombre": "D5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 74,
+            "nombre": "D5",
+            "bar": 13,
+            "beat": 0.562,
+            "dur": 0.887,
+            "vel": 76,
+            "dif_semitonos": 0,
+            "dif_vel": 2,
+            "dif_dur": -0.113
+          }
+        },
+        {
+          "bar_abs": 14,
+          "beat": 0.0,
+          "pitch": 76,
+          "dur": 1.5,
+          "vel": 78,
+          "pitch_nombre": "E5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 76,
+            "nombre": "E5",
+            "bar": 14,
+            "beat": 0.035,
+            "dur": 1.365,
+            "vel": 80,
+            "dif_semitonos": 0,
+            "dif_vel": 2,
+            "dif_dur": -0.135
+          }
+        },
+        {
+          "bar_abs": 15,
+          "beat": 1.0,
+          "pitch": 77,
+          "dur": 1.5,
+          "vel": 80,
+          "pitch_nombre": "F5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 77,
+            "nombre": "F5",
+            "bar": 15,
+            "beat": 1.025,
+            "dur": 1.396,
+            "vel": 78,
+            "dif_semitonos": 0,
+            "dif_vel": -2,
+            "dif_dur": -0.104
+          }
+        }
+      ],
+      "extras": [],
+      "rango_compases": "12-15",
+      "resumen": {
+        "n": 4,
+        "min": 72,
+        "max": 77,
+        "min_nombre": "C5",
+        "max_nombre": "F5",
+        "media": 74.75,
+        "mediana": 76,
+        "ambito_semitonos": 5,
+        "distribucion_registros": {
+          "grave(<C4)": 0,
+          "medio(C4-B4)": 0,
+          "agudo(C5-B5)": 4,
+          "sobreagudo(>=C6)": 0
+        }
+      }
+    },
+    {
+      "seccion": "chorus_1",
+      "con_frase_spec": true,
+      "n_spec": 8,
+      "n_real": 8,
+      "comparacion": [
+        {
+          "bar_abs": 16,
+          "beat": 0.0,
+          "pitch": 76,
+          "dur": 1.0,
+          "vel": 82,
+          "pitch_nombre": "E5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 76,
+            "nombre": "E5",
+            "bar": 16,
+            "beat": 0.023,
+            "dur": 0.91,
+            "vel": 77,
+            "dif_semitonos": 0,
+            "dif_vel": -5,
+            "dif_dur": -0.09
+          }
+        },
+        {
+          "bar_abs": 16,
+          "beat": 1.5,
+          "pitch": 79,
+          "dur": 1.0,
+          "vel": 84,
+          "pitch_nombre": "G5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 79,
+            "nombre": "G5",
+            "bar": 16,
+            "beat": 1.527,
+            "dur": 0.877,
+            "vel": 83,
+            "dif_semitonos": 0,
+            "dif_vel": -1,
+            "dif_dur": -0.123
+          }
+        },
+        {
+          "bar_abs": 17,
+          "beat": 0.0,
+          "pitch": 81,
+          "dur": 1.5,
+          "vel": 86,
+          "pitch_nombre": "A5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 81,
+            "nombre": "A5",
+            "bar": 17,
+            "beat": 0.008,
+            "dur": 1.365,
+            "vel": 91,
+            "dif_semitonos": 0,
+            "dif_vel": 5,
+            "dif_dur": -0.135
+          }
+        },
+        {
+          "bar_abs": 18,
+          "beat": 0.5,
+          "pitch": 79,
+          "dur": 1.0,
+          "vel": 80,
+          "pitch_nombre": "G5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 79,
+            "nombre": "G5",
+            "bar": 18,
+            "beat": 0.473,
+            "dur": 0.963,
+            "vel": 76,
+            "dif_semitonos": 0,
+            "dif_vel": -4,
+            "dif_dur": -0.037
+          }
+        },
+        {
+          "bar_abs": 19,
+          "beat": 0.0,
+          "pitch": 77,
+          "dur": 2.0,
+          "vel": 78,
+          "pitch_nombre": "F5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 77,
+            "nombre": "F5",
+            "bar": 19,
+            "beat": 0.015,
+            "dur": 1.84,
+            "vel": 73,
+            "dif_semitonos": 0,
+            "dif_vel": -5,
+            "dif_dur": -0.16
+          }
+        },
+        {
+          "bar_abs": 21,
+          "beat": 0.0,
+          "pitch": 81,
+          "dur": 1.5,
+          "vel": 86,
+          "pitch_nombre": "A5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 81,
+            "nombre": "A5",
+            "bar": 21,
+            "beat": 0.044,
+            "dur": 1.333,
+            "vel": 86,
+            "dif_semitonos": 0,
+            "dif_vel": 0,
+            "dif_dur": -0.167
+          }
+        },
+        {
+          "bar_abs": 22,
+          "beat": 0.5,
+          "pitch": 79,
+          "dur": 1.0,
+          "vel": 82,
+          "pitch_nombre": "G5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 79,
+            "nombre": "G5",
+            "bar": 22,
+            "beat": 0.554,
+            "dur": 0.86,
+            "vel": 78,
+            "dif_semitonos": 0,
+            "dif_vel": -4,
+            "dif_dur": -0.14
+          }
+        },
+        {
+          "bar_abs": 23,
+          "beat": 0.0,
+          "pitch": 76,
+          "dur": 2.0,
+          "vel": 78,
+          "pitch_nombre": "E5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 76,
+            "nombre": "E5",
+            "bar": 23,
+            "beat": 0.027,
+            "dur": 1.831,
+            "vel": 83,
+            "dif_semitonos": 0,
+            "dif_vel": 5,
+            "dif_dur": -0.169
+          }
+        }
+      ],
+      "extras": [],
+      "rango_compases": "16-23",
+      "resumen": {
+        "n": 8,
+        "min": 76,
+        "max": 81,
+        "min_nombre": "E5",
+        "max_nombre": "A5",
+        "media": 78.5,
+        "mediana": 79,
+        "ambito_semitonos": 5,
+        "distribucion_registros": {
+          "grave(<C4)": 0,
+          "medio(C4-B4)": 0,
+          "agudo(C5-B5)": 8,
+          "sobreagudo(>=C6)": 0
+        }
+      }
+    },
+    {
+      "seccion": "verse_2",
+      "con_frase_spec": true,
+      "n_spec": 4,
+      "n_real": 4,
+      "comparacion": [
+        {
+          "bar_abs": 24,
+          "beat": 0.5,
+          "pitch": 69,
+          "dur": 1.5,
+          "vel": 68,
+          "pitch_nombre": "A4",
+          "estado": "exacto",
+          "real": {
+            "pitch": 69,
+            "nombre": "A4",
+            "bar": 24,
+            "beat": 0.5,
+            "dur": 1.394,
+            "vel": 72,
+            "dif_semitonos": 0,
+            "dif_vel": 4,
+            "dif_dur": -0.106
+          }
+        },
+        {
+          "bar_abs": 25,
+          "beat": 0.0,
+          "pitch": 72,
+          "dur": 1.5,
+          "vel": 72,
+          "pitch_nombre": "C5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 72,
+            "nombre": "C5",
+            "bar": 25,
+            "beat": 0.05,
+            "dur": 1.335,
+            "vel": 76,
+            "dif_semitonos": 0,
+            "dif_vel": 4,
+            "dif_dur": -0.165
+          }
+        },
+        {
+          "bar_abs": 26,
+          "beat": 0.5,
+          "pitch": 74,
+          "dur": 1.5,
+          "vel": 74,
+          "pitch_nombre": "D5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 74,
+            "nombre": "D5",
+            "bar": 26,
+            "beat": 0.504,
+            "dur": 1.387,
+            "vel": 72,
+            "dif_semitonos": 0,
+            "dif_vel": -2,
+            "dif_dur": -0.113
+          }
+        },
+        {
+          "bar_abs": 27,
+          "beat": 0.0,
+          "pitch": 76,
+          "dur": 2.0,
+          "vel": 76,
+          "pitch_nombre": "E5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 76,
+            "nombre": "E5",
+            "bar": 27,
+            "beat": 0.027,
+            "dur": 1.833,
+            "vel": 78,
+            "dif_semitonos": 0,
+            "dif_vel": 2,
+            "dif_dur": -0.167
+          }
+        }
+      ],
+      "extras": [],
+      "rango_compases": "24-27",
+      "resumen": {
+        "n": 4,
+        "min": 69,
+        "max": 76,
+        "min_nombre": "A4",
+        "max_nombre": "E5",
+        "media": 72.75,
+        "mediana": 74,
+        "ambito_semitonos": 7,
+        "distribucion_registros": {
+          "grave(<C4)": 0,
+          "medio(C4-B4)": 1,
+          "agudo(C5-B5)": 3,
+          "sobreagudo(>=C6)": 0
+        }
+      }
+    },
+    {
+      "seccion": "chorus_2",
+      "con_frase_spec": true,
+      "n_spec": 4,
+      "n_real": 4,
+      "comparacion": [
+        {
+          "bar_abs": 28,
+          "beat": 0.0,
+          "pitch": 79,
+          "dur": 1.0,
+          "vel": 84,
+          "pitch_nombre": "G5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 79,
+            "nombre": "G5",
+            "bar": 28,
+            "beat": 0.071,
+            "dur": 0.869,
+            "vel": 89,
+            "dif_semitonos": 0,
+            "dif_vel": 5,
+            "dif_dur": -0.131
+          }
+        },
+        {
+          "bar_abs": 29,
+          "beat": 0.5,
+          "pitch": 81,
+          "dur": 1.5,
+          "vel": 88,
+          "pitch_nombre": "A5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 81,
+            "nombre": "A5",
+            "bar": 29,
+            "beat": 0.565,
+            "dur": 1.34,
+            "vel": 85,
+            "dif_semitonos": 0,
+            "dif_vel": -3,
+            "dif_dur": -0.16
+          }
+        },
+        {
+          "bar_abs": 30,
+          "beat": 0.0,
+          "pitch": 79,
+          "dur": 1.0,
+          "vel": 84,
+          "pitch_nombre": "G5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 79,
+            "nombre": "G5",
+            "bar": 30,
+            "beat": 0.069,
+            "dur": 0.85,
+            "vel": 84,
+            "dif_semitonos": 0,
+            "dif_vel": 0,
+            "dif_dur": -0.15
+          }
+        },
+        {
+          "bar_abs": 31,
+          "beat": 0.5,
+          "pitch": 76,
+          "dur": 2.0,
+          "vel": 80,
+          "pitch_nombre": "E5",
+          "estado": "exacto",
+          "real": {
+            "pitch": 76,
+            "nombre": "E5",
+            "bar": 31,
+            "beat": 0.562,
+            "dur": 1.812,
+            "vel": 85,
+            "dif_semitonos": 0,
+            "dif_vel": 5,
+            "dif_dur": -0.188
+          }
+        }
+      ],
+      "extras": [],
+      "rango_compases": "28-31",
+      "resumen": {
+        "n": 4,
+        "min": 76,
+        "max": 81,
+        "min_nombre": "E5",
+        "max_nombre": "A5",
+        "media": 78.75,
+        "mediana": 79,
+        "ambito_semitonos": 5,
+        "distribucion_registros": {
+          "grave(<C4)": 0,
+          "medio(C4-B4)": 0,
+          "agudo(C5-B5)": 4,
+          "sobreagudo(>=C6)": 0
+        }
+      }
+    },
+    {
+      "seccion": "outro",
+      "con_frase_spec": false,
+      "notas_reales": 4,
+      "rango_compases": "32-35",
+      "resumen": {
+        "n": 4,
+        "min": 65,
+        "max": 79,
+        "min_nombre": "F4",
+        "max_nombre": "G5",
+        "media": 69.5,
+        "mediana": 67,
+        "ambito_semitonos": 14,
+        "distribucion_registros": {
+          "grave(<C4)": 0,
+          "medio(C4-B4)": 3,
+          "agudo(C5-B5)": 1,
+          "sobreagudo(>=C6)": 0
+        }
+      }
+    }
+  ],
+  "secuencia_cronologica": [
+    {
+      "ini_beat": 16.485416666666666,
+      "fin_beat": 17.9,
+      "dur_beats": 1.4145833333333333,
+      "pitch": 67,
+      "vel": 72,
+      "bar": 4,
+      "beat": 0.485
+    },
+    {
+      "ini_beat": 20.014583333333334,
+      "fin_beat": 21.389583333333334,
+      "dur_beats": 1.375,
+      "pitch": 69,
+      "vel": 68,
+      "bar": 5,
+      "beat": 0.015
+    },
+    {
+      "ini_beat": 24.99375,
+      "fin_beat": 25.941666666666666,
+      "dur_beats": 0.9479166666666666,
+      "pitch": 72,
+      "vel": 67,
+      "bar": 6,
+      "beat": 0.994
+    },
+    {
+      "ini_beat": 28.527083333333334,
+      "fin_beat": 29.872916666666665,
+      "dur_beats": 1.3458333333333334,
+      "pitch": 71,
+      "vel": 65,
+      "bar": 7,
+      "beat": 0.527
+    },
+    {
+      "ini_beat": 35.99375,
+      "fin_beat": 37.84375,
+      "dur_beats": 1.85,
+      "pitch": 74,
+      "vel": 78,
+      "bar": 8,
+      "beat": 3.994
+    },
+    {
+      "ini_beat": 41.020833333333336,
+      "fin_beat": 42.41875,
+      "dur_beats": 1.3979166666666667,
+      "pitch": 72,
+      "vel": 74,
+      "bar": 10,
+      "beat": 1.021
+    },
+    {
+      "ini_beat": 48.010416666666664,
+      "fin_beat": 48.94375,
+      "dur_beats": 0.9333333333333333,
+      "pitch": 72,
+      "vel": 70,
+      "bar": 12,
+      "beat": 0.01
+    },
+    {
+      "ini_beat": 52.5625,
+      "fin_beat": 53.45,
+      "dur_beats": 0.8875,
+      "pitch": 74,
+      "vel": 76,
+      "bar": 13,
+      "beat": 0.562
+    },
+    {
+      "ini_beat": 56.03541666666667,
+      "fin_beat": 57.4,
+      "dur_beats": 1.3645833333333333,
+      "pitch": 76,
+      "vel": 80,
+      "bar": 14,
+      "beat": 0.035
+    },
+    {
+      "ini_beat": 61.025,
+      "fin_beat": 62.420833333333334,
+      "dur_beats": 1.3958333333333333,
+      "pitch": 77,
+      "vel": 78,
+      "bar": 15,
+      "beat": 1.025
+    },
+    {
+      "ini_beat": 64.02291666666666,
+      "fin_beat": 64.93333333333334,
+      "dur_beats": 0.9104166666666667,
+      "pitch": 76,
+      "vel": 77,
+      "bar": 16,
+      "beat": 0.023
+    },
+    {
+      "ini_beat": 65.52708333333334,
+      "fin_beat": 66.40416666666667,
+      "dur_beats": 0.8770833333333333,
+      "pitch": 79,
+      "vel": 83,
+      "bar": 16,
+      "beat": 1.527
+    },
+    {
+      "ini_beat": 68.00833333333334,
+      "fin_beat": 69.37291666666667,
+      "dur_beats": 1.3645833333333333,
+      "pitch": 81,
+      "vel": 91,
+      "bar": 17,
+      "beat": 0.008
+    },
+    {
+      "ini_beat": 72.47291666666666,
+      "fin_beat": 73.43541666666667,
+      "dur_beats": 0.9625,
+      "pitch": 79,
+      "vel": 76,
+      "bar": 18,
+      "beat": 0.473
+    },
+    {
+      "ini_beat": 76.01458333333333,
+      "fin_beat": 77.85416666666667,
+      "dur_beats": 1.8395833333333333,
+      "pitch": 77,
+      "vel": 73,
+      "bar": 19,
+      "beat": 0.015
+    },
+    {
+      "ini_beat": 84.04375,
+      "fin_beat": 85.37708333333333,
+      "dur_beats": 1.3333333333333333,
+      "pitch": 81,
+      "vel": 86,
+      "bar": 21,
+      "beat": 0.044
+    },
+    {
+      "ini_beat": 88.55416666666666,
+      "fin_beat": 89.41458333333334,
+      "dur_beats": 0.8604166666666667,
+      "pitch": 79,
+      "vel": 78,
+      "bar": 22,
+      "beat": 0.554
+    },
+    {
+      "ini_beat": 92.02708333333334,
+      "fin_beat": 93.85833333333333,
+      "dur_beats": 1.83125,
+      "pitch": 76,
+      "vel": 83,
+      "bar": 23,
+      "beat": 0.027
+    },
+    {
+      "ini_beat": 96.5,
+      "fin_beat": 97.89375,
+      "dur_beats": 1.39375,
+      "pitch": 69,
+      "vel": 72,
+      "bar": 24,
+      "beat": 0.5
+    },
+    {
+      "ini_beat": 100.05,
+      "fin_beat": 101.38541666666667,
+      "dur_beats": 1.3354166666666667,
+      "pitch": 72,
+      "vel": 76,
+      "bar": 25,
+      "beat": 0.05
+    },
+    {
+      "ini_beat": 104.50416666666666,
+      "fin_beat": 105.89166666666667,
+      "dur_beats": 1.3875,
+      "pitch": 74,
+      "vel": 72,
+      "bar": 26,
+      "beat": 0.504
+    },
+    {
+      "ini_beat": 108.02708333333334,
+      "fin_beat": 109.86041666666667,
+      "dur_beats": 1.8333333333333333,
+      "pitch": 76,
+      "vel": 78,
+      "bar": 27,
+      "beat": 0.027
+    },
+    {
+      "ini_beat": 112.07083333333334,
+      "fin_beat": 112.93958333333333,
+      "dur_beats": 0.86875,
+      "pitch": 79,
+      "vel": 89,
+      "bar": 28,
+      "beat": 0.071
+    },
+    {
+      "ini_beat": 116.56458333333333,
+      "fin_beat": 117.90416666666667,
+      "dur_beats": 1.3395833333333333,
+      "pitch": 81,
+      "vel": 85,
+      "bar": 29,
+      "beat": 0.565
+    },
+    {
+      "ini_beat": 120.06875,
+      "fin_beat": 120.91875,
+      "dur_beats": 0.85,
+      "pitch": 79,
+      "vel": 84,
+      "bar": 30,
+      "beat": 0.069
+    },
+    {
+      "ini_beat": 124.5625,
+      "fin_beat": 126.375,
+      "dur_beats": 1.8125,
+      "pitch": 76,
+      "vel": 85,
+      "bar": 31,
+      "beat": 0.562
+    },
+    {
+      "ini_beat": 128.025,
+      "fin_beat": 128.49791666666667,
+      "dur_beats": 0.47291666666666665,
+      "pitch": 67,
+      "vel": 65,
+      "bar": 32,
+      "beat": 0.025
+    },
+    {
+      "ini_beat": 128.56458333333333,
+      "fin_beat": 129.00833333333333,
+      "dur_beats": 0.44375,
+      "pitch": 65,
+      "vel": 48,
+      "bar": 32,
+      "beat": 0.565
+    },
+    {
+      "ini_beat": 129.02083333333334,
+      "fin_beat": 130.0125,
+      "dur_beats": 0.9916666666666667,
+      "pitch": 67,
+      "vel": 52,
+      "bar": 32,
+      "beat": 1.021
+    },
+    {
+      "ini_beat": 130.48125,
+      "fin_beat": 130.99375,
+      "dur_beats": 0.5125,
+      "pitch": 79,
+      "vel": 56,
+      "bar": 32,
+      "beat": 2.481
+    }
+  ],
+  "global": {
+    "n": 30,
+    "min": 65,
+    "max": 81,
+    "min_nombre": "F4",
+    "max_nombre": "A5",
+    "media": 74.53,
+    "mediana": 76,
+    "ambito_semitonos": 16,
+    "distribucion_registros": {
+      "grave(<C4)": 0,
+      "medio(C4-B4)": 7,
+      "agudo(C5-B5)": 23,
+      "sobreagudo(>=C6)": 0
+    }
+  }
+}

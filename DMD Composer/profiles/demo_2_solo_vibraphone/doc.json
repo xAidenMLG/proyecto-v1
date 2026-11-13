@@ -1,0 +1,103 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Vibraphone Desnudo",
+    "notes": "Demo 2: vibraphone protagonista con espacios obligatorios; el resto automático."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 71,
+    "seed": 2026
+  },
+  "harmony": {
+    "key": "D minor",
+    "language": "pop_dream_pop",
+    "harmonic_rhythm_bars": 2,
+    "progressions": {
+      "intro": [
+        "Dm",
+        "F"
+      ],
+      "solo": [
+        "Dm",
+        "Bb",
+        "F",
+        "C"
+      ],
+      "eco": [
+        "Gm",
+        "Dm"
+      ],
+      "outro": [
+        "Dm",
+        "Bb"
+      ]
+    }
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "vibraphone"
+      ],
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ]
+    },
+    {
+      "id": "solo",
+      "type": "break",
+      "bars": 16,
+      "drums": "light",
+      "focus": [
+        "vibraphone"
+      ],
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ]
+    },
+    {
+      "id": "eco",
+      "type": "break",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "vibraphone"
+      ],
+      "active": [
+        "vibraphone",
+        "pad"
+      ]
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "vibraphone"
+      ],
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ]
+    }
+  ],
+  "ending": {
+    "tape_stop": {
+      "enabled": true,
+      "bars": 2
+    }
+  }
+}

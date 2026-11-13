@@ -1,0 +1,197 @@
+{
+  "formato": "song-map/1",
+  "obra": "K Cancel · Track 01",
+  "contrato": "dark-director/1 rev 3.2",
+  "tonalidad": "C minor",
+  "bpm": 71,
+  "compases_totales": 60,
+  "duracion_total_seg": 202.82,
+  "secciones": [
+    {
+      "orden": 1,
+      "id": "intro",
+      "nombre_visible": "Intro",
+      "tipo_funcional": "intro",
+      "compas_inicial": 1,
+      "compas_final": 4,
+      "compases": 4,
+      "progresion": [
+        "Cm9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 1,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Cm9",
+        "Cm9",
+        "Cm9",
+        "Cm9"
+      ],
+      "duracion_seg": 13.52
+    },
+    {
+      "orden": 2,
+      "id": "verse",
+      "nombre_visible": "Verse",
+      "tipo_funcional": "verse",
+      "compas_inicial": 5,
+      "compas_final": 12,
+      "compases": 8,
+      "progresion": [
+        "Cm9",
+        "Abmaj7",
+        "Ebm7b5",
+        "G9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 1,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Cm9",
+        "Abmaj7",
+        "Ebm7b5",
+        "G9",
+        "Cm9",
+        "Abmaj7",
+        "Ebm7b5",
+        "G9"
+      ],
+      "duracion_seg": 27.04
+    },
+    {
+      "orden": 3,
+      "id": "chorus",
+      "nombre_visible": "Chorus",
+      "tipo_funcional": "chorus",
+      "compas_inicial": 13,
+      "compas_final": 28,
+      "compases": 16,
+      "progresion": [
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 1,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4",
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4",
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4",
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4"
+      ],
+      "duracion_seg": 54.08
+    },
+    {
+      "orden": 4,
+      "id": "bridge",
+      "nombre_visible": "Bridge",
+      "tipo_funcional": "bridge",
+      "compas_inicial": 29,
+      "compas_final": 36,
+      "compases": 8,
+      "progresion": [
+        "Ebm7b5",
+        "G7#11"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 1,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Ebm7b5",
+        "G7#11",
+        "Ebm7b5",
+        "G7#11",
+        "Ebm7b5",
+        "G7#11",
+        "Ebm7b5",
+        "G7#11"
+      ],
+      "duracion_seg": 27.04
+    },
+    {
+      "orden": 5,
+      "id": "chorus_2",
+      "nombre_visible": "Chorus 2",
+      "tipo_funcional": "chorus",
+      "compas_inicial": 37,
+      "compas_final": 52,
+      "compases": 16,
+      "progresion": [
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 1,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4",
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4",
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4",
+        "Cm9",
+        "Bbm9",
+        "Ab13",
+        "G7sus4"
+      ],
+      "duracion_seg": 54.08
+    },
+    {
+      "orden": 6,
+      "id": "outro",
+      "nombre_visible": "Outro",
+      "tipo_funcional": "outro",
+      "compas_inicial": 53,
+      "compas_final": 60,
+      "compases": 8,
+      "progresion": [
+        "Cm9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 1,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Cm9",
+        "Cm9",
+        "Cm9",
+        "Cm9",
+        "Cm9",
+        "Cm9",
+        "Cm9",
+        "Cm9"
+      ],
+      "duracion_seg": 27.04
+    }
+  ],
+  "notas_para_letras": [
+    "[Intro]  (1–4, 4 compases · Cm9)",
+    "[Verse]  (5–12, 8 compases · Cm9 - Abmaj7 - Ebm7b5 - G9)",
+    "[Chorus]  (13–28, 16 compases · Cm9 - Bbm9 - Ab13 - G7sus4)",
+    "[Bridge]  (29–36, 8 compases · Ebm7b5 - G7#11)",
+    "[Chorus 2]  (37–52, 16 compases · Cm9 - Bbm9 - Ab13 - G7sus4)",
+    "[Outro]  (53–60, 8 compases · Cm9)"
+  ]
+}

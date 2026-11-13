@@ -1,0 +1,681 @@
+{
+  "schema": "dmd-album-plan/1",
+  "album": "Noches Largas",
+  "identidad": "dark_triphop",
+  "semilla_album": 3100,
+  "restricciones": {
+    "perfil_frac_max": 0.4,
+    "respiro_cada": 5,
+    "prohibir_consecutivos_iguales": true
+  },
+  "raiz": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas",
+  "creado_utc": "2026-11-09T06:06:46.938762+00:00",
+  "versiones": {
+    "album": "8.0.0",
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "pistas": [
+    {
+      "indice": 1,
+      "id": "medianoche_puerto",
+      "titulo": "Medianoche en Puerto Nuevo",
+      "rol": "apertura — melódico contenido",
+      "doc": "docs/medianoche_puerto_nuevo.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/medianoche_puerto_nuevo.json",
+      "sha256_doc": "b2399cc582823f0079871145e6312ae4c8b7ecf03eea4f81785c5882cc93b90f",
+      "perfil": "sax",
+      "seed": 2026,
+      "origen_seed": "especificado",
+      "harmony": null,
+      "digest": {
+        "titulo": "Medianoche en Puerto Nuevo",
+        "bpm": 78,
+        "seed_global": 3113,
+        "tonalidad": "F# minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": null,
+        "compases": 60,
+        "n_secciones": 8,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "bridge",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.475,
+        "energia_max": 0.8,
+        "tension_media": 0.4,
+        "densidad_media": 0.438,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 2,
+      "id": "calles_de_neon",
+      "titulo": "Calles de Neón",
+      "rol": "energía urbana — material escrito respetado",
+      "doc": "docs/calles_de_neon.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/calles_de_neon.json",
+      "sha256_doc": "ced5b2b989541c9266bef6cbeb61f2ca47d56ba0ae6fa452f358fe1828230432",
+      "perfil": "full",
+      "seed": 2026,
+      "origen_seed": "especificado",
+      "harmony": {
+        "keyword": "familiar_pop",
+        "variacion": "subtle"
+      },
+      "digest": {
+        "titulo": "Calles de Neón",
+        "bpm": 92,
+        "seed_global": 9021,
+        "tonalidad": "A minor",
+        "lenguaje": "hybrid",
+        "resolucion": null,
+        "compases": 36,
+        "n_secciones": 5,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "chorus",
+          "verse",
+          "chorus"
+        ],
+        "energia_media": 0.59,
+        "energia_max": 0.85,
+        "tension_media": 0.43,
+        "densidad_media": 0.53,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 3,
+      "id": "habitacion_314",
+      "titulo": "Habitación 314",
+      "rol": "respiro atmosférico",
+      "doc": "docs/habitacion_314.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/habitacion_314.json",
+      "sha256_doc": "68cbe50f667837977df14e6a086ece595b5a9b11d8272ece1ef68f3d85fe6f65",
+      "perfil": "atmospheric",
+      "seed": 2026,
+      "origen_seed": "especificado",
+      "harmony": {
+        "keyword": "melancholic",
+        "variacion": "medium"
+      },
+      "digest": {
+        "titulo": "Habitación 314",
+        "bpm": 80,
+        "seed_global": 4104,
+        "tonalidad": "G minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": null,
+        "compases": 64,
+        "n_secciones": 10,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "break",
+          "bridge",
+          "verse",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.495,
+        "energia_max": 0.85,
+        "tension_media": 0.515,
+        "densidad_media": 0.465,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "tape_stop"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 4,
+      "id": "bruma_dorada",
+      "titulo": "Bruma Dorada",
+      "rol": "respiro — camino ORIGINAL sin motores",
+      "doc": "docs/bruma_dorada.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/bruma_dorada.json",
+      "sha256_doc": "d1c984c78ae7b89f92c6de32e9c25adbca26459fdcea697a59b837b3cdda9ebd",
+      "perfil": "original",
+      "seed": 3504,
+      "origen_seed": "derivada",
+      "harmony": null,
+      "digest": {
+        "titulo": "Bruma Dorada",
+        "bpm": 80,
+        "seed_global": 8101,
+        "tonalidad": "Bb minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": "tonal",
+        "compases": 40,
+        "n_secciones": 7,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "break",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.424,
+        "energia_max": 0.72,
+        "tension_media": 0.367,
+        "densidad_media": 0.386,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 5,
+      "id": "casa_de_espejos",
+      "titulo": "Casa de Espejos",
+      "rol": "dueto sax+Rhodes",
+      "doc": "docs/casa_de_espejos.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/casa_de_espejos.json",
+      "sha256_doc": "d429c69277639394211c64b6156784a610cf0f21b2b886e839739f3765719639",
+      "perfil": "sax_rhodes",
+      "seed": 2026,
+      "origen_seed": "especificado",
+      "harmony": {
+        "keyword": "soulful",
+        "variacion": "medium"
+      },
+      "digest": {
+        "titulo": "Casa de Espejos",
+        "bpm": 84,
+        "seed_global": 5150,
+        "tonalidad": "C minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": "deceptive",
+        "compases": 44,
+        "n_secciones": 8,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "break",
+          "bridge",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.456,
+        "energia_max": 0.8,
+        "tension_media": 0.431,
+        "densidad_media": 0.419,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 6,
+      "id": "neblina_alta",
+      "titulo": "Neblina Alta",
+      "rol": "textura de batería",
+      "doc": "docs/neblina_alta.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/neblina_alta.json",
+      "sha256_doc": "51cccc69285af06522e3c2d29ec7c268cd7f5661982e4a260ea5d753c1b736b7",
+      "perfil": "drums",
+      "seed": 3706,
+      "origen_seed": "derivada",
+      "harmony": {
+        "keyword": "tension_release",
+        "variacion": "subtle"
+      },
+      "digest": {
+        "titulo": "Neblina Alta",
+        "bpm": 76,
+        "seed_global": 8102,
+        "tonalidad": "E minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": "modal",
+        "compases": 36,
+        "n_secciones": 6,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "chorus",
+          "bridge",
+          "verse",
+          "outro"
+        ],
+        "energia_media": 0.387,
+        "energia_max": 0.62,
+        "tension_media": 0.403,
+        "densidad_media": 0.38,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 7,
+      "id": "viaducto_sur",
+      "titulo": "Viaducto Sur",
+      "rol": "clímax 1 — tape_stop final",
+      "doc": "docs/viaducto_sur.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/viaducto_sur.json",
+      "sha256_doc": "4e6c9da08791d2dba951f7898de36c1046af21d7bf90b8418dfd153669b7a9a4",
+      "perfil": "full",
+      "seed": 3807,
+      "origen_seed": "derivada",
+      "harmony": {
+        "id": "CINE01",
+        "variacion": "medium"
+      },
+      "digest": {
+        "titulo": "Viaducto Sur",
+        "bpm": 90,
+        "seed_global": 8103,
+        "tonalidad": "D minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": "tonal",
+        "compases": 44,
+        "n_secciones": 8,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "break",
+          "bridge",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.485,
+        "energia_max": 0.8,
+        "tension_media": 0.479,
+        "densidad_media": 0.444,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "tape_stop"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 8,
+      "id": "habitacion_vacia",
+      "titulo": "Habitación Vacía",
+      "rol": "vacío luminoso",
+      "doc": "docs/habitacion_vacia.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/habitacion_vacia.json",
+      "sha256_doc": "ce8eb31503d6dd06f0f6f829e27663e0c451ad36832ed365f959e1f9689f204f",
+      "perfil": "atmospheric",
+      "seed": 3908,
+      "origen_seed": "derivada",
+      "harmony": {
+        "keyword": "dream_pop",
+        "variacion": "subtle"
+      },
+      "digest": {
+        "titulo": "Habitación Vacía",
+        "bpm": 82,
+        "seed_global": 8104,
+        "tonalidad": "F minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": "deceptive",
+        "compases": 40,
+        "n_secciones": 7,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "break",
+          "verse",
+          "outro"
+        ],
+        "energia_media": 0.359,
+        "energia_max": 0.65,
+        "tension_media": 0.334,
+        "densidad_media": 0.341,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 9,
+      "id": "asfalto_humedo",
+      "titulo": "Asfalto Húmedo",
+      "rol": "perfil asignado por el planificador",
+      "doc": "docs/asfalto_humedo.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/asfalto_humedo.json",
+      "sha256_doc": "18a02c86c908287d8ffa4c35f0c369f0c27d11fd6f561b5dfb98174542a9d998",
+      "perfil": "sax_vibes",
+      "seed": 4009,
+      "origen_seed": "derivada",
+      "harmony": {
+        "keyword": "alternative",
+        "variacion": "subtle"
+      },
+      "digest": {
+        "titulo": "Asfalto Húmedo",
+        "bpm": 86,
+        "seed_global": 8105,
+        "tonalidad": "A minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": "tonal",
+        "compases": 44,
+        "n_secciones": 7,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "verse",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.476,
+        "energia_max": 0.75,
+        "tension_media": 0.379,
+        "densidad_media": 0.439,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "asignado"
+    },
+    {
+      "indice": 10,
+      "id": "portico_sur",
+      "titulo": "Pórtico Sur",
+      "rol": "respiro — camino ORIGINAL sin motores",
+      "doc": "docs/portico_sur.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/portico_sur.json",
+      "sha256_doc": "6083133bdceb716a655aa5da528f08ad0d1e3a749ca742a0eb376d81f90a13ac",
+      "perfil": "original",
+      "seed": 4110,
+      "origen_seed": "derivada",
+      "harmony": null,
+      "digest": {
+        "titulo": "Pórtico Sur",
+        "bpm": 79,
+        "seed_global": 8106,
+        "tonalidad": "D minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": "tonal",
+        "compases": 36,
+        "n_secciones": 6,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "chorus",
+          "break",
+          "verse",
+          "outro"
+        ],
+        "energia_media": 0.327,
+        "energia_max": 0.6,
+        "tension_media": 0.307,
+        "densidad_media": 0.313,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 11,
+      "id": "nocturno_terminal",
+      "titulo": "Nocturno Terminal",
+      "rol": "referencia de identidad",
+      "doc": "docs/nocturno_terminal.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/nocturno_terminal.json",
+      "sha256_doc": "a43b98ebe8ec6724c544b5a3ac8758a8f3ec0e3fb4aff6511017b60bc87d2d25",
+      "perfil": "full",
+      "seed": 2026,
+      "origen_seed": "especificado",
+      "harmony": {
+        "keyword": "dark_cinematic",
+        "variacion": "medium"
+      },
+      "digest": {
+        "titulo": "Nocturno Terminal",
+        "bpm": 86,
+        "seed_global": 2026,
+        "tonalidad": "D minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": null,
+        "compases": 52,
+        "n_secciones": 9,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "bridge",
+          "break",
+          "verse",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.5,
+        "energia_max": 0.85,
+        "tension_media": 0.433,
+        "densidad_media": 0.461,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 12,
+      "id": "marea_baja",
+      "titulo": "Marea Baja",
+      "rol": "resolución emocional",
+      "doc": "docs/marea_baja.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/marea_baja.json",
+      "sha256_doc": "84c0315ddae1d3ffefacfe97ccdecd704d797db174287b6488cc9328da3652f7",
+      "perfil": "sax",
+      "seed": 4312,
+      "origen_seed": "derivada",
+      "harmony": {
+        "keyword": "emotional_resolution",
+        "variacion": "subtle"
+      },
+      "digest": {
+        "titulo": "Marea Baja",
+        "bpm": 84,
+        "seed_global": 8107,
+        "tonalidad": "F minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": "tonal",
+        "compases": 40,
+        "n_secciones": 7,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "pre_chorus",
+          "chorus",
+          "bridge",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.459,
+        "energia_max": 0.72,
+        "tension_media": 0.393,
+        "densidad_media": 0.421,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 13,
+      "id": "ultimo_metro",
+      "titulo": "Último Metro",
+      "rol": "cierre — familiarity_auto EXPLÍCITA del compositor",
+      "doc": "docs/ultimo_metro.json",
+      "doc_resuelto": "/home/z/my-project/nucleo_engine_project/albumes/noches_largas/docs/ultimo_metro.json",
+      "sha256_doc": "ebf924b0a61f339d72638e66226ac1267f915f442f37b08b083305357b157c20",
+      "perfil": "atmospheric",
+      "seed": 4413,
+      "origen_seed": "derivada",
+      "harmony": {
+        "keyword": "familiarity_auto",
+        "variacion": "subtle"
+      },
+      "digest": {
+        "titulo": "Último Metro",
+        "bpm": 76,
+        "seed_global": 8108,
+        "tonalidad": "C minor",
+        "lenguaje": "pop_dream_pop",
+        "resolucion": "open",
+        "compases": 36,
+        "n_secciones": 6,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "chorus",
+          "break",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.343,
+        "energia_max": 0.62,
+        "tension_media": 0.305,
+        "densidad_media": 0.313,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    }
+  ],
+  "errores_documentos": [],
+  "analisis": {
+    "diversidad_pre": {
+      "perfiles": {
+        "sax": 2,
+        "full": 3,
+        "atmospheric": 3,
+        "original": 2,
+        "sax_rhodes": 1,
+        "drums": 1,
+        "sax_vibes": 1
+      },
+      "frac_max_config": 0.4,
+      "exceso_perfil": [],
+      "respiro_cada": 5,
+      "ventanas_sin_respiro": [],
+      "consecutivos_iguales": [],
+      "tonalidades_pegadas": [],
+      "bpm_fuera_de_rango": [],
+      "bpm_rango_sano": [
+        76,
+        92
+      ],
+      "distancia_tonal_consecutivas": [
+        3,
+        2,
+        3,
+        2,
+        4,
+        2,
+        3,
+        4,
+        5,
+        0,
+        3,
+        5
+      ]
+    },
+    "curva_energia": {
+      "objetivo": [
+        0.48,
+        0.59,
+        0.49,
+        0.42,
+        0.46,
+        0.39,
+        0.48,
+        0.36,
+        0.48,
+        0.33,
+        0.5,
+        0.46,
+        0.34
+      ],
+      "real": [
+        0.475,
+        0.59,
+        0.495,
+        0.424,
+        0.456,
+        0.387,
+        0.485,
+        0.359,
+        0.476,
+        0.327,
+        0.5,
+        0.459,
+        0.343
+      ],
+      "desviacion": [
+        0.005,
+        0.0,
+        0.005,
+        0.004,
+        0.004,
+        0.003,
+        0.005,
+        0.001,
+        0.004,
+        0.003,
+        0.0,
+        0.001,
+        0.003
+      ]
+    },
+    "avisos": [
+      "W-A3: la pista 'ultimo_metro' usa familiarity_auto declarada EXPLÍCITAMENTE en el spec (el sistema nunca la activa solo)"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIDI Forge</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">MIDI <b>Forge</b><span id="ver"></span></div>
+  <input id="projName" class="name" placeholder="Nombre del proyecto" spellcheck="false">
+  <div class="spacer"></div>
+  <label class="auto"><input type="checkbox" id="autoGen"> auto-generar</label>
+  <button id="btnGen" class="primary" title="Ctrl+Enter">&#9881; Generar</button>
+  <button id="btnPlay" title="Espacio">&#9654; Escuchar</button>
+  <button id="btnMid" disabled>&#11015; MIDI</button>
+  <button id="btnProj">&#11015; Proyecto</button>
+  <button id="btnEvents" disabled>&#11015; Eventos</button>
+  <select id="mp3Mode" title="Origen del audio del MP3"><option value="auto">MP3: auto</option><option value="browser">MP3: navegador</option></select>
+  <button id="btnMp3" disabled class="primary" title="Descargar MP3">&#11015; MP3</button>
+  <button id="btnWav" disabled title="Requiere FluidSynth + soundfont">&#11015; WAV</button>
+  <button id="btnSave" disabled title="Guarda en la carpeta output/">Guardar en output/</button>
+</header>
+<div id="status" class="status">Cargando...</div>
+<main>
+  <aside>
+    <nav id="tabs"></nav>
+    <section id="panel"></section>
+  </aside>
+  <section id="stage">
+    <div class="rollbar">
+      <span>Zoom</span><input type="range" id="zoom" min="4" max="48" value="14">
+      <span id="legend"></span>
+      <span class="spacer"></span><span id="clock">0:00</span>
+    </div>
+    <div id="rollWrap"><canvas id="roll"></canvas><div id="playhead"></div></div>
+    <div id="infoBox"></div>
+  </section>
+</main>
+<script src="lame.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

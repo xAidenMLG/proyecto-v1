@@ -1,0 +1,2404 @@
+{
+ "schema": "midi-forge/1",
+ "meta": {
+  "name": "Neon Rain (v2)",
+  "description": "Dark synthwave / cinematic electronic con toques neo-soul. Version hibrida: la especificacion original de Neon Rain (92 BPM, Dm eolico, i-VI-III-VII / iv-VII-III-VI / i-v-VI-VII con 7a y 9a) mas las tecnicas de Shadow Corner (bends, slides de bajo, voicings abiertos full/bare, cromatismos, clusters, tape-stop, validacion). Composicion original.",
+  "note": "Las secciones suman 88 compases (3:50 a 92 BPM), no los 2:15 del pedido original."
+ },
+ "global": {
+  "bpm": 92.0,
+  "time_signature": [
+   4,
+   4
+  ],
+  "key": "D minor (1 bemol)",
+  "ticks_per_beat": 480,
+  "seed": 92,
+  "humanize": 1.0,
+  "velocity_cap": 110,
+  "pitch_bend_range": 2,
+  "preset": "synthwave",
+  "repair_clashes": true
+ },
+ "tracks": [
+  {
+   "program": 88,
+   "volume": 88.0,
+   "pan": 64.0,
+   "reverb": 120.0,
+   "chorus": 60.0,
+   "detune": 70.0,
+   "offset_ticks": 0.0,
+   "jitter_ticks": 6.0,
+   "vel_jitter": 3,
+   "range": [
+    50,
+    65
+   ],
+   "mono": false,
+   "id": "pad",
+   "name": "Pad atmosferico",
+   "role": "pad",
+   "channel": 1,
+   "enabled": true,
+   "mute": false,
+   "solo": false
+  },
+  {
+   "program": 38,
+   "volume": 112.0,
+   "pan": 64.0,
+   "reverb": 20.0,
+   "chorus": 0.0,
+   "detune": 0.0,
+   "offset_ticks": -3.0,
+   "jitter_ticks": 4.0,
+   "vel_jitter": 4,
+   "range": [
+    33,
+    55
+   ],
+   "mono": true,
+   "id": "bass",
+   "name": "Bajo sintetico",
+   "role": "bass",
+   "channel": 2,
+   "enabled": true,
+   "mute": false,
+   "solo": false
+  },
+  {
+   "program": 81,
+   "volume": 100.0,
+   "pan": 72.0,
+   "reverb": 100.0,
+   "chorus": 30.0,
+   "detune": -35.0,
+   "offset_ticks": 14.0,
+   "jitter_ticks": 12.0,
+   "vel_jitter": 5,
+   "range": [
+    72,
+    88
+   ],
+   "mono": true,
+   "id": "lead",
+   "name": "Lead principal",
+   "role": "lead",
+   "channel": 3,
+   "enabled": true,
+   "mute": false,
+   "solo": false
+  },
+  {
+   "program": 50,
+   "volume": 92.0,
+   "pan": 48.0,
+   "reverb": 100.0,
+   "chorus": 70.0,
+   "detune": -90.0,
+   "offset_ticks": 17.0,
+   "jitter_ticks": 6.0,
+   "vel_jitter": 3,
+   "range": [
+    48,
+    70
+   ],
+   "mono": false,
+   "id": "strings",
+   "name": "Synth strings",
+   "role": "strings",
+   "channel": 4,
+   "enabled": true,
+   "mute": false,
+   "solo": false
+  },
+  {
+   "program": 4,
+   "volume": 96.0,
+   "pan": 86.0,
+   "reverb": 95.0,
+   "chorus": 50.0,
+   "detune": 55.0,
+   "offset_ticks": 10.0,
+   "jitter_ticks": 5.0,
+   "vel_jitter": 5,
+   "range": [
+    60,
+    84
+   ],
+   "mono": false,
+   "id": "arp",
+   "name": "Arpegio EP",
+   "role": "arp",
+   "channel": 5,
+   "enabled": true,
+   "mute": false,
+   "solo": false
+  },
+  {
+   "program": null,
+   "volume": 106.0,
+   "pan": 64.0,
+   "reverb": 60.0,
+   "chorus": 0.0,
+   "detune": 0,
+   "offset_ticks": 0.0,
+   "jitter_ticks": 4.0,
+   "vel_jitter": 5,
+   "range": [
+    36,
+    53
+   ],
+   "mono": false,
+   "id": "drums",
+   "name": "Percusion electronica",
+   "role": "drums",
+   "channel": 10,
+   "enabled": true,
+   "mute": false,
+   "solo": false
+  }
+ ],
+ "sections": [
+  {
+   "id": "intro",
+   "name": "Intro",
+   "kind": "intro",
+   "bars": 8,
+   "final": false,
+   "occurrence": 0,
+   "chords": [
+    "Dm",
+    "Bb",
+    "F",
+    "C"
+   ],
+   "chord_bars": 2.0,
+   "velocity": [
+    50,
+    50
+   ],
+   "blocks": {
+    "pad": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "rootfifth"
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 62
+    },
+    "bass": {
+     "enabled": false,
+     "style": "none",
+     "params": {},
+     "from_bar": 0,
+     "to_bar": null
+    },
+    "lead": {
+     "enabled": false,
+     "style": "none",
+     "params": {},
+     "from_bar": 0,
+     "to_bar": null
+    },
+    "strings": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "full"
+      }
+     },
+     "from_bar": 2,
+     "to_bar": null,
+     "velocity": [
+      44,
+      56
+     ]
+    },
+    "arp": {
+     "enabled": true,
+     "style": "pings",
+     "params": {
+      "dur": 3
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 52
+    },
+    "drums": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "preset": "intro_air"
+     },
+     "from_bar": 0,
+     "to_bar": null
+    }
+   }
+  },
+  {
+   "id": "verso_1",
+   "name": "Verso 1",
+   "kind": "verse",
+   "bars": 16,
+   "final": false,
+   "occurrence": 0,
+   "chords": [
+    "Dm",
+    "Bb",
+    "F",
+    "C"
+   ],
+   "chord_bars": 1.0,
+   "velocity": [
+    72,
+    72
+   ],
+   "blocks": {
+    "pad": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "rootfifth"
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 60
+    },
+    "bass": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "pattern_set": "synth_verse",
+      "light_bars": 4
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 88
+    },
+    "lead": {
+     "enabled": true,
+     "style": "auto",
+     "params": {
+      "density": 0.28,
+      "long_prob": 0.7,
+      "bends": {
+       "scoop": {
+        "enabled": true,
+        "beats": 0.25
+       },
+       "fall": {
+        "enabled": true
+       }
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 80
+    },
+    "strings": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "modes_by_cycle": {
+       "2": "full",
+       "3": "bare"
+      }
+     },
+     "from_bar": 8,
+     "to_bar": null,
+     "velocity": 54
+    },
+    "arp": {
+     "enabled": true,
+     "style": "arp",
+     "params": {
+      "pattern": "p1",
+      "alt_patterns": [
+       "p1",
+       "p2"
+      ],
+      "degrees": [
+       1,
+       3,
+       5
+      ],
+      "size": 4,
+      "range": [
+       60,
+       88
+      ]
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 66
+    },
+    "drums": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "preset": "synth_verse",
+      "light_bars": 4
+     },
+     "from_bar": 0,
+     "to_bar": null
+    }
+   }
+  },
+  {
+   "id": "pre_coro",
+   "name": "Pre-coro",
+   "kind": "pre",
+   "bars": 8,
+   "final": false,
+   "occurrence": 0,
+   "chords": [
+    "Gm",
+    "C",
+    "F",
+    "Bb"
+   ],
+   "chord_bars": 1.0,
+   "velocity": [
+    82,
+    82
+   ],
+   "blocks": {
+    "pad": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "triad"
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": [
+      62,
+      78
+     ]
+    },
+    "bass": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "pattern_set": "synth_pre"
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": [
+      90,
+      100
+     ]
+    },
+    "lead": {
+     "enabled": true,
+     "style": "auto",
+     "params": {
+      "density": 0.4,
+      "contour": "rising",
+      "long_prob": 0.5,
+      "bends": {
+       "scoop": {
+        "enabled": true,
+        "beats": 0.25
+       },
+       "fall": {
+        "enabled": true
+       }
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": [
+      84,
+      96
+     ]
+    },
+    "strings": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "full"
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": [
+      62,
+      84
+     ]
+    },
+    "arp": {
+     "enabled": true,
+     "style": "arp",
+     "params": {
+      "pattern": "p1",
+      "alt_patterns": [
+       "p1",
+       "p2"
+      ],
+      "degrees": [
+       1,
+       3,
+       5
+      ],
+      "size": 4,
+      "range": [
+       60,
+       88
+      ],
+      "step_changes": [
+       {
+        "from_bar": 6,
+        "step": 0.25
+       }
+      ]
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": [
+      68,
+      88
+     ]
+    },
+    "drums": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "preset": "synth_pre"
+     },
+     "from_bar": 0,
+     "to_bar": null
+    }
+   }
+  },
+  {
+   "id": "coro",
+   "name": "Coro",
+   "kind": "chorus",
+   "bars": 16,
+   "final": false,
+   "occurrence": 0,
+   "chords": [
+    "Dm9",
+    "Am7",
+    "Bbmaj7",
+    "C(add9)"
+   ],
+   "chord_bars": 1.0,
+   "velocity": [
+    92,
+    92
+   ],
+   "blocks": {
+    "pad": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "shell"
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 78
+    },
+    "bass": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "pattern_set": "synth_chorus"
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 104
+    },
+    "lead": {
+     "enabled": true,
+     "style": "auto",
+     "params": {
+      "density": 0.6,
+      "long_prob": 0.35,
+      "bends": {
+       "scoop": {
+        "enabled": true,
+        "beats": 0.25
+       },
+       "fall": {
+        "enabled": true
+       }
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 102
+    },
+    "strings": {
+     "enabled": true,
+     "style": "stabs",
+     "params": {
+      "voicing": {
+       "profile": "full"
+      },
+      "rhythm": [
+       [
+        0,
+        1.5,
+        0
+       ],
+       [
+        1.5,
+        1.5,
+        -8
+       ],
+       [
+        3,
+        1,
+        -4
+       ]
+      ]
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 94
+    },
+    "arp": {
+     "enabled": true,
+     "style": "arp",
+     "params": {
+      "pattern": "updown",
+      "degrees": [
+       1,
+       3,
+       5,
+       7
+      ],
+      "ext_degrees": [
+       9
+      ],
+      "ext_min_pitch": 72,
+      "size": 5,
+      "range": [
+       62,
+       90
+      ]
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 96
+    },
+    "drums": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "preset": "synth_chorus"
+     },
+     "from_bar": 0,
+     "to_bar": null
+    }
+   }
+  },
+  {
+   "id": "verso_2",
+   "name": "Verso 2",
+   "kind": "verse",
+   "bars": 16,
+   "final": false,
+   "occurrence": 1,
+   "chords": [
+    "Dm",
+    "Bb",
+    "F",
+    "C"
+   ],
+   "chord_bars": 1.0,
+   "velocity": [
+    82,
+    82
+   ],
+   "blocks": {
+    "pad": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "rootfifth"
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 64
+    },
+    "bass": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "pattern_set": "synth_verse",
+      "light_bars": 0
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 92
+    },
+    "lead": {
+     "enabled": true,
+     "style": "auto",
+     "params": {
+      "density": 0.28,
+      "long_prob": 0.7,
+      "bends": {
+       "scoop": {
+        "enabled": true,
+        "beats": 0.25
+       },
+       "fall": {
+        "enabled": true
+       }
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 80
+    },
+    "strings": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "modes": [
+       "bare",
+       "full",
+       "bare",
+       "full"
+      ]
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 62
+    },
+    "arp": {
+     "enabled": true,
+     "style": "arp",
+     "params": {
+      "pattern": "p1",
+      "alt_patterns": [
+       "p1",
+       "p2"
+      ],
+      "degrees": [
+       1,
+       3,
+       5
+      ],
+      "size": 4,
+      "range": [
+       60,
+       88
+      ]
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 72
+    },
+    "drums": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "preset": "synth_verse2",
+      "light_bars": 0
+     },
+     "from_bar": 0,
+     "to_bar": null
+    }
+   }
+  },
+  {
+   "id": "coro_final",
+   "name": "Coro final",
+   "kind": "chorus",
+   "bars": 16,
+   "final": true,
+   "occurrence": 1,
+   "chords": [
+    "Dm9",
+    "Am7",
+    "Bbmaj7",
+    "C(add9)"
+   ],
+   "chord_bars": 1.0,
+   "velocity": [
+    81,
+    81
+   ],
+   "blocks": {
+    "pad": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "shell"
+      },
+      "tension": [
+       {
+        "offset": 1,
+        "near": 60,
+        "beat": 2,
+        "dur": 1.5,
+        "vel": 50,
+        "quality": "minor",
+        "when": {
+         "from": 8,
+         "bar_mod": [
+          4,
+          [
+           0,
+           1
+          ]
+         ]
+        }
+       }
+      ]
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 82
+    },
+    "bass": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "pattern_set": "synth_chorus"
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 108
+    },
+    "lead": {
+     "enabled": true,
+     "style": "auto",
+     "params": {
+      "density": 0.6,
+      "long_prob": 0.35,
+      "bends": {
+       "scoop": {
+        "enabled": true,
+        "beats": 0.25
+       },
+       "fall": {
+        "enabled": true
+       }
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 106
+    },
+    "strings": {
+     "enabled": true,
+     "style": "stabs",
+     "params": {
+      "voicing": {
+       "profile": "full"
+      },
+      "rhythm": [
+       [
+        0,
+        1.5,
+        0
+       ],
+       [
+        1.5,
+        1.5,
+        -8
+       ],
+       [
+        3,
+        1,
+        -4
+       ]
+      ]
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 100
+    },
+    "arp": {
+     "enabled": true,
+     "style": "arp",
+     "params": {
+      "pattern": "updown",
+      "degrees": [
+       1,
+       3,
+       5,
+       7
+      ],
+      "ext_degrees": [
+       9
+      ],
+      "ext_min_pitch": 72,
+      "size": 5,
+      "range": [
+       62,
+       90
+      ],
+      "step_changes": [
+       {
+        "from_bar": 8,
+        "step": 0.25
+       }
+      ]
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 100
+    },
+    "drums": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "preset": "synth_chorus"
+     },
+     "from_bar": 0,
+     "to_bar": null
+    }
+   }
+  },
+  {
+   "id": "outro",
+   "name": "Outro",
+   "kind": "outro",
+   "bars": 8,
+   "final": false,
+   "occurrence": 0,
+   "chords": [
+    "Dm",
+    "Bb",
+    "F",
+    "C",
+    "Dm"
+   ],
+   "chord_bars": 2.0,
+   "velocity": [
+    63,
+    63
+   ],
+   "blocks": {
+    "pad": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "rootfifth"
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 60
+    },
+    "bass": {
+     "enabled": true,
+     "style": "long",
+     "params": {
+      "fifth_at": 4
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 78
+    },
+    "lead": {
+     "enabled": true,
+     "style": "hold",
+     "params": {
+      "legato": 1.0
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": [
+      78,
+      64
+     ]
+    },
+    "strings": {
+     "enabled": true,
+     "style": "sustain",
+     "params": {
+      "voicing": {
+       "profile": "full"
+      }
+     },
+     "from_bar": 0,
+     "to_bar": null,
+     "velocity": 56
+    },
+    "arp": {
+     "enabled": true,
+     "style": "arp",
+     "params": {
+      "pattern": "alt",
+      "step": 1,
+      "degrees": [
+       1,
+       3,
+       5
+      ],
+      "size": 4
+     },
+     "from_bar": 0,
+     "to_bar": 6,
+     "velocity": 56
+    },
+    "drums": {
+     "enabled": true,
+     "style": "pattern",
+     "params": {
+      "preset": "synth_outro"
+     },
+     "from_bar": 0,
+     "to_bar": null
+    }
+   }
+  }
+ ],
+ "lead": {
+  "phrases": {
+   "intro": [],
+   "verso_1": [
+    {
+     "bar": 4,
+     "beat": 0.5,
+     "pitch": 77,
+     "dur": 2.25
+    },
+    {
+     "bar": 4,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "bar": 5,
+     "beat": 0.5,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "bar": 5,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 6,
+     "beat": 0.5,
+     "pitch": 81,
+     "dur": 2.25
+    },
+    {
+     "bar": 6,
+     "beat": 3.0,
+     "pitch": 79,
+     "dur": 0.75
+    },
+    {
+     "bar": 7,
+     "beat": 0.5,
+     "pitch": 76,
+     "dur": 2.25
+    },
+    {
+     "bar": 7,
+     "beat": 3.5,
+     "pitch": 74,
+     "dur": 0.5
+    },
+    {
+     "bar": 8,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "bar": 8,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 8,
+     "beat": 2.5,
+     "pitch": 77,
+     "dur": 1.5
+    },
+    {
+     "bar": 9,
+     "beat": 1.0,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "bar": 9,
+     "beat": 3.5,
+     "pitch": 72,
+     "dur": 0.5
+    },
+    {
+     "bar": 10,
+     "beat": 0.0,
+     "pitch": 72,
+     "dur": 1.0
+    },
+    {
+     "bar": 10,
+     "beat": 1.5,
+     "pitch": 77,
+     "dur": 1.5
+    },
+    {
+     "bar": 10,
+     "beat": 3.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 11,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 2.75
+    },
+    {
+     "bar": 12,
+     "beat": 0.5,
+     "pitch": 77,
+     "dur": 2.25
+    },
+    {
+     "bar": 12,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "bar": 13,
+     "beat": 0.5,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "bar": 13,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 14,
+     "beat": 0.5,
+     "pitch": 81,
+     "dur": 2.25
+    },
+    {
+     "bar": 14,
+     "beat": 3.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 15,
+     "beat": 0.5,
+     "pitch": 76,
+     "dur": 2.25
+    },
+    {
+     "bar": 15,
+     "beat": 3.5,
+     "pitch": 74,
+     "dur": 0.5
+    }
+   ],
+   "pre_coro": [
+    {
+     "bar": 0,
+     "beat": 0.0,
+     "pitch": 74,
+     "dur": 2.0
+    },
+    {
+     "bar": 0,
+     "beat": 2.5,
+     "pitch": 79,
+     "dur": 1.25
+    },
+    {
+     "bar": 1,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 1.75
+    },
+    {
+     "bar": 1,
+     "beat": 2.5,
+     "pitch": 79,
+     "dur": 1.5
+    },
+    {
+     "bar": 2,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.5
+    },
+    {
+     "bar": 2,
+     "beat": 1.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 2,
+     "beat": 2.0,
+     "pitch": 77,
+     "dur": 2.0
+    },
+    {
+     "bar": 3,
+     "beat": 0.0,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "bar": 3,
+     "beat": 1.0,
+     "pitch": 77,
+     "dur": 0.75
+    },
+    {
+     "bar": 3,
+     "beat": 2.0,
+     "pitch": 82,
+     "dur": 1.75
+    },
+    {
+     "bar": 4,
+     "beat": 0.0,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "bar": 4,
+     "beat": 1.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 4,
+     "beat": 2.0,
+     "pitch": 82,
+     "dur": 1.75
+    },
+    {
+     "bar": 5,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 5,
+     "beat": 1.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 5,
+     "beat": 2.0,
+     "pitch": 84,
+     "dur": 1.75
+    },
+    {
+     "bar": 6,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 6,
+     "beat": 1.0,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "bar": 6,
+     "beat": 2.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 6,
+     "beat": 3.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 7,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 7,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 7,
+     "beat": 2.0,
+     "pitch": 82,
+     "dur": 1.0
+    },
+    {
+     "bar": 7,
+     "beat": 3.0,
+     "pitch": 84,
+     "dur": 1.0
+    }
+   ],
+   "coro": [
+    {
+     "bar": 0,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.5
+    },
+    {
+     "bar": 0,
+     "beat": 1.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "bar": 0,
+     "beat": 2.0,
+     "pitch": 76,
+     "dur": 0.75
+    },
+    {
+     "bar": 0,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "bar": 1,
+     "beat": 0.0,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "bar": 1,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 0.75
+    },
+    {
+     "bar": 1,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 1.5
+    },
+    {
+     "bar": 1,
+     "beat": 3.5,
+     "pitch": 76,
+     "dur": 0.5
+    },
+    {
+     "bar": 2,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 2,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 0.75
+    },
+    {
+     "bar": 2,
+     "beat": 2.0,
+     "pitch": 86,
+     "dur": 1.25
+    },
+    {
+     "bar": 2,
+     "beat": 3.5,
+     "pitch": 84,
+     "dur": 0.5
+    },
+    {
+     "bar": 3,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 3,
+     "beat": 1.0,
+     "pitch": 79,
+     "dur": 0.75
+    },
+    {
+     "bar": 3,
+     "beat": 2.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 3,
+     "beat": 3.0,
+     "pitch": 86,
+     "dur": 0.75
+    },
+    {
+     "bar": 4,
+     "beat": 0.0,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "bar": 4,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 4,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 4,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 0.75
+    },
+    {
+     "bar": 5,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 5,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 5,
+     "beat": 2.0,
+     "pitch": 84,
+     "dur": 1.75
+    },
+    {
+     "bar": 6,
+     "beat": 0.0,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "bar": 6,
+     "beat": 1.0,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "bar": 6,
+     "beat": 2.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 6,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 7,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 1.25
+    },
+    {
+     "bar": 7,
+     "beat": 1.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 7,
+     "beat": 2.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 7,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "bar": 8,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "bar": 8,
+     "beat": 1.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "bar": 8,
+     "beat": 2.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 8,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "bar": 9,
+     "beat": 0.0,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "bar": 9,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 9,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 1.25
+    },
+    {
+     "bar": 9,
+     "beat": 3.5,
+     "pitch": 76,
+     "dur": 0.5
+    },
+    {
+     "bar": 10,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 0.75
+    },
+    {
+     "bar": 10,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 10,
+     "beat": 2.0,
+     "pitch": 86,
+     "dur": 1.25
+    },
+    {
+     "bar": 10,
+     "beat": 3.5,
+     "pitch": 84,
+     "dur": 0.5
+    },
+    {
+     "bar": 11,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 11,
+     "beat": 1.0,
+     "pitch": 79,
+     "dur": 0.75
+    },
+    {
+     "bar": 11,
+     "beat": 2.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 11,
+     "beat": 3.0,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "bar": 12,
+     "beat": 0.0,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "bar": 12,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 12,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 12,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 13,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 13,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 13,
+     "beat": 2.0,
+     "pitch": 84,
+     "dur": 1.75
+    },
+    {
+     "bar": 14,
+     "beat": 0.0,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "bar": 14,
+     "beat": 1.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 14,
+     "beat": 2.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 14,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 15,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 1.25
+    },
+    {
+     "bar": 15,
+     "beat": 1.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 15,
+     "beat": 2.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 15,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 1.0
+    }
+   ],
+   "verso_2": [
+    {
+     "bar": 0,
+     "beat": 0.5,
+     "pitch": 77,
+     "dur": 2.25
+    },
+    {
+     "bar": 0,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "bar": 1,
+     "beat": 0.5,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "bar": 1,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 2,
+     "beat": 0.5,
+     "pitch": 81,
+     "dur": 2.25
+    },
+    {
+     "bar": 2,
+     "beat": 3.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 3,
+     "beat": 0.5,
+     "pitch": 76,
+     "dur": 2.25
+    },
+    {
+     "bar": 3,
+     "beat": 3.5,
+     "pitch": 74,
+     "dur": 0.5
+    },
+    {
+     "bar": 4,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.5
+    },
+    {
+     "bar": 4,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 4,
+     "beat": 2.5,
+     "pitch": 77,
+     "dur": 1.5
+    },
+    {
+     "bar": 5,
+     "beat": 1.0,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "bar": 5,
+     "beat": 3.5,
+     "pitch": 72,
+     "dur": 0.5
+    },
+    {
+     "bar": 6,
+     "beat": 0.0,
+     "pitch": 72,
+     "dur": 1.0
+    },
+    {
+     "bar": 6,
+     "beat": 1.5,
+     "pitch": 77,
+     "dur": 1.25
+    },
+    {
+     "bar": 6,
+     "beat": 3.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 7,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 2.75
+    },
+    {
+     "bar": 8,
+     "beat": 0.5,
+     "pitch": 77,
+     "dur": 2.25
+    },
+    {
+     "bar": 8,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "bar": 9,
+     "beat": 0.5,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "bar": 9,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 10,
+     "beat": 0.5,
+     "pitch": 81,
+     "dur": 2.25
+    },
+    {
+     "bar": 10,
+     "beat": 3.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 11,
+     "beat": 0.5,
+     "pitch": 76,
+     "dur": 2.25
+    },
+    {
+     "bar": 11,
+     "beat": 3.5,
+     "pitch": 74,
+     "dur": 0.5
+    },
+    {
+     "bar": 12,
+     "beat": 0.0,
+     "pitch": 74,
+     "dur": 0.5
+    },
+    {
+     "bar": 12,
+     "beat": 0.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "bar": 12,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "bar": 12,
+     "beat": 2.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 12,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 13,
+     "beat": 0.0,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "bar": 13,
+     "beat": 1.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "bar": 13,
+     "beat": 2.0,
+     "pitch": 82,
+     "dur": 1.5
+    },
+    {
+     "bar": 13,
+     "beat": 3.5,
+     "pitch": 81,
+     "dur": 0.5
+    },
+    {
+     "bar": 14,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 14,
+     "beat": 1.0,
+     "pitch": 80,
+     "dur": 0.5
+    },
+    {
+     "bar": 14,
+     "beat": 1.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 14,
+     "beat": 2.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 14,
+     "beat": 3.0,
+     "pitch": 72,
+     "dur": 0.75
+    },
+    {
+     "bar": 15,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 15,
+     "beat": 1.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 15,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 0.75
+    },
+    {
+     "bar": 15,
+     "beat": 3.0,
+     "pitch": 76,
+     "dur": 0.75
+    }
+   ],
+   "coro_final": [
+    {
+     "bar": 0,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "bar": 0,
+     "beat": 1.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "bar": 0,
+     "beat": 2.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 0,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "bar": 1,
+     "beat": 0.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 1,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 1,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 1.25
+    },
+    {
+     "bar": 1,
+     "beat": 3.5,
+     "pitch": 76,
+     "dur": 0.25
+    },
+    {
+     "bar": 2,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 2,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 0.75
+    },
+    {
+     "bar": 2,
+     "beat": 2.0,
+     "pitch": 86,
+     "dur": 1.5
+    },
+    {
+     "bar": 2,
+     "beat": 3.5,
+     "pitch": 84,
+     "dur": 0.5
+    },
+    {
+     "bar": 3,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 3,
+     "beat": 1.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 3,
+     "beat": 2.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 3,
+     "beat": 3.0,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "bar": 4,
+     "beat": 0.0,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "bar": 4,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 4,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 4,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 5,
+     "beat": 0.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 5,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 5,
+     "beat": 2.0,
+     "pitch": 84,
+     "dur": 1.75
+    },
+    {
+     "bar": 6,
+     "beat": 0.0,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "bar": 6,
+     "beat": 1.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 6,
+     "beat": 2.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 6,
+     "beat": 3.0,
+     "pitch": 77,
+     "dur": 0.75
+    },
+    {
+     "bar": 7,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 1.25
+    },
+    {
+     "bar": 7,
+     "beat": 1.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "bar": 7,
+     "beat": 2.0,
+     "pitch": 76,
+     "dur": 0.75
+    },
+    {
+     "bar": 7,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "bar": 8,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 8,
+     "beat": 1.0,
+     "pitch": 86,
+     "dur": 0.75
+    },
+    {
+     "bar": 8,
+     "beat": 2.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 8,
+     "beat": 3.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 9,
+     "beat": 0.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 9,
+     "beat": 1.0,
+     "pitch": 88,
+     "dur": 1.0
+    },
+    {
+     "bar": 9,
+     "beat": 2.0,
+     "pitch": 86,
+     "dur": 0.75
+    },
+    {
+     "bar": 9,
+     "beat": 3.0,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "bar": 10,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 0.75
+    },
+    {
+     "bar": 10,
+     "beat": 1.0,
+     "pitch": 86,
+     "dur": 1.75
+    },
+    {
+     "bar": 10,
+     "beat": 3.0,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "bar": 11,
+     "beat": 0.0,
+     "pitch": 88,
+     "dur": 1.0
+    },
+    {
+     "bar": 11,
+     "beat": 1.0,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "bar": 11,
+     "beat": 2.0,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "bar": 11,
+     "beat": 3.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "bar": 12,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "bar": 12,
+     "beat": 1.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "bar": 12,
+     "beat": 2.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 12,
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "bar": 13,
+     "beat": 0.0,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "bar": 13,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 13,
+     "beat": 2.0,
+     "pitch": 79,
+     "dur": 1.25
+    },
+    {
+     "bar": 13,
+     "beat": 3.5,
+     "pitch": 76,
+     "dur": 0.5
+    },
+    {
+     "bar": 14,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "bar": 14,
+     "beat": 1.0,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "bar": 14,
+     "beat": 2.0,
+     "pitch": 86,
+     "dur": 1.5
+    },
+    {
+     "bar": 14,
+     "beat": 3.5,
+     "pitch": 84,
+     "dur": 0.5
+    },
+    {
+     "bar": 15,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 1.75
+    },
+    {
+     "bar": 15,
+     "beat": 2.0,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "bar": 15,
+     "beat": 3.0,
+     "pitch": 79,
+     "dur": 0.75
+    }
+   ],
+   "outro": [
+    {
+     "bar": 0,
+     "beat": 0.5,
+     "pitch": 81,
+     "dur": 3.0
+    },
+    {
+     "bar": 1,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 4.0
+    },
+    {
+     "bar": 2,
+     "beat": 0.0,
+     "pitch": 74,
+     "dur": 4.0
+    },
+    {
+     "bar": 3,
+     "beat": 0.0,
+     "pitch": 77,
+     "dur": 4.0
+    },
+    {
+     "bar": 4,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 4.0
+    },
+    {
+     "bar": 5,
+     "beat": 0.0,
+     "pitch": 79,
+     "dur": 4.0
+    },
+    {
+     "bar": 6,
+     "beat": 0.0,
+     "pitch": 81,
+     "dur": 4.0
+    },
+    {
+     "bar": 7,
+     "beat": 0.0,
+     "pitch": 74,
+     "dur": 4.0
+    }
+   ]
+  }
+ },
+ "automation": [
+  {
+   "track": "pad",
+   "cc": 11,
+   "from": {
+    "section": "intro",
+    "bar": 0
+   },
+   "to": {
+    "section": "intro",
+    "bar": 4
+   },
+   "v0": 35,
+   "v1": 127
+  },
+  {
+   "track": "strings",
+   "cc": 11,
+   "from": {
+    "section": "intro",
+    "bar": 2
+   },
+   "to": {
+    "section": "intro",
+    "bar": 6
+   },
+   "v0": 40,
+   "v1": 127
+  },
+  {
+   "track": "strings",
+   "cc": 11,
+   "from": {
+    "section": "pre_coro",
+    "bar": 0
+   },
+   "to": {
+    "section": "pre_coro",
+    "bar": 8
+   },
+   "v0": 88,
+   "v1": 127
+  },
+  {
+   "track": "pad",
+   "cc": 11,
+   "from": {
+    "section": "pre_coro",
+    "bar": 0
+   },
+   "to": {
+    "section": "pre_coro",
+    "bar": 8
+   },
+   "v0": 100,
+   "v1": 127
+  }
+ ],
+ "ending": {
+  "fade_out": {
+   "enabled": true,
+   "exponent": 1.5,
+   "cc": 11,
+   "start": {
+    "section": "last",
+    "bar": 0
+   }
+  },
+  "tape_stop": {
+   "enabled": true,
+   "bars": 2,
+   "semitones": -8.4,
+   "range": 12,
+   "exponent": 1.7
+  }
+ }
+}

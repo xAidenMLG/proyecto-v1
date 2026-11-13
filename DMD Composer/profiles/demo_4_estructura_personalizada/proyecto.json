@@ -1,0 +1,205 @@
+{
+  "format": "dmd-composer/1",
+  "pid": "demo_4_estructura_personalizada",
+  "name": "Preludio Para Letras",
+  "notes": "Demo 4: estructura de 10 secciones con nombres visibles y las progresiones por sección del documento de misión (I-III-vi-V → C-Em-Am-G). Pensada para escribir letras.",
+  "created": 1794340627.6549106,
+  "updated": 1794340627.6549106,
+  "decisions": {
+    "identity": {
+      "mode": "fixed",
+      "value": "dark_triphop"
+    },
+    "accessibility": {
+      "mode": "fixed",
+      "value": "commercial"
+    },
+    "bpm": {
+      "mode": "auto",
+      "value": null
+    },
+    "key": {
+      "mode": "fixed",
+      "value": "C major"
+    },
+    "language": {
+      "mode": "auto",
+      "value": null
+    },
+    "resolution": {
+      "mode": "free",
+      "value": null
+    },
+    "harmonic_rhythm_bars": {
+      "mode": "fixed",
+      "value": 1
+    },
+    "harmony_mode": {
+      "mode": "fixed",
+      "value": "guided"
+    },
+    "mood": {
+      "mode": "fixed",
+      "value": "melancholic"
+    },
+    "atmosphere": {
+      "mode": "auto",
+      "value": null
+    },
+    "groove": {
+      "mode": "auto",
+      "value": null
+    },
+    "spaces": {
+      "mode": "free",
+      "value": null
+    },
+    "protagonist": {
+      "mode": "free",
+      "value": null
+    },
+    "production": {
+      "mode": "auto",
+      "value": null
+    },
+    "ending": {
+      "mode": "auto",
+      "value": null
+    },
+    "seed": {
+      "mode": "auto",
+      "value": null
+    }
+  },
+  "instruments": {},
+  "sections": [
+    {
+      "id": "intro",
+      "label": "Intro",
+      "type": "intro",
+      "bars": 4,
+      "final": false
+    },
+    {
+      "id": "verso_1",
+      "label": "Verse 1",
+      "type": "verse",
+      "bars": 16,
+      "final": false
+    },
+    {
+      "id": "pre",
+      "label": "Pre-Chorus",
+      "type": "pre_chorus",
+      "bars": 8,
+      "final": false
+    },
+    {
+      "id": "verso_2",
+      "label": "Verse 2",
+      "type": "verse",
+      "bars": 16,
+      "final": false
+    },
+    {
+      "id": "estribillo",
+      "label": "Chorus",
+      "type": "chorus",
+      "bars": 16,
+      "loop_bars": 8,
+      "final": false
+    },
+    {
+      "id": "preludio",
+      "label": "Preludio",
+      "type": "break",
+      "bars": 8,
+      "drums": "light",
+      "active": [
+        "rhodes",
+        "pad",
+        "vibraphone"
+      ],
+      "final": false
+    },
+    {
+      "id": "verso_3",
+      "label": "Verse 3",
+      "type": "verse",
+      "bars": 16,
+      "final": false
+    },
+    {
+      "id": "estribillo_2",
+      "label": "Chorus Final",
+      "type": "chorus",
+      "bars": 16,
+      "loop_bars": 8,
+      "final": true
+    },
+    {
+      "id": "puente",
+      "label": "Bridge",
+      "type": "bridge",
+      "bars": 8,
+      "final": false
+    },
+    {
+      "id": "outro",
+      "label": "Outro",
+      "type": "outro",
+      "bars": 8,
+      "final": false
+    }
+  ],
+  "harmony_sections": {
+    "intro": {
+      "mode": "guided",
+      "numerals": "I - III - vi - V"
+    },
+    "verso_1": {
+      "mode": "guided",
+      "numerals": "I - III - vi - V"
+    },
+    "pre": {
+      "mode": "guided",
+      "numerals": "IV - I - vi - V"
+    },
+    "verso_2": {
+      "mode": "guided",
+      "numerals": "I - III - vi - V"
+    },
+    "estribillo": {
+      "mode": "guided",
+      "numerals": "IV - I - vi - V"
+    },
+    "preludio": {
+      "mode": "guided",
+      "numerals": "vi - IV - I - V"
+    },
+    "verso_3": {
+      "mode": "guided",
+      "numerals": "I - III - vi - V"
+    },
+    "estribillo_2": {
+      "mode": "guided",
+      "numerals": "IV - I - vi - V"
+    },
+    "puente": {
+      "mode": "guided",
+      "numerals": "IV - I - vi - V"
+    },
+    "outro": {
+      "mode": "guided",
+      "numerals": "I - III - vi - V"
+    }
+  },
+  "production": {
+    "profile": null,
+    "f7_keyword": null,
+    "f7_variation": null,
+    "wav": false
+  },
+  "diversity": "balanced",
+  "album": null
+}

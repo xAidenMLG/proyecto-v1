@@ -1,0 +1,89 @@
+{
+  "composicion": "nocturno_terminal",
+  "perfil": "full",
+  "seed": 2026,
+  "sha256": "3930cadc34ec3bcb4dc2cab9788122aa64fdbec2adf10b17b807366e70d7f228",
+  "bytes": 9456,
+  "bpm": 86.0,
+  "compases": 52,
+  "duracion_s": 145.1,
+  "notas_por_pista": {
+    "sax_tenor": 33,
+    "rhodes": 134,
+    "vibraphone": 15,
+    "bass": 124,
+    "drums": 471,
+    "pad": 92
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 0,
+    "lead_coherencia_armonica": 0.848,
+    "rhodes_secciones_melodicas": [
+      "bridge_1",
+      "verse_2",
+      "outro"
+    ],
+    "rhodes_modos": {
+      "independent": 3,
+      "response": 2,
+      "support": 2,
+      "counterpoint": 2
+    },
+    "rhodes_fuera_registro": 0,
+    "rhodes_pisa_sax": 0,
+    "vibes_eco_fuera_registro": 0,
+    "vibes_ecos_en_secciones_sin_sax": [],
+    "vibes_presupuesto": 4,
+    "vibes_usadas": 4,
+    "drums_fills": [
+      [
+        "pre_1",
+        "build"
+      ]
+    ],
+    "drums_actitudes": {
+      "intro": "keep",
+      "verse_1": "vary",
+      "pre_1": "build",
+      "chorus_1": "build",
+      "bridge_1": "drop",
+      "break_1": "drop",
+      "verse_2": "vary",
+      "chorus_2": "build",
+      "outro": "keep"
+    },
+    "secciones_triple_melodia": [
+      "bridge_1",
+      "verse_2"
+    ],
+    "sax_share": 0.67,
+    "determinismo": true
+  },
+  "fallos": [],
+  "frases_sax": 5,
+  "rhodes_melodico": {
+    "intro": 0,
+    "verse_1": 0,
+    "pre_1": 0,
+    "chorus_1": 0,
+    "bridge_1": 3,
+    "break_1": 0,
+    "verse_2": 3,
+    "chorus_2": 0,
+    "outro": 2
+  },
+  "vibes_eco": {
+    "intro": 0,
+    "verse_1": 0,
+    "pre_1": 0,
+    "chorus_1": 0,
+    "bridge_1": 1,
+    "break_1": 0,
+    "verse_2": 2,
+    "chorus_2": 0,
+    "outro": 0
+  },
+  "seed_distinta_cambia": true
+}

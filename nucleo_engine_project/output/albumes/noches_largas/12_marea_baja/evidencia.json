@@ -1,0 +1,87 @@
+{
+  "composicion": "Marea Baja",
+  "perfil_produccion": "sax",
+  "seed": 4312,
+  "sha256_midi": "bd2208f4460e715b8dfdcf66be0a7776ef51f0a4bef0378a66ad82ef43fbf32d",
+  "sha256_doc": "84c0315ddae1d3ffefacfe97ccdecd704d797db174287b6488cc9328da3652f7",
+  "fecha_generacion_utc": "2026-11-09T06:06:47.570409+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 84.0,
+  "compases": 40,
+  "duracion_s": 114.3,
+  "notas_por_pista": {
+    "sax_tenor": 11,
+    "rhodes": 109,
+    "vibraphone": 16,
+    "bass": 100,
+    "drums": 336,
+    "pad": 80
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [
+    "W414: acorde 'C7' fuera del vocabulario 'pop_dream_pop' (progressions.verse); se respeta por precedencia",
+    "W406: 'strings' no suena en 'bridge_1' → entrada de active/focus ignorada"
+  ],
+  "resumen_actividad": {
+    "frases_sax": 3,
+    "rhodes_melodico_por_seccion": {},
+    "vibes_eco_por_seccion": null
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production sax --seed 4312 --out output/albumes/noches_largas/12_marea_baja --verify bd2208f4460e715b8dfdcf66be0a7776ef51f0a4bef0378a66ad82ef43fbf32d",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"12_marea_baja.mid\" -F salida.wav -r 44100"
+  },
+  "harmonia": {
+    "activacion": {
+      "keyword": "emotional_resolution",
+      "variacion": "subtle"
+    },
+    "resumen": {
+      "reescritas": 7,
+      "respetadas": 0
+    },
+    "eleccion": {
+      "outro": {
+        "id": "SOUL06",
+        "nombre": "Andaluz Soul"
+      },
+      "chorus_2": {
+        "id": "BAL06",
+        "nombre": "Andaluza de Balada"
+      },
+      "bridge_1": {
+        "id": "BAL06",
+        "nombre": "Andaluza de Balada"
+      },
+      "chorus_1": {
+        "id": "BAL06",
+        "nombre": "Andaluza de Balada"
+      },
+      "pre_1": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "verse_1": {
+        "id": "CINE02",
+        "nombre": "Cadencia Menor Clásica"
+      },
+      "intro": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      }
+    },
+    "respetadas_material": []
+  }
+}

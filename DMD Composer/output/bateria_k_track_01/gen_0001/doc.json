@@ -1,0 +1,67 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Bateria K · Track 01"
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "experimental"
+  },
+  "global": {
+    "bpm": 78,
+    "seed": 890658
+  },
+  "harmony": {
+    "key": "F minor",
+    "language": "hybrid",
+    "harmonic_rhythm_bars": 2
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 8
+    },
+    {
+      "id": "verse",
+      "type": "verse",
+      "bars": 16
+    },
+    {
+      "id": "pre_chorus",
+      "type": "pre_chorus",
+      "bars": 8
+    },
+    {
+      "id": "chorus",
+      "type": "chorus",
+      "bars": 16
+    },
+    {
+      "id": "break",
+      "type": "break",
+      "bars": 8
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 20
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 12
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 8
+    }
+  ],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 4
+    }
+  }
+}

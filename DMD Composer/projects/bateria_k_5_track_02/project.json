@@ -1,0 +1,89 @@
+{
+  "format": "dmd-composer/1",
+  "pid": "bateria_k_5_track_02",
+  "name": "Bateria K · Track 02",
+  "notes": "",
+  "created": 1794386420.0182357,
+  "updated": 1794386420.0183086,
+  "decisions": {
+    "identity": {
+      "mode": "fixed",
+      "value": "dark_triphop"
+    },
+    "accessibility": {
+      "mode": "fixed",
+      "value": "experimental"
+    },
+    "bpm": {
+      "mode": "fixed",
+      "value": 89
+    },
+    "key": {
+      "mode": "fixed",
+      "value": "E minor"
+    },
+    "language": {
+      "mode": "fixed",
+      "value": "hybrid"
+    },
+    "resolution": {
+      "mode": "free",
+      "value": null
+    },
+    "harmonic_rhythm_bars": {
+      "mode": "auto",
+      "value": null
+    },
+    "harmony_mode": {
+      "mode": "fixed",
+      "value": "native"
+    },
+    "mood": {
+      "mode": "fixed",
+      "value": "dark"
+    },
+    "atmosphere": {
+      "mode": "auto",
+      "value": null
+    },
+    "groove": {
+      "mode": "fixed",
+      "value": "steady"
+    },
+    "spaces": {
+      "mode": "free",
+      "value": null
+    },
+    "protagonist": {
+      "mode": "free",
+      "value": null
+    },
+    "production": {
+      "mode": "auto",
+      "value": null
+    },
+    "ending": {
+      "mode": "auto",
+      "value": null
+    },
+    "seed": {
+      "mode": "fixed",
+      "value": 651837
+    }
+  },
+  "instruments": {},
+  "sections": [],
+  "harmony_sections": {},
+  "production": {
+    "profile": null,
+    "f7_keyword": null,
+    "f7_variation": null,
+    "wav": false
+  },
+  "diversity": "balanced",
+  "album": {
+    "album_id": "bateria_k_5",
+    "track": 2
+  },
+  "protagonist_proposal": null
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Neblina Alta",
+    "notes": "FASE 8 — álbum «Noches Largas» (composición nueva)."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 76,
+    "seed": 8102
+  },
+  "harmony": {
+    "key": "E minor",
+    "language": "pop_dream_pop",
+    "harmonic_rhythm_bars": 1,
+    "progressions": {
+      "verse": [
+        "Em9",
+        "Cmaj7",
+        "Gmaj9",
+        "D7sus4"
+      ],
+      "chorus": [
+        "Cmaj9",
+        "Gmaj9",
+        "Am9",
+        "B7sus4"
+      ]
+    },
+    "resolution": "modal"
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4,
+      "energy": 0.2,
+      "tension": 0.2,
+      "density": 0.2,
+      "focus": [
+        "pad",
+        "rhodes"
+      ],
+      "drums": "air"
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.42,
+      "tension": 0.4,
+      "density": 0.45,
+      "focus": [
+        "bass",
+        "drums"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.62,
+      "tension": 0.55,
+      "density": 0.55,
+      "focus": [
+        "bass",
+        "rhodes"
+      ],
+      "drums": "heavy"
+    },
+    {
+      "id": "bridge_1",
+      "type": "bridge",
+      "bars": 4,
+      "energy": 0.48,
+      "tension": 0.7,
+      "density": 0.45,
+      "focus": [
+        "rhodes"
+      ],
+      "drums": "light"
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.45,
+      "tension": 0.42,
+      "density": 0.48,
+      "focus": [
+        "bass",
+        "drums"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 4,
+      "energy": 0.15,
+      "tension": 0.15,
+      "density": 0.15,
+      "focus": [
+        "pad"
+      ],
+      "drums": "air"
+    }
+  ],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 3
+    }
+  }
+}

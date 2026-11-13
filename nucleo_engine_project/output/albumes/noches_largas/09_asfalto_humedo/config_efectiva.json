@@ -1,0 +1,20 @@
+{
+  "engines": {
+    "sax": true,
+    "rhodes": false,
+    "drums": false,
+    "vibes": true
+  },
+  "seed": 4009,
+  "harmony": {
+    "keyword": "alternative",
+    "variacion": "subtle"
+  },
+  "production": "sax_vibes",
+  "density": {
+    "sax": 1.0,
+    "rhodes": 1.0,
+    "vibes": 1.0,
+    "drums": 1.0
+  }
+}

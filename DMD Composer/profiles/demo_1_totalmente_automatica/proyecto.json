@@ -1,0 +1,142 @@
+{
+  "format": "dmd-composer/1",
+  "pid": "demo_1_totalmente_automatica",
+  "name": "Nocturno Automatico",
+  "notes": "Demo 1: todo automático salvo el mood. Composer decide, DMD libera.",
+  "created": 1794340627.2035842,
+  "updated": 1794340627.2035844,
+  "decisions": {
+    "identity": {
+      "mode": "fixed",
+      "value": "dark_triphop"
+    },
+    "accessibility": {
+      "mode": "auto",
+      "value": null
+    },
+    "bpm": {
+      "mode": "auto",
+      "value": null
+    },
+    "key": {
+      "mode": "auto",
+      "value": null
+    },
+    "language": {
+      "mode": "auto",
+      "value": null
+    },
+    "resolution": {
+      "mode": "free",
+      "value": null
+    },
+    "harmonic_rhythm_bars": {
+      "mode": "auto",
+      "value": null
+    },
+    "harmony_mode": {
+      "mode": "fixed",
+      "value": "guided"
+    },
+    "mood": {
+      "mode": "fixed",
+      "value": "melancholic"
+    },
+    "atmosphere": {
+      "mode": "auto",
+      "value": null
+    },
+    "groove": {
+      "mode": "auto",
+      "value": null
+    },
+    "spaces": {
+      "mode": "free",
+      "value": null
+    },
+    "protagonist": {
+      "mode": "free",
+      "value": null
+    },
+    "production": {
+      "mode": "auto",
+      "value": null
+    },
+    "ending": {
+      "mode": "auto",
+      "value": null
+    },
+    "seed": {
+      "mode": "auto",
+      "value": null
+    }
+  },
+  "instruments": {},
+  "sections": [
+    {
+      "id": "intro",
+      "label": "Intro",
+      "type": "intro",
+      "bars": 4,
+      "final": false
+    },
+    {
+      "id": "verse",
+      "label": "Verse",
+      "type": "verse",
+      "bars": 16,
+      "final": false
+    },
+    {
+      "id": "pre_chorus",
+      "label": "Pre-Chorus",
+      "type": "pre_chorus",
+      "bars": 8,
+      "final": false
+    },
+    {
+      "id": "chorus",
+      "label": "Chorus",
+      "type": "chorus",
+      "bars": 20,
+      "final": false
+    },
+    {
+      "id": "verse_2",
+      "label": "Verse 2",
+      "type": "verse",
+      "bars": 20,
+      "final": false
+    },
+    {
+      "id": "chorus_2",
+      "label": "Chorus 2",
+      "type": "chorus",
+      "bars": 16,
+      "final": false
+    },
+    {
+      "id": "break",
+      "label": "Break",
+      "type": "break",
+      "bars": 8,
+      "final": false
+    },
+    {
+      "id": "outro",
+      "label": "Outro",
+      "type": "outro",
+      "bars": 8,
+      "final": false
+    }
+  ],
+  "harmony_sections": {},
+  "production": {
+    "profile": null,
+    "f7_keyword": null,
+    "f7_variation": null,
+    "wav": false
+  },
+  "diversity": "balanced",
+  "album": null
+}

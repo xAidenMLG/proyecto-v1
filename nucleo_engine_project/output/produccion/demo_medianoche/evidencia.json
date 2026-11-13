@@ -1,0 +1,61 @@
+{
+  "composicion": "Medianoche en Puerto Nuevo",
+  "perfil_produccion": "full",
+  "seed": 3113,
+  "sha256_midi": "32199acc254a2eeff93a12d15df3b38ec2c541a45a10a4719d493c696b29a9ff",
+  "sha256_doc": "b2399cc582823f0079871145e6312ae4c8b7ecf03eea4f81785c5882cc93b90f",
+  "fecha_generacion_utc": "2026-11-08T23:22:49.851542Z",
+  "versiones": {
+    "jazz_engine": "6.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 78.0,
+  "compases": 60,
+  "duracion_s": 184.6,
+  "notas_por_pista": {
+    "sax_tenor": 42,
+    "rhodes": 155,
+    "vibraphone": 13,
+    "bass": 150,
+    "drums": 529,
+    "pad": 52
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [],
+  "resumen_actividad": {
+    "frases_sax": 4,
+    "rhodes_melodico_por_seccion": {
+      "intro": 0,
+      "verse_1": 3,
+      "verse_2": 2,
+      "pre_1": 0,
+      "chorus_1": 2,
+      "bridge_1": 3,
+      "chorus_2": 0,
+      "outro": 0
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse_1": 1,
+      "verse_2": 1,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "bridge_1": 0,
+      "chorus_2": 0,
+      "outro": 0
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production full --seed 3113 --out output/produccion/demo_medianoche --verify 32199acc254a2eeff93a12d15df3b38ec2c541a45a10a4719d493c696b29a9ff",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"demo_medianoche.mid\" -F salida.wav -r 44100"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "escenario": "02_sax",
+  "sha256_midi": "ecebb36d94a4499b8f50e8ddc7a2f291402a09f4372247568e9989119ce621fe",
+  "bytes": 9161,
+  "bpm": 86.0,
+  "compases": 52,
+  "duracion_segundos": 145.1,
+  "seed": 2026,
+  "motores": {
+    "sax": true,
+    "rhodes": false,
+    "drums": false,
+    "vibes": false
+  },
+  "variacion": "n/a",
+  "notas_por_pista": {
+    "sax_tenor": 33,
+    "rhodes": 128,
+    "vibraphone": 24,
+    "bass": 124,
+    "drums": 431,
+    "pad": 92
+  },
+  "frases_sax": [
+    {
+      "seccion": "verse_1",
+      "accion": "statement",
+      "transform": null,
+      "notas": 9
+    },
+    {
+      "seccion": "chorus_1",
+      "accion": "develop",
+      "transform": "displace",
+      "notas": 9
+    },
+    {
+      "seccion": "bridge_1",
+      "accion": "suspend",
+      "transform": null,
+      "notas": 1
+    },
+    {
+      "seccion": "verse_2",
+      "accion": "develop",
+      "transform": "invert",
+      "notas": 9
+    },
+    {
+      "seccion": "chorus_2",
+      "accion": "develop",
+      "transform": "fragment",
+      "notas": 5
+    }
+  ],
+  "frases_sax_total": 5,
+  "rhodes_melodico_por_seccion": {},
+  "vibes_eco_por_seccion": null,
+  "densidad_notas_por_compas": {
+    "sax_tenor": 0.63,
+    "rhodes": 2.46,
+    "vibraphone": 0.46,
+    "bass": 2.38,
+    "drums": 8.29,
+    "pad": 1.77
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "section_bounds",
+    "motif_repeat"
+  ],
+  "choques_semitono": 0,
+  "avisos_compilador": [
+    "W403: vibraphone con density efectiva 0.7 en banda B3 y mallet_sparse ON ('chorus_2')",
+    "W421: transición 'break_1' → 'verse_2': bass inactivo en el origen, approach omitido; el split sí se aplica"
+  ],
+  "evidencia_motores": {
+    "profile": "dark_triphop",
+    "identity_proyecto": "dark_triphop",
+    "engines": {
+      "sax": true,
+      "rhodes": false,
+      "drums": false,
+      "vibes": false
+    },
+    "seed": 2026,
+    "variation": "balanced",
+    "sax": {
+      "frases": [
+        {
+          "seccion": "intro",
+          "accion": "silencio"
+        },
+        {
+          "seccion": "verse_1",
+          "accion": "statement",
+          "transform": null,
+          "notas": 9,
+          "compases": [
+            0,
+            1
+          ],
+          "objetivos_armonicos": 3,
+          "tensiones": 0
+        },
+        {
+          "seccion": "pre_1",
+          "accion": "silencio"
+        },
+        {
+          "seccion": "chorus_1",
+          "accion": "develop",
+          "transform": "displace",
+          "notas": 9,
+          "compases": [
+            0,
+            1
+          ],
+          "objetivos_armonicos": 3,
+          "tensiones": 0
+        },
+        {
+          "seccion": "bridge_1",
+          "accion": "suspend",
+          "transform": null,
+          "notas": 1,
+          "compases": [
+            1
+          ],
+          "objetivos_armonicos": 1,
+          "tensiones": 0
+        },
+        {
+          "seccion": "break_1",
+          "accion": "silencio"
+        },
+        {
+          "seccion": "verse_2",
+          "accion": "develop",
+          "transform": "invert",
+          "notas": 9,
+          "compases": [
+            0,
+            1
+          ],
+          "objetivos_armonicos": 3,
+          "tensiones": 0
+        },
+        {
+          "seccion": "chorus_2",
+          "accion": "develop",
+          "transform": "fragment",
+          "notas": 5,
+          "compases": [
+            0,
+            1
+          ],
+          "objetivos_armonicos": 3,
+          "tensiones": 0
+        },
+        {
+          "seccion": "outro",
+          "accion": "silencio"
+        }
+      ],
+      "secciones_con_sax": 5,
+      "secciones_total": 9,
+      "respetadas_material_compositor": [],
+      "secciones_silenciadas": 2
+    },
+    "drums": {
+      "desactivado": true
+    },
+    "vibes_params": {
+      "desactivado": true
+    },
+    "rhodes": {
+      "desactivado": true
+    },
+    "vibes_eco": {
+      "desactivado": true
+    }
+  }
+}

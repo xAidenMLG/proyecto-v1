@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DMD STUDIO</title>
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/css/studio.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <div class="brand">
+      <svg viewBox="0 0 24 24" class="brand-mark" aria-hidden="true">
+        <path d="M3 12h2l2-6 3 12 3-9 2 5 2-2h4" fill="none" stroke="currentColor"
+              stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div>
+        <div class="brand-name">DMD STUDIO</div>
+        <div class="brand-sub">dark director · midi forge</div>
+      </div>
+    </div>
+    <nav id="nav" aria-label="Áreas del estudio">
+      <a href="#/projects" data-view="projects"><span class="nav-ico">◧</span>Projects</a>
+      <a href="#/composition" data-view="composition"><span class="nav-ico">𝄞</span>Composition</a>
+      <a href="#/harmony" data-view="harmony"><span class="nav-ico">𝄡</span>Harmony</a>
+      <a href="#/production" data-view="production"><span class="nav-ico">⚙</span>Production</a>
+      <a href="#/generation" data-view="generation"><span class="nav-ico">▶</span>Generation</a>
+      <a href="#/json" data-view="json"><span class="nav-ico">{ }</span>JSON</a>
+      <a href="#/results" data-view="results"><span class="nav-ico">◈</span>Results</a>
+    </nav>
+    <div id="sidebar-foot">
+      <div id="engine-status" class="muted-xs">cargando motores…</div>
+    </div>
+  </aside>
+
+  <main id="main">
+    <header id="topbar">
+      <div id="project-crumb" class="crumb">sin proyecto</div>
+      <div class="topbar-actions">
+        <span id="dirty-dot" class="dirty-dot" hidden title="Cambios sin guardar">●</span>
+        <button id="btn-save" class="btn ghost sm" disabled>Guardar</button>
+        <button id="btn-saveas" class="btn ghost sm" disabled>Guardar como…</button>
+        <button id="btn-goto-gen" class="btn primary sm">Generar</button>
+      </div>
+    </header>
+    <div id="view" class="view"></div>
+  </main>
+</div>
+
+<div id="toasts" aria-live="polite"></div>
+<div id="modal-root"></div>
+
+<script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

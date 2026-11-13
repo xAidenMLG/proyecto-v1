@@ -1,0 +1,47 @@
+{
+  "A1_nocturno_original.mid": {
+    "sha256": "046c94b1599e34fed228e6dd997611a27ac46835bc4946632a8cebb96d76271f",
+    "origen": "fase5_comparativos/01_original.mid",
+    "copia_verificada": true
+  },
+  "A2_nocturno_full.mid": {
+    "sha256": "3930cadc34ec3bcb4dc2cab9788122aa64fdbec2adf10b17b807366e70d7f228",
+    "origen": "fase5_comparativos/07_full.mid",
+    "copia_verificada": true
+  },
+  "A3_nocturno_atmospheric.mid": {
+    "sha256": "864b9302591f2655fdcdee6f3128a9b5f82464cea5b143959eb4e1e62fd18d57",
+    "origen": "fase5_comparativos/08_variation_atmospheric.mid",
+    "copia_verificada": true
+  },
+  "A4_nocturno_sax_rhodes.mid": {
+    "sha256": "25a6f2234cab102eed50b71fde0d14e86e8a1318a0ac4f493a62598767e5ce47",
+    "origen": "fase5_comparativos/03_sax_rhodes.mid",
+    "copia_verificada": true
+  },
+  "B1_casa_espejos_original.mid": {
+    "sha256": "44763e9df984dcb335380fb76e7d35cb6fc3f9060e02e9abca0981bdcc0fac8e",
+    "origen": "generalizacion_fase6/casa_de_espejos/original.mid",
+    "copia_verificada": true
+  },
+  "B2_casa_espejos_sax_rhodes.mid": {
+    "sha256": "c0d6b9558c6ddc745ad195c2863fb7338711a7c96eaf72bc6d8f3cb62389a732",
+    "origen": "generalizacion_fase6/casa_de_espejos/sax_rhodes.mid",
+    "copia_verificada": true
+  },
+  "C1_medianoche_full.mid": {
+    "sha256": "32199acc254a2eeff93a12d15df3b38ec2c541a45a10a4719d493c696b29a9ff",
+    "origen": "generalizacion_fase6/medianoche_puerto_nuevo/full.mid",
+    "copia_verificada": true
+  },
+  "D1_habitacion_atmospheric.mid": {
+    "sha256": "7bed92325defd46446eefccce5816446b681b2312667fec2608fd9ef5bef18cc",
+    "origen": "generalizacion_fase6/habitacion_314/atmospheric.mid",
+    "copia_verificada": true
+  },
+  "E1_calles_neon_drums.mid": {
+    "sha256": "430b0a9a6e580a0a0101547665d91a14758e7d93deddf005f4faf89a2c698bec",
+    "origen": "generalizacion_fase6/calles_de_neon/drums.mid",
+    "copia_verificada": true
+  }
+}

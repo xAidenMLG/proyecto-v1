@@ -1,0 +1,25 @@
+{
+  "composicion": "medianoche_puerto_nuevo",
+  "perfil": "original",
+  "seed": 3113,
+  "sha256": "09d6759d8ec1476ada1ebb15fed9b5ec7790955c062c29b27f9e3eacd16c9d29",
+  "bytes": 11089,
+  "bpm": 78.0,
+  "compases": 60,
+  "duracion_s": 184.6,
+  "notas_por_pista": {
+    "sax_tenor": 83,
+    "rhodes": 146,
+    "vibraphone": 5,
+    "bass": 150,
+    "drums": 491,
+    "pad": 52
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 0,
+    "determinismo": true
+  },
+  "fallos": []
+}

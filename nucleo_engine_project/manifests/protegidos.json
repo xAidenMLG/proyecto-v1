@@ -1,0 +1,15 @@
+{
+  "protegidos": {
+    "dark_director/contract.py": "77fe4168c31380b556722f629ca2c34e45ce53ecfab6da14aac1bd96f150154f",
+    "dark_director/identities/dark_triphop.py": "6bec25ad7c8e9d14ff746a50dcc29a0f284c7904d55df821f8cdfa1a876537cd",
+    "forge/__init__.py": "4edaf220ae17daa7b92875556e519c37871fc892c9c835688e6ca59b8281a19c",
+    "forge/adapter.py": "2259b81b41f8230ee99ff60ac3f5a00288abf5c8ead5081e06124cc68f27c3ed",
+    "forge/audio.py": "084337f718a40cf97ceb7210dced79635fc2652a94fcbb214b017dce88926455",
+    "forge/engine.py": "7bdf0381dd86458efb7a1061a06c2045ab1defc6316d40fadba9d7c537476dd7",
+    "forge/midiwriter.py": "db078799d0d6b47a21400b9bedbbf898337ab2bb37f5978c97153e94ab52bb9e",
+    "forge/styles.py": "1c632bfadbe9142d93ec02baa40d14967625262f35b90b1fec67d6c44f579976",
+    "forge/theory.py": "138e0675e8ae9ff98decf9db022ac9ba8bcdb7c1435fff0426552b647e21d502",
+    "forge/validate.py": "bfc186a6e79dfa9883391cf342c376eb2267cc51a3095530bec5c42038273234",
+    "forge/voicing.py": "12845686a7810e025a3ad97cc0cecfec277b2ea6af6f014441c0bab83e9d4ab0"
+  }
+}

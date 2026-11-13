@@ -1,0 +1,69 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Cuatro Decisiones",
+    "notes": "Demo 5: solo 4 restricciones fijadas; todo lo demás lo decide Composer con coherencia."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 77,
+    "seed": 2026
+  },
+  "harmony": {
+    "key": "E phrygian",
+    "language": "experimental",
+    "harmonic_rhythm_bars": 2
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 8
+    },
+    {
+      "id": "verse",
+      "type": "verse",
+      "bars": 16
+    },
+    {
+      "id": "break",
+      "type": "break",
+      "bars": 8,
+      "drums": "light",
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ]
+    },
+    {
+      "id": "chorus",
+      "type": "chorus",
+      "bars": 20
+    },
+    {
+      "id": "bridge",
+      "type": "bridge",
+      "bars": 8
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 20
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 8
+    }
+  ],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 4
+    }
+  }
+}

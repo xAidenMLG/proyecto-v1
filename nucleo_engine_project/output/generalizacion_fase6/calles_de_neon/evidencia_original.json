@@ -1,0 +1,25 @@
+{
+  "composicion": "calles_de_neon",
+  "perfil": "original",
+  "seed": 9021,
+  "sha256": "7ee6451d2e38055421d239b3aba202dbb92af9a24d5522d314625e935ac8897b",
+  "bytes": 8623,
+  "bpm": 92.0,
+  "compases": 36,
+  "duracion_s": 93.9,
+  "notas_por_pista": {
+    "sax_tenor": 42,
+    "rhodes": 96,
+    "vibraphone": 14,
+    "bass": 104,
+    "drums": 403,
+    "pad": 66
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 1,
+    "determinismo": true
+  },
+  "fallos": []
+}

@@ -1,0 +1,92 @@
+{
+  "composicion": "Asfalto Húmedo",
+  "perfil_produccion": "sax_vibes",
+  "seed": 4009,
+  "sha256_midi": "2366c75942dca0c19a44d6d77972d186ee69bc4cf326eabbfead2a544b47463f",
+  "sha256_doc": "18a02c86c908287d8ffa4c35f0c369f0c27d11fd6f561b5dfb98174542a9d998",
+  "fecha_generacion_utc": "2026-11-09T06:06:47.428871+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 86.0,
+  "compases": 44,
+  "duracion_s": 122.8,
+  "notas_por_pista": {
+    "sax_tenor": 18,
+    "rhodes": 121,
+    "vibraphone": 13,
+    "bass": 116,
+    "drums": 416,
+    "pad": 82
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [],
+  "resumen_actividad": {
+    "frases_sax": 4,
+    "rhodes_melodico_por_seccion": {},
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse_1": 1,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "verse_2": 0,
+      "chorus_2": 0,
+      "outro": 0
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production sax_vibes --seed 4009 --out output/albumes/noches_largas/09_asfalto_humedo --verify 2366c75942dca0c19a44d6d77972d186ee69bc4cf326eabbfead2a544b47463f",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"09_asfalto_humedo.mid\" -F salida.wav -r 44100"
+  },
+  "harmonia": {
+    "activacion": {
+      "keyword": "alternative",
+      "variacion": "subtle"
+    },
+    "resumen": {
+      "reescritas": 7,
+      "respetadas": 0
+    },
+    "eleccion": {
+      "outro": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "chorus_2": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "verse_2": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "chorus_1": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "pre_1": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "verse_1": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "intro": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      }
+    },
+    "respetadas_material": []
+  }
+}

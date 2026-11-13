@@ -1,0 +1,7 @@
+# DMD Composer v1.2 - dependencias web (mismas versiones que scripts/install.bat)
+# El motor DMD (nucleo_engine_project) es 100% libreria estandar: nada mas.
+fastapi==0.115.6
+uvicorn==0.34.0
+
+# Solo para ejecutar la suite de tests (opcional):
+# pytest>=8.0

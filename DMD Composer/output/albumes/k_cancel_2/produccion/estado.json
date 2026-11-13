@@ -1,0 +1,84 @@
+{
+  "schema": "dmd-album/1",
+  "pistas": {
+    "track01": {
+      "estado": "ok",
+      "id": "track01",
+      "indice": 1,
+      "perfil": "sax_vibes",
+      "seed": 558922,
+      "harmony": null,
+      "especificacion": {
+        "sha256_doc": "56822b62068439f25e984e61ae753f45728e67f23346103827270fbe948ee351",
+        "perfil": "sax_vibes",
+        "seed": 558922,
+        "harmony": null
+      },
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel_2/produccion/01_track01",
+      "intentos": 1,
+      "sha256_midi": "f00be05b06591439032da02a579f914ba64a72ea61310b6cbfbe0774f6a904d0",
+      "bpm": 82.0,
+      "compases": 60,
+      "duracion_s": 175.6,
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "huella_sha": "f365243e65c20bfd"
+    },
+    "track02": {
+      "estado": "ok",
+      "id": "track02",
+      "indice": 2,
+      "perfil": "full",
+      "seed": 289703,
+      "harmony": null,
+      "especificacion": {
+        "sha256_doc": "a5f189a22103a7e178fd66643e243d8e5dd8c86b0a1a90e4f45329633c3efcae",
+        "perfil": "full",
+        "seed": 289703,
+        "harmony": null
+      },
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel_2/produccion/02_track02",
+      "intentos": 1,
+      "sha256_midi": "685d1d9eb269999f309dfce1b2c176b0575ec891248f566262ceca77a89a2079",
+      "bpm": 72.0,
+      "compases": 52,
+      "duracion_s": 173.3,
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "huella_sha": "62dd58f246985bd8"
+    },
+    "track03": {
+      "estado": "ok",
+      "id": "track03",
+      "indice": 3,
+      "perfil": "atmospheric",
+      "seed": 133178,
+      "harmony": null,
+      "especificacion": {
+        "sha256_doc": "efb6e51cd9b7c64deff40b9f589a572cd311d355a692f84248789f9367e0db10",
+        "perfil": "atmospheric",
+        "seed": 133178,
+        "harmony": null
+      },
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel_2/produccion/03_track03",
+      "intentos": 1,
+      "sha256_midi": "a7520aadeda633b7a7c7a78ee497ebebf69f408da61fb99daff27fc3834817ec",
+      "bpm": 89.0,
+      "compases": 92,
+      "duracion_s": 248.1,
+      "compliance_fails": [],
+      "compliance_warns": [
+        "section_bounds",
+        "motif_repeat"
+      ],
+      "huella_sha": "ba5980df3531d37a"
+    }
+  },
+  "album": "K Cancel",
+  "semilla_album": 115435,
+  "actualizado_utc": "2026-11-11T08:40:26.843316+00:00"
+}

@@ -1,0 +1,162 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Nocturno Terminal",
+    "notes": "FASE 5 — composición de comparación dark_triphop (identidad activa única). Mismo doc/seed/tempo/estructura para los 8 escenarios."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 86,
+    "seed": 2026
+  },
+  "harmony": {
+    "key": "D minor",
+    "language": "pop_dream_pop",
+    "harmonic_rhythm_bars": 1,
+    "progressions": {
+      "verse": [
+        "Dm9",
+        "Bbmaj7",
+        "Fmaj9",
+        "C7sus4"
+      ],
+      "chorus": [
+        "Bbmaj9",
+        "Fmaj9",
+        "Gm9",
+        "A7sus4"
+      ]
+    }
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4,
+      "energy": 0.25,
+      "tension": 0.2,
+      "density": 0.25,
+      "focus": [
+        "rhodes",
+        "pad"
+      ],
+      "drums": "air"
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.45,
+      "tension": 0.35,
+      "density": 0.45,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "pre_1",
+      "type": "pre_chorus",
+      "bars": 4,
+      "energy": 0.6,
+      "tension": 0.55,
+      "density": 0.55,
+      "focus": [
+        "pad",
+        "vibraphone"
+      ],
+      "drums": "light"
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.8,
+      "tension": 0.5,
+      "density": 0.65,
+      "focus": [
+        "sax_tenor",
+        "drums",
+        "bass"
+      ],
+      "drums": "heavy"
+    },
+    {
+      "id": "bridge_1",
+      "type": "bridge",
+      "bars": 4,
+      "energy": 0.5,
+      "tension": 0.6,
+      "density": 0.55,
+      "focus": [
+        "rhodes"
+      ],
+      "drums": "light"
+    },
+    {
+      "id": "break_1",
+      "type": "break",
+      "bars": 4,
+      "energy": 0.35,
+      "tension": 0.6,
+      "density": 0.3,
+      "focus": [
+        "vibraphone"
+      ],
+      "drums": "light",
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ]
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.5,
+      "tension": 0.4,
+      "density": 0.5,
+      "focus": [
+        "sax_tenor"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.85,
+      "tension": 0.55,
+      "density": 0.7,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "drums": "heavy",
+      "final": true
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 4,
+      "energy": 0.2,
+      "tension": 0.15,
+      "density": 0.2,
+      "focus": [
+        "rhodes"
+      ],
+      "drums": "air"
+    }
+  ],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 3
+    }
+  }
+}

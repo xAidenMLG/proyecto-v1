@@ -1,0 +1,326 @@
+{
+  "formato": "generation-manifest/1",
+  "composer_version": "1.2.0",
+  "timestamp": 1794386419.8390594,
+  "obra": "Bateria K · Track 02",
+  "pid": "bateria_k_4_track_02",
+  "seed_used": 357260,
+  "decisiones": {
+    "fijadas": {
+      "identity": "dark_triphop",
+      "accessibility": "experimental",
+      "bpm": 89,
+      "key": "A minor",
+      "language": "hybrid",
+      "harmony_mode": "native",
+      "seed": 357260
+    },
+    "automaticas": {
+      "harmonic_rhythm_bars": 2,
+      "ending": "fade_out"
+    },
+    "libres": [
+      "resolution",
+      "protagonist",
+      "spaces"
+    ]
+  },
+  "preferencias_composer": {
+    "nota": "NO llegan al doc.json: condicionan cómo elige Composer",
+    "diversity": {
+      "valor": "balanced",
+      "efecto": "aplana o endurece las pools (restrained → adventurous)"
+    },
+    "mood": {
+      "estado": "fixed",
+      "valor": "dark",
+      "efecto": "define las pools ponderadas (tonalidad, lenguaje, atmósfera…) con las que Composer elige"
+    },
+    "atmosphere": {
+      "estado": "auto",
+      "valor": "dense",
+      "efecto": "sesga el perfil de producción sugerido y los avisos de coherencia de espacios"
+    },
+    "groove": {
+      "estado": "fixed",
+      "valor": "driving",
+      "efecto": "solo sesga la curva de BPM AUTOMÁTICO; no es un campo del contrato ni parámetro del motor"
+    }
+  },
+  "armonia": {
+    "modo_global": "native",
+    "modo_real_del_doc": "native",
+    "secciones_guiadas": [],
+    "secciones_con_acordes_literales": [],
+    "secciones_nativas": [
+      "break",
+      "chorus",
+      "chorus_2",
+      "intro",
+      "outro",
+      "pre_chorus",
+      "verse",
+      "verse_2"
+    ],
+    "secciones_sin_decision": [
+      "break",
+      "chorus",
+      "chorus_2",
+      "intro",
+      "outro",
+      "pre_chorus",
+      "verse",
+      "verse_2"
+    ],
+    "fuente_por_seccion": {
+      "intro": "receta_n1",
+      "verse": "receta_n1",
+      "pre_chorus": "receta_n1",
+      "chorus": "receta_n1",
+      "break": "receta_n1",
+      "verse_2": "receta_n1",
+      "chorus_2": "receta_n1",
+      "outro": "receta_n1"
+    },
+    "f7": {
+      "activo_en_doc": false,
+      "nota": "F7 (Familiarity Engine) es OPCIONAL y de Studio: el doc NUNCA la contiene; se pasa como keyword al producir (nunca se mezcla sola)"
+    }
+  },
+  "protagonista": {
+    "id": null,
+    "propuesta": {
+      "estado": "no_generada"
+    },
+    "efecto_doc": null
+  },
+  "produccion": {
+    "perfil": "full",
+    "origen": "composer",
+    "estado": "seleccionado_pendiente_de_aplicar",
+    "llega_al_doc": false,
+    "nota": "El perfil NO es un campo del contrato y Composer no genera MIDI: esta selección solo se hace real al producir el MIDI en el pipeline de DMD. Nunca se declara aplicada por el hecho de estar registrada.",
+    "instruccion": {
+      "studio": "Importa el doc.json de esta generación en DMD Studio y genera con Producción='full' y seed=357260 (o vacío: el doc ya lleva global.seed)",
+      "cli": "python scripts/produce.py doc.json --production full --seed 357260 --out <carpeta_de_salida>",
+      "verificacion": "el SHA256 del MIDI resultante queda en la evidencia de Studio/produce.py",
+      "carpeta_doc": null
+    },
+    "f7_keyword": null,
+    "f7_variation": null
+  },
+  "log_explicabilidad": [
+    {
+      "axis": "seed",
+      "estado": "fixed",
+      "valor": 357260,
+      "razon": "decisión del usuario",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "mood",
+      "estado": "fixed",
+      "valor": "dark",
+      "razon": "decisión del usuario · NO va al doc: define las preferencias ponderadas (tonalidades, lenguaje, atmósfera…) con las que Composer elige",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "identity",
+      "estado": "fixed",
+      "valor": "dark_triphop",
+      "razon": "decisión del usuario",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "accessibility",
+      "estado": "fixed",
+      "valor": "experimental",
+      "razon": "decisión del usuario",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "language",
+      "estado": "fixed",
+      "valor": "hybrid",
+      "razon": "decisión del usuario",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "atmosphere",
+      "estado": "auto",
+      "valor": "dense",
+      "razon": "preferencia ponderada por mood 'dark' · NO llega al doc",
+      "descartadas": [
+        "medium (peso 4)",
+        "spacious (peso 3)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "groove",
+      "estado": "fixed",
+      "valor": "driving",
+      "razon": "decisión del usuario · el groove NO es un campo del contrato: no altera el BPM fijado ni llega al motor como parámetro; su único efecto real aquí es el sesgo de la curva de BPM automático (inactivo: BPM fijado)",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "bpm",
+      "estado": "fixed",
+      "valor": 89,
+      "razon": "decisión del usuario",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "key",
+      "estado": "fixed",
+      "valor": "A minor",
+      "razon": "decisión del usuario",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "resolution",
+      "estado": "free",
+      "valor": null,
+      "razon": "default del lenguaje (sin campo)",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "harmonic_rhythm_bars",
+      "estado": "auto",
+      "valor": 2,
+      "razon": "default de la receta dark_triphop (1) con jitter; regla de compatibilidad: nunca menor que la receta en identidades doom",
+      "descartadas": [
+        "1 (peso 7)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "protagonist",
+      "estado": "free",
+      "valor": null,
+      "razon": "sin protagonista: ni enabled ni focos propuestos (libertad total del motor)",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "harmony_mode",
+      "estado": "fixed",
+      "valor": "native",
+      "razon": "native = recetas N1 del motor · guided = progresiones explícitas por sección",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "spaces",
+      "estado": "free",
+      "valor": null,
+      "razon": "sin preferencia",
+      "descartadas": [],
+      "reglas": []
+    },
+    {
+      "axis": "production",
+      "estado": "auto",
+      "valor": "full",
+      "razon": "perfil coherente con atmósfera 'dense' · perfil de producción de STUDIO: NO llega al doc ni al validador; se transmite como INSTRUCCIÓN al producir MIDI",
+      "descartadas": [
+        "drums (peso 2)",
+        "sax_rhodes (peso 2)",
+        "atmospheric (peso 1)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "ending",
+      "estado": "auto",
+      "valor": "fade_out",
+      "razon": "cierre coherente con mood 'dark'",
+      "descartadas": [
+        "tape_stop (peso 2)",
+        "none (peso 1)"
+      ],
+      "reglas": []
+    },
+    {
+      "axis": "structure",
+      "estado": "auto",
+      "valor": [
+        "intro:8",
+        "verse:16",
+        "pre_chorus:8",
+        "chorus:16",
+        "break:8",
+        "verse:16",
+        "chorus:16",
+        "outro:8"
+      ],
+      "razon": "plantilla estructural de mood 'dark' (plantilla #1)",
+      "descartadas": [],
+      "reglas": []
+    }
+  ],
+  "build": {
+    "harmony_mode": "native",
+    "language": "hybrid",
+    "key": "A minor",
+    "progressions_secciones": [],
+    "chords_literales": [],
+    "secciones_nativas": [
+      "break",
+      "chorus",
+      "chorus_2",
+      "intro",
+      "outro",
+      "pre_chorus",
+      "verse",
+      "verse_2"
+    ],
+    "secciones_sin_decision": [
+      "break",
+      "chorus",
+      "chorus_2",
+      "intro",
+      "outro",
+      "pre_chorus",
+      "verse",
+      "verse_2"
+    ],
+    "modo_real_del_doc": "native",
+    "identity": "dark_triphop",
+    "accessibility": "experimental",
+    "nativas_n1": true
+  },
+  "doc_sha256": "e4e012ebddcf51be2a449f0ba8ce868e46d2c4112cec7891a06ef3a812eb6213",
+  "contrato": {
+    "contract": "dark-director/1",
+    "contract_rev": "3.2",
+    "compiler_version": "0.1.0",
+    "compiler_stage": "fase1",
+    "target_schema": "midi-forge/1",
+    "jazz_engine_version": "7.0.0",
+    "identidad_activa": "dark_triphop",
+    "identidades_archivadas": [
+      "doom_triphop",
+      "doom_dark_jazz"
+    ]
+  },
+  "album": {
+    "album_id": "bateria_k_4",
+    "track": 2
+  },
+  "validacion": {
+    "ok": true,
+    "errores": 0,
+    "avisos": 0,
+    "compila": true
+  }
+}

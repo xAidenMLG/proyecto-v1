@@ -1,0 +1,89 @@
+{
+  "format": "dmd-composer/1",
+  "pid": "k_cancel_track_01",
+  "name": "K Cancel · Track 01",
+  "notes": "",
+  "created": 1794385627.135134,
+  "updated": 1794385627.1352417,
+  "decisions": {
+    "identity": {
+      "mode": "fixed",
+      "value": "dark_triphop"
+    },
+    "accessibility": {
+      "mode": "fixed",
+      "value": "experimental"
+    },
+    "bpm": {
+      "mode": "fixed",
+      "value": 71
+    },
+    "key": {
+      "mode": "fixed",
+      "value": "C minor"
+    },
+    "language": {
+      "mode": "fixed",
+      "value": "hybrid"
+    },
+    "resolution": {
+      "mode": "free",
+      "value": null
+    },
+    "harmonic_rhythm_bars": {
+      "mode": "auto",
+      "value": null
+    },
+    "harmony_mode": {
+      "mode": "fixed",
+      "value": "guided"
+    },
+    "mood": {
+      "mode": "fixed",
+      "value": "dark"
+    },
+    "atmosphere": {
+      "mode": "auto",
+      "value": null
+    },
+    "groove": {
+      "mode": "fixed",
+      "value": "steady"
+    },
+    "spaces": {
+      "mode": "free",
+      "value": null
+    },
+    "protagonist": {
+      "mode": "free",
+      "value": null
+    },
+    "production": {
+      "mode": "auto",
+      "value": null
+    },
+    "ending": {
+      "mode": "auto",
+      "value": null
+    },
+    "seed": {
+      "mode": "fixed",
+      "value": 841749
+    }
+  },
+  "instruments": {},
+  "sections": [],
+  "harmony_sections": {},
+  "production": {
+    "profile": null,
+    "f7_keyword": null,
+    "f7_variation": null,
+    "wav": false
+  },
+  "diversity": "balanced",
+  "album": {
+    "album_id": "k_cancel",
+    "track": 1
+  },
+  "protagonist_proposal": null
+}

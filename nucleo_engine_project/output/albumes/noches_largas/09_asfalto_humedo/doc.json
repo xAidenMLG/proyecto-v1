@@ -1,0 +1,134 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Asfalto Húmedo",
+    "notes": "FASE 8 — álbum «Noches Largas» (composición nueva)."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 86,
+    "seed": 8105
+  },
+  "harmony": {
+    "key": "A minor",
+    "language": "pop_dream_pop",
+    "harmonic_rhythm_bars": 1,
+    "progressions": {
+      "verse": [
+        "Am9",
+        "Fmaj7",
+        "Cmaj9",
+        "G6"
+      ],
+      "chorus": [
+        "Fmaj9",
+        "Cmaj9",
+        "Dm9",
+        "E7sus4"
+      ]
+    },
+    "resolution": "tonal"
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4,
+      "energy": 0.25,
+      "tension": 0.22,
+      "density": 0.25,
+      "focus": [
+        "rhodes"
+      ],
+      "drums": "air"
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.45,
+      "tension": 0.38,
+      "density": 0.45,
+      "focus": [
+        "sax_tenor",
+        "bass"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "pre_1",
+      "type": "pre_chorus",
+      "bars": 4,
+      "energy": 0.55,
+      "tension": 0.48,
+      "density": 0.52,
+      "focus": [
+        "vibraphone",
+        "drums"
+      ],
+      "drums": "light"
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.7,
+      "tension": 0.5,
+      "density": 0.6,
+      "focus": [
+        "sax_tenor",
+        "rhodes"
+      ],
+      "drums": "heavy"
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.48,
+      "tension": 0.4,
+      "density": 0.48,
+      "focus": [
+        "sax_tenor",
+        "bass"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.75,
+      "tension": 0.52,
+      "density": 0.62,
+      "focus": [
+        "sax_tenor",
+        "rhodes"
+      ],
+      "drums": "heavy",
+      "final": true
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 4,
+      "energy": 0.15,
+      "tension": 0.15,
+      "density": 0.15,
+      "focus": [
+        "rhodes",
+        "pad"
+      ],
+      "drums": "air"
+    }
+  ],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 3
+    }
+  }
+}

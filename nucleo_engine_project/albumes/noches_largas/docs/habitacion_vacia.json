@@ -1,0 +1,136 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Habitación Vacía",
+    "notes": "FASE 8 — álbum «Noches Largas» (composición nueva)."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 82,
+    "seed": 8104
+  },
+  "harmony": {
+    "key": "F minor",
+    "language": "pop_dream_pop",
+    "harmonic_rhythm_bars": 1,
+    "progressions": {
+      "verse": [
+        "Fm9",
+        "Dbmaj7",
+        "Abmaj9",
+        "Eb7sus4"
+      ],
+      "chorus": [
+        "Dbmaj9",
+        "Abmaj9",
+        "Bbm7",
+        "C7sus4"
+      ]
+    },
+    "resolution": "deceptive"
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4,
+      "energy": 0.18,
+      "tension": 0.18,
+      "density": 0.18,
+      "focus": [
+        "rhodes",
+        "pad"
+      ],
+      "drums": "air"
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.38,
+      "tension": 0.3,
+      "density": 0.38,
+      "focus": [
+        "rhodes",
+        "bass"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "pre_1",
+      "type": "pre_chorus",
+      "bars": 4,
+      "energy": 0.5,
+      "tension": 0.42,
+      "density": 0.48,
+      "focus": [
+        "vibraphone"
+      ],
+      "drums": "light"
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.65,
+      "tension": 0.48,
+      "density": 0.55,
+      "focus": [
+        "rhodes",
+        "vibraphone"
+      ],
+      "drums": "heavy"
+    },
+    {
+      "id": "break_1",
+      "type": "break",
+      "bars": 4,
+      "energy": 0.28,
+      "tension": 0.52,
+      "density": 0.28,
+      "focus": [
+        "pad"
+      ],
+      "drums": "light",
+      "active": [
+        "pad",
+        "rhodes",
+        "vibraphone"
+      ]
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.4,
+      "tension": 0.32,
+      "density": 0.4,
+      "focus": [
+        "rhodes",
+        "bass"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 4,
+      "energy": 0.12,
+      "tension": 0.12,
+      "density": 0.12,
+      "focus": [
+        "rhodes"
+      ],
+      "drums": "air"
+    }
+  ],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 3
+    }
+  }
+}

@@ -1,0 +1,1551 @@
+{
+ "meta": {
+  "name": "Neon Rain (v2)",
+  "description": "Dark synthwave / cinematic electronic con toques neo-soul. Version hibrida: la especificacion original de Neon Rain (92 BPM, Dm eolico, i-VI-III-VII / iv-VII-III-VI / i-v-VI-VII con 7a y 9a) mas las tecnicas de Shadow Corner (bends, slides de bajo, voicings abiertos full/bare, cromatismos, clusters, tape-stop, validacion). Composicion original.",
+  "source_files": [
+   "Neon_Rain_v2.mid",
+   "Neon_Rain_v2.wav",
+   "Neon_Rain_v2.mp3",
+   "neon_rain_v2_events.json"
+  ],
+  "note": "Las secciones suman 88 compases (3:50 a 92 BPM), no los 2:15 del pedido original.",
+  "inherited_from_neon_rain_v1": [
+   "BPM 92, 4/4, Re eolico",
+   "progresiones pedidas",
+   "bajo root+quinta sincopado en 1 y la \"y\" del 2",
+   "arpegio de corcheas en versos",
+   "dinamica por seccion (coros 94-110)",
+   "verificacion automatica de choques de semitono"
+  ],
+  "inherited_from_shadow_corner": [
+   "pitch bends (scoop/caida) en el lead",
+   "slide de tono entero en el bajo",
+   "voicings de strings abiertos alternando full/bare",
+   "pad raiz+quinta en versos",
+   "aproximaciones cromaticas en el bajo",
+   "clusters de 2a menor (Eb sobre Dm, Bb sobre Am) y dyads D/Eb",
+   "snare retrasado y kick adelantado",
+   "hats irregulares (20% arrastrados) y omision de open hats",
+   "desafinacion fina por pista",
+   "tape-stop final",
+   "bloque de validacion",
+   "textura de ruido en el render (aqui: lluvia)"
+  ]
+ },
+ "global": {
+  "bpm": 92,
+  "time_signature": [
+   4,
+   4
+  ],
+  "ticks_per_beat": 480,
+  "key_signature": "D minor (1 bemol)",
+  "mode": "D eolico; Ab como blue note puntual, Eb/Bb como segunda menor en clusters",
+  "total_bars": 88,
+  "duration_seconds": 229.6,
+  "duration_with_tail_seconds": 235.6
+ },
+ "tracks": [
+  {
+   "name": "Pad atmosferico",
+   "channel": 1,
+   "program": 88,
+   "gm_name": "pad-1-new-age",
+   "range": [
+    50,
+    65
+   ],
+   "cc7_volume": 88,
+   "cc10_pan": 64,
+   "cc91_reverb": 120,
+   "cc93_chorus": 60,
+   "detune_bend": 70,
+   "timing_offset_ticks": 0,
+   "jitter_ticks": 6,
+   "note_count": 218
+  },
+  {
+   "name": "Bajo sintetico",
+   "channel": 2,
+   "program": 38,
+   "gm_name": "synth-bass-1",
+   "range": [
+    33,
+    55
+   ],
+   "cc7_volume": 112,
+   "cc10_pan": 64,
+   "cc91_reverb": 20,
+   "cc93_chorus": 0,
+   "detune_bend": 0,
+   "timing_offset_ticks": -3,
+   "jitter_ticks": 4,
+   "note_count": 424
+  },
+  {
+   "name": "Lead principal",
+   "channel": 3,
+   "program": 81,
+   "gm_name": "lead-2-sawtooth",
+   "range": [
+    72,
+    88
+   ],
+   "cc7_volume": 100,
+   "cc10_pan": 72,
+   "cc91_reverb": 100,
+   "cc93_chorus": 30,
+   "detune_bend": -35,
+   "timing_offset_ticks": 14,
+   "jitter_ticks": 12,
+   "note_count": 223
+  },
+  {
+   "name": "Synth strings",
+   "channel": 4,
+   "program": 50,
+   "gm_name": "synth-strings-1",
+   "range": [
+    48,
+    70
+   ],
+   "cc7_volume": 92,
+   "cc10_pan": 48,
+   "cc91_reverb": 100,
+   "cc93_chorus": 70,
+   "detune_bend": -90,
+   "timing_offset_ticks": 17,
+   "jitter_ticks": 6,
+   "note_count": 408
+  },
+  {
+   "name": "Arpegio EP",
+   "channel": 5,
+   "program": 4,
+   "gm_name": "electric-piano-1",
+   "range": [
+    60,
+    84
+   ],
+   "cc7_volume": 96,
+   "cc10_pan": 86,
+   "cc91_reverb": 95,
+   "cc93_chorus": 50,
+   "detune_bend": 55,
+   "timing_offset_ticks": 10,
+   "jitter_ticks": 5,
+   "note_count": 690
+  },
+  {
+   "name": "Percusion electronica",
+   "channel": 10,
+   "program": null,
+   "gm_name": "GM drums",
+   "range": [
+    36,
+    53
+   ],
+   "cc7_volume": 106,
+   "cc10_pan": 64,
+   "cc91_reverb": 60,
+   "cc93_chorus": 0,
+   "timing_offset_ticks": 0,
+   "jitter_ticks": 4,
+   "note_count": 1409
+  }
+ ],
+ "harmony": {
+  "progressions": {
+   "intro": [
+    "Dm",
+    "Bb",
+    "F",
+    "C"
+   ],
+   "verse": [
+    "Dm",
+    "Bb",
+    "F",
+    "C"
+   ],
+   "pre_chorus": [
+    "Gm",
+    "C",
+    "F",
+    "Bb"
+   ],
+   "chorus": [
+    "Dm9",
+    "Am7",
+    "Bbmaj7",
+    "C(add9)"
+   ],
+   "outro": [
+    "Dm",
+    "Bb",
+    "F",
+    "C",
+    "Dm"
+   ]
+  },
+  "harmonic_rhythm": "un acorde por compas (2 compases por acorde en intro y outro)",
+  "voicings": {
+   "pad": "versos: raiz+quinta; pre-coro: triadas; coro: shells 5-7-3 (Dm9 sin 9a: la 9a E la dan EP/lead)",
+   "strings": "abiertos (gaps 7-10 st); verso full (con 3a) alternando con bare (7a/9a/sus2, sin 3a); coro con stabs ritmicos",
+   "voice_leading": "movimiento por grados conjuntos o notas comunes; medio 1.47 st, maximo 5 st"
+  },
+  "sus4": "Dsus4 (G en el EP) en la 2a mitad de los versos pares; Csus4 en el compas C de los ciclos pares del coro",
+  "tension": [
+   "dyads D/Eb en el EP de la intro",
+   "clusters Eb4 (sobre Dm) y Bb3 (sobre Am) en el pad de la 2a mitad del coro final",
+   "blue note Ab5 en el lead del verso 2",
+   "aproximaciones cromaticas en el bajo"
+  ]
+ },
+ "arrangement": {
+  "sections": [
+   {
+    "name": "Intro",
+    "start_bar": 1,
+    "bars": 8,
+    "start_time": "0:00",
+    "velocity_pitched": [
+     36,
+     65
+    ],
+    "instr": [
+     "pad",
+     "strings (desde compas 3)",
+     "ep (pings y dyads D/Eb)",
+     "crash suave",
+     "lluvia"
+    ],
+    "notes": "sin bajo ni ritmo; pad raiz+quinta; clusters D/Eb en el EP; fade-in por CC11"
+   },
+   {
+    "name": "Verso 1",
+    "start_bar": 9,
+    "bars": 16,
+    "start_time": "0:21",
+    "velocity_pitched": [
+     51,
+     92
+    ],
+    "instr": [
+     "pad",
+     "bass",
+     "lead (desde compas 5)",
+     "strings (desde compas 9)",
+     "ep",
+     "drums"
+    ],
+    "notes": "strings: full en el 3er ciclo, bare en el 4o; lead minimalista con silencios"
+   },
+   {
+    "name": "Pre-coro",
+    "start_bar": 25,
+    "bars": 8,
+    "start_time": "1:03",
+    "velocity_pitched": [
+     59,
+     106
+    ],
+    "instr": [
+     "pad",
+     "bass",
+     "lead",
+     "strings",
+     "ep",
+     "drums"
+    ],
+    "notes": "crescendo de velocidad y CC11; EP a semicorcheas los 2 ultimos compases; redoble de caja"
+   },
+   {
+    "name": "Coro",
+    "start_bar": 33,
+    "bars": 16,
+    "start_time": "1:23",
+    "velocity_pitched": [
+     75,
+     110
+    ],
+    "instr": [
+     "pad",
+     "bass",
+     "lead",
+     "strings",
+     "ep",
+     "drums"
+    ],
+    "notes": "hook de 8 compases x2; strings en stabs ritmicos; EP arpegio ancho (D4-F5); Csus4 en ciclos pares; kick a negras"
+   },
+   {
+    "name": "Verso 2",
+    "start_bar": 49,
+    "bars": 16,
+    "start_time": "2:05",
+    "velocity_pitched": [
+     59,
+     104
+    ],
+    "instr": [
+     "pad",
+     "bass",
+     "lead",
+     "strings",
+     "ep",
+     "drums"
+    ],
+    "notes": "strings bare/full/bare/full; lead con blue note Ab5; relleno de toms al final"
+   },
+   {
+    "name": "Coro final",
+    "start_bar": 65,
+    "bars": 16,
+    "start_time": "2:47",
+    "velocity_pitched": [
+     52,
+     110
+    ],
+    "instr": [
+     "pad",
+     "bass",
+     "lead",
+     "strings",
+     "ep",
+     "drums"
+    ],
+    "notes": "hook invertido y variante CH3 mas aguda; EP a semicorcheas en la 2a mitad; clusters Eb4/Bb3 en el pad"
+   },
+   {
+    "name": "Outro",
+    "start_bar": 81,
+    "bars": 8,
+    "start_time": "3:29",
+    "velocity_pitched": [
+     44,
+     82
+    ],
+    "instr": [
+     "pad",
+     "bass",
+     "lead",
+     "strings",
+     "ep (compases 1-6)",
+     "drums (compases 1-6)",
+     "lluvia"
+    ],
+    "notes": "notas largas; fade CC11 exponencial en todos los canales; tape-stop (bend a -8 st) en los 2 ultimos compases"
+   }
+  ]
+ },
+ "melody": {
+  "principle": "versos minimalistas (2-3 notas por compas, silencios largos); coros con hook de 8 compases y variacion; bends: scoop tras silencios y caida en notas largas",
+  "bends": {
+   "lead_scoop": "-0.5 st -> 0 en ~120 ticks (solo tras >=0.75 beats de silencio)",
+   "lead_fall": "0 -> -0.5 st en los ultimos ~0.46 beats (notas >=3 beats)",
+   "bass_slide": "tono entero: entrada ascendente cada 8 compases y salida descendente al final de cada seccion",
+   "pitch_bend_range_semitones": 2,
+   "tape_stop_range_semitones": 12
+  },
+  "lead_phrases_by_section": {
+   "Intro": [],
+   "Verso 1": [
+    {
+     "beat": 16.5,
+     "pitch": 77,
+     "dur": 2.25
+    },
+    {
+     "beat": 19.0,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "beat": 20.5,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "beat": 23.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 24.5,
+     "pitch": 81,
+     "dur": 2.25
+    },
+    {
+     "beat": 27.0,
+     "pitch": 79,
+     "dur": 0.75
+    },
+    {
+     "beat": 28.5,
+     "pitch": 76,
+     "dur": 2.25
+    },
+    {
+     "beat": 31.5,
+     "pitch": 74,
+     "dur": 0.5
+    },
+    {
+     "beat": 32,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "beat": 34,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 34.5,
+     "pitch": 77,
+     "dur": 1.5
+    },
+    {
+     "beat": 37.0,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "beat": 39.5,
+     "pitch": 72,
+     "dur": 0.5
+    },
+    {
+     "beat": 40,
+     "pitch": 72,
+     "dur": 1.0
+    },
+    {
+     "beat": 41.5,
+     "pitch": 77,
+     "dur": 1.5
+    },
+    {
+     "beat": 43.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 44,
+     "pitch": 76,
+     "dur": 2.75
+    },
+    {
+     "beat": 48.5,
+     "pitch": 77,
+     "dur": 2.25
+    },
+    {
+     "beat": 51.0,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "beat": 52.5,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "beat": 55.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 56.5,
+     "pitch": 81,
+     "dur": 2.25
+    },
+    {
+     "beat": 59.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 60.5,
+     "pitch": 76,
+     "dur": 2.25
+    },
+    {
+     "beat": 63.5,
+     "pitch": 74,
+     "dur": 0.5
+    }
+   ],
+   "Pre-coro": [
+    {
+     "beat": 0,
+     "pitch": 74,
+     "dur": 2.0
+    },
+    {
+     "beat": 2.5,
+     "pitch": 79,
+     "dur": 1.25
+    },
+    {
+     "beat": 4,
+     "pitch": 76,
+     "dur": 1.75
+    },
+    {
+     "beat": 6.5,
+     "pitch": 79,
+     "dur": 1.5
+    },
+    {
+     "beat": 8,
+     "pitch": 81,
+     "dur": 1.5
+    },
+    {
+     "beat": 9.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 10,
+     "pitch": 77,
+     "dur": 2.0
+    },
+    {
+     "beat": 12,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "beat": 13,
+     "pitch": 77,
+     "dur": 0.75
+    },
+    {
+     "beat": 14,
+     "pitch": 82,
+     "dur": 1.75
+    },
+    {
+     "beat": 16,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "beat": 17,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 18,
+     "pitch": 82,
+     "dur": 1.75
+    },
+    {
+     "beat": 20,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 21,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 22,
+     "pitch": 84,
+     "dur": 1.75
+    },
+    {
+     "beat": 24,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 25,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "beat": 26,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 27,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 28,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 29,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 30,
+     "pitch": 82,
+     "dur": 1.0
+    },
+    {
+     "beat": 31,
+     "pitch": 84,
+     "dur": 1.0
+    }
+   ],
+   "Coro": [
+    {
+     "beat": 0,
+     "pitch": 81,
+     "dur": 1.5
+    },
+    {
+     "beat": 1.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "beat": 2,
+     "pitch": 76,
+     "dur": 0.75
+    },
+    {
+     "beat": 3,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "beat": 4,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "beat": 5,
+     "pitch": 81,
+     "dur": 0.75
+    },
+    {
+     "beat": 6,
+     "pitch": 79,
+     "dur": 1.5
+    },
+    {
+     "beat": 7.5,
+     "pitch": 76,
+     "dur": 0.5
+    },
+    {
+     "beat": 8,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 9,
+     "pitch": 81,
+     "dur": 0.75
+    },
+    {
+     "beat": 10,
+     "pitch": 86,
+     "dur": 1.25
+    },
+    {
+     "beat": 11.5,
+     "pitch": 84,
+     "dur": 0.5
+    },
+    {
+     "beat": 12,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 13,
+     "pitch": 79,
+     "dur": 0.75
+    },
+    {
+     "beat": 14,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 15,
+     "pitch": 86,
+     "dur": 0.75
+    },
+    {
+     "beat": 16,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "beat": 17,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 18,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 19,
+     "pitch": 77,
+     "dur": 0.75
+    },
+    {
+     "beat": 20,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 21,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 22,
+     "pitch": 84,
+     "dur": 1.75
+    },
+    {
+     "beat": 24,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "beat": 25,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "beat": 26,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 27,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 28,
+     "pitch": 77,
+     "dur": 1.25
+    },
+    {
+     "beat": 29.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 30,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 31,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "beat": 32,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "beat": 33.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "beat": 34,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 35,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "beat": 36,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "beat": 37,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 38,
+     "pitch": 79,
+     "dur": 1.25
+    },
+    {
+     "beat": 39.5,
+     "pitch": 76,
+     "dur": 0.5
+    },
+    {
+     "beat": 40,
+     "pitch": 77,
+     "dur": 0.75
+    },
+    {
+     "beat": 41,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 42,
+     "pitch": 86,
+     "dur": 1.25
+    },
+    {
+     "beat": 43.5,
+     "pitch": 84,
+     "dur": 0.5
+    },
+    {
+     "beat": 44,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 45,
+     "pitch": 79,
+     "dur": 0.75
+    },
+    {
+     "beat": 46,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 47,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "beat": 48,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "beat": 49,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 50,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 51,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 52,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 53,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 54,
+     "pitch": 84,
+     "dur": 1.75
+    },
+    {
+     "beat": 56,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "beat": 57,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 58,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 59,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 60,
+     "pitch": 77,
+     "dur": 1.25
+    },
+    {
+     "beat": 61.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 62,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 63,
+     "pitch": 74,
+     "dur": 1.0
+    }
+   ],
+   "Verso 2": [
+    {
+     "beat": 0.5,
+     "pitch": 77,
+     "dur": 2.25
+    },
+    {
+     "beat": 3.0,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "beat": 4.5,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "beat": 7.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 8.5,
+     "pitch": 81,
+     "dur": 2.25
+    },
+    {
+     "beat": 11.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 12.5,
+     "pitch": 76,
+     "dur": 2.25
+    },
+    {
+     "beat": 15.5,
+     "pitch": 74,
+     "dur": 0.5
+    },
+    {
+     "beat": 16,
+     "pitch": 81,
+     "dur": 1.5
+    },
+    {
+     "beat": 18,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 18.5,
+     "pitch": 77,
+     "dur": 1.5
+    },
+    {
+     "beat": 21.0,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "beat": 23.5,
+     "pitch": 72,
+     "dur": 0.5
+    },
+    {
+     "beat": 24,
+     "pitch": 72,
+     "dur": 1.0
+    },
+    {
+     "beat": 25.5,
+     "pitch": 77,
+     "dur": 1.25
+    },
+    {
+     "beat": 27.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 28,
+     "pitch": 76,
+     "dur": 2.75
+    },
+    {
+     "beat": 32.5,
+     "pitch": 77,
+     "dur": 2.25
+    },
+    {
+     "beat": 35.0,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "beat": 36.5,
+     "pitch": 74,
+     "dur": 1.75
+    },
+    {
+     "beat": 39.0,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 40.5,
+     "pitch": 81,
+     "dur": 2.25
+    },
+    {
+     "beat": 43.0,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 44.5,
+     "pitch": 76,
+     "dur": 2.25
+    },
+    {
+     "beat": 47.5,
+     "pitch": 74,
+     "dur": 0.5
+    },
+    {
+     "beat": 48,
+     "pitch": 74,
+     "dur": 0.5
+    },
+    {
+     "beat": 48.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "beat": 49,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "beat": 50.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 51,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 52,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "beat": 53.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "beat": 54,
+     "pitch": 82,
+     "dur": 1.5
+    },
+    {
+     "beat": 55.5,
+     "pitch": 81,
+     "dur": 0.5
+    },
+    {
+     "beat": 56,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 57,
+     "pitch": 80,
+     "dur": 0.5
+    },
+    {
+     "beat": 57.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 58,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 59,
+     "pitch": 72,
+     "dur": 0.75
+    },
+    {
+     "beat": 60,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 61,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 62,
+     "pitch": 79,
+     "dur": 0.75
+    },
+    {
+     "beat": 63,
+     "pitch": 76,
+     "dur": 0.75
+    }
+   ],
+   "Coro final": [
+    {
+     "beat": 0,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "beat": 1.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "beat": 2,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 3,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "beat": 4,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 5,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 6,
+     "pitch": 79,
+     "dur": 1.25
+    },
+    {
+     "beat": 7.5,
+     "pitch": 76,
+     "dur": 0.25
+    },
+    {
+     "beat": 8,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 9,
+     "pitch": 81,
+     "dur": 0.75
+    },
+    {
+     "beat": 10,
+     "pitch": 86,
+     "dur": 1.5
+    },
+    {
+     "beat": 11.5,
+     "pitch": 84,
+     "dur": 0.5
+    },
+    {
+     "beat": 12,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 13,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 14,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 15,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "beat": 16,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "beat": 17,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 18,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 19,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 20,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 21,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 22,
+     "pitch": 84,
+     "dur": 1.75
+    },
+    {
+     "beat": 24,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "beat": 25,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 26,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 27,
+     "pitch": 77,
+     "dur": 0.75
+    },
+    {
+     "beat": 28,
+     "pitch": 77,
+     "dur": 1.25
+    },
+    {
+     "beat": 29.5,
+     "pitch": 79,
+     "dur": 0.5
+    },
+    {
+     "beat": 30,
+     "pitch": 76,
+     "dur": 0.75
+    },
+    {
+     "beat": 31,
+     "pitch": 74,
+     "dur": 1.0
+    },
+    {
+     "beat": 32,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 33,
+     "pitch": 86,
+     "dur": 0.75
+    },
+    {
+     "beat": 34,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 35,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 36,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 37,
+     "pitch": 88,
+     "dur": 1.0
+    },
+    {
+     "beat": 38,
+     "pitch": 86,
+     "dur": 0.75
+    },
+    {
+     "beat": 39,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "beat": 40,
+     "pitch": 81,
+     "dur": 0.75
+    },
+    {
+     "beat": 41,
+     "pitch": 86,
+     "dur": 1.75
+    },
+    {
+     "beat": 43,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "beat": 44,
+     "pitch": 88,
+     "dur": 1.0
+    },
+    {
+     "beat": 45,
+     "pitch": 86,
+     "dur": 1.0
+    },
+    {
+     "beat": 46,
+     "pitch": 84,
+     "dur": 1.0
+    },
+    {
+     "beat": 47,
+     "pitch": 79,
+     "dur": 1.0
+    },
+    {
+     "beat": 48,
+     "pitch": 81,
+     "dur": 1.25
+    },
+    {
+     "beat": 49.5,
+     "pitch": 77,
+     "dur": 0.5
+    },
+    {
+     "beat": 50,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 51,
+     "pitch": 74,
+     "dur": 0.75
+    },
+    {
+     "beat": 52,
+     "pitch": 84,
+     "dur": 0.75
+    },
+    {
+     "beat": 53,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 54,
+     "pitch": 79,
+     "dur": 1.25
+    },
+    {
+     "beat": 55.5,
+     "pitch": 76,
+     "dur": 0.5
+    },
+    {
+     "beat": 56,
+     "pitch": 77,
+     "dur": 1.0
+    },
+    {
+     "beat": 57,
+     "pitch": 81,
+     "dur": 1.0
+    },
+    {
+     "beat": 58,
+     "pitch": 86,
+     "dur": 1.5
+    },
+    {
+     "beat": 59.5,
+     "pitch": 84,
+     "dur": 0.5
+    },
+    {
+     "beat": 60,
+     "pitch": 77,
+     "dur": 1.75
+    },
+    {
+     "beat": 62,
+     "pitch": 76,
+     "dur": 1.0
+    },
+    {
+     "beat": 63,
+     "pitch": 79,
+     "dur": 0.75
+    }
+   ],
+   "Outro": [
+    {
+     "beat": 0.5,
+     "pitch": 81,
+     "dur": 3.0
+    },
+    {
+     "beat": 4.0,
+     "pitch": 77,
+     "dur": 4.0
+    },
+    {
+     "beat": 8,
+     "pitch": 74,
+     "dur": 4.0
+    },
+    {
+     "beat": 12,
+     "pitch": 77,
+     "dur": 4.0
+    },
+    {
+     "beat": 16,
+     "pitch": 81,
+     "dur": 4.0
+    },
+    {
+     "beat": 20,
+     "pitch": 79,
+     "dur": 4.0
+    },
+    {
+     "beat": 24,
+     "pitch": 81,
+     "dur": 4.0
+    },
+    {
+     "beat": 28,
+     "pitch": 74,
+     "dur": 4.0
+    }
+   ]
+  }
+ },
+ "rhythm": {
+  "bass": {
+   "verse": "ataques en 1, \"y\" del 2 (1.5), 2.5 y 3.5; variante con octava en el 3; aproximacion cromatica en compases impares",
+   "pre_chorus": "corcheas con pulso de raiz y octava",
+   "chorus": "sincopa densa con octavas y semicorchea fantasma",
+   "outro": "una nota larga por compas / acorde"
+  },
+  "drums": {
+   "verse": "kick 1 y 2.5 (+ghost variable), snare 2 y 4 retrasado ~35 ms, hats de corcheas con open hat (25% omitido), rimshot ocasional",
+   "pre_chorus": "kick a medio tiempo, snare a negras y luego corcheas y semicorcheas en crescendo",
+   "chorus": "kick a negras, snare+clap, hats a semicorcheas con open hat a contratiempo, crash cada 4 compases, ride bell cada 4, fill de toms cada 8",
+   "outro": "kick + snare + hats que se apagan en 4 compases"
+  }
+ },
+ "dynamics": {
+  "range": "intro 36-65; versos 51-104; pre-coro 59-106 (crescendo); coros 75-110",
+  "fade": "CC11 exponencial en el outro + tape-stop + fade exp de 6 s en el render",
+  "humanization": "offset por pista (lead +14, strings +17, EP +10, bajo -3 ticks), jitter, snare retrasado, hats irregulares, desafinacion fina"
+ },
+ "mp3_render": {
+  "synth": "fluidsynth + FluidR3_GM.sf2 (reverb y chorus activos)",
+  "extras": [
+   "lluvia (ruido filtrado 1.8-9 kHz) mas presente en intro y outro",
+   "gotas/crackle suave",
+   "hiss minimo",
+   "saturacion tanh suave",
+   "lowpass 12 kHz",
+   "loudnorm I=-16 TP=-1.5 (1 pasada)",
+   "fade exponencial 6 s"
+  ],
+  "measured": {
+   "integrated_lufs": -13.6,
+   "true_peak_dbfs": -1.5,
+   "lra_lu": 6.9,
+   "clipped_samples": 0,
+   "duration_seconds": 235.6
+  }
+ },
+ "validation": {
+  "errors": "none",
+  "bars": 88,
+  "semitone_clashes_unintended": 0,
+  "intentional_dissonant_notes": 8,
+  "max_pitched_polyphony": {
+   "raw": 11,
+   "ignoring_legato_overlap": 10
+  },
+  "strings_avg_movement_semitones": 1.47,
+  "strings_max_movement": 5,
+  "strings_voice_gaps_semitones": [
+   7,
+   10
+  ],
+  "strings_chords_without_third": "12/72",
+  "snare_avg_delay_ms": {
+   "all_backbeats": 21,
+   "verses": 31
+  },
+  "lead_notes": {
+   "Intro": 0,
+   "Verso 1": 25,
+   "Pre-coro": 24,
+   "Coro": 62,
+   "Verso 2": 43,
+   "Coro final": 61,
+   "Outro": 8
+  },
+  "velocity_cap_pitched": 110
+ }
+}

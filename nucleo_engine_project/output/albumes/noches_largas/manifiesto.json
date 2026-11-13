@@ -1,0 +1,453 @@
+{
+  "schema": "dmd-album-manifiesto/1",
+  "album": "Noches Largas",
+  "semilla_album": 3100,
+  "creado_utc": "2026-11-09T06:06:47.627548+00:00",
+  "versiones": {
+    "album": "8.0.0",
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "regenerar_album": "python3 -m album producir /home/z/my-project/nucleo_engine_project/albumes/noches_largas/album.json --out output/albumes/noches_largas --forzar",
+  "pistas": [
+    {
+      "id": "medianoche_puerto",
+      "indice": 1,
+      "doc": "output/albumes/noches_largas/01_medianoche_puerto/doc.json",
+      "sha256_doc": "b2399cc582823f0079871145e6312ae4c8b7ecf03eea4f81785c5882cc93b90f",
+      "perfil": "sax",
+      "seed": 2026,
+      "harmony": null,
+      "sha256_midi": "41058bc61dd40c030f6b45873041cae76c789046e90c16b51a30a1eced67c315",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": false,
+          "drums": false,
+          "vibes": false
+        },
+        "seed": 2026,
+        "production": "sax",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/01_medianoche_puerto/doc.json --production sax --seed 2026 --out output/albumes/noches_largas/01_medianoche_puerto --verify 41058bc61dd40c030f6b45873041cae76c789046e90c16b51a30a1eced67c315",
+      "evidencia": "output/albumes/noches_largas/01_medianoche_puerto/evidencia.json",
+      "evidencia_sha256_midi": "41058bc61dd40c030f6b45873041cae76c789046e90c16b51a30a1eced67c315"
+    },
+    {
+      "id": "calles_de_neon",
+      "indice": 2,
+      "doc": "output/albumes/noches_largas/02_calles_de_neon/doc.json",
+      "sha256_doc": "ced5b2b989541c9266bef6cbeb61f2ca47d56ba0ae6fa452f358fe1828230432",
+      "perfil": "full",
+      "seed": 2026,
+      "harmony": {
+        "keyword": "familiar_pop",
+        "variacion": "subtle"
+      },
+      "sha256_midi": "07b97c86a1e00cd311cadf87ffb27b25a843c3caa8da05102c12eea467840f06",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "seed": 2026,
+        "harmony": {
+          "keyword": "familiar_pop",
+          "variacion": "subtle"
+        },
+        "production": "full",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/02_calles_de_neon/doc.json --production full --seed 2026 --harmony familiar_pop --out output/albumes/noches_largas/02_calles_de_neon --verify 07b97c86a1e00cd311cadf87ffb27b25a843c3caa8da05102c12eea467840f06",
+      "evidencia": "output/albumes/noches_largas/02_calles_de_neon/evidencia.json",
+      "evidencia_sha256_midi": "07b97c86a1e00cd311cadf87ffb27b25a843c3caa8da05102c12eea467840f06"
+    },
+    {
+      "id": "habitacion_314",
+      "indice": 3,
+      "doc": "output/albumes/noches_largas/03_habitacion_314/doc.json",
+      "sha256_doc": "68cbe50f667837977df14e6a086ece595b5a9b11d8272ece1ef68f3d85fe6f65",
+      "perfil": "atmospheric",
+      "seed": 2026,
+      "harmony": {
+        "keyword": "melancholic",
+        "variacion": "medium"
+      },
+      "sha256_midi": "7252a5953f2a2993d261a1b13732fdcb141320df969f7c04aee32840c4d92d4e",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "variation": "atmospheric",
+        "seed": 2026,
+        "harmony": {
+          "keyword": "melancholic",
+          "variacion": "medium"
+        },
+        "production": "atmospheric",
+        "density": {
+          "sax": 0.75,
+          "rhodes": 0.8,
+          "vibes": 1.0,
+          "drums": 0.75
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/03_habitacion_314/doc.json --production atmospheric --seed 2026 --harmony melancholic --out output/albumes/noches_largas/03_habitacion_314 --verify 7252a5953f2a2993d261a1b13732fdcb141320df969f7c04aee32840c4d92d4e",
+      "evidencia": "output/albumes/noches_largas/03_habitacion_314/evidencia.json",
+      "evidencia_sha256_midi": "7252a5953f2a2993d261a1b13732fdcb141320df969f7c04aee32840c4d92d4e"
+    },
+    {
+      "id": "bruma_dorada",
+      "indice": 4,
+      "doc": "output/albumes/noches_largas/04_bruma_dorada/doc.json",
+      "sha256_doc": "d1c984c78ae7b89f92c6de32e9c25adbca26459fdcea697a59b837b3cdda9ebd",
+      "perfil": "original",
+      "seed": 3504,
+      "harmony": null,
+      "sha256_midi": "7573247183da19c16bc322065b2890907591b39d45464c856a3e26b04e5bfa55",
+      "config_efectiva": {
+        "production": "original",
+        "engines": {},
+        "seed": 3504
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/04_bruma_dorada/doc.json --production original --seed 3504 --out output/albumes/noches_largas/04_bruma_dorada --verify 7573247183da19c16bc322065b2890907591b39d45464c856a3e26b04e5bfa55",
+      "evidencia": "output/albumes/noches_largas/04_bruma_dorada/evidencia.json",
+      "evidencia_sha256_midi": "7573247183da19c16bc322065b2890907591b39d45464c856a3e26b04e5bfa55"
+    },
+    {
+      "id": "casa_de_espejos",
+      "indice": 5,
+      "doc": "output/albumes/noches_largas/05_casa_de_espejos/doc.json",
+      "sha256_doc": "d429c69277639394211c64b6156784a610cf0f21b2b886e839739f3765719639",
+      "perfil": "sax_rhodes",
+      "seed": 2026,
+      "harmony": {
+        "keyword": "soulful",
+        "variacion": "medium"
+      },
+      "sha256_midi": "75cb88be775105d09c76ab8c87180b6c665138844ce576e08883d3ba5ff20b59",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": false,
+          "vibes": false
+        },
+        "seed": 2026,
+        "harmony": {
+          "keyword": "soulful",
+          "variacion": "medium"
+        },
+        "production": "sax_rhodes",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/05_casa_de_espejos/doc.json --production sax_rhodes --seed 2026 --harmony soulful --out output/albumes/noches_largas/05_casa_de_espejos --verify 75cb88be775105d09c76ab8c87180b6c665138844ce576e08883d3ba5ff20b59",
+      "evidencia": "output/albumes/noches_largas/05_casa_de_espejos/evidencia.json",
+      "evidencia_sha256_midi": "75cb88be775105d09c76ab8c87180b6c665138844ce576e08883d3ba5ff20b59"
+    },
+    {
+      "id": "neblina_alta",
+      "indice": 6,
+      "doc": "output/albumes/noches_largas/06_neblina_alta/doc.json",
+      "sha256_doc": "51cccc69285af06522e3c2d29ec7c268cd7f5661982e4a260ea5d753c1b736b7",
+      "perfil": "drums",
+      "seed": 3706,
+      "harmony": {
+        "keyword": "tension_release",
+        "variacion": "subtle"
+      },
+      "sha256_midi": "c44c010b2665b1eb917b9c5e089056b1c8d293eb30995b3deedd1064ef2833db",
+      "config_efectiva": {
+        "engines": {
+          "sax": false,
+          "rhodes": false,
+          "drums": true,
+          "vibes": false
+        },
+        "seed": 3706,
+        "harmony": {
+          "keyword": "tension_release",
+          "variacion": "subtle"
+        },
+        "production": "drums",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/06_neblina_alta/doc.json --production drums --seed 3706 --harmony tension_release --out output/albumes/noches_largas/06_neblina_alta --verify c44c010b2665b1eb917b9c5e089056b1c8d293eb30995b3deedd1064ef2833db",
+      "evidencia": "output/albumes/noches_largas/06_neblina_alta/evidencia.json",
+      "evidencia_sha256_midi": "c44c010b2665b1eb917b9c5e089056b1c8d293eb30995b3deedd1064ef2833db"
+    },
+    {
+      "id": "viaducto_sur",
+      "indice": 7,
+      "doc": "output/albumes/noches_largas/07_viaducto_sur/doc.json",
+      "sha256_doc": "4e6c9da08791d2dba951f7898de36c1046af21d7bf90b8418dfd153669b7a9a4",
+      "perfil": "full",
+      "seed": 3807,
+      "harmony": {
+        "id": "CINE01",
+        "variacion": "medium"
+      },
+      "sha256_midi": "bd123097c269dec9f667c83c8e2efecc4dc3e888ba229d1f726bba570b81be65",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "seed": 3807,
+        "harmony": {
+          "id": "CINE01",
+          "variacion": "medium"
+        },
+        "production": "full",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/07_viaducto_sur/doc.json --production full --seed 3807 --harmony-id CINE01 --out output/albumes/noches_largas/07_viaducto_sur --verify bd123097c269dec9f667c83c8e2efecc4dc3e888ba229d1f726bba570b81be65",
+      "evidencia": "output/albumes/noches_largas/07_viaducto_sur/evidencia.json",
+      "evidencia_sha256_midi": "bd123097c269dec9f667c83c8e2efecc4dc3e888ba229d1f726bba570b81be65"
+    },
+    {
+      "id": "habitacion_vacia",
+      "indice": 8,
+      "doc": "output/albumes/noches_largas/08_habitacion_vacia/doc.json",
+      "sha256_doc": "ce8eb31503d6dd06f0f6f829e27663e0c451ad36832ed365f959e1f9689f204f",
+      "perfil": "atmospheric",
+      "seed": 3908,
+      "harmony": {
+        "keyword": "dream_pop",
+        "variacion": "subtle"
+      },
+      "sha256_midi": "15e9399ba5783030c027bb059c193faeaec2c2b6d9731ee09aa5ec211d8960f9",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "variation": "atmospheric",
+        "seed": 3908,
+        "harmony": {
+          "keyword": "dream_pop",
+          "variacion": "subtle"
+        },
+        "production": "atmospheric",
+        "density": {
+          "sax": 0.75,
+          "rhodes": 0.8,
+          "vibes": 1.0,
+          "drums": 0.75
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/08_habitacion_vacia/doc.json --production atmospheric --seed 3908 --harmony dream_pop --out output/albumes/noches_largas/08_habitacion_vacia --verify 15e9399ba5783030c027bb059c193faeaec2c2b6d9731ee09aa5ec211d8960f9",
+      "evidencia": "output/albumes/noches_largas/08_habitacion_vacia/evidencia.json",
+      "evidencia_sha256_midi": "15e9399ba5783030c027bb059c193faeaec2c2b6d9731ee09aa5ec211d8960f9"
+    },
+    {
+      "id": "asfalto_humedo",
+      "indice": 9,
+      "doc": "output/albumes/noches_largas/09_asfalto_humedo/doc.json",
+      "sha256_doc": "18a02c86c908287d8ffa4c35f0c369f0c27d11fd6f561b5dfb98174542a9d998",
+      "perfil": "sax_vibes",
+      "seed": 4009,
+      "harmony": {
+        "keyword": "alternative",
+        "variacion": "subtle"
+      },
+      "sha256_midi": "2366c75942dca0c19a44d6d77972d186ee69bc4cf326eabbfead2a544b47463f",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": false,
+          "drums": false,
+          "vibes": true
+        },
+        "seed": 4009,
+        "harmony": {
+          "keyword": "alternative",
+          "variacion": "subtle"
+        },
+        "production": "sax_vibes",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/09_asfalto_humedo/doc.json --production sax_vibes --seed 4009 --harmony alternative --out output/albumes/noches_largas/09_asfalto_humedo --verify 2366c75942dca0c19a44d6d77972d186ee69bc4cf326eabbfead2a544b47463f",
+      "evidencia": "output/albumes/noches_largas/09_asfalto_humedo/evidencia.json",
+      "evidencia_sha256_midi": "2366c75942dca0c19a44d6d77972d186ee69bc4cf326eabbfead2a544b47463f"
+    },
+    {
+      "id": "portico_sur",
+      "indice": 10,
+      "doc": "output/albumes/noches_largas/10_portico_sur/doc.json",
+      "sha256_doc": "6083133bdceb716a655aa5da528f08ad0d1e3a749ca742a0eb376d81f90a13ac",
+      "perfil": "original",
+      "seed": 4110,
+      "harmony": null,
+      "sha256_midi": "6797453d959b063628ddcaeba2eee6753eb299fc4d6fe521ddaea199c4946b52",
+      "config_efectiva": {
+        "production": "original",
+        "engines": {},
+        "seed": 4110
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/10_portico_sur/doc.json --production original --seed 4110 --out output/albumes/noches_largas/10_portico_sur --verify 6797453d959b063628ddcaeba2eee6753eb299fc4d6fe521ddaea199c4946b52",
+      "evidencia": "output/albumes/noches_largas/10_portico_sur/evidencia.json",
+      "evidencia_sha256_midi": "6797453d959b063628ddcaeba2eee6753eb299fc4d6fe521ddaea199c4946b52"
+    },
+    {
+      "id": "nocturno_terminal",
+      "indice": 11,
+      "doc": "output/albumes/noches_largas/11_nocturno_terminal/doc.json",
+      "sha256_doc": "a43b98ebe8ec6724c544b5a3ac8758a8f3ec0e3fb4aff6511017b60bc87d2d25",
+      "perfil": "full",
+      "seed": 2026,
+      "harmony": {
+        "keyword": "dark_cinematic",
+        "variacion": "medium"
+      },
+      "sha256_midi": "cd3c7303db17d66261963e859ffb51731bbfa8df5dbaea61e22aa9b42718c6b9",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "seed": 2026,
+        "harmony": {
+          "keyword": "dark_cinematic",
+          "variacion": "medium"
+        },
+        "production": "full",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/11_nocturno_terminal/doc.json --production full --seed 2026 --harmony dark_cinematic --out output/albumes/noches_largas/11_nocturno_terminal --verify cd3c7303db17d66261963e859ffb51731bbfa8df5dbaea61e22aa9b42718c6b9",
+      "evidencia": "output/albumes/noches_largas/11_nocturno_terminal/evidencia.json",
+      "evidencia_sha256_midi": "cd3c7303db17d66261963e859ffb51731bbfa8df5dbaea61e22aa9b42718c6b9"
+    },
+    {
+      "id": "marea_baja",
+      "indice": 12,
+      "doc": "output/albumes/noches_largas/12_marea_baja/doc.json",
+      "sha256_doc": "84c0315ddae1d3ffefacfe97ccdecd704d797db174287b6488cc9328da3652f7",
+      "perfil": "sax",
+      "seed": 4312,
+      "harmony": {
+        "keyword": "emotional_resolution",
+        "variacion": "subtle"
+      },
+      "sha256_midi": "bd2208f4460e715b8dfdcf66be0a7776ef51f0a4bef0378a66ad82ef43fbf32d",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": false,
+          "drums": false,
+          "vibes": false
+        },
+        "seed": 4312,
+        "harmony": {
+          "keyword": "emotional_resolution",
+          "variacion": "subtle"
+        },
+        "production": "sax",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/12_marea_baja/doc.json --production sax --seed 4312 --harmony emotional_resolution --out output/albumes/noches_largas/12_marea_baja --verify bd2208f4460e715b8dfdcf66be0a7776ef51f0a4bef0378a66ad82ef43fbf32d",
+      "evidencia": "output/albumes/noches_largas/12_marea_baja/evidencia.json",
+      "evidencia_sha256_midi": "bd2208f4460e715b8dfdcf66be0a7776ef51f0a4bef0378a66ad82ef43fbf32d"
+    },
+    {
+      "id": "ultimo_metro",
+      "indice": 13,
+      "doc": "output/albumes/noches_largas/13_ultimo_metro/doc.json",
+      "sha256_doc": "ebf924b0a61f339d72638e66226ac1267f915f442f37b08b083305357b157c20",
+      "perfil": "atmospheric",
+      "seed": 4413,
+      "harmony": {
+        "keyword": "familiarity_auto",
+        "variacion": "subtle"
+      },
+      "sha256_midi": "9ccab4118229e2e774438b70a1f0e22234a8e34bd2ee54eadfab993c0b6b0e42",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "variation": "atmospheric",
+        "seed": 4413,
+        "harmony": {
+          "keyword": "familiarity_auto",
+          "variacion": "subtle"
+        },
+        "production": "atmospheric",
+        "density": {
+          "sax": 0.75,
+          "rhodes": 0.8,
+          "vibes": 1.0,
+          "drums": 0.75
+        }
+      },
+      "regenerar": "python3 scripts/produce.py output/albumes/noches_largas/13_ultimo_metro/doc.json --production atmospheric --seed 4413 --harmony familiarity_auto --out output/albumes/noches_largas/13_ultimo_metro --verify 9ccab4118229e2e774438b70a1f0e22234a8e34bd2ee54eadfab993c0b6b0e42",
+      "evidencia": "output/albumes/noches_largas/13_ultimo_metro/evidencia.json",
+      "evidencia_sha256_midi": "9ccab4118229e2e774438b70a1f0e22234a8e34bd2ee54eadfab993c0b6b0e42"
+    }
+  ],
+  "hashes": {
+    "plan_json": "638dc7d973e9a15dd385b87e290eaaaf384374131727da9acc519c634016639d",
+    "estado_json": "685acd093585dd479548dad93986704bdaf69698ce841104f8171947eb2edc59",
+    "huellas_json": "464eabffe6dfa44da2d7c76121e51e73a988b0a7573fd9a6ef044e9f0b7a991a"
+  }
+}

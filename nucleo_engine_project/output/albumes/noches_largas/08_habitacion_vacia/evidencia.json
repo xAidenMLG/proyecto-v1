@@ -1,0 +1,100 @@
+{
+  "composicion": "Habitación Vacía",
+  "perfil_produccion": "atmospheric",
+  "seed": 3908,
+  "sha256_midi": "15e9399ba5783030c027bb059c193faeaec2c2b6d9731ee09aa5ec211d8960f9",
+  "sha256_doc": "ce8eb31503d6dd06f0f6f829e27663e0c451ad36832ed365f959e1f9689f204f",
+  "fecha_generacion_utc": "2026-11-09T06:06:47.382989+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 82.0,
+  "compases": 40,
+  "duracion_s": 117.1,
+  "notas_por_pista": {
+    "sax_tenor": 11,
+    "rhodes": 102,
+    "vibraphone": 14,
+    "bass": 88,
+    "drums": 334,
+    "pad": 76
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [],
+  "resumen_actividad": {
+    "frases_sax": 4,
+    "rhodes_melodico_por_seccion": {
+      "intro": 0,
+      "verse_1": 3,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "break_1": 0,
+      "verse_2": 0,
+      "outro": 2
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse_1": 0,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "break_1": 0,
+      "verse_2": 1,
+      "outro": 0
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production atmospheric --seed 3908 --out output/albumes/noches_largas/08_habitacion_vacia --verify 15e9399ba5783030c027bb059c193faeaec2c2b6d9731ee09aa5ec211d8960f9",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"08_habitacion_vacia.mid\" -F salida.wav -r 44100"
+  },
+  "harmonia": {
+    "activacion": {
+      "keyword": "dream_pop",
+      "variacion": "subtle"
+    },
+    "resumen": {
+      "reescritas": 7,
+      "respetadas": 0
+    },
+    "eleccion": {
+      "outro": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "verse_2": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "break_1": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "chorus_1": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "pre_1": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "verse_1": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      },
+      "intro": {
+        "id": "DREAM07",
+        "nombre": "Mixolidio Oscuro"
+      }
+    },
+    "respetadas_material": []
+  }
+}

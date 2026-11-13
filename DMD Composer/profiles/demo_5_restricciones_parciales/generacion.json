@@ -1,0 +1,188 @@
+{
+  "nombre": "demo_5_restricciones_parciales",
+  "seed": 2026,
+  "sha256_doc": "946a5b057b4006e2bcd8f6a01931b0ccfd1f3d6ae3f1367e7d235c01ba12065a",
+  "sha256_song_map": "541890c6e8f56d3e14069cf762a30e57317bec893546fcbf6aae04363cf3e537",
+  "validacion": {
+    "errores": [],
+    "avisos": [
+      [
+        "W421",
+        "transición 'break' → 'chorus': bass inactivo en el origen, gesto cromático omitido (la estrategia no incluye split)"
+      ]
+    ],
+    "e3xx": []
+  },
+  "compilado": {
+    "total_bars": 88,
+    "target_schema": "midi-forge/1"
+  },
+  "decisiones": {
+    "fijadas": {
+      "identity": "dark_triphop",
+      "harmony_mode": "guided",
+      "mood": "tense",
+      "spaces": "suggested",
+      "protagonist": "sax_tenor"
+    },
+    "automaticas": {
+      "seed": 2026,
+      "accessibility": "balanced",
+      "language": "experimental",
+      "atmosphere": "medium",
+      "groove": "laid_back",
+      "bpm": 77,
+      "key": "E phrygian",
+      "harmonic_rhythm_bars": 2,
+      "production": "sax_vibes",
+      "ending": "fade_out",
+      "structure": [
+        "intro:8",
+        "verse:16",
+        "break:8",
+        "chorus:20",
+        "bridge:8",
+        "chorus:20",
+        "outro:8"
+      ]
+    },
+    "log": [
+      {
+        "axis": "seed",
+        "estado": "auto",
+        "valor": 2026,
+        "razon": "semilla generada deterministamente (guardada para reproducir)",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "identity",
+        "estado": "fixed",
+        "valor": "dark_triphop",
+        "razon": "decisión del usuario",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "accessibility",
+        "estado": "auto",
+        "valor": "balanced",
+        "razon": "preferencia ponderada por mood 'tense'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "language",
+        "estado": "auto",
+        "valor": "experimental",
+        "razon": "preferencia ponderada por mood 'tense'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "atmosphere",
+        "estado": "auto",
+        "valor": "medium",
+        "razon": "preferencia ponderada por mood 'tense'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "groove",
+        "estado": "auto",
+        "valor": "laid_back",
+        "razon": "preferencia ponderada por mood 'tense'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "bpm",
+        "estado": "auto",
+        "valor": 77,
+        "razon": "curva por mood 'tense' dentro del rango típico de dark_triphop [70, 96]",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "key",
+        "estado": "auto",
+        "valor": "E phrygian",
+        "razon": "tonalidad favorecida por mood 'tense' (reglas de compatibilidad: menor para oscuro/melancólico, mayor para esperanzador)",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "resolution",
+        "estado": "free",
+        "valor": null,
+        "razon": "default del lenguaje (sin campo)",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "harmonic_rhythm_bars",
+        "estado": "auto",
+        "valor": 2,
+        "razon": "default de la receta dark_triphop (1) con jitter; regla de compatibilidad: nunca menor que la receta en identidades doom",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "protagonist",
+        "estado": "fixed",
+        "valor": "sax_tenor",
+        "razon": "decisión del usuario (prioridad funcional)",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "harmony_mode",
+        "estado": "fixed",
+        "valor": "guided",
+        "razon": "native = recetas N1 del motor | guided = progresiones explícitas por sección",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "spaces",
+        "estado": "fixed",
+        "valor": "suggested",
+        "razon": "obligatorios → el plan favorece densidades bajas y secciones de aire",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "production",
+        "estado": "auto",
+        "valor": "sax_vibes",
+        "razon": "perfil coherente con atmósfera 'medium'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "ending",
+        "estado": "auto",
+        "valor": "fade_out",
+        "razon": "cierre coherente con mood 'tense'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "structure",
+        "estado": "auto",
+        "valor": [
+          "intro:8",
+          "verse:16",
+          "break:8",
+          "chorus:20",
+          "bridge:8",
+          "chorus:20",
+          "outro:8"
+        ],
+        "razon": "plantilla estructural de mood 'tense' (plantilla #1)",
+        "descartadas": [],
+        "reglas": []
+      }
+    ]
+  }
+}

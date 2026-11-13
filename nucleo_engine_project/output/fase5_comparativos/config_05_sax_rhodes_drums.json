@@ -1,0 +1,9 @@
+{
+  "engines": {
+    "sax": true,
+    "rhodes": true,
+    "drums": true,
+    "vibes": false
+  },
+  "seed": 2026
+}

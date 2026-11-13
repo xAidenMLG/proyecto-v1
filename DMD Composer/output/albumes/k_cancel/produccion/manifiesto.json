@@ -1,0 +1,114 @@
+{
+  "schema": "dmd-album-manifiesto/1",
+  "album": "K Cancel",
+  "semilla_album": 822986,
+  "creado_utc": "2026-11-11T08:27:07.970020+00:00",
+  "versiones": {
+    "album": "8.0.0",
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "regenerar_album": "python3 -m album producir /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/album.json --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion --forzar",
+  "pistas": [
+    {
+      "id": "track01",
+      "indice": 1,
+      "doc": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/01_track01/doc.json",
+      "sha256_doc": "be488fb6ae554c243fb692aacc6747808276892579ac31a97c82344b49c4d843",
+      "perfil": "atmospheric",
+      "seed": 841749,
+      "harmony": null,
+      "sha256_midi": "045bebcda0b7467c9de3c47a0ab1b1a9a518dc76f53c1442962dfffcb0ace48c",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "variation": "atmospheric",
+        "seed": 841749,
+        "production": "atmospheric",
+        "density": {
+          "sax": 0.75,
+          "rhodes": 0.8,
+          "vibes": 1.0,
+          "drums": 0.75
+        }
+      },
+      "regenerar": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/01_track01/doc.json --production atmospheric --seed 841749 --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/01_track01 --verify 045bebcda0b7467c9de3c47a0ab1b1a9a518dc76f53c1442962dfffcb0ace48c",
+      "evidencia": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/01_track01/evidencia.json",
+      "evidencia_sha256_midi": "045bebcda0b7467c9de3c47a0ab1b1a9a518dc76f53c1442962dfffcb0ace48c"
+    },
+    {
+      "id": "track02",
+      "indice": 2,
+      "doc": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/02_track02/doc.json",
+      "sha256_doc": "62d47202cd92bdcb1c0827fd976a91c86513c516ba73974567646c90269f43f5",
+      "perfil": "full",
+      "seed": 635379,
+      "harmony": null,
+      "sha256_midi": "5aa34e889d16ede6e7c8fb75295c6d18fc6ffb931bb30080affc461785e3263e",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "seed": 635379,
+        "production": "full",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/02_track02/doc.json --production full --seed 635379 --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/02_track02 --verify 5aa34e889d16ede6e7c8fb75295c6d18fc6ffb931bb30080affc461785e3263e",
+      "evidencia": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/02_track02/evidencia.json",
+      "evidencia_sha256_midi": "5aa34e889d16ede6e7c8fb75295c6d18fc6ffb931bb30080affc461785e3263e"
+    },
+    {
+      "id": "track03",
+      "indice": 3,
+      "doc": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/03_track03/doc.json",
+      "sha256_doc": "57b8417b5b99e5810f4b50dc4c68556d7a3295dde8e75da55bed06309ef11490",
+      "perfil": "atmospheric",
+      "seed": 403651,
+      "harmony": null,
+      "sha256_midi": "9bc2bd44663bf1b3efda536b0b1dd462119f0182076d51ea4b644619d5b54145",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "variation": "atmospheric",
+        "seed": 403651,
+        "production": "atmospheric",
+        "density": {
+          "sax": 0.75,
+          "rhodes": 0.8,
+          "vibes": 1.0,
+          "drums": 0.75
+        }
+      },
+      "regenerar": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/03_track03/doc.json --production atmospheric --seed 403651 --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/03_track03 --verify 9bc2bd44663bf1b3efda536b0b1dd462119f0182076d51ea4b644619d5b54145",
+      "evidencia": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/03_track03/evidencia.json",
+      "evidencia_sha256_midi": "9bc2bd44663bf1b3efda536b0b1dd462119f0182076d51ea4b644619d5b54145"
+    }
+  ],
+  "hashes": {
+    "plan_json": "628b5d2f66af5d816f2e17bbe87ddcec8fee8a7d29f6923802244046ff9ef27a",
+    "estado_json": "dc54fd1de00c40ddd01ca9a0620ad33a41a91c49d734ee9df65ea44331e016f1",
+    "huellas_json": "5c30b714eb23e3b135426edf5aa897ba068a2168cd3085649be9603c5b386b72"
+  }
+}

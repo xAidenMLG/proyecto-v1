@@ -1,0 +1,5 @@
+orden,id,nombre_visible,tipo_funcional,compas_inicial,compas_final,compases,progresion,chord_bars,tonalidad,duracion_seg
+1,intro,Intro,intro,1,8,8,Dm - F,2,D minor,27.04
+2,solo,Solo de Vibes,break,9,24,16,Dm - Bb - F - C,2,D minor,54.08
+3,eco,Eco,break,25,32,8,Gm - Dm,2,D minor,27.04
+4,outro,Outro,outro,33,40,8,Dm - Bb,2,D minor,27.04

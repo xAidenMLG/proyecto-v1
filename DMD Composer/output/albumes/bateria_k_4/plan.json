@@ -1,0 +1,65 @@
+{
+  "formato": "dmd-album/1",
+  "album_id": "bateria_k_4",
+  "name": "Bateria K",
+  "tracks_total": 2,
+  "creado": 1794386419.5333328,
+  "compartido": {
+    "identity": "dark_triphop",
+    "mood": "dark",
+    "protagonist": null,
+    "harmony_mode": "native",
+    "spaces": null,
+    "instruments": {},
+    "diversity": "balanced",
+    "estructura": "variable",
+    "_secciones": [],
+    "_harmonias": {}
+  },
+  "pistas": [
+    {
+      "n": 1,
+      "estado": "lista",
+      "seed": 659135,
+      "key": "D minor",
+      "bpm": 76,
+      "language": "pop_dream_pop",
+      "plantilla": 1,
+      "gen": "gen_0001",
+      "groove": "driving",
+      "accessibility": "experimental",
+      "pid": "bateria_k_4_track_01",
+      "doc_sha256": "641c6fdd1cf34c9c532cf6bcc2c5c75371f8df1a923a14dcb00b000c81448842"
+    },
+    {
+      "n": 2,
+      "estado": "lista",
+      "seed": 357260,
+      "key": "A minor",
+      "bpm": 89,
+      "language": "hybrid",
+      "plantilla": 0,
+      "gen": "gen_0001",
+      "groove": "driving",
+      "accessibility": "experimental",
+      "pid": "bateria_k_4_track_02",
+      "doc_sha256": "4f60c76c18f72c21d3f4e1e9419904eab88ad891011f9d0b2c164caae44b3208"
+    }
+  ],
+  "huellas": [
+    {
+      "key": "D minor",
+      "plantilla": 1,
+      "language": "pop_dream_pop",
+      "bpm": 76,
+      "groove": "driving"
+    },
+    {
+      "key": "A minor",
+      "plantilla": 0,
+      "language": "hybrid",
+      "bpm": 89,
+      "groove": "driving"
+    }
+  ]
+}

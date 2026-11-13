@@ -1,0 +1,117 @@
+{
+  "composicion": "nocturno_terminal",
+  "run": "C_transformado_dark_cinematic",
+  "keyword": "dark_cinematic",
+  "seed_doc": 2026,
+  "seed_harmony": 777,
+  "sha256_midi": "1ef0dbb1f55c069f63cbb34449439a2139a7e0e5221f4b2f947a95770cbb0924",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/nocturno_terminal/doc.json --dark-director --production full --seed 2026 -o regen.mid --harmony dark_cinematic --harmony-seed 777 --harmony-variacion rich",
+  "compliance_fails": [],
+  "duracion_s": 145.1,
+  "armonia": {
+    "eleccion_por_seccion": {
+      "outro": {
+        "entrada": "CINE02",
+        "simbolos": [
+          "Dm",
+          "Gm",
+          "Bb",
+          "Asus4"
+        ]
+      },
+      "chorus_2": {
+        "entrada": "CINE04",
+        "simbolos": [
+          "Dm",
+          "Bb",
+          "C",
+          "Dm",
+          "Bb",
+          "C",
+          "G",
+          "A7"
+        ]
+      },
+      "verse_2": {
+        "entrada": "CINE01",
+        "simbolos": [
+          "Dm",
+          "Bb",
+          "F",
+          "C",
+          "Dm",
+          "Bb",
+          "F",
+          "C"
+        ]
+      },
+      "break_1": {
+        "entrada": "CINE05",
+        "simbolos": [
+          "Dm",
+          "Am9",
+          "Dm9",
+          "Am"
+        ]
+      },
+      "bridge_1": {
+        "entrada": "CINE01",
+        "simbolos": [
+          "Dm",
+          "Bb",
+          "F",
+          "C"
+        ]
+      },
+      "chorus_1": {
+        "entrada": "CINE04",
+        "simbolos": [
+          "Dm",
+          "Bb",
+          "C",
+          "Dm",
+          "Bb",
+          "C",
+          "G",
+          "A7"
+        ]
+      },
+      "pre_1": {
+        "entrada": "CINE02",
+        "simbolos": [
+          "Dm",
+          "Gm",
+          "Bb",
+          "Asus4"
+        ]
+      },
+      "verse_1": {
+        "entrada": "CINE01",
+        "simbolos": [
+          "Dm",
+          "Bb",
+          "F",
+          "C",
+          "Dm",
+          "Bb",
+          "F",
+          "C"
+        ]
+      },
+      "intro": {
+        "entrada": "CINE04",
+        "simbolos": [
+          "Dm",
+          "Bb",
+          "C",
+          "G"
+        ]
+      }
+    },
+    "respetadas_material": [],
+    "resumen": {
+      "reescritas": 9,
+      "respetadas": 0
+    }
+  }
+}

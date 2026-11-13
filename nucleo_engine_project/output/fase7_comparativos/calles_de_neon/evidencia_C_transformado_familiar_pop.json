@@ -1,0 +1,46 @@
+{
+  "composicion": "calles_de_neon",
+  "run": "C_transformado_familiar_pop",
+  "keyword": "familiar_pop",
+  "seed_doc": 9021,
+  "seed_harmony": 902,
+  "sha256_midi": "c0ac40acd9c195d621fa6000d63e0b66d10f78422f2a5e53127917b25f325281",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/calles_de_neon/doc.json --dark-director --production full --seed 9021 -o regen.mid --harmony familiar_pop --harmony-seed 902 --harmony-variacion rich",
+  "compliance_fails": [],
+  "duracion_s": 93.9,
+  "armonia": {
+    "eleccion_por_seccion": {
+      "chorus_2": {
+        "entrada": "POP02",
+        "simbolos": [
+          "F",
+          "Dm",
+          "Am",
+          "E6",
+          "F",
+          "Dm7",
+          "Am7",
+          "E"
+        ]
+      },
+      "intro": {
+        "entrada": "POP01",
+        "simbolos": [
+          "Am",
+          "Esus4",
+          "Am",
+          "Dm7"
+        ]
+      }
+    },
+    "respetadas_material": [
+      "verse_2",
+      "chorus_1",
+      "verse_1"
+    ],
+    "resumen": {
+      "reescritas": 2,
+      "respetadas": 3
+    }
+  }
+}

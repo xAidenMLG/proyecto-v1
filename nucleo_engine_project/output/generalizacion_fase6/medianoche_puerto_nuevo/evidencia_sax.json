@@ -1,0 +1,51 @@
+{
+  "composicion": "medianoche_puerto_nuevo",
+  "perfil": "sax",
+  "seed": 3113,
+  "sha256": "b441c10586d8308258d37c0f35d238aac9abdd43abbc8c862ae6d1f9f46173c0",
+  "bytes": 10111,
+  "bpm": 78.0,
+  "compases": 60,
+  "duracion_s": 184.6,
+  "notas_por_pista": {
+    "sax_tenor": 42,
+    "rhodes": 147,
+    "vibraphone": 25,
+    "bass": 150,
+    "drums": 491,
+    "pad": 52
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 0,
+    "lead_coherencia_armonica": 0.762,
+    "rhodes_secciones_melodicas": [],
+    "rhodes_modos": {},
+    "rhodes_fuera_registro": 0,
+    "rhodes_pisa_sax": 0,
+    "vibes_eco_fuera_registro": 0,
+    "vibes_ecos_en_secciones_sin_sax": [],
+    "vibes_presupuesto": 3,
+    "vibes_usadas": 3,
+    "drums_fills": [],
+    "drums_actitudes": {
+      "intro": "keep",
+      "verse_1": "vary",
+      "verse_2": "vary",
+      "pre_1": "build",
+      "chorus_1": "build",
+      "bridge_1": "drop",
+      "chorus_2": "build",
+      "outro": "keep"
+    },
+    "secciones_triple_melodia": [],
+    "sax_share": 0.5,
+    "determinismo": true
+  },
+  "fallos": [],
+  "frases_sax": 4,
+  "rhodes_melodico": {},
+  "vibes_eco": null,
+  "seed_distinta_cambia": true
+}

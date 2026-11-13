@@ -1,0 +1,200 @@
+{
+  "schema": "dmd-album-informe/1",
+  "album": "K Cancel",
+  "generado_utc": "2026-11-11T08:27:07.970536+00:00",
+  "resumen": {
+    "pistas_totales": 3,
+    "ok": 3,
+    "fallo": 0,
+    "no_ejecutadas": 0,
+    "duracion_total_s": 525.7,
+    "avisos_plan": [
+      "W-A4: el perfil 'atmospheric' cubre 2/3 pistas (> 40%) — perfiles explícitos del compositor: se respetan",
+      "W-A7: 'track01' con BPM 71 fuera del rango de referencia 76–92 (Dark Trip Hop)"
+    ]
+  },
+  "pistas": [
+    {
+      "indice": 1,
+      "id": "track01",
+      "titulo": "Track 01",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "atmospheric",
+      "perfil_origen": "especificado",
+      "seed": 841749,
+      "seed_origen": "especificado",
+      "harmony": null,
+      "bpm": 71,
+      "tonalidad": "C minor",
+      "compases": 60,
+      "duracion_s": 202.8,
+      "sha256_midi": "045bebcda0b7467c9de3c47a0ab1b1a9a518dc76f53c1442962dfffcb0ace48c",
+      "sha256_doc": "be488fb6ae554c243fb692aacc6747808276892579ac31a97c82344b49c4d843",
+      "compliance_fails": [],
+      "compliance_warns": [],
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/01_track01"
+    },
+    {
+      "indice": 2,
+      "id": "track02",
+      "titulo": "Track 02",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "full",
+      "perfil_origen": "especificado",
+      "seed": 635379,
+      "seed_origen": "especificado",
+      "harmony": null,
+      "bpm": 92,
+      "tonalidad": "D minor",
+      "compases": 56,
+      "duracion_s": 146.1,
+      "sha256_midi": "5aa34e889d16ede6e7c8fb75295c6d18fc6ffb931bb30080affc461785e3263e",
+      "sha256_doc": "62d47202cd92bdcb1c0827fd976a91c86513c516ba73974567646c90269f43f5",
+      "compliance_fails": [],
+      "compliance_warns": [],
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/02_track02"
+    },
+    {
+      "indice": 3,
+      "id": "track03",
+      "titulo": "Track 03",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "atmospheric",
+      "perfil_origen": "especificado",
+      "seed": 403651,
+      "seed_origen": "especificado",
+      "harmony": null,
+      "bpm": 76,
+      "tonalidad": "E minor",
+      "compases": 56,
+      "duracion_s": 176.8,
+      "sha256_midi": "9bc2bd44663bf1b3efda536b0b1dd462119f0182076d51ea4b644619d5b54145",
+      "sha256_doc": "57b8417b5b99e5810f4b50dc4c68556d7a3295dde8e75da55bed06309ef11490",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/03_track03"
+    }
+  ],
+  "diversidad": {
+    "pre": {
+      "perfiles": {
+        "atmospheric": 2,
+        "full": 1
+      },
+      "frac_max_config": 0.4,
+      "exceso_perfil": [
+        {
+          "perfil": "atmospheric",
+          "cuenta": 2,
+          "frac": 0.667
+        }
+      ],
+      "respiro_cada": 5,
+      "ventanas_sin_respiro": [],
+      "consecutivos_iguales": [],
+      "tonalidades_pegadas": [],
+      "bpm_fuera_de_rango": [
+        {
+          "pista": "track01",
+          "bpm": 71
+        }
+      ],
+      "bpm_rango_sano": [
+        76,
+        92
+      ],
+      "distancia_tonal_consecutivas": [
+        2,
+        2
+      ]
+    },
+    "post": {
+      "duplicados_exactos": [],
+      "similares_sospechosos": [],
+      "umbral_similitud": 0.85,
+      "pares_analizados": 3
+    },
+    "curva_energia": {
+      "objetivo": null,
+      "real": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "desviacion": null
+    }
+  },
+  "coherencia": {
+    "identidad": "dark_triphop",
+    "identidad_ok": true,
+    "tonalidades": [
+      "C minor",
+      "D minor",
+      "E minor"
+    ],
+    "bpm_valores": [
+      71,
+      76,
+      92
+    ],
+    "bpm_rango_referencia": [
+      76,
+      92
+    ],
+    "bpm_todos_en_rango": false,
+    "distancia_tonal_consecutivas": [
+      2,
+      2
+    ],
+    "tonalidades_pegadas": []
+  },
+  "tecnico_vs_musical": {
+    "metricas_tecnicas": [
+      "duplicados exactos por SHA256 del MIDI",
+      "similitud material por Jaccard de huellas (umbral 0.85)",
+      "distribución y fracción de perfiles",
+      "variedad en consecutivas (perfil+tonalidad+BPM)",
+      "ventanas de respiro",
+      "rango de BPM de referencia",
+      "distancia tonal entre consecutivas",
+      "adherencia a curva de energía",
+      "compliance del validador de forge por pista"
+    ],
+    "pendiente_escucha": [
+      "coherencia de identidad audible entre pistas",
+      "fatiga de densidad o saturación de perfiles",
+      "naturalidad de las transiciones entre pistas (orden de reproducción)",
+      "calidad de las progresiones familiares activadas (si las hay)",
+      "equilibrio sax/Rhodes/vibes/batería en el conjunto"
+    ]
+  },
+  "reproducibilidad": {
+    "semilla_album": 822986,
+    "versiones": {
+      "album": "8.0.0",
+      "jazz_engine": "7.0.0",
+      "contrato": {
+        "contract": "dark-director/1",
+        "contract_rev": "3.2",
+        "compiler_version": "0.1.0",
+        "compiler_stage": "fase1",
+        "target_schema": "midi-forge/1"
+      }
+    },
+    "regenerar_album": "python3 -m album producir /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/album.json --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion --forzar",
+    "regenerar_pistas": {
+      "track01": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/01_track01/doc.json --production atmospheric --seed 841749 --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/01_track01 --verify 045bebcda0b7467c9de3c47a0ab1b1a9a518dc76f53c1442962dfffcb0ace48c",
+      "track02": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/02_track02/doc.json --production full --seed 635379 --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/02_track02 --verify 5aa34e889d16ede6e7c8fb75295c6d18fc6ffb931bb30080affc461785e3263e",
+      "track03": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/03_track03/doc.json --production atmospheric --seed 403651 --out /home/z/my-project/DMD_Composer/output/albumes/k_cancel/produccion/03_track03 --verify 9bc2bd44663bf1b3efda536b0b1dd462119f0182076d51ea4b644619d5b54145"
+    },
+    "manifiesto": "manifiesto.json"
+  }
+}

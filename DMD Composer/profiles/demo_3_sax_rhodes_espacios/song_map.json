@@ -1,0 +1,177 @@
+{
+  "formato": "song-map/1",
+  "obra": "Sax y Rhodes en el Puro",
+  "contrato": "dark-director/1 rev 3.2",
+  "tonalidad": "C minor",
+  "bpm": 82,
+  "compases_totales": 56,
+  "duracion_total_seg": 163.9,
+  "secciones": [
+    {
+      "orden": 1,
+      "id": "intro",
+      "nombre_visible": "Intro",
+      "tipo_funcional": "intro",
+      "compas_inicial": 1,
+      "compas_final": 8,
+      "compases": 8,
+      "progresion": [
+        "Cm",
+        "G"
+      ],
+      "fuente_armonia": "progressions_id",
+      "chord_bars": 2,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Cm",
+        "Cm",
+        "G",
+        "G",
+        "Cm",
+        "Cm",
+        "G",
+        "G"
+      ],
+      "duracion_seg": 23.41
+    },
+    {
+      "orden": 2,
+      "id": "verso_1",
+      "nombre_visible": "Verse 1",
+      "tipo_funcional": "verse",
+      "compas_inicial": 9,
+      "compas_final": 24,
+      "compases": 16,
+      "progresion": [
+        "Cm",
+        "Dm7b5",
+        "G",
+        "G7"
+      ],
+      "fuente_armonia": "progressions_id",
+      "chord_bars": 2,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Cm",
+        "Cm",
+        "Dm7b5",
+        "Dm7b5",
+        "G",
+        "G",
+        "G7",
+        "G7",
+        "Cm",
+        "Cm",
+        "Dm7b5",
+        "Dm7b5",
+        "G",
+        "G",
+        "G7",
+        "G7"
+      ],
+      "duracion_seg": 46.83
+    },
+    {
+      "orden": 3,
+      "id": "puente_aire",
+      "nombre_visible": "Puente de Aire",
+      "tipo_funcional": "bridge",
+      "compas_inicial": 25,
+      "compas_final": 32,
+      "compases": 8,
+      "progresion": [
+        "G",
+        "A"
+      ],
+      "fuente_armonia": "progressions_id",
+      "chord_bars": 2,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "G",
+        "G",
+        "A",
+        "A",
+        "G",
+        "G",
+        "A",
+        "A"
+      ],
+      "duracion_seg": 23.41
+    },
+    {
+      "orden": 4,
+      "id": "verso_2",
+      "nombre_visible": "Verse 2",
+      "tipo_funcional": "verse",
+      "compas_inicial": 33,
+      "compas_final": 48,
+      "compases": 16,
+      "progresion": [
+        "Cm",
+        "Cm",
+        "G",
+        "A",
+        "Cm",
+        "Cm",
+        "G",
+        "G7:2"
+      ],
+      "fuente_armonia": "progressions_id",
+      "chord_bars": 2,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Cm",
+        "Cm",
+        "Cm",
+        "Cm",
+        "G",
+        "G",
+        "A",
+        "A",
+        "Cm",
+        "Cm",
+        "Cm",
+        "Cm",
+        "G",
+        "G",
+        "G7",
+        "G7"
+      ],
+      "duracion_seg": 46.83
+    },
+    {
+      "orden": 5,
+      "id": "outro",
+      "nombre_visible": "Outro",
+      "tipo_funcional": "outro",
+      "compas_inicial": 49,
+      "compas_final": 56,
+      "compases": 8,
+      "progresion": [
+        "Cm",
+        "G"
+      ],
+      "fuente_armonia": "progressions_id",
+      "chord_bars": 2,
+      "tonalidad": "C minor",
+      "grid_por_compas": [
+        "Cm",
+        "Cm",
+        "G",
+        "G",
+        "Cm",
+        "Cm",
+        "G",
+        "G"
+      ],
+      "duracion_seg": 23.41
+    }
+  ],
+  "notas_para_letras": [
+    "[Intro]  (1–8, 8 compases · Cm - G)",
+    "[Verse 1]  (9–24, 16 compases · Cm - Dm7b5 - G - G7)",
+    "[Puente de Aire]  (25–32, 8 compases · G - A)",
+    "[Verse 2]  (33–48, 16 compases · Cm - Cm - G - A - Cm - Cm - G - G7:2)",
+    "[Outro]  (49–56, 8 compases · Cm - G)"
+  ]
+}

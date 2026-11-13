@@ -1,0 +1,11 @@
+{
+  "composicion": "medianoche_puerto_nuevo",
+  "run": "A_original",
+  "keyword": null,
+  "seed_doc": 3113,
+  "seed_harmony": 311,
+  "sha256_midi": "32199acc254a2eeff93a12d15df3b38ec2c541a45a10a4719d493c696b29a9ff",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/medianoche_puerto_nuevo/doc.json --dark-director --production full --seed 3113 -o regen.mid",
+  "compliance_fails": [],
+  "duracion_s": 184.6
+}

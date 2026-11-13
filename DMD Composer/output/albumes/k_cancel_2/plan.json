@@ -1,0 +1,86 @@
+{
+  "formato": "dmd-album/1",
+  "album_id": "k_cancel_2",
+  "name": "K Cancel",
+  "tracks_total": 3,
+  "creado": 1794386426.0448356,
+  "compartido": {
+    "identity": "dark_triphop",
+    "mood": "dark",
+    "protagonist": null,
+    "harmony_mode": "guided",
+    "spaces": null,
+    "instruments": {},
+    "diversity": "balanced",
+    "estructura": "variable",
+    "_secciones": [],
+    "_harmonias": {}
+  },
+  "pistas": [
+    {
+      "n": 1,
+      "estado": "lista",
+      "seed": 558922,
+      "key": "E minor",
+      "bpm": 82,
+      "language": "pop_dream_pop",
+      "plantilla": 1,
+      "gen": "gen_0001",
+      "groove": "steady",
+      "accessibility": "balanced",
+      "pid": "k_cancel_2_track_01",
+      "doc_sha256": "765d28ee7047ee52cd2989c48e57bfe8a35a2b6ca947161834b5c5225903211d"
+    },
+    {
+      "n": 2,
+      "estado": "lista",
+      "seed": 289703,
+      "key": "B minor",
+      "bpm": 72,
+      "language": "experimental",
+      "plantilla": 1,
+      "gen": "gen_0001",
+      "groove": "driving",
+      "accessibility": "balanced",
+      "pid": "k_cancel_2_track_02",
+      "doc_sha256": "41048c881e6f235f6ca866978e1543ae63c1ae562894b61dc8b02f295818a4ae"
+    },
+    {
+      "n": 3,
+      "estado": "lista",
+      "seed": 133178,
+      "key": "G minor",
+      "bpm": 89,
+      "language": "pop_dream_pop",
+      "plantilla": 0,
+      "gen": "gen_0001",
+      "groove": "laid_back",
+      "accessibility": "balanced",
+      "pid": "k_cancel_2_track_03",
+      "doc_sha256": "7d1da042276568a1589d95f3573a7845bc6b7b8707dd30fc58581aa1e385cc89"
+    }
+  ],
+  "huellas": [
+    {
+      "key": "E minor",
+      "plantilla": 1,
+      "language": "pop_dream_pop",
+      "bpm": 82,
+      "groove": "steady"
+    },
+    {
+      "key": "B minor",
+      "plantilla": 1,
+      "language": "experimental",
+      "bpm": 72,
+      "groove": "driving"
+    },
+    {
+      "key": "G minor",
+      "plantilla": 0,
+      "language": "pop_dream_pop",
+      "bpm": 89,
+      "groove": "laid_back"
+    }
+  ]
+}

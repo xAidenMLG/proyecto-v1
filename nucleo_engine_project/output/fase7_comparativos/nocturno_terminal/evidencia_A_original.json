@@ -1,0 +1,11 @@
+{
+  "composicion": "nocturno_terminal",
+  "run": "A_original",
+  "keyword": null,
+  "seed_doc": 2026,
+  "seed_harmony": 777,
+  "sha256_midi": "3930cadc34ec3bcb4dc2cab9788122aa64fdbec2adf10b17b807366e70d7f228",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/nocturno_terminal/doc.json --dark-director --production full --seed 2026 -o regen.mid",
+  "compliance_fails": [],
+  "duracion_s": 145.1
+}

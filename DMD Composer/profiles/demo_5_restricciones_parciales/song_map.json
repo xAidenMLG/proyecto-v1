@@ -1,0 +1,245 @@
+{
+  "formato": "song-map/1",
+  "obra": "Cuatro Decisiones",
+  "contrato": "dark-director/1 rev 3.2",
+  "tonalidad": "E phrygian",
+  "bpm": 77,
+  "compases_totales": 88,
+  "duracion_total_seg": 274.29,
+  "secciones": [
+    {
+      "orden": 1,
+      "id": "intro",
+      "nombre_visible": "Intro",
+      "tipo_funcional": "intro",
+      "compas_inicial": 1,
+      "compas_final": 8,
+      "compases": 8,
+      "progresion": [
+        "Em9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "E phrygian",
+      "grid_por_compas": [
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9"
+      ],
+      "duracion_seg": 24.94
+    },
+    {
+      "orden": 2,
+      "id": "verse",
+      "nombre_visible": "Verse",
+      "tipo_funcional": "verse",
+      "compas_inicial": 9,
+      "compas_final": 24,
+      "compases": 16,
+      "progresion": [
+        "Em11",
+        "Cmaj9",
+        "Gm7b5",
+        "B7b9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "E phrygian",
+      "grid_por_compas": [
+        "Em11",
+        "Em11",
+        "Cmaj9",
+        "Cmaj9",
+        "Gm7b5",
+        "Gm7b5",
+        "B7b9",
+        "B7b9",
+        "Em11",
+        "Em11",
+        "Cmaj9",
+        "Cmaj9",
+        "Gm7b5",
+        "Gm7b5",
+        "B7b9",
+        "B7b9"
+      ],
+      "duracion_seg": 49.87
+    },
+    {
+      "orden": 3,
+      "id": "break",
+      "nombre_visible": "Break",
+      "tipo_funcional": "break",
+      "compas_inicial": 25,
+      "compas_final": 32,
+      "compases": 8,
+      "progresion": [
+        "Em11",
+        "Bbdim7"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "E phrygian",
+      "grid_por_compas": [
+        "Em11",
+        "Em11",
+        "Bbdim7",
+        "Bbdim7",
+        "Em11",
+        "Em11",
+        "Bbdim7",
+        "Bbdim7"
+      ],
+      "duracion_seg": 24.94
+    },
+    {
+      "orden": 4,
+      "id": "chorus",
+      "nombre_visible": "Chorus",
+      "tipo_funcional": "chorus",
+      "compas_inicial": 33,
+      "compas_final": 52,
+      "compases": 20,
+      "progresion": [
+        "Em11",
+        "Cmaj9",
+        "Bbdim7",
+        "B7#5b9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "E phrygian",
+      "grid_por_compas": [
+        "Em11",
+        "Em11",
+        "Cmaj9",
+        "Cmaj9",
+        "Bbdim7",
+        "Bbdim7",
+        "B7#5b9",
+        "B7#5b9",
+        "Em11",
+        "Em11",
+        "Cmaj9",
+        "Cmaj9",
+        "Bbdim7",
+        "Bbdim7",
+        "B7#5b9",
+        "B7#5b9",
+        "Em11",
+        "Em11",
+        "Cmaj9",
+        "Cmaj9"
+      ],
+      "duracion_seg": 62.34
+    },
+    {
+      "orden": 5,
+      "id": "bridge",
+      "nombre_visible": "Bridge",
+      "tipo_funcional": "bridge",
+      "compas_inicial": 53,
+      "compas_final": 60,
+      "compases": 8,
+      "progresion": [
+        "Gm7b5",
+        "B7b9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "E phrygian",
+      "grid_por_compas": [
+        "Gm7b5",
+        "Gm7b5",
+        "B7b9",
+        "B7b9",
+        "Gm7b5",
+        "Gm7b5",
+        "B7b9",
+        "B7b9"
+      ],
+      "duracion_seg": 24.94
+    },
+    {
+      "orden": 6,
+      "id": "chorus_2",
+      "nombre_visible": "Chorus 2",
+      "tipo_funcional": "chorus",
+      "compas_inicial": 61,
+      "compas_final": 80,
+      "compases": 20,
+      "progresion": [
+        "Em11",
+        "Cmaj9",
+        "Bbdim7",
+        "B7#5b9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "E phrygian",
+      "grid_por_compas": [
+        "Em11",
+        "Em11",
+        "Cmaj9",
+        "Cmaj9",
+        "Bbdim7",
+        "Bbdim7",
+        "B7#5b9",
+        "B7#5b9",
+        "Em11",
+        "Em11",
+        "Cmaj9",
+        "Cmaj9",
+        "Bbdim7",
+        "Bbdim7",
+        "B7#5b9",
+        "B7#5b9",
+        "Em11",
+        "Em11",
+        "Cmaj9",
+        "Cmaj9"
+      ],
+      "duracion_seg": 62.34
+    },
+    {
+      "orden": 7,
+      "id": "outro",
+      "nombre_visible": "Outro",
+      "tipo_funcional": "outro",
+      "compas_inicial": 81,
+      "compas_final": 88,
+      "compases": 8,
+      "progresion": [
+        "Em9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "E phrygian",
+      "grid_por_compas": [
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9",
+        "Em9"
+      ],
+      "duracion_seg": 24.94
+    }
+  ],
+  "notas_para_letras": [
+    "[Intro]  (1–8, 8 compases · Em9)",
+    "[Verse]  (9–24, 16 compases · Em11 - Cmaj9 - Gm7b5 - B7b9)",
+    "[Break]  (25–32, 8 compases · Em11 - Bbdim7)",
+    "[Chorus]  (33–52, 20 compases · Em11 - Cmaj9 - Bbdim7 - B7#5b9)",
+    "[Bridge]  (53–60, 8 compases · Gm7b5 - B7b9)",
+    "[Chorus 2]  (61–80, 20 compases · Em11 - Cmaj9 - Bbdim7 - B7#5b9)",
+    "[Outro]  (81–88, 8 compases · Em9)"
+  ]
+}

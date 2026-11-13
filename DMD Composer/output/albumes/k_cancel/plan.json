@@ -1,0 +1,86 @@
+{
+  "formato": "dmd-album/1",
+  "album_id": "k_cancel",
+  "name": "K Cancel",
+  "tracks_total": 3,
+  "creado": 1794385627.1320755,
+  "compartido": {
+    "identity": "dark_triphop",
+    "mood": "dark",
+    "protagonist": null,
+    "harmony_mode": "guided",
+    "spaces": null,
+    "instruments": {},
+    "diversity": "balanced",
+    "estructura": "variable",
+    "_secciones": [],
+    "_harmonias": {}
+  },
+  "pistas": [
+    {
+      "n": 1,
+      "estado": "lista",
+      "seed": 841749,
+      "key": "C minor",
+      "bpm": 71,
+      "language": "hybrid",
+      "plantilla": 0,
+      "gen": "gen_0001",
+      "groove": "steady",
+      "accessibility": "experimental",
+      "pid": "k_cancel_track_01",
+      "doc_sha256": "04ef5aceee77f1f8678eef27c204aeb67dcd7fc2d719dae1afc238b34033b745"
+    },
+    {
+      "n": 2,
+      "estado": "lista",
+      "seed": 635379,
+      "key": "D minor",
+      "bpm": 92,
+      "language": "hybrid",
+      "plantilla": 0,
+      "gen": "gen_0001",
+      "groove": "driving",
+      "accessibility": "experimental",
+      "pid": "k_cancel_track_02",
+      "doc_sha256": "7c97a234df6d5e36a3a7766a251d602814d35f34480f4f5d01dacab3aca1e350"
+    },
+    {
+      "n": 3,
+      "estado": "lista",
+      "seed": 403651,
+      "key": "E minor",
+      "bpm": 76,
+      "language": "experimental",
+      "plantilla": 0,
+      "gen": "gen_0001",
+      "groove": "driving",
+      "accessibility": "commercial",
+      "pid": "k_cancel_track_03",
+      "doc_sha256": "006feb0df3be9651b088c794a7784205fc3451cae41ebf53b1796e3c48dd6417"
+    }
+  ],
+  "huellas": [
+    {
+      "key": "C minor",
+      "plantilla": 0,
+      "language": "hybrid",
+      "bpm": 71,
+      "groove": "steady"
+    },
+    {
+      "key": "D minor",
+      "plantilla": 0,
+      "language": "hybrid",
+      "bpm": 92,
+      "groove": "driving"
+    },
+    {
+      "key": "E minor",
+      "plantilla": 0,
+      "language": "experimental",
+      "bpm": 76,
+      "groove": "driving"
+    }
+  ]
+}

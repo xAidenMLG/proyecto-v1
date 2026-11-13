@@ -1,0 +1,57 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Capitan"
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 84,
+    "seed": 469514
+  },
+  "harmony": {
+    "key": "C major",
+    "language": "hybrid",
+    "harmonic_rhythm_bars": 1
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 8
+    },
+    {
+      "id": "verse",
+      "type": "verse",
+      "bars": 20
+    },
+    {
+      "id": "chorus",
+      "type": "chorus",
+      "bars": 16
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 16
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 16
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 8
+    }
+  ],
+  "ending": {
+    "tape_stop": {
+      "enabled": true,
+      "bars": 2
+    }
+  }
+}

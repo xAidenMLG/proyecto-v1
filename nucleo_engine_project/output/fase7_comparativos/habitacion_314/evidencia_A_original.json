@@ -1,0 +1,11 @@
+{
+  "composicion": "habitacion_314",
+  "run": "A_original",
+  "keyword": null,
+  "seed_doc": 4104,
+  "seed_harmony": 410,
+  "sha256_midi": "5dde7ddf3075f8c1bd52c4db1004adaf8c438de9929f5ced185de5e5d9d7383a",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/habitacion_314/doc.json --dark-director --production full --seed 4104 -o regen.mid",
+  "compliance_fails": [],
+  "duracion_s": 192.0
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "dmd-album/1",
+  "pistas": {
+    "track01": {
+      "estado": "ok",
+      "id": "track01",
+      "indice": 1,
+      "perfil": "full",
+      "seed": 203294,
+      "harmony": null,
+      "especificacion": {
+        "sha256_doc": "f5ad29ca665b418e074b4e068edb825143cf648c0fdbef944a84f6bb61216348",
+        "perfil": "full",
+        "seed": 203294,
+        "harmony": null
+      },
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_5/produccion/01_track01",
+      "intentos": 2,
+      "sha256_midi": "9d5c81aea72252d4e234ac583d908b17e91a42cfebfd2afb4df1daa0d054a6b5",
+      "bpm": 82.0,
+      "compases": 64,
+      "duracion_s": 187.3,
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "huella_sha": "3ba43177842a972e"
+    },
+    "track02": {
+      "estado": "ok",
+      "id": "track02",
+      "indice": 2,
+      "perfil": "sax_vibes",
+      "seed": 651837,
+      "harmony": null,
+      "especificacion": {
+        "sha256_doc": "4efe5c1ae8223971c14634100721624bf475f649d0c9c581e7965d648e546ada",
+        "perfil": "sax_vibes",
+        "seed": 651837,
+        "harmony": null
+      },
+      "carpeta": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_5/produccion/02_track02",
+      "intentos": 1,
+      "sha256_midi": "fe4cf523dd8ce3d677976916dea0d2f45dfe9d857346427bae25d4b3cfb05204",
+      "bpm": 89.0,
+      "compases": 68,
+      "duracion_s": 183.4,
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "huella_sha": "8969dd997aad3b73"
+    }
+  },
+  "album": "Bateria K",
+  "semilla_album": 534033,
+  "actualizado_utc": "2026-11-11T08:40:22.841573+00:00"
+}

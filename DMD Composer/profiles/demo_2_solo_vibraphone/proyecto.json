@@ -1,0 +1,170 @@
+{
+  "format": "dmd-composer/1",
+  "pid": "demo_2_solo_vibraphone",
+  "name": "Vibraphone Desnudo",
+  "notes": "Demo 2: vibraphone protagonista con espacios obligatorios; el resto automático.",
+  "created": 1794340627.355787,
+  "updated": 1794340627.3557875,
+  "decisions": {
+    "identity": {
+      "mode": "fixed",
+      "value": "dark_triphop"
+    },
+    "accessibility": {
+      "mode": "auto",
+      "value": null
+    },
+    "bpm": {
+      "mode": "auto",
+      "value": null
+    },
+    "key": {
+      "mode": "fixed",
+      "value": "D minor"
+    },
+    "language": {
+      "mode": "auto",
+      "value": null
+    },
+    "resolution": {
+      "mode": "free",
+      "value": null
+    },
+    "harmonic_rhythm_bars": {
+      "mode": "auto",
+      "value": null
+    },
+    "harmony_mode": {
+      "mode": "fixed",
+      "value": "guided"
+    },
+    "mood": {
+      "mode": "fixed",
+      "value": "melancholic"
+    },
+    "atmosphere": {
+      "mode": "auto",
+      "value": null
+    },
+    "groove": {
+      "mode": "auto",
+      "value": null
+    },
+    "spaces": {
+      "mode": "fixed",
+      "value": "mandatory"
+    },
+    "protagonist": {
+      "mode": "fixed",
+      "value": "vibraphone"
+    },
+    "production": {
+      "mode": "auto",
+      "value": null
+    },
+    "ending": {
+      "mode": "auto",
+      "value": null
+    },
+    "seed": {
+      "mode": "auto",
+      "value": null
+    }
+  },
+  "instruments": {
+    "vibraphone": {
+      "role": "protagonist"
+    }
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "label": "Intro",
+      "type": "intro",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "vibraphone"
+      ],
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ],
+      "final": false
+    },
+    {
+      "id": "solo",
+      "label": "Solo de Vibes",
+      "type": "break",
+      "bars": 16,
+      "drums": "light",
+      "focus": [
+        "vibraphone"
+      ],
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ],
+      "final": false
+    },
+    {
+      "id": "eco",
+      "label": "Eco",
+      "type": "break",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "vibraphone"
+      ],
+      "active": [
+        "vibraphone",
+        "pad"
+      ],
+      "final": false
+    },
+    {
+      "id": "outro",
+      "label": "Outro",
+      "type": "outro",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "vibraphone"
+      ],
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ],
+      "final": false
+    }
+  ],
+  "harmony_sections": {
+    "intro": {
+      "mode": "guided",
+      "numerals": "i - III"
+    },
+    "solo": {
+      "mode": "guided",
+      "numerals": "i - VI - III - VII"
+    },
+    "eco": {
+      "mode": "guided",
+      "numerals": "iv - i"
+    },
+    "outro": {
+      "mode": "guided",
+      "numerals": "i - VI"
+    }
+  },
+  "production": {
+    "profile": null,
+    "f7_keyword": null,
+    "f7_variation": null,
+    "wav": false
+  },
+  "diversity": "balanced",
+  "album": null
+}

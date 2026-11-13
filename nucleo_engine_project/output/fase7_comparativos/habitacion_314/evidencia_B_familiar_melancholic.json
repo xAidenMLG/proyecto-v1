@@ -1,0 +1,134 @@
+{
+  "composicion": "habitacion_314",
+  "run": "B_familiar_melancholic",
+  "keyword": "melancholic",
+  "seed_doc": 4104,
+  "seed_harmony": 410,
+  "sha256_midi": "a19cc9fa6b45d2e22612c29893a1b4b7dfc4055009697140e21a8eaf32a19c57",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/habitacion_314/doc.json --dark-director --production full --seed 4104 -o regen.mid --harmony melancholic --harmony-seed 410 --harmony-variacion none",
+  "compliance_fails": [],
+  "duracion_s": 192.0,
+  "armonia": {
+    "eleccion_por_seccion": {
+      "outro": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      },
+      "chorus_2": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D",
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      },
+      "verse_3": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D",
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      },
+      "bridge_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D",
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      },
+      "break_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      },
+      "chorus_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D",
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      },
+      "pre_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      },
+      "verse_2": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D",
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      },
+      "verse_1": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D",
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      },
+      "intro": {
+        "entrada": "MEL02",
+        "simbolos": [
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ]
+      }
+    },
+    "respetadas_material": [],
+    "resumen": {
+      "reescritas": 10,
+      "respetadas": 0
+    }
+  }
+}

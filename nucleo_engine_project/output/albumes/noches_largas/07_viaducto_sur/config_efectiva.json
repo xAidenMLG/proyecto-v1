@@ -1,0 +1,20 @@
+{
+  "engines": {
+    "sax": true,
+    "rhodes": true,
+    "drums": true,
+    "vibes": true
+  },
+  "seed": 3807,
+  "harmony": {
+    "id": "CINE01",
+    "variacion": "medium"
+  },
+  "production": "full",
+  "density": {
+    "sax": 1.0,
+    "rhodes": 1.0,
+    "vibes": 1.0,
+    "drums": 1.0
+  }
+}

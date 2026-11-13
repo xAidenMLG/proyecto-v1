@@ -1,0 +1,144 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Medianoche en Puerto Nuevo",
+    "notes": "FASE 6 — generalización: groove lento, F# minor, mucho espacio."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 78,
+    "seed": 3113
+  },
+  "harmony": {
+    "key": "F# minor",
+    "language": "pop_dream_pop",
+    "harmonic_rhythm_bars": 2,
+    "progressions": {
+      "verse": [
+        "F#m9",
+        "Dmaj9",
+        "Amaj9",
+        "E7sus4"
+      ],
+      "chorus": [
+        "Dmaj9",
+        "Amaj9",
+        "Bm9",
+        "C#7sus4"
+      ]
+    }
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4,
+      "energy": 0.2,
+      "tension": 0.2,
+      "density": 0.2,
+      "focus": [
+        "rhodes",
+        "pad"
+      ],
+      "drums": "air"
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.4,
+      "tension": 0.3,
+      "density": 0.4,
+      "focus": [
+        "sax_tenor"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.45,
+      "tension": 0.35,
+      "density": 0.45,
+      "focus": [
+        "rhodes"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "pre_1",
+      "type": "pre_chorus",
+      "bars": 4,
+      "energy": 0.55,
+      "tension": 0.5,
+      "density": 0.5,
+      "focus": [
+        "pad",
+        "vibraphone"
+      ],
+      "drums": "light"
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.75,
+      "tension": 0.5,
+      "density": 0.6,
+      "focus": [
+        "sax_tenor",
+        "bass"
+      ],
+      "drums": "heavy"
+    },
+    {
+      "id": "bridge_1",
+      "type": "bridge",
+      "bars": 8,
+      "energy": 0.5,
+      "tension": 0.65,
+      "density": 0.5,
+      "focus": [
+        "rhodes",
+        "vibraphone"
+      ],
+      "drums": "light"
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 12,
+      "energy": 0.8,
+      "tension": 0.55,
+      "density": 0.65,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "drums": "heavy",
+      "final": true
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 8,
+      "energy": 0.15,
+      "tension": 0.15,
+      "density": 0.2,
+      "focus": [
+        "rhodes"
+      ],
+      "drums": "air"
+    }
+  ],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 4
+    }
+  }
+}

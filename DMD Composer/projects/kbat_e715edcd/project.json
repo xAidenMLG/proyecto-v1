@@ -1,0 +1,86 @@
+{
+  "format": "dmd-composer/1",
+  "pid": "kbat_e715edcd",
+  "name": "kbat_e715edcd",
+  "notes": "",
+  "created": 1794385629.7243514,
+  "updated": 1794385629.7279086,
+  "decisions": {
+    "identity": {
+      "mode": "fixed",
+      "value": "dark_triphop"
+    },
+    "accessibility": {
+      "mode": "auto",
+      "value": null
+    },
+    "bpm": {
+      "mode": "auto",
+      "value": null
+    },
+    "key": {
+      "mode": "auto",
+      "value": null
+    },
+    "language": {
+      "mode": "auto",
+      "value": null
+    },
+    "resolution": {
+      "mode": "free",
+      "value": null
+    },
+    "harmonic_rhythm_bars": {
+      "mode": "auto",
+      "value": null
+    },
+    "harmony_mode": {
+      "mode": "fixed",
+      "value": "native"
+    },
+    "mood": {
+      "mode": "fixed",
+      "value": "dark"
+    },
+    "atmosphere": {
+      "mode": "auto",
+      "value": null
+    },
+    "groove": {
+      "mode": "auto",
+      "value": null
+    },
+    "spaces": {
+      "mode": "free",
+      "value": null
+    },
+    "protagonist": {
+      "mode": "free",
+      "value": null
+    },
+    "production": {
+      "mode": "auto",
+      "value": null
+    },
+    "ending": {
+      "mode": "auto",
+      "value": null
+    },
+    "seed": {
+      "mode": "auto",
+      "value": null
+    }
+  },
+  "instruments": {},
+  "sections": [],
+  "harmony_sections": {},
+  "production": {
+    "profile": null,
+    "f7_keyword": null,
+    "f7_variation": null,
+    "wav": false
+  },
+  "diversity": "balanced",
+  "album": null,
+  "protagonist_proposal": null
+}

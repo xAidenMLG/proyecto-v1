@@ -1,0 +1,549 @@
+{
+  "schema": "dmd-album-informe/1",
+  "album": "Noches Largas",
+  "generado_utc": "2026-11-09T06:06:47.628221+00:00",
+  "resumen": {
+    "pistas_totales": 13,
+    "ok": 13,
+    "fallo": 0,
+    "no_ejecutadas": 0,
+    "duracion_total_s": 1669.6,
+    "avisos_plan": [
+      "W-A3: la pista 'ultimo_metro' usa familiarity_auto declarada EXPLÍCITAMENTE en el spec (el sistema nunca la activa solo)"
+    ]
+  },
+  "pistas": [
+    {
+      "indice": 1,
+      "id": "medianoche_puerto",
+      "titulo": "Medianoche en Puerto Nuevo",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "sax",
+      "perfil_origen": "especificado",
+      "seed": 2026,
+      "seed_origen": "especificado",
+      "harmony": null,
+      "bpm": 78,
+      "tonalidad": "F# minor",
+      "compases": 60,
+      "duracion_s": 184.6,
+      "sha256_midi": "41058bc61dd40c030f6b45873041cae76c789046e90c16b51a30a1eced67c315",
+      "sha256_doc": "b2399cc582823f0079871145e6312ae4c8b7ecf03eea4f81785c5882cc93b90f",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "section_bounds",
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/01_medianoche_puerto"
+    },
+    {
+      "indice": 2,
+      "id": "calles_de_neon",
+      "titulo": "Calles de Neón",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "full",
+      "perfil_origen": "especificado",
+      "seed": 2026,
+      "seed_origen": "especificado",
+      "harmony": {
+        "keyword": "familiar_pop",
+        "variacion": "subtle"
+      },
+      "bpm": 92,
+      "tonalidad": "A minor",
+      "compases": 36,
+      "duracion_s": 93.9,
+      "sha256_midi": "07b97c86a1e00cd311cadf87ffb27b25a843c3caa8da05102c12eea467840f06",
+      "sha256_doc": "ced5b2b989541c9266bef6cbeb61f2ca47d56ba0ae6fa452f358fe1828230432",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/02_calles_de_neon"
+    },
+    {
+      "indice": 3,
+      "id": "habitacion_314",
+      "titulo": "Habitación 314",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "atmospheric",
+      "perfil_origen": "especificado",
+      "seed": 2026,
+      "seed_origen": "especificado",
+      "harmony": {
+        "keyword": "melancholic",
+        "variacion": "medium"
+      },
+      "bpm": 80,
+      "tonalidad": "G minor",
+      "compases": 64,
+      "duracion_s": 192.0,
+      "sha256_midi": "7252a5953f2a2993d261a1b13732fdcb141320df969f7c04aee32840c4d92d4e",
+      "sha256_doc": "68cbe50f667837977df14e6a086ece595b5a9b11d8272ece1ef68f3d85fe6f65",
+      "compliance_fails": [],
+      "compliance_warns": [],
+      "carpeta": "output/albumes/noches_largas/03_habitacion_314"
+    },
+    {
+      "indice": 4,
+      "id": "bruma_dorada",
+      "titulo": "Bruma Dorada",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "original",
+      "perfil_origen": "especificado",
+      "seed": 3504,
+      "seed_origen": "derivada",
+      "harmony": null,
+      "bpm": 80,
+      "tonalidad": "Bb minor",
+      "compases": 40,
+      "duracion_s": 120.0,
+      "sha256_midi": "7573247183da19c16bc322065b2890907591b39d45464c856a3e26b04e5bfa55",
+      "sha256_doc": "d1c984c78ae7b89f92c6de32e9c25adbca26459fdcea697a59b837b3cdda9ebd",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "section_bounds",
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/04_bruma_dorada"
+    },
+    {
+      "indice": 5,
+      "id": "casa_de_espejos",
+      "titulo": "Casa de Espejos",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "sax_rhodes",
+      "perfil_origen": "especificado",
+      "seed": 2026,
+      "seed_origen": "especificado",
+      "harmony": {
+        "keyword": "soulful",
+        "variacion": "medium"
+      },
+      "bpm": 84,
+      "tonalidad": "C minor",
+      "compases": 44,
+      "duracion_s": 125.7,
+      "sha256_midi": "75cb88be775105d09c76ab8c87180b6c665138844ce576e08883d3ba5ff20b59",
+      "sha256_doc": "d429c69277639394211c64b6156784a610cf0f21b2b886e839739f3765719639",
+      "compliance_fails": [],
+      "compliance_warns": [],
+      "carpeta": "output/albumes/noches_largas/05_casa_de_espejos"
+    },
+    {
+      "indice": 6,
+      "id": "neblina_alta",
+      "titulo": "Neblina Alta",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "drums",
+      "perfil_origen": "especificado",
+      "seed": 3706,
+      "seed_origen": "derivada",
+      "harmony": {
+        "keyword": "tension_release",
+        "variacion": "subtle"
+      },
+      "bpm": 76,
+      "tonalidad": "E minor",
+      "compases": 36,
+      "duracion_s": 113.7,
+      "sha256_midi": "c44c010b2665b1eb917b9c5e089056b1c8d293eb30995b3deedd1064ef2833db",
+      "sha256_doc": "51cccc69285af06522e3c2d29ec7c268cd7f5661982e4a260ea5d753c1b736b7",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "lead_coverage",
+        "section_bounds",
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/06_neblina_alta"
+    },
+    {
+      "indice": 7,
+      "id": "viaducto_sur",
+      "titulo": "Viaducto Sur",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "full",
+      "perfil_origen": "especificado",
+      "seed": 3807,
+      "seed_origen": "derivada",
+      "harmony": {
+        "id": "CINE01",
+        "variacion": "medium"
+      },
+      "bpm": 90,
+      "tonalidad": "D minor",
+      "compases": 44,
+      "duracion_s": 117.3,
+      "sha256_midi": "bd123097c269dec9f667c83c8e2efecc4dc3e888ba229d1f726bba570b81be65",
+      "sha256_doc": "4e6c9da08791d2dba951f7898de36c1046af21d7bf90b8418dfd153669b7a9a4",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "section_bounds",
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/07_viaducto_sur"
+    },
+    {
+      "indice": 8,
+      "id": "habitacion_vacia",
+      "titulo": "Habitación Vacía",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "atmospheric",
+      "perfil_origen": "especificado",
+      "seed": 3908,
+      "seed_origen": "derivada",
+      "harmony": {
+        "keyword": "dream_pop",
+        "variacion": "subtle"
+      },
+      "bpm": 82,
+      "tonalidad": "F minor",
+      "compases": 40,
+      "duracion_s": 117.1,
+      "sha256_midi": "15e9399ba5783030c027bb059c193faeaec2c2b6d9731ee09aa5ec211d8960f9",
+      "sha256_doc": "ce8eb31503d6dd06f0f6f829e27663e0c451ad36832ed365f959e1f9689f204f",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/08_habitacion_vacia"
+    },
+    {
+      "indice": 9,
+      "id": "asfalto_humedo",
+      "titulo": "Asfalto Húmedo",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "sax_vibes",
+      "perfil_origen": "asignado",
+      "seed": 4009,
+      "seed_origen": "derivada",
+      "harmony": {
+        "keyword": "alternative",
+        "variacion": "subtle"
+      },
+      "bpm": 86,
+      "tonalidad": "A minor",
+      "compases": 44,
+      "duracion_s": 122.8,
+      "sha256_midi": "2366c75942dca0c19a44d6d77972d186ee69bc4cf326eabbfead2a544b47463f",
+      "sha256_doc": "18a02c86c908287d8ffa4c35f0c369f0c27d11fd6f561b5dfb98174542a9d998",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/09_asfalto_humedo"
+    },
+    {
+      "indice": 10,
+      "id": "portico_sur",
+      "titulo": "Pórtico Sur",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "original",
+      "perfil_origen": "especificado",
+      "seed": 4110,
+      "seed_origen": "derivada",
+      "harmony": null,
+      "bpm": 79,
+      "tonalidad": "D minor",
+      "compases": 36,
+      "duracion_s": 109.4,
+      "sha256_midi": "6797453d959b063628ddcaeba2eee6753eb299fc4d6fe521ddaea199c4946b52",
+      "sha256_doc": "6083133bdceb716a655aa5da528f08ad0d1e3a749ca742a0eb376d81f90a13ac",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "section_bounds",
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/10_portico_sur"
+    },
+    {
+      "indice": 11,
+      "id": "nocturno_terminal",
+      "titulo": "Nocturno Terminal",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "full",
+      "perfil_origen": "especificado",
+      "seed": 2026,
+      "seed_origen": "especificado",
+      "harmony": {
+        "keyword": "dark_cinematic",
+        "variacion": "medium"
+      },
+      "bpm": 86,
+      "tonalidad": "D minor",
+      "compases": 52,
+      "duracion_s": 145.1,
+      "sha256_midi": "cd3c7303db17d66261963e859ffb51731bbfa8df5dbaea61e22aa9b42718c6b9",
+      "sha256_doc": "a43b98ebe8ec6724c544b5a3ac8758a8f3ec0e3fb4aff6511017b60bc87d2d25",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "section_bounds",
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/11_nocturno_terminal"
+    },
+    {
+      "indice": 12,
+      "id": "marea_baja",
+      "titulo": "Marea Baja",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "sax",
+      "perfil_origen": "especificado",
+      "seed": 4312,
+      "seed_origen": "derivada",
+      "harmony": {
+        "keyword": "emotional_resolution",
+        "variacion": "subtle"
+      },
+      "bpm": 84,
+      "tonalidad": "F minor",
+      "compases": 40,
+      "duracion_s": 114.3,
+      "sha256_midi": "bd2208f4460e715b8dfdcf66be0a7776ef51f0a4bef0378a66ad82ef43fbf32d",
+      "sha256_doc": "84c0315ddae1d3ffefacfe97ccdecd704d797db174287b6488cc9328da3652f7",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/12_marea_baja"
+    },
+    {
+      "indice": 13,
+      "id": "ultimo_metro",
+      "titulo": "Último Metro",
+      "estado": "ok",
+      "razon": null,
+      "error": null,
+      "perfil": "atmospheric",
+      "perfil_origen": "especificado",
+      "seed": 4413,
+      "seed_origen": "derivada",
+      "harmony": {
+        "keyword": "familiarity_auto",
+        "variacion": "subtle"
+      },
+      "bpm": 76,
+      "tonalidad": "C minor",
+      "compases": 36,
+      "duracion_s": 113.7,
+      "sha256_midi": "9ccab4118229e2e774438b70a1f0e22234a8e34bd2ee54eadfab993c0b6b0e42",
+      "sha256_doc": "ebf924b0a61f339d72638e66226ac1267f915f442f37b08b083305357b157c20",
+      "compliance_fails": [],
+      "compliance_warns": [
+        "motif_repeat"
+      ],
+      "carpeta": "output/albumes/noches_largas/13_ultimo_metro"
+    }
+  ],
+  "diversidad": {
+    "pre": {
+      "perfiles": {
+        "sax": 2,
+        "full": 3,
+        "atmospheric": 3,
+        "original": 2,
+        "sax_rhodes": 1,
+        "drums": 1,
+        "sax_vibes": 1
+      },
+      "frac_max_config": 0.4,
+      "exceso_perfil": [],
+      "respiro_cada": 5,
+      "ventanas_sin_respiro": [],
+      "consecutivos_iguales": [],
+      "tonalidades_pegadas": [],
+      "bpm_fuera_de_rango": [],
+      "bpm_rango_sano": [
+        76,
+        92
+      ],
+      "distancia_tonal_consecutivas": [
+        3,
+        2,
+        3,
+        2,
+        4,
+        2,
+        3,
+        4,
+        5,
+        0,
+        3,
+        5
+      ]
+    },
+    "post": {
+      "duplicados_exactos": [],
+      "similares_sospechosos": [],
+      "umbral_similitud": 0.85,
+      "pares_analizados": 78
+    },
+    "curva_energia": {
+      "objetivo": [
+        0.48,
+        0.59,
+        0.49,
+        0.42,
+        0.46,
+        0.39,
+        0.48,
+        0.36,
+        0.48,
+        0.33,
+        0.5,
+        0.46,
+        0.34
+      ],
+      "real": [
+        0.475,
+        0.59,
+        0.495,
+        0.424,
+        0.456,
+        0.387,
+        0.485,
+        0.359,
+        0.476,
+        0.327,
+        0.5,
+        0.459,
+        0.343
+      ],
+      "desviacion": [
+        0.005,
+        0.0,
+        0.005,
+        0.004,
+        0.004,
+        0.003,
+        0.005,
+        0.001,
+        0.004,
+        0.003,
+        0.0,
+        0.001,
+        0.003
+      ]
+    }
+  },
+  "coherencia": {
+    "identidad": "dark_triphop",
+    "identidad_ok": true,
+    "tonalidades": [
+      "A minor",
+      "Bb minor",
+      "C minor",
+      "D minor",
+      "E minor",
+      "F minor",
+      "F# minor",
+      "G minor"
+    ],
+    "bpm_valores": [
+      76,
+      78,
+      79,
+      80,
+      82,
+      84,
+      86,
+      90,
+      92
+    ],
+    "bpm_rango_referencia": [
+      76,
+      92
+    ],
+    "bpm_todos_en_rango": true,
+    "distancia_tonal_consecutivas": [
+      3,
+      2,
+      3,
+      2,
+      4,
+      2,
+      3,
+      4,
+      5,
+      0,
+      3,
+      5
+    ],
+    "tonalidades_pegadas": []
+  },
+  "tecnico_vs_musical": {
+    "metricas_tecnicas": [
+      "duplicados exactos por SHA256 del MIDI",
+      "similitud material por Jaccard de huellas (umbral 0.85)",
+      "distribución y fracción de perfiles",
+      "variedad en consecutivas (perfil+tonalidad+BPM)",
+      "ventanas de respiro",
+      "rango de BPM de referencia",
+      "distancia tonal entre consecutivas",
+      "adherencia a curva de energía",
+      "compliance del validador de forge por pista"
+    ],
+    "pendiente_escucha": [
+      "coherencia de identidad audible entre pistas",
+      "fatiga de densidad o saturación de perfiles",
+      "naturalidad de las transiciones entre pistas (orden de reproducción)",
+      "calidad de las progresiones familiares activadas (si las hay)",
+      "equilibrio sax/Rhodes/vibes/batería en el conjunto"
+    ]
+  },
+  "reproducibilidad": {
+    "semilla_album": 3100,
+    "versiones": {
+      "album": "8.0.0",
+      "jazz_engine": "7.0.0",
+      "contrato": {
+        "contract": "dark-director/1",
+        "contract_rev": "3.2",
+        "compiler_version": "0.1.0",
+        "compiler_stage": "fase1",
+        "target_schema": "midi-forge/1"
+      }
+    },
+    "regenerar_album": "python3 -m album producir /home/z/my-project/nucleo_engine_project/albumes/noches_largas/album.json --out output/albumes/noches_largas --forzar",
+    "regenerar_pistas": {
+      "medianoche_puerto": "python3 scripts/produce.py output/albumes/noches_largas/01_medianoche_puerto/doc.json --production sax --seed 2026 --out output/albumes/noches_largas/01_medianoche_puerto --verify 41058bc61dd40c030f6b45873041cae76c789046e90c16b51a30a1eced67c315",
+      "calles_de_neon": "python3 scripts/produce.py output/albumes/noches_largas/02_calles_de_neon/doc.json --production full --seed 2026 --harmony familiar_pop --out output/albumes/noches_largas/02_calles_de_neon --verify 07b97c86a1e00cd311cadf87ffb27b25a843c3caa8da05102c12eea467840f06",
+      "habitacion_314": "python3 scripts/produce.py output/albumes/noches_largas/03_habitacion_314/doc.json --production atmospheric --seed 2026 --harmony melancholic --out output/albumes/noches_largas/03_habitacion_314 --verify 7252a5953f2a2993d261a1b13732fdcb141320df969f7c04aee32840c4d92d4e",
+      "bruma_dorada": "python3 scripts/produce.py output/albumes/noches_largas/04_bruma_dorada/doc.json --production original --seed 3504 --out output/albumes/noches_largas/04_bruma_dorada --verify 7573247183da19c16bc322065b2890907591b39d45464c856a3e26b04e5bfa55",
+      "casa_de_espejos": "python3 scripts/produce.py output/albumes/noches_largas/05_casa_de_espejos/doc.json --production sax_rhodes --seed 2026 --harmony soulful --out output/albumes/noches_largas/05_casa_de_espejos --verify 75cb88be775105d09c76ab8c87180b6c665138844ce576e08883d3ba5ff20b59",
+      "neblina_alta": "python3 scripts/produce.py output/albumes/noches_largas/06_neblina_alta/doc.json --production drums --seed 3706 --harmony tension_release --out output/albumes/noches_largas/06_neblina_alta --verify c44c010b2665b1eb917b9c5e089056b1c8d293eb30995b3deedd1064ef2833db",
+      "viaducto_sur": "python3 scripts/produce.py output/albumes/noches_largas/07_viaducto_sur/doc.json --production full --seed 3807 --harmony-id CINE01 --out output/albumes/noches_largas/07_viaducto_sur --verify bd123097c269dec9f667c83c8e2efecc4dc3e888ba229d1f726bba570b81be65",
+      "habitacion_vacia": "python3 scripts/produce.py output/albumes/noches_largas/08_habitacion_vacia/doc.json --production atmospheric --seed 3908 --harmony dream_pop --out output/albumes/noches_largas/08_habitacion_vacia --verify 15e9399ba5783030c027bb059c193faeaec2c2b6d9731ee09aa5ec211d8960f9",
+      "asfalto_humedo": "python3 scripts/produce.py output/albumes/noches_largas/09_asfalto_humedo/doc.json --production sax_vibes --seed 4009 --harmony alternative --out output/albumes/noches_largas/09_asfalto_humedo --verify 2366c75942dca0c19a44d6d77972d186ee69bc4cf326eabbfead2a544b47463f",
+      "portico_sur": "python3 scripts/produce.py output/albumes/noches_largas/10_portico_sur/doc.json --production original --seed 4110 --out output/albumes/noches_largas/10_portico_sur --verify 6797453d959b063628ddcaeba2eee6753eb299fc4d6fe521ddaea199c4946b52",
+      "nocturno_terminal": "python3 scripts/produce.py output/albumes/noches_largas/11_nocturno_terminal/doc.json --production full --seed 2026 --harmony dark_cinematic --out output/albumes/noches_largas/11_nocturno_terminal --verify cd3c7303db17d66261963e859ffb51731bbfa8df5dbaea61e22aa9b42718c6b9",
+      "marea_baja": "python3 scripts/produce.py output/albumes/noches_largas/12_marea_baja/doc.json --production sax --seed 4312 --harmony emotional_resolution --out output/albumes/noches_largas/12_marea_baja --verify bd2208f4460e715b8dfdcf66be0a7776ef51f0a4bef0378a66ad82ef43fbf32d",
+      "ultimo_metro": "python3 scripts/produce.py output/albumes/noches_largas/13_ultimo_metro/doc.json --production atmospheric --seed 4413 --harmony familiarity_auto --out output/albumes/noches_largas/13_ultimo_metro --verify 9ccab4118229e2e774438b70a1f0e22234a8e34bd2ee54eadfab993c0b6b0e42"
+    },
+    "manifiesto": "manifiesto.json"
+  }
+}

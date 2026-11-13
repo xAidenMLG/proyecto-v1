@@ -1,0 +1,83 @@
+{
+  "schema": "dmd-album-manifiesto/1",
+  "album": "Bateria K",
+  "semilla_album": 626662,
+  "creado_utc": "2026-11-11T08:27:14.660605+00:00",
+  "versiones": {
+    "album": "8.0.0",
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "regenerar_album": "python3 -m album producir /home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion/album.json --out /home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion --forzar",
+  "pistas": [
+    {
+      "id": "track01",
+      "indice": 1,
+      "doc": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion/01_track01/doc.json",
+      "sha256_doc": "767b19ab565fa0e2cfd4de183be50bd66be3bfcd16093e245d25f5065251750d",
+      "perfil": "full",
+      "seed": 861799,
+      "harmony": null,
+      "sha256_midi": "71bdf6a50610129546e773cd1d05c5dfa44327d16dd3faa5bfba9207b172cc9d",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": true,
+          "drums": true,
+          "vibes": true
+        },
+        "seed": 861799,
+        "production": "full",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion/01_track01/doc.json --production full --seed 861799 --out /home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion/01_track01 --verify 71bdf6a50610129546e773cd1d05c5dfa44327d16dd3faa5bfba9207b172cc9d",
+      "evidencia": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion/01_track01/evidencia.json",
+      "evidencia_sha256_midi": "71bdf6a50610129546e773cd1d05c5dfa44327d16dd3faa5bfba9207b172cc9d"
+    },
+    {
+      "id": "track02",
+      "indice": 2,
+      "doc": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion/02_track02/doc.json",
+      "sha256_doc": "36d2aae73c2a3607580fa2e4e8868b58bc0189df6c08a6d237f228dc7f7cc703",
+      "perfil": "sax_vibes",
+      "seed": 760125,
+      "harmony": null,
+      "sha256_midi": "c284c3567c22e91105c7dd4ae0c5d3b4213e92eaebacbd14dabe7633b1feac16",
+      "config_efectiva": {
+        "engines": {
+          "sax": true,
+          "rhodes": false,
+          "drums": false,
+          "vibes": true
+        },
+        "seed": 760125,
+        "production": "sax_vibes",
+        "density": {
+          "sax": 1.0,
+          "rhodes": 1.0,
+          "vibes": 1.0,
+          "drums": 1.0
+        }
+      },
+      "regenerar": "python3 scripts/produce.py /home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion/02_track02/doc.json --production sax_vibes --seed 760125 --out /home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion/02_track02 --verify c284c3567c22e91105c7dd4ae0c5d3b4213e92eaebacbd14dabe7633b1feac16",
+      "evidencia": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_3/produccion/02_track02/evidencia.json",
+      "evidencia_sha256_midi": "c284c3567c22e91105c7dd4ae0c5d3b4213e92eaebacbd14dabe7633b1feac16"
+    }
+  ],
+  "hashes": {
+    "plan_json": "33074f5fb5b5cab382653e07db2828113801284ba977542ec3087ed7f75b6776",
+    "estado_json": "ccd97b22cd239475f172068505afcb72b4a755cefb7945a2c2d60f24ef08135f",
+    "huellas_json": "0cd6103344646861deb2b11eb55f53e6fa97f54934adfe7f298da86b10506cbc"
+  }
+}

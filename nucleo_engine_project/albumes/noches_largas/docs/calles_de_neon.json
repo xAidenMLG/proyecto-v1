@@ -1,0 +1,287 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Calles de Neón",
+    "notes": "FASE 6 — generalización: material escrito denso, corto y rápido."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 92,
+    "seed": 9021
+  },
+  "harmony": {
+    "key": "A minor",
+    "language": "hybrid",
+    "harmonic_rhythm_bars": 1,
+    "progressions": {
+      "verse": [
+        "Am9",
+        "Fmaj7",
+        "Cmaj9",
+        "G7sus4"
+      ],
+      "chorus": [
+        "Fmaj9",
+        "Cmaj9",
+        "Dm9",
+        "Em9"
+      ]
+    }
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4,
+      "energy": 0.25,
+      "tension": 0.25,
+      "density": 0.25,
+      "focus": [
+        "rhodes",
+        "pad"
+      ],
+      "drums": "air"
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.5,
+      "tension": 0.4,
+      "density": 0.5,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.8,
+      "tension": 0.5,
+      "density": 0.65,
+      "focus": [
+        "sax_tenor",
+        "bass"
+      ],
+      "drums": "heavy"
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.55,
+      "tension": 0.45,
+      "density": 0.55,
+      "focus": [
+        "sax_tenor"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.85,
+      "tension": 0.55,
+      "density": 0.7,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "drums": "heavy",
+      "final": true
+    }
+  ],
+  "development": {
+    "melody": {
+      "phrases": {
+        "verse_1": [
+          {
+            "bar": 0,
+            "beat": 0.5,
+            "pitch": 69,
+            "dur": 1.5,
+            "vel": 72
+          },
+          {
+            "bar": 0,
+            "beat": 2.5,
+            "pitch": 72,
+            "dur": 1.0,
+            "vel": 70
+          },
+          {
+            "bar": 1,
+            "beat": 0.0,
+            "pitch": 76,
+            "dur": 2.0,
+            "vel": 74
+          },
+          {
+            "bar": 2,
+            "beat": 1.0,
+            "pitch": 74,
+            "dur": 0.75,
+            "vel": 66
+          },
+          {
+            "bar": 2,
+            "beat": 2.0,
+            "pitch": 72,
+            "dur": 1.5,
+            "vel": 68
+          },
+          {
+            "bar": 4,
+            "beat": 0.5,
+            "pitch": 69,
+            "dur": 1.5,
+            "vel": 70
+          },
+          {
+            "bar": 5,
+            "beat": 0.0,
+            "pitch": 67,
+            "dur": 2.0,
+            "vel": 66
+          },
+          {
+            "bar": 6,
+            "beat": 2.0,
+            "pitch": 64,
+            "dur": 2.5,
+            "vel": 62
+          }
+        ],
+        "chorus_1": [
+          {
+            "bar": 0,
+            "beat": 0.0,
+            "pitch": 72,
+            "dur": 1.0,
+            "vel": 82
+          },
+          {
+            "bar": 0,
+            "beat": 1.5,
+            "pitch": 76,
+            "dur": 0.75,
+            "vel": 80
+          },
+          {
+            "bar": 0,
+            "beat": 2.5,
+            "pitch": 79,
+            "dur": 1.25,
+            "vel": 84
+          },
+          {
+            "bar": 1,
+            "beat": 0.5,
+            "pitch": 76,
+            "dur": 2.0,
+            "vel": 78
+          },
+          {
+            "bar": 2,
+            "beat": 0.0,
+            "pitch": 74,
+            "dur": 1.5,
+            "vel": 74
+          },
+          {
+            "bar": 3,
+            "beat": 0.5,
+            "pitch": 72,
+            "dur": 2.5,
+            "vel": 76
+          },
+          {
+            "bar": 5,
+            "beat": 0.0,
+            "pitch": 69,
+            "dur": 1.5,
+            "vel": 70
+          },
+          {
+            "bar": 5,
+            "beat": 2.0,
+            "pitch": 71,
+            "dur": 1.0,
+            "vel": 72
+          },
+          {
+            "bar": 6,
+            "beat": 0.0,
+            "pitch": 72,
+            "dur": 3.0,
+            "vel": 78
+          }
+        ],
+        "verse_2": [
+          {
+            "bar": 0,
+            "beat": 1.0,
+            "pitch": 64,
+            "dur": 1.5,
+            "vel": 66
+          },
+          {
+            "bar": 1,
+            "beat": 0.0,
+            "pitch": 67,
+            "dur": 2.0,
+            "vel": 68
+          },
+          {
+            "bar": 2,
+            "beat": 0.5,
+            "pitch": 69,
+            "dur": 1.0,
+            "vel": 70
+          },
+          {
+            "bar": 2,
+            "beat": 2.0,
+            "pitch": 72,
+            "dur": 2.0,
+            "vel": 72
+          },
+          {
+            "bar": 4,
+            "beat": 0.0,
+            "pitch": 74,
+            "dur": 2.5,
+            "vel": 74
+          },
+          {
+            "bar": 5,
+            "beat": 1.5,
+            "pitch": 72,
+            "dur": 1.0,
+            "vel": 68
+          },
+          {
+            "bar": 6,
+            "beat": 0.0,
+            "pitch": 69,
+            "dur": 3.5,
+            "vel": 64
+          }
+        ]
+      }
+    }
+  },
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 3
+    }
+  }
+}

@@ -1,0 +1,1753 @@
+{
+  "ok": true,
+  "fingerprint": {
+    "contract": "dark-director/1",
+    "contract_rev": "3.2",
+    "compiler_version": "0.1.0",
+    "compiler_stage": "fase1",
+    "target_schema": "midi-forge/1",
+    "jazz_engine_version": "7.0.0",
+    "identidad_activa": "dark_triphop",
+    "identidades_archivadas": [
+      "doom_triphop",
+      "doom_dark_jazz"
+    ]
+  },
+  "catalogos": {
+    "instruments": [
+      "sax_tenor",
+      "rhodes",
+      "vibraphone",
+      "bass",
+      "drums",
+      "piano",
+      "pad",
+      "strings"
+    ],
+    "section_types": [
+      "intro",
+      "verse",
+      "pre_chorus",
+      "chorus",
+      "bridge",
+      "break",
+      "outro"
+    ],
+    "drums_ladder": [
+      "off",
+      "air",
+      "light",
+      "groove",
+      "heavy"
+    ],
+    "identities": [
+      "dark_triphop",
+      "doom_triphop",
+      "doom_dark_jazz"
+    ],
+    "accessibilities": [
+      "commercial",
+      "balanced",
+      "experimental"
+    ],
+    "languages": [
+      "pop_dream_pop",
+      "hybrid",
+      "experimental"
+    ],
+    "resolutions": [
+      "tonal",
+      "modal",
+      "deceptive",
+      "chromatic",
+      "open"
+    ]
+  },
+  "recetas": {
+    "dark_triphop": {
+      "set_base": [
+        "sax_tenor",
+        "rhodes",
+        "vibraphone",
+        "bass",
+        "drums",
+        "pad"
+      ],
+      "lead": "sax_tenor",
+      "bpm_default": 86,
+      "bpm_rango": [
+        70,
+        96
+      ],
+      "harmonic_rhythm_bars": 1,
+      "register_default": {
+        "sax_tenor": [
+          62,
+          81
+        ],
+        "rhodes": [
+          45,
+          76
+        ],
+        "vibraphone": [
+          60,
+          88
+        ],
+        "bass": [
+          28,
+          52
+        ],
+        "pad": [
+          40,
+          72
+        ]
+      },
+      "d_receta": {
+        "intro": 0.25,
+        "verse": 0.45,
+        "pre_chorus": 0.55,
+        "chorus": 0.65,
+        "bridge": 0.55,
+        "break": 0.35,
+        "outro": 0.2
+      },
+      "energy_base": {
+        "intro": 0.25,
+        "verse": 0.45,
+        "pre_chorus": 0.6,
+        "chorus": 0.8,
+        "bridge": 0.55,
+        "break": 0.35,
+        "outro": 0.2
+      },
+      "tension_base": {
+        "intro": 0.2,
+        "verse": 0.35,
+        "pre_chorus": 0.55,
+        "chorus": 0.5,
+        "bridge": 0.6,
+        "break": 0.6,
+        "outro": 0.15
+      },
+      "drums_nivel": {
+        "intro": "air",
+        "verse": "groove",
+        "pre_chorus": "light",
+        "chorus": "heavy",
+        "bridge": "light",
+        "break": "light",
+        "outro": "air"
+      },
+      "focus_default": {
+        "intro": [
+          "rhodes",
+          "pad"
+        ],
+        "verse": [
+          "sax_tenor",
+          "drums"
+        ],
+        "pre_chorus": [
+          "pad",
+          "vibraphone"
+        ],
+        "chorus": [
+          "sax_tenor",
+          "drums",
+          "bass"
+        ],
+        "bridge": [
+          "rhodes",
+          "vibraphone"
+        ],
+        "break": [
+          "vibraphone"
+        ],
+        "outro": [
+          "rhodes"
+        ]
+      },
+      "progresiones": {
+        "pop_dream_pop": {
+          "intro": [
+            [
+              0,
+              "m9"
+            ]
+          ],
+          "verse": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              8,
+              "maj7"
+            ],
+            [
+              5,
+              "maj9"
+            ],
+            [
+              7,
+              "7sus4"
+            ]
+          ],
+          "pre_chorus": [
+            [
+              5,
+              "maj9"
+            ],
+            [
+              7,
+              "7sus4"
+            ]
+          ],
+          "chorus": [
+            [
+              8,
+              "maj9"
+            ],
+            [
+              5,
+              "maj9"
+            ],
+            [
+              10,
+              "m9"
+            ],
+            [
+              9,
+              "7sus4"
+            ]
+          ],
+          "bridge": [
+            [
+              10,
+              "maj7"
+            ],
+            [
+              5,
+              "maj9"
+            ]
+          ],
+          "break": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              8,
+              "maj7"
+            ]
+          ],
+          "outro": [
+            [
+              0,
+              "add9"
+            ]
+          ]
+        },
+        "hybrid": {
+          "intro": [
+            [
+              0,
+              "m9"
+            ]
+          ],
+          "verse": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              8,
+              "maj7"
+            ],
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              7,
+              "9"
+            ]
+          ],
+          "pre_chorus": [
+            [
+              5,
+              "9"
+            ],
+            [
+              7,
+              "13"
+            ]
+          ],
+          "chorus": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              10,
+              "m9"
+            ],
+            [
+              8,
+              "13"
+            ],
+            [
+              7,
+              "7sus4"
+            ]
+          ],
+          "bridge": [
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              7,
+              "7#11"
+            ]
+          ],
+          "break": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              8,
+              "maj7"
+            ]
+          ],
+          "outro": [
+            [
+              0,
+              "m9"
+            ]
+          ]
+        },
+        "experimental": {
+          "intro": [
+            [
+              0,
+              "m9"
+            ]
+          ],
+          "verse": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              8,
+              "maj9"
+            ],
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              7,
+              "7b9"
+            ]
+          ],
+          "pre_chorus": [
+            [
+              5,
+              "m9"
+            ],
+            [
+              7,
+              "9"
+            ]
+          ],
+          "chorus": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              8,
+              "maj9"
+            ],
+            [
+              6,
+              "dim7"
+            ],
+            [
+              7,
+              "7#5b9"
+            ]
+          ],
+          "bridge": [
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              7,
+              "7b9"
+            ]
+          ],
+          "break": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              6,
+              "dim7"
+            ]
+          ],
+          "outro": [
+            [
+              0,
+              "m9"
+            ]
+          ]
+        }
+      }
+    },
+    "doom_triphop": {
+      "set_base": [
+        "sax_tenor",
+        "rhodes",
+        "vibraphone",
+        "bass",
+        "drums",
+        "pad",
+        "strings"
+      ],
+      "lead": "sax_tenor",
+      "bpm_default": 72,
+      "bpm_rango": [
+        58,
+        90
+      ],
+      "harmonic_rhythm_bars": 2,
+      "register_default": {
+        "sax_tenor": [
+          62,
+          81
+        ],
+        "rhodes": [
+          45,
+          76
+        ],
+        "vibraphone": [
+          60,
+          88
+        ],
+        "bass": [
+          28,
+          52
+        ],
+        "pad": [
+          40,
+          72
+        ],
+        "strings": [
+          48,
+          76
+        ]
+      },
+      "d_receta": {
+        "intro": 0.2,
+        "verse": 0.4,
+        "pre_chorus": 0.5,
+        "chorus": 0.6,
+        "bridge": 0.45,
+        "break": 0.25,
+        "outro": 0.15
+      },
+      "energy_base": {
+        "intro": 0.2,
+        "verse": 0.4,
+        "pre_chorus": 0.55,
+        "chorus": 0.8,
+        "bridge": 0.45,
+        "break": 0.2,
+        "outro": 0.15
+      },
+      "tension_base": {
+        "intro": 0.35,
+        "verse": 0.5,
+        "pre_chorus": 0.65,
+        "chorus": 0.55,
+        "bridge": 0.7,
+        "break": 0.8,
+        "outro": 0.3
+      },
+      "drums_nivel": {
+        "intro": "air",
+        "verse": "groove",
+        "pre_chorus": "light",
+        "chorus": "heavy",
+        "bridge": "light",
+        "break": "off",
+        "outro": "air"
+      },
+      "focus_default": {
+        "intro": [
+          "pad",
+          "strings"
+        ],
+        "verse": [
+          "sax_tenor",
+          "drums"
+        ],
+        "pre_chorus": [
+          "vibraphone",
+          "pad"
+        ],
+        "chorus": [
+          "sax_tenor",
+          "drums",
+          "bass"
+        ],
+        "bridge": [
+          "strings",
+          "rhodes"
+        ],
+        "break": [
+          "pad",
+          "vibraphone"
+        ],
+        "outro": [
+          "strings",
+          "rhodes"
+        ]
+      },
+      "progresiones": {
+        "pop_dream_pop": {
+          "intro": [
+            [
+              0,
+              "m9"
+            ]
+          ],
+          "verse": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              1,
+              "maj7"
+            ],
+            [
+              8,
+              "maj9"
+            ],
+            [
+              7,
+              "7sus4"
+            ]
+          ],
+          "pre_chorus": [
+            [
+              5,
+              "maj9"
+            ],
+            [
+              7,
+              "7sus4"
+            ]
+          ],
+          "chorus": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              8,
+              "maj9"
+            ],
+            [
+              10,
+              "m9"
+            ],
+            [
+              9,
+              "7sus4"
+            ]
+          ],
+          "bridge": [
+            [
+              6,
+              "add9"
+            ],
+            [
+              5,
+              "maj9"
+            ]
+          ],
+          "break": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              1,
+              "add9"
+            ]
+          ],
+          "outro": [
+            [
+              0,
+              "add9"
+            ]
+          ]
+        },
+        "hybrid": {
+          "intro": [
+            [
+              0,
+              "m9"
+            ]
+          ],
+          "verse": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              8,
+              "maj7"
+            ],
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              7,
+              "9"
+            ]
+          ],
+          "pre_chorus": [
+            [
+              5,
+              "9"
+            ],
+            [
+              7,
+              "13"
+            ]
+          ],
+          "chorus": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              10,
+              "m13"
+            ],
+            [
+              6,
+              "9"
+            ],
+            [
+              7,
+              "7sus4"
+            ]
+          ],
+          "bridge": [
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              7,
+              "7#11"
+            ]
+          ],
+          "break": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              8,
+              "maj7"
+            ]
+          ],
+          "outro": [
+            [
+              0,
+              "m9"
+            ]
+          ]
+        },
+        "experimental": {
+          "intro": [
+            [
+              0,
+              "m9"
+            ]
+          ],
+          "verse": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              1,
+              "maj9"
+            ],
+            [
+              6,
+              "dim7"
+            ],
+            [
+              7,
+              "7b9"
+            ]
+          ],
+          "pre_chorus": [
+            [
+              5,
+              "m9"
+            ],
+            [
+              7,
+              "9"
+            ]
+          ],
+          "chorus": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              6,
+              "dim7"
+            ],
+            [
+              8,
+              "maj9"
+            ],
+            [
+              7,
+              "7#5b9"
+            ]
+          ],
+          "bridge": [
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              7,
+              "7b9"
+            ]
+          ],
+          "break": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              6,
+              "dim7"
+            ]
+          ],
+          "outro": [
+            [
+              0,
+              "m9"
+            ]
+          ]
+        }
+      }
+    },
+    "doom_dark_jazz": {
+      "set_base": [
+        "sax_tenor",
+        "rhodes",
+        "vibraphone",
+        "bass",
+        "drums",
+        "piano",
+        "strings"
+      ],
+      "lead": "sax_tenor",
+      "bpm_default": 62,
+      "bpm_rango": [
+        50,
+        74
+      ],
+      "harmonic_rhythm_bars": 2,
+      "register_default": {
+        "sax_tenor": [
+          58,
+          79
+        ],
+        "rhodes": [
+          45,
+          76
+        ],
+        "vibraphone": [
+          60,
+          88
+        ],
+        "bass": [
+          28,
+          52
+        ],
+        "piano": [
+          45,
+          76
+        ],
+        "strings": [
+          48,
+          76
+        ]
+      },
+      "d_receta": {
+        "intro": 0.18,
+        "verse": 0.38,
+        "pre_chorus": 0.5,
+        "chorus": 0.58,
+        "bridge": 0.3,
+        "break": 0.42,
+        "outro": 0.15
+      },
+      "energy_base": {
+        "intro": 0.15,
+        "verse": 0.35,
+        "pre_chorus": 0.5,
+        "chorus": 0.65,
+        "bridge": 0.25,
+        "break": 0.45,
+        "outro": 0.1
+      },
+      "tension_base": {
+        "intro": 0.45,
+        "verse": 0.55,
+        "pre_chorus": 0.6,
+        "chorus": 0.55,
+        "bridge": 0.75,
+        "break": 0.45,
+        "outro": 0.35
+      },
+      "drums_nivel": {
+        "intro": "air",
+        "verse": "light",
+        "pre_chorus": "light",
+        "chorus": "light",
+        "bridge": "off",
+        "break": "air",
+        "outro": "air"
+      },
+      "focus_default": {
+        "intro": [
+          "strings",
+          "bass"
+        ],
+        "verse": [
+          "sax_tenor",
+          "rhodes"
+        ],
+        "pre_chorus": [
+          "vibraphone",
+          "sax_tenor"
+        ],
+        "chorus": [
+          "sax_tenor",
+          "bass",
+          "drums"
+        ],
+        "bridge": [
+          "strings",
+          "piano"
+        ],
+        "break": [
+          "sax_tenor",
+          "vibraphone"
+        ],
+        "outro": [
+          "strings",
+          "vibraphone"
+        ]
+      },
+      "progresiones": {
+        "pop_dream_pop": {
+          "intro": [
+            [
+              0,
+              "m9"
+            ]
+          ],
+          "verse": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              5,
+              "maj9"
+            ],
+            [
+              8,
+              "maj7"
+            ],
+            [
+              7,
+              "7sus4"
+            ]
+          ],
+          "pre_chorus": [
+            [
+              5,
+              "maj9"
+            ],
+            [
+              7,
+              "7sus4"
+            ]
+          ],
+          "chorus": [
+            [
+              8,
+              "maj9"
+            ],
+            [
+              10,
+              "m9"
+            ],
+            [
+              5,
+              "maj9"
+            ],
+            [
+              9,
+              "7sus4"
+            ]
+          ],
+          "bridge": [
+            [
+              1,
+              "maj7"
+            ],
+            [
+              5,
+              "add9"
+            ]
+          ],
+          "break": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              8,
+              "maj7"
+            ]
+          ],
+          "outro": [
+            [
+              0,
+              "add9"
+            ]
+          ]
+        },
+        "hybrid": {
+          "intro": [
+            [
+              0,
+              "m9"
+            ]
+          ],
+          "verse": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              8,
+              "maj7"
+            ],
+            [
+              7,
+              "9"
+            ]
+          ],
+          "pre_chorus": [
+            [
+              5,
+              "9"
+            ],
+            [
+              7,
+              "13"
+            ]
+          ],
+          "chorus": [
+            [
+              0,
+              "m9"
+            ],
+            [
+              10,
+              "m13"
+            ],
+            [
+              8,
+              "13"
+            ],
+            [
+              7,
+              "7sus4"
+            ]
+          ],
+          "bridge": [
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              7,
+              "7#11"
+            ]
+          ],
+          "break": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              8,
+              "maj7"
+            ]
+          ],
+          "outro": [
+            [
+              0,
+              "m9"
+            ]
+          ]
+        },
+        "experimental": {
+          "intro": [
+            [
+              0,
+              "m9"
+            ]
+          ],
+          "verse": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              8,
+              "maj9"
+            ],
+            [
+              7,
+              "7b9"
+            ]
+          ],
+          "pre_chorus": [
+            [
+              5,
+              "m9"
+            ],
+            [
+              7,
+              "9"
+            ]
+          ],
+          "chorus": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              6,
+              "dim7"
+            ],
+            [
+              8,
+              "maj9"
+            ],
+            [
+              7,
+              "7#5b9"
+            ]
+          ],
+          "bridge": [
+            [
+              3,
+              "m7b5"
+            ],
+            [
+              7,
+              "7b9"
+            ]
+          ],
+          "break": [
+            [
+              0,
+              "m11"
+            ],
+            [
+              6,
+              "dim7"
+            ]
+          ],
+          "outro": [
+            [
+              0,
+              "m9"
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "perfiles": {
+    "nombres": [
+      "original",
+      "sax",
+      "sax_rhodes",
+      "drums",
+      "sax_vibes",
+      "full",
+      "atmospheric"
+    ],
+    "default": "full"
+  },
+  "harmony_keywords": [
+    "familiar_pop",
+    "melancholic",
+    "nostalgic",
+    "dark_cinematic",
+    "dream_pop",
+    "alternative",
+    "soulful",
+    "emotional_resolution",
+    "tension_release",
+    "familiarity_auto"
+  ],
+  "niveles_variacion": [
+    "none",
+    "subtle",
+    "medium",
+    "rich"
+  ],
+  "biblioteca_fase7": [
+    {
+      "id": "BAL01",
+      "nombre": "Apertura de Balada",
+      "keywords": [
+        "pop",
+        "nostalgic",
+        "emotional_resolution"
+      ]
+    },
+    {
+      "id": "BAL02",
+      "nombre": "Respiro Cinematográfico",
+      "keywords": [
+        "cinematic",
+        "dream_pop",
+        "nostalgic"
+      ]
+    },
+    {
+      "id": "BAL03",
+      "nombre": "Interrogante de Puente",
+      "keywords": [
+        "tension_release",
+        "alternative",
+        "pop"
+      ]
+    },
+    {
+      "id": "BAL04",
+      "nombre": "Amen Extendido",
+      "keywords": [
+        "emotional_resolution",
+        "pop",
+        "nostalgic"
+      ]
+    },
+    {
+      "id": "BAL05",
+      "nombre": "Coro Descendente",
+      "keywords": [
+        "pop",
+        "nostalgic",
+        "alternative"
+      ]
+    },
+    {
+      "id": "BAL06",
+      "nombre": "Andaluza de Balada",
+      "keywords": [
+        "melancholic",
+        "dark_cinematic",
+        "emotional_resolution"
+      ]
+    },
+    {
+      "id": "CINE01",
+      "nombre": "Andaluz Cinematográfico",
+      "keywords": [
+        "dark_cinematic",
+        "cinematic",
+        "melancholic"
+      ]
+    },
+    {
+      "id": "CINE02",
+      "nombre": "Cadencia Menor Clásica",
+      "keywords": [
+        "dark_cinematic",
+        "cinematic",
+        "tension_release"
+      ]
+    },
+    {
+      "id": "CINE03",
+      "nombre": "Oscilación Frigia",
+      "keywords": [
+        "dark_cinematic",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "CINE04",
+      "nombre": "Tráiler Épico",
+      "keywords": [
+        "dark_cinematic",
+        "cinematic",
+        "tension_release"
+      ]
+    },
+    {
+      "id": "CINE05",
+      "nombre": "Pulso Menor",
+      "keywords": [
+        "dark_cinematic",
+        "tension_release",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "CINE06",
+      "nombre": "Vaivén a iv",
+      "keywords": [
+        "dark_cinematic",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "CINE07",
+      "nombre": "Dominante Armónico",
+      "keywords": [
+        "dark_cinematic",
+        "emotional_resolution",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "CINE08",
+      "nombre": "Segunda Frigia",
+      "keywords": [
+        "dark_cinematic",
+        "tension_release",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "DREAM01",
+      "nombre": "Apertura Suspendida",
+      "keywords": [
+        "dream_pop",
+        "alternative",
+        "pop"
+      ]
+    },
+    {
+      "id": "DREAM02",
+      "nombre": "Estático Ambiguo",
+      "keywords": [
+        "dream_pop",
+        "alternative"
+      ]
+    },
+    {
+      "id": "DREAM03",
+      "nombre": "Terceras Cristalinas",
+      "keywords": [
+        "dream_pop",
+        "alternative"
+      ]
+    },
+    {
+      "id": "DREAM04",
+      "nombre": "Plagal Paralelo",
+      "keywords": [
+        "dream_pop",
+        "alternative",
+        "melancholic"
+      ]
+    },
+    {
+      "id": "DREAM05",
+      "nombre": "Tercera Menor Prestada",
+      "keywords": [
+        "dream_pop",
+        "alternative",
+        "nostalgic"
+      ]
+    },
+    {
+      "id": "DREAM06",
+      "nombre": "Eje con Séptimas",
+      "keywords": [
+        "dream_pop",
+        "alternative",
+        "familiar_pop"
+      ]
+    },
+    {
+      "id": "DREAM07",
+      "nombre": "Mixolidio Oscuro",
+      "keywords": [
+        "dream_pop",
+        "alternative",
+        "dark_cinematic"
+      ]
+    },
+    {
+      "id": "DREAM08",
+      "nombre": "Construcción a Dos",
+      "keywords": [
+        "dream_pop",
+        "alternative",
+        "tension_release"
+      ]
+    },
+    {
+      "id": "MEL01",
+      "nombre": "Suspiro con iv",
+      "keywords": [
+        "melancholic",
+        "nostalgic",
+        "melancolia"
+      ]
+    },
+    {
+      "id": "MEL02",
+      "nombre": "Cadencia Andaluza",
+      "keywords": [
+        "melancholic",
+        "nostalgic",
+        "dark_cinematic",
+        "andaluz"
+      ]
+    },
+    {
+      "id": "MEL03",
+      "nombre": "Terceras Nostálgicas",
+      "keywords": [
+        "nostalgic",
+        "melancholic"
+      ]
+    },
+    {
+      "id": "MEL04",
+      "nombre": "Plagal Nostálgico",
+      "keywords": [
+        "nostalgic",
+        "melancholic",
+        "pop"
+      ]
+    },
+    {
+      "id": "MEL05",
+      "nombre": "Amen Menor",
+      "keywords": [
+        "melancholic",
+        "nostalgic",
+        "emotional_resolution"
+      ]
+    },
+    {
+      "id": "MEL06",
+      "nombre": "Descenso Escalerado",
+      "keywords": [
+        "melancholic",
+        "nostalgic",
+        "alternative"
+      ]
+    },
+    {
+      "id": "POP01",
+      "nombre": "Eje Pop",
+      "keywords": [
+        "familiar_pop",
+        "pop",
+        "eje"
+      ]
+    },
+    {
+      "id": "POP02",
+      "nombre": "Rotación del Eje",
+      "keywords": [
+        "familiar_pop",
+        "pop",
+        "rotacion"
+      ]
+    },
+    {
+      "id": "POP03",
+      "nombre": "Cadencia Doo Wop",
+      "keywords": [
+        "familiar_pop",
+        "doo_wop",
+        "soulful"
+      ]
+    },
+    {
+      "id": "POP04",
+      "nombre": "Plagal Oscilante",
+      "keywords": [
+        "familiar_pop",
+        "pop",
+        "plagal"
+      ]
+    },
+    {
+      "id": "POP05",
+      "nombre": "Terceras Ascendentes",
+      "keywords": [
+        "familiar_pop",
+        "pop",
+        "terceras"
+      ]
+    },
+    {
+      "id": "POP06",
+      "nombre": "Rotación Luminosa",
+      "keywords": [
+        "familiar_pop",
+        "pop"
+      ]
+    },
+    {
+      "id": "POP07",
+      "nombre": "Canon Descendente",
+      "keywords": [
+        "familiar_pop",
+        "canon",
+        "nostalgic"
+      ]
+    },
+    {
+      "id": "POP08",
+      "nombre": "Cadencia de Jazz Mayor",
+      "keywords": [
+        "familiar_pop",
+        "soulful",
+        "jazz"
+      ]
+    },
+    {
+      "id": "SOUL01",
+      "nombre": "Dominantes Gemelos",
+      "keywords": [
+        "soulful",
+        "soul",
+        "rnb"
+      ]
+    },
+    {
+      "id": "SOUL02",
+      "nombre": "Cadencia de Jazz",
+      "keywords": [
+        "soulful",
+        "jazz",
+        "emotional_resolution"
+      ]
+    },
+    {
+      "id": "SOUL03",
+      "nombre": "Doo Wop con Séptimas",
+      "keywords": [
+        "soulful",
+        "nostalgic",
+        "soul"
+      ]
+    },
+    {
+      "id": "SOUL04",
+      "nombre": "Turnaround R&B",
+      "keywords": [
+        "soulful",
+        "rnb",
+        "jazz"
+      ]
+    },
+    {
+      "id": "SOUL05",
+      "nombre": "Menor Soul",
+      "keywords": [
+        "soulful",
+        "soul",
+        "melancholic"
+      ]
+    },
+    {
+      "id": "SOUL06",
+      "nombre": "Andaluz Soul",
+      "keywords": [
+        "soulful",
+        "melancholic",
+        "dark_cinematic"
+      ]
+    },
+    {
+      "id": "SOUL07",
+      "nombre": "Emocional con VI7",
+      "keywords": [
+        "soulful",
+        "emotional_resolution",
+        "rnb"
+      ]
+    },
+    {
+      "id": "SOUL08",
+      "nombre": "Amen Gospel",
+      "keywords": [
+        "soulful",
+        "emotional_resolution",
+        "pop"
+      ]
+    }
+  ],
+  "vocabulario_tiers": {
+    "POP": [
+      "",
+      "6",
+      "7sus4",
+      "add9",
+      "m",
+      "m7",
+      "m9",
+      "maj7",
+      "maj9",
+      "sus",
+      "sus2",
+      "sus4"
+    ],
+    "HYBRID": [
+      "",
+      "11",
+      "13",
+      "5",
+      "6",
+      "7",
+      "7#11",
+      "7sus4",
+      "9",
+      "add11",
+      "add13",
+      "add9",
+      "m",
+      "m11",
+      "m13",
+      "m7",
+      "m7b5",
+      "m9",
+      "maj11",
+      "maj13",
+      "maj7",
+      "maj9",
+      "sus",
+      "sus2",
+      "sus4"
+    ]
+  },
+  "ew_codes": {
+    "E101": {
+      "familia": "E1xx",
+      "resumen": "JSON malformado o raíz no-objeto"
+    },
+    "E102": {
+      "familia": "E1xx",
+      "resumen": "schema ausente o != 'dark-director/1'"
+    },
+    "E103": {
+      "familia": "E1xx",
+      "resumen": "campo requerido ausente (direction.identity, direction.accessibility, harmony.key, harmony.language, structure)"
+    },
+    "E104": {
+      "familia": "E1xx",
+      "resumen": "tipo incorrecto en cualquier campo"
+    },
+    "E105": {
+      "familia": "E1xx",
+      "resumen": "valor fuera de rango o fuera de enum"
+    },
+    "E106": {
+      "familia": "E1xx",
+      "resumen": "exclusivamente structure inválida: < 2 secciones o ids duplicados"
+    },
+    "E107": {
+      "familia": "E1xx",
+      "resumen": "referencia rota a sección inexistente"
+    },
+    "E108": {
+      "familia": "E1xx",
+      "resumen": "motif con fuente sin frases"
+    },
+    "E109": {
+      "familia": "E1xx",
+      "resumen": "campo desconocido sin prefijo x_ (en cualquier nivel, con sugerencia del campo más cercano)"
+    },
+    "E110": {
+      "familia": "E1xx",
+      "resumen": "id de instrumento fuera del catálogo de 8"
+    },
+    "E111": {
+      "familia": "E1xx",
+      "resumen": "nota de frase inválida (bar, beat en [0, 4), fin de sección, pitch, dur, vel)"
+    },
+    "E112": {
+      "familia": "E1xx",
+      "resumen": "ending inválido (bars no entero, < 1 o mayor que la última sección)"
+    },
+    "E113": {
+      "familia": "E1xx",
+      "resumen": "símbolo de acorde no parseable por theory.parse_chord"
+    },
+    "E114": {
+      "familia": "E1xx",
+      "resumen": "pista enabled=true fuera del set base que no puede inicializarse con seguridad; no se emite pista parcial ni bloque incompleto"
+    },
+    "E203": {
+      "familia": "E2xx",
+      "resumen": "improvisación en una sección cuyo active excluye explícitamente al instrumento"
+    },
+    "E204": {
+      "familia": "E2xx",
+      "resumen": "desarrollo sobre pista que no suena"
+    },
+    "E301": {
+      "familia": "E3xx",
+      "resumen": "improvisation[].instrument != sax_tenor"
+    },
+    "E302": {
+      "familia": "E3xx",
+      "resumen": "responses.<inst>.responds_to apunta a un instrumento que no es el lead"
+    },
+    "E303": {
+      "familia": "E3xx",
+      "resumen": "responses declarado sobre un instrumento sin mecanismo replies"
+    },
+    "W401": {
+      "familia": "W4xx",
+      "resumen": "BPM fuera del rango típico de la identidad (se compila igual)"
+    },
+    "W402": {
+      "familia": "W4xx",
+      "resumen": "ritmo armónico 1:1 en doom_dark_jazz"
+    },
+    "W403": {
+      "familia": "W4xx",
+      "resumen": "vibráfono con density efectiva en banda B3 y mallet_sparse ON"
+    },
+    "W404": {
+      "familia": "W4xx",
+      "resumen": "commercial sin material de hook en ningún chorus"
+    },
+    "W405": {
+      "familia": "W4xx",
+      "resumen": "velocity_cap > 110 en identidades doom"
+    },
+    "W406": {
+      "familia": "W4xx",
+      "resumen": "active/focus referencia un instrumento que no suena en la sección → entrada ignorada"
+    },
+    "W407": {
+      "familia": "W4xx",
+      "resumen": "material del motif más largo que la sección destino (N notas truncadas)"
+    },
+    "W408": {
+      "familia": "W4xx",
+      "resumen": "motif_repeat con motifs de loop_bars != 8"
+    },
+    "W409": {
+      "familia": "W4xx",
+      "resumen": "tension en banda B3 sin pad ni strings activos"
+    },
+    "W410": {
+      "familia": "W4xx",
+      "resumen": "density sin traducción (bass/drums/pad/strings; sax en bloques escritos) → ignorada donde no aplica"
+    },
+    "W411": {
+      "familia": "W4xx",
+      "resumen": "combinación identidad×accessibility×language poco convencional (9/27; informativa)"
+    },
+    "W412": {
+      "familia": "W4xx",
+      "resumen": "resolution explícita en la última sección"
+    },
+    "W413": {
+      "familia": "W4xx",
+      "resumen": "transpose_st deja notas fuera del registro del lead"
+    },
+    "W414": {
+      "familia": "W4xx",
+      "resumen": "acordes explícitos fuera del vocabulario del language (se respetan)"
+    },
+    "W415": {
+      "familia": "W4xx",
+      "resumen": "final: true en más de una sección (gana la última en orden)"
+    },
+    "W416": {
+      "familia": "W4xx",
+      "resumen": "fade_out y tape_stop ambos activos"
+    },
+    "W417": {
+      "familia": "W4xx",
+      "resumen": "chord_bars/harmonic_rhythm_bars no divide los compases de la sección"
+    },
+    "W418": {
+      "familia": "W4xx",
+      "resumen": "improvisación en sección con drums: off"
+    },
+    "W419": {
+      "familia": "W4xx",
+      "resumen": "loop_bars de motif mayor que los compases del destino"
+    },
+    "W420": {
+      "familia": "W4xx",
+      "resumen": "resolución con split (tonal/deceptive) en transición con origen < 2 compases (split omitido)"
+    },
+    "W421": {
+      "familia": "W4xx",
+      "resumen": "transición con gesto de bajo imposible (bass inactivo en el origen)"
+    }
+  },
+  "manifest_meta": {
+    "dmd_path": "C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\nucleo_engine_project",
+    "captured_at": 1794508028.4297702,
+    "composer_version": "1.2.0"
+  }
+}

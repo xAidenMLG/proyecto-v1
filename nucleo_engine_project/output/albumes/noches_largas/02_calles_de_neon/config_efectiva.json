@@ -1,0 +1,20 @@
+{
+  "engines": {
+    "sax": true,
+    "rhodes": true,
+    "drums": true,
+    "vibes": true
+  },
+  "seed": 2026,
+  "harmony": {
+    "keyword": "familiar_pop",
+    "variacion": "subtle"
+  },
+  "production": "full",
+  "density": {
+    "sax": 1.0,
+    "rhodes": 1.0,
+    "vibes": 1.0,
+    "drums": 1.0
+  }
+}

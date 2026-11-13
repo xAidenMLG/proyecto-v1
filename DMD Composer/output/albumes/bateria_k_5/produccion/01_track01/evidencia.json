@@ -1,0 +1,57 @@
+{
+  "composicion": "Bateria K · Track 01",
+  "perfil_produccion": "full",
+  "seed": 203294,
+  "sha256_midi": "9d5c81aea72252d4e234ac583d908b17e91a42cfebfd2afb4df1daa0d054a6b5",
+  "sha256_doc": "f5ad29ca665b418e074b4e068edb825143cf648c0fdbef944a84f6bb61216348",
+  "fecha_generacion_utc": "2026-11-11T08:40:22.840782+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 82.0,
+  "compases": 64,
+  "duracion_s": 187.3,
+  "notas_por_pista": {
+    "sax_tenor": 10,
+    "rhodes": 154,
+    "vibraphone": 19,
+    "bass": 172,
+    "drums": 624,
+    "pad": 108
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [],
+  "resumen_actividad": {
+    "frases_sax": 4,
+    "rhodes_melodico_por_seccion": {
+      "intro": 2,
+      "verse": 0,
+      "chorus": 0,
+      "bridge": 2,
+      "chorus_2": 2,
+      "outro": 0
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse": 0,
+      "chorus": 2,
+      "bridge": 0,
+      "chorus_2": 0,
+      "outro": 1
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production full --seed 203294 --out /home/z/my-project/DMD_Composer/output/albumes/bateria_k_5/produccion/01_track01 --verify 9d5c81aea72252d4e234ac583d908b17e91a42cfebfd2afb4df1daa0d054a6b5",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"01_track01.mid\" -F salida.wav -r 44100"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "composicion": "casa_de_espejos",
+  "run": "A_original",
+  "keyword": null,
+  "seed_doc": 5150,
+  "seed_harmony": 555,
+  "sha256_midi": "94b62f5d22357f217cd1a6c3e279af175b2a4248d4196b56de669c7cdc99082a",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/casa_de_espejos/doc.json --dark-director --production full --seed 5150 -o regen.mid",
+  "compliance_fails": [],
+  "duracion_s": 125.7
+}

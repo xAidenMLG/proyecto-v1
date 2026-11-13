@@ -1,0 +1,143 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Preludio Para Letras",
+    "notes": "Demo 4: estructura de 10 secciones con nombres visibles y las progresiones por sección del documento de misión (I-III-vi-V → C-Em-Am-G). Pensada para escribir letras."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "commercial"
+  },
+  "global": {
+    "bpm": 71,
+    "seed": 2026
+  },
+  "harmony": {
+    "key": "C major",
+    "language": "pop_dream_pop",
+    "harmonic_rhythm_bars": 1,
+    "progressions": {
+      "intro": [
+        "C",
+        "Em",
+        "Am",
+        "G"
+      ],
+      "verso_1": [
+        "C",
+        "Em",
+        "Am",
+        "G"
+      ],
+      "pre": [
+        "F",
+        "C",
+        "Am",
+        "G"
+      ],
+      "verso_2": [
+        "C",
+        "Em",
+        "Am",
+        "G"
+      ],
+      "estribillo": [
+        "F",
+        "C",
+        "Am",
+        "G"
+      ],
+      "preludio": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "verso_3": [
+        "C",
+        "Em",
+        "Am",
+        "G"
+      ],
+      "estribillo_2": [
+        "F",
+        "C",
+        "Am",
+        "G"
+      ],
+      "puente": [
+        "F",
+        "C",
+        "Am",
+        "G"
+      ],
+      "outro": [
+        "C",
+        "Em",
+        "Am",
+        "G"
+      ]
+    }
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4
+    },
+    {
+      "id": "verso_1",
+      "type": "verse",
+      "bars": 16
+    },
+    {
+      "id": "pre",
+      "type": "pre_chorus",
+      "bars": 8
+    },
+    {
+      "id": "verso_2",
+      "type": "verse",
+      "bars": 16
+    },
+    {
+      "id": "estribillo",
+      "type": "chorus",
+      "bars": 16,
+      "loop_bars": 8
+    },
+    {
+      "id": "preludio",
+      "type": "break",
+      "bars": 8,
+      "drums": "light",
+      "active": [
+        "rhodes",
+        "pad",
+        "vibraphone"
+      ]
+    },
+    {
+      "id": "verso_3",
+      "type": "verse",
+      "bars": 16
+    },
+    {
+      "id": "estribillo_2",
+      "type": "chorus",
+      "bars": 16,
+      "loop_bars": 8,
+      "final": true
+    },
+    {
+      "id": "puente",
+      "type": "bridge",
+      "bars": 8
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 8
+    }
+  ]
+}

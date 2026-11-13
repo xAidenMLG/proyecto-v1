@@ -1,0 +1,20 @@
+{
+  "engines": {
+    "sax": true,
+    "rhodes": true,
+    "drums": false,
+    "vibes": false
+  },
+  "seed": 2026,
+  "harmony": {
+    "keyword": "soulful",
+    "variacion": "medium"
+  },
+  "production": "sax_rhodes",
+  "density": {
+    "sax": 1.0,
+    "rhodes": 1.0,
+    "vibes": 1.0,
+    "drums": 1.0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "composicion": "Capitan",
+  "perfil_produccion": "sax_rhodes",
+  "seed": 469514,
+  "sha256_midi": "f1ed2fa217bde318f088ed273da6c958ccdd2811a0d9fe3a36540c242ce38ce2",
+  "sha256_doc": "35a4a1c7f447a1e8e6f7a4fc79409d5043a35c64e0ceecb33d96737d3a5592e4",
+  "fecha_generacion_utc": "2026-11-11T20:27:17.157857+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 84.0,
+  "compases": 84,
+  "duracion_s": 240.0,
+  "notas_por_pista": {
+    "sax_tenor": 30,
+    "rhodes": 208,
+    "vibraphone": 26,
+    "bass": 228,
+    "drums": 845,
+    "pad": 140
+  },
+  "compliance_fails": [],
+  "compliance_warns": [],
+  "avisos_compilador": [],
+  "resumen_actividad": {
+    "frases_sax": 3,
+    "rhodes_melodico_por_seccion": {
+      "intro": 0,
+      "verse": 2,
+      "chorus": 3,
+      "verse_2": 2,
+      "chorus_2": 0,
+      "outro": 0
+    },
+    "vibes_eco_por_seccion": null
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production sax_rhodes --seed 469514 --out C:\\Users\\Homeless\\Documents\\PY\\DMD_Composer\\DMD_Pack\\DMD_Composer\\output\\capitan\\gen_0001\\midi\\capitan_gen_0001 --verify f1ed2fa217bde318f088ed273da6c958ccdd2811a0d9fe3a36540c242ce38ce2",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"capitan_gen_0001.mid\" -F salida.wav -r 44100"
+  }
+}

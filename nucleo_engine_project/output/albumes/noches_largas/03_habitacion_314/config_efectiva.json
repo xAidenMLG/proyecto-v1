@@ -1,0 +1,21 @@
+{
+  "engines": {
+    "sax": true,
+    "rhodes": true,
+    "drums": true,
+    "vibes": true
+  },
+  "variation": "atmospheric",
+  "seed": 2026,
+  "harmony": {
+    "keyword": "melancholic",
+    "variacion": "medium"
+  },
+  "production": "atmospheric",
+  "density": {
+    "sax": 0.75,
+    "rhodes": 0.8,
+    "vibes": 1.0,
+    "drums": 0.75
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "schema": "dmd-album/1",
+  "album": "Noches Largas",
+  "identidad": "dark_triphop",
+  "semilla_album": 3100,
+  "objetivo": {
+    "pistas": 13
+  },
+  "curva_energia": [
+    0.48,
+    0.59,
+    0.49,
+    0.42,
+    0.46,
+    0.39,
+    0.48,
+    0.36,
+    0.48,
+    0.33,
+    0.5,
+    0.46,
+    0.34
+  ],
+  "restricciones": {
+    "perfil_frac_max": 0.4,
+    "respiro_cada": 5,
+    "prohibir_consecutivos_iguales": true
+  },
+  "pistas": [
+    {
+      "id": "medianoche_puerto",
+      "doc": "docs/medianoche_puerto_nuevo.json",
+      "rol": "apertura — melódico contenido",
+      "perfil": "sax",
+      "seed": 2026
+    },
+    {
+      "id": "calles_de_neon",
+      "doc": "docs/calles_de_neon.json",
+      "rol": "energía urbana — material escrito respetado",
+      "perfil": "full",
+      "seed": 2026,
+      "harmony": {
+        "keyword": "familiar_pop",
+        "variacion": "subtle"
+      }
+    },
+    {
+      "id": "habitacion_314",
+      "doc": "docs/habitacion_314.json",
+      "rol": "respiro atmosférico",
+      "perfil": "atmospheric",
+      "seed": 2026,
+      "harmony": {
+        "keyword": "melancholic",
+        "variacion": "medium"
+      }
+    },
+    {
+      "id": "bruma_dorada",
+      "doc": "docs/bruma_dorada.json",
+      "rol": "respiro — camino ORIGINAL sin motores",
+      "perfil": "original"
+    },
+    {
+      "id": "casa_de_espejos",
+      "doc": "docs/casa_de_espejos.json",
+      "rol": "dueto sax+Rhodes",
+      "perfil": "sax_rhodes",
+      "seed": 2026,
+      "harmony": {
+        "keyword": "soulful",
+        "variacion": "medium"
+      }
+    },
+    {
+      "id": "neblina_alta",
+      "doc": "docs/neblina_alta.json",
+      "rol": "textura de batería",
+      "perfil": "drums",
+      "harmony": {
+        "keyword": "tension_release",
+        "variacion": "subtle"
+      }
+    },
+    {
+      "id": "viaducto_sur",
+      "doc": "docs/viaducto_sur.json",
+      "rol": "clímax 1 — tape_stop final",
+      "perfil": "full",
+      "harmony": {
+        "id": "CINE01",
+        "variacion": "medium"
+      }
+    },
+    {
+      "id": "habitacion_vacia",
+      "doc": "docs/habitacion_vacia.json",
+      "rol": "vacío luminoso",
+      "perfil": "atmospheric",
+      "harmony": {
+        "keyword": "dream_pop",
+        "variacion": "subtle"
+      }
+    },
+    {
+      "id": "asfalto_humedo",
+      "doc": "docs/asfalto_humedo.json",
+      "rol": "perfil asignado por el planificador",
+      "harmony": {
+        "keyword": "alternative",
+        "variacion": "subtle"
+      }
+    },
+    {
+      "id": "portico_sur",
+      "doc": "docs/portico_sur.json",
+      "rol": "respiro — camino ORIGINAL sin motores",
+      "perfil": "original"
+    },
+    {
+      "id": "nocturno_terminal",
+      "doc": "docs/nocturno_terminal.json",
+      "rol": "referencia de identidad",
+      "perfil": "full",
+      "seed": 2026,
+      "harmony": {
+        "keyword": "dark_cinematic",
+        "variacion": "medium"
+      }
+    },
+    {
+      "id": "marea_baja",
+      "doc": "docs/marea_baja.json",
+      "rol": "resolución emocional",
+      "perfil": "sax",
+      "harmony": {
+        "keyword": "emotional_resolution",
+        "variacion": "subtle"
+      }
+    },
+    {
+      "id": "ultimo_metro",
+      "doc": "docs/ultimo_metro.json",
+      "rol": "cierre — familiarity_auto EXPLÍCITA del compositor",
+      "perfil": "atmospheric",
+      "harmony": {
+        "keyword": "familiarity_auto",
+        "variacion": "subtle"
+      }
+    }
+  ]
+}

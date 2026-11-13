@@ -1,0 +1,99 @@
+{
+  "format": "dmd-composer/1",
+  "pid": "del_rey_test",
+  "name": "Del Rey Test",
+  "notes": "",
+  "created": 1794507960.167301,
+  "updated": 1794508337.2977033,
+  "decisions": {
+    "identity": {
+      "mode": "fixed",
+      "value": "dark_triphop"
+    },
+    "accessibility": {
+      "mode": "auto",
+      "value": null
+    },
+    "bpm": {
+      "mode": "auto",
+      "value": null
+    },
+    "key": {
+      "mode": "auto",
+      "value": null
+    },
+    "language": {
+      "mode": "auto",
+      "value": null
+    },
+    "resolution": {
+      "mode": "free",
+      "value": null
+    },
+    "harmonic_rhythm_bars": {
+      "mode": "auto",
+      "value": null
+    },
+    "harmony_mode": {
+      "mode": "fixed",
+      "value": "guided"
+    },
+    "mood": {
+      "mode": "fixed",
+      "value": "melancholic"
+    },
+    "atmosphere": {
+      "mode": "auto",
+      "value": null
+    },
+    "groove": {
+      "mode": "auto",
+      "value": null
+    },
+    "spaces": {
+      "mode": "fixed",
+      "value": "suggested"
+    },
+    "protagonist": {
+      "mode": "fixed",
+      "value": "sax_tenor"
+    },
+    "production": {
+      "mode": "auto",
+      "value": null
+    },
+    "ending": {
+      "mode": "auto",
+      "value": null
+    },
+    "seed": {
+      "mode": "auto",
+      "value": null
+    }
+  },
+  "instruments": {
+    "sax_tenor": {
+      "role": "protagonist",
+      "density": 0.6
+    },
+    "rhodes": {
+      "role": "protagonist"
+    }
+  },
+  "sections": [],
+  "harmony_sections": {},
+  "production": {
+    "profile": null,
+    "f7_keyword": null,
+    "f7_variation": null,
+    "wav": false
+  },
+  "diversity": "balanced",
+  "album": null,
+  "protagonist_proposal": {
+    "estado": "descartada",
+    "protagonista": "sax_tenor",
+    "cambios_aplicados": null,
+    "timestamp": 1794508281.859573
+  }
+}

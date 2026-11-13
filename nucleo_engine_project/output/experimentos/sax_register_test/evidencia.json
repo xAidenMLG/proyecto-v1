@@ -1,0 +1,45 @@
+{
+  "composicion": "Sax Register Test",
+  "perfil_produccion": "sax",
+  "seed": 7351,
+  "sha256_midi": "c379c40360b4dc100a896b5fa9c92f32428117e766a2f803447f6ef1daeced16",
+  "sha256_doc": "fa5b15395ff0c9d53db281f893a9eef868549a8ffe3000573fef6d3f402b1684",
+  "fecha_generacion_utc": "2026-11-09T18:19:17.063584+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 84.0,
+  "compases": 36,
+  "duracion_s": 102.9,
+  "notas_por_pista": {
+    "sax_tenor": 30,
+    "rhodes": 92,
+    "vibraphone": 19,
+    "bass": 90,
+    "drums": 323,
+    "pad": 59
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [
+    "W403: vibraphone con density efectiva 0.7 en banda B3 y mallet_sparse ON ('chorus_2')"
+  ],
+  "resumen_actividad": {
+    "frases_sax": 4,
+    "rhodes_melodico_por_seccion": {},
+    "vibes_eco_por_seccion": null
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production sax --seed 7351 --out output/experimentos/sax_register_test --verify c379c40360b4dc100a896b5fa9c92f32428117e766a2f803447f6ef1daeced16",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"sax_register_test.mid\" -F salida.wav -r 44100"
+  }
+}

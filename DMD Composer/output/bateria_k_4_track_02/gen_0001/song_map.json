@@ -1,0 +1,275 @@
+{
+  "formato": "song-map/1",
+  "obra": "Bateria K · Track 02",
+  "contrato": "dark-director/1 rev 3.2",
+  "tonalidad": "A minor",
+  "bpm": 89,
+  "compases_totales": 96,
+  "duracion_total_seg": 258.88,
+  "secciones": [
+    {
+      "orden": 1,
+      "id": "intro",
+      "nombre_visible": "Intro",
+      "tipo_funcional": "intro",
+      "compas_inicial": 1,
+      "compas_final": 8,
+      "compases": 8,
+      "progresion": [
+        "Am9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "A minor",
+      "grid_por_compas": [
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9"
+      ],
+      "duracion_seg": 21.57
+    },
+    {
+      "orden": 2,
+      "id": "verse",
+      "nombre_visible": "Verse",
+      "tipo_funcional": "verse",
+      "compas_inicial": 9,
+      "compas_final": 24,
+      "compases": 16,
+      "progresion": [
+        "Am9",
+        "Fmaj7",
+        "Cm7b5",
+        "E9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "A minor",
+      "grid_por_compas": [
+        "Am9",
+        "Am9",
+        "Fmaj7",
+        "Fmaj7",
+        "Cm7b5",
+        "Cm7b5",
+        "E9",
+        "E9",
+        "Am9",
+        "Am9",
+        "Fmaj7",
+        "Fmaj7",
+        "Cm7b5",
+        "Cm7b5",
+        "E9",
+        "E9"
+      ],
+      "duracion_seg": 43.15
+    },
+    {
+      "orden": 3,
+      "id": "pre_chorus",
+      "nombre_visible": "Pre-Chorus",
+      "tipo_funcional": "pre_chorus",
+      "compas_inicial": 25,
+      "compas_final": 32,
+      "compases": 8,
+      "progresion": [
+        "D9",
+        "E13"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "A minor",
+      "grid_por_compas": [
+        "D9",
+        "D9",
+        "E13",
+        "E13",
+        "D9",
+        "D9",
+        "E13",
+        "E13"
+      ],
+      "duracion_seg": 21.57
+    },
+    {
+      "orden": 4,
+      "id": "chorus",
+      "nombre_visible": "Chorus",
+      "tipo_funcional": "chorus",
+      "compas_inicial": 33,
+      "compas_final": 48,
+      "compases": 16,
+      "progresion": [
+        "Am9",
+        "Gm9",
+        "F13",
+        "E7sus4"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "A minor",
+      "grid_por_compas": [
+        "Am9",
+        "Am9",
+        "Gm9",
+        "Gm9",
+        "F13",
+        "F13",
+        "E7sus4",
+        "E7sus4",
+        "Am9",
+        "Am9",
+        "Gm9",
+        "Gm9",
+        "F13",
+        "F13",
+        "E7sus4",
+        "E7sus4"
+      ],
+      "duracion_seg": 43.15
+    },
+    {
+      "orden": 5,
+      "id": "break",
+      "nombre_visible": "Break",
+      "tipo_funcional": "break",
+      "compas_inicial": 49,
+      "compas_final": 56,
+      "compases": 8,
+      "progresion": [
+        "Am11",
+        "Fmaj7"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "A minor",
+      "grid_por_compas": [
+        "Am11",
+        "Am11",
+        "Fmaj7",
+        "Fmaj7",
+        "Am11",
+        "Am11",
+        "Fmaj7",
+        "Fmaj7"
+      ],
+      "duracion_seg": 21.57
+    },
+    {
+      "orden": 6,
+      "id": "verse_2",
+      "nombre_visible": "Verse 2",
+      "tipo_funcional": "verse",
+      "compas_inicial": 57,
+      "compas_final": 72,
+      "compases": 16,
+      "progresion": [
+        "Am9",
+        "Fmaj7",
+        "Cm7b5",
+        "E9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "A minor",
+      "grid_por_compas": [
+        "Am9",
+        "Am9",
+        "Fmaj7",
+        "Fmaj7",
+        "Cm7b5",
+        "Cm7b5",
+        "E9",
+        "E9",
+        "Am9",
+        "Am9",
+        "Fmaj7",
+        "Fmaj7",
+        "Cm7b5",
+        "Cm7b5",
+        "E9",
+        "E9"
+      ],
+      "duracion_seg": 43.15
+    },
+    {
+      "orden": 7,
+      "id": "chorus_2",
+      "nombre_visible": "Chorus 2",
+      "tipo_funcional": "chorus",
+      "compas_inicial": 73,
+      "compas_final": 88,
+      "compases": 16,
+      "progresion": [
+        "Am9",
+        "Gm9",
+        "F13",
+        "E7sus4"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "A minor",
+      "grid_por_compas": [
+        "Am9",
+        "Am9",
+        "Gm9",
+        "Gm9",
+        "F13",
+        "F13",
+        "E7sus4",
+        "E7sus4",
+        "Am9",
+        "Am9",
+        "Gm9",
+        "Gm9",
+        "F13",
+        "F13",
+        "E7sus4",
+        "E7sus4"
+      ],
+      "duracion_seg": 43.15
+    },
+    {
+      "orden": 8,
+      "id": "outro",
+      "nombre_visible": "Outro",
+      "tipo_funcional": "outro",
+      "compas_inicial": 89,
+      "compas_final": 96,
+      "compases": 8,
+      "progresion": [
+        "Am9"
+      ],
+      "fuente_armonia": "receta_n1",
+      "chord_bars": 2,
+      "tonalidad": "A minor",
+      "grid_por_compas": [
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9",
+        "Am9"
+      ],
+      "duracion_seg": 21.57
+    }
+  ],
+  "notas_para_letras": [
+    "[Intro]  (1–8, 8 compases · Am9)",
+    "[Verse]  (9–24, 16 compases · Am9 - Fmaj7 - Cm7b5 - E9)",
+    "[Pre-Chorus]  (25–32, 8 compases · D9 - E13)",
+    "[Chorus]  (33–48, 16 compases · Am9 - Gm9 - F13 - E7sus4)",
+    "[Break]  (49–56, 8 compases · Am11 - Fmaj7)",
+    "[Verse 2]  (57–72, 16 compases · Am9 - Fmaj7 - Cm7b5 - E9)",
+    "[Chorus 2]  (73–88, 16 compases · Am9 - Gm9 - F13 - E7sus4)",
+    "[Outro]  (89–96, 8 compases · Am9)"
+  ]
+}

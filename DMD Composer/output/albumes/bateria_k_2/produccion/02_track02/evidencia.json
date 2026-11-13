@@ -1,0 +1,59 @@
+{
+  "composicion": "Bateria K · Track 02",
+  "perfil_produccion": "full",
+  "seed": 346470,
+  "sha256_midi": "e33fdd6e8f18f82604d6943f7ce595dd68bc552bca086d06701998ea4ba5bf06",
+  "sha256_doc": "64eef64c2a14e3dfac684e982813559c50ab0885d927f1dce5af45aa349fabeb",
+  "fecha_generacion_utc": "2026-11-11T08:27:10.325031+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 80.0,
+  "compases": 56,
+  "duracion_s": 168.0,
+  "notas_por_pista": {
+    "sax_tenor": 39,
+    "rhodes": 129,
+    "vibraphone": 11,
+    "bass": 142,
+    "drums": 506,
+    "pad": 90
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [
+    "W404: commercial sin material de hook en ningún chorus (ni phrases, ni motif, ni loop_bars)"
+  ],
+  "resumen_actividad": {
+    "frases_sax": 3,
+    "rhodes_melodico_por_seccion": {
+      "intro": 0,
+      "verse": 3,
+      "chorus": 0,
+      "bridge": 0,
+      "chorus_2": 0,
+      "outro": 2
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse": 0,
+      "chorus": 2,
+      "bridge": 0,
+      "chorus_2": 1,
+      "outro": 0
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production full --seed 346470 --out /home/z/my-project/DMD_Composer/output/albumes/bateria_k_2/produccion/02_track02 --verify e33fdd6e8f18f82604d6943f7ce595dd68bc552bca086d06701998ea4ba5bf06",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"02_track02.mid\" -F salida.wav -r 44100"
+  }
+}

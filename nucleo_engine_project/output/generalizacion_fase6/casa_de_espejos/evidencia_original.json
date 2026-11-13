@@ -1,0 +1,25 @@
+{
+  "composicion": "casa_de_espejos",
+  "perfil": "original",
+  "seed": 5150,
+  "sha256": "44763e9df984dcb335380fb76e7d35cb6fc3f9060e02e9abca0981bdcc0fac8e",
+  "bytes": 8200,
+  "bpm": 84.0,
+  "compases": 44,
+  "duracion_s": 125.7,
+  "notas_por_pista": {
+    "sax_tenor": 69,
+    "rhodes": 103,
+    "vibraphone": 2,
+    "bass": 100,
+    "drums": 342,
+    "pad": 76
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 0,
+    "determinismo": true
+  },
+  "fallos": []
+}

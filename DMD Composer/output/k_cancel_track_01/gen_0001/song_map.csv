@@ -1,0 +1,7 @@
+orden,id,nombre_visible,tipo_funcional,compas_inicial,compas_final,compases,progresion,chord_bars,tonalidad,duracion_seg
+1,intro,Intro,intro,1,4,4,Cm9,1,C minor,13.52
+2,verse,Verse,verse,5,12,8,Cm9 - Abmaj7 - Ebm7b5 - G9,1,C minor,27.04
+3,chorus,Chorus,chorus,13,28,16,Cm9 - Bbm9 - Ab13 - G7sus4,1,C minor,54.08
+4,bridge,Bridge,bridge,29,36,8,Ebm7b5 - G7#11,1,C minor,27.04
+5,chorus_2,Chorus 2,chorus,37,52,16,Cm9 - Bbm9 - Ab13 - G7sus4,1,C minor,54.08
+6,outro,Outro,outro,53,60,8,Cm9,1,C minor,27.04

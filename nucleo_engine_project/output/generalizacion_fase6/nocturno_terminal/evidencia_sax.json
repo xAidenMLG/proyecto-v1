@@ -1,0 +1,52 @@
+{
+  "composicion": "nocturno_terminal",
+  "perfil": "sax",
+  "seed": 2026,
+  "sha256": "ecebb36d94a4499b8f50e8ddc7a2f291402a09f4372247568e9989119ce621fe",
+  "bytes": 9161,
+  "bpm": 86.0,
+  "compases": 52,
+  "duracion_s": 145.1,
+  "notas_por_pista": {
+    "sax_tenor": 33,
+    "rhodes": 128,
+    "vibraphone": 24,
+    "bass": 124,
+    "drums": 431,
+    "pad": 92
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 0,
+    "lead_coherencia_armonica": 0.848,
+    "rhodes_secciones_melodicas": [],
+    "rhodes_modos": {},
+    "rhodes_fuera_registro": 0,
+    "rhodes_pisa_sax": 0,
+    "vibes_eco_fuera_registro": 0,
+    "vibes_ecos_en_secciones_sin_sax": [],
+    "vibes_presupuesto": 4,
+    "vibes_usadas": 4,
+    "drums_fills": [],
+    "drums_actitudes": {
+      "intro": "keep",
+      "verse_1": "vary",
+      "pre_1": "build",
+      "chorus_1": "build",
+      "bridge_1": "drop",
+      "break_1": "drop",
+      "verse_2": "vary",
+      "chorus_2": "build",
+      "outro": "keep"
+    },
+    "secciones_triple_melodia": [],
+    "sax_share": 0.67,
+    "determinismo": true
+  },
+  "fallos": [],
+  "frases_sax": 5,
+  "rhodes_melodico": {},
+  "vibes_eco": null,
+  "seed_distinta_cambia": true
+}

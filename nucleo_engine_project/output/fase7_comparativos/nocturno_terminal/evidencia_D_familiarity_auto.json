@@ -1,0 +1,114 @@
+{
+  "composicion": "nocturno_terminal",
+  "run": "D_familiarity_auto",
+  "keyword": "familiarity_auto",
+  "seed_doc": 2026,
+  "seed_harmony": 778,
+  "sha256_midi": "f2ff9b78475421555a9bded494b5bf004928ca192bdf8e2ba4f8491d6933dc80",
+  "compliance_fails": [],
+  "armonia": {
+    "eleccion_por_seccion": {
+      "outro": {
+        "entrada": "CINE02",
+        "simbolos": [
+          "Dm",
+          "Gm7",
+          "Bb",
+          "A"
+        ]
+      },
+      "chorus_2": {
+        "entrada": "BAL06",
+        "simbolos": [
+          "Dm",
+          "C",
+          "Bbmaj7",
+          "A7",
+          "Dm7",
+          "Cmaj7",
+          "Bb",
+          "A7"
+        ]
+      },
+      "verse_2": {
+        "entrada": "BAL06",
+        "simbolos": [
+          "Dm9",
+          "Cadd9",
+          "Bb",
+          "A7",
+          "Dm9",
+          "C",
+          "Bb",
+          "A7"
+        ]
+      },
+      "break_1": {
+        "entrada": "CINE04",
+        "simbolos": [
+          "Dm",
+          "Bb",
+          "C",
+          "G"
+        ]
+      },
+      "bridge_1": {
+        "entrada": "CINE02",
+        "simbolos": [
+          "Dm",
+          "Gm",
+          "Bb",
+          "Asus4"
+        ]
+      },
+      "chorus_1": {
+        "entrada": "BAL06",
+        "simbolos": [
+          "Dm",
+          "Cmaj7",
+          "Bb",
+          "A7",
+          "Dm9",
+          "Cmaj7",
+          "Bb",
+          "A7"
+        ]
+      },
+      "pre_1": {
+        "entrada": "CINE01",
+        "simbolos": [
+          "Dm",
+          "Bb",
+          "F",
+          "C"
+        ]
+      },
+      "verse_1": {
+        "entrada": "BAL06",
+        "simbolos": [
+          "Dm",
+          "Cmaj7",
+          "Bb",
+          "A7",
+          "Dm7",
+          "C",
+          "Bbmaj7",
+          "A7sus4"
+        ]
+      },
+      "intro": {
+        "entrada": "CINE01",
+        "simbolos": [
+          "Dm",
+          "Bb",
+          "F",
+          "C"
+        ]
+      }
+    },
+    "resumen": {
+      "reescritas": 9,
+      "respetadas": 0
+    }
+  }
+}

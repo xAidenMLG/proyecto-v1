@@ -1,0 +1,94 @@
+{
+  "composicion": "Último Metro",
+  "perfil_produccion": "atmospheric",
+  "seed": 4413,
+  "sha256_midi": "9ccab4118229e2e774438b70a1f0e22234a8e34bd2ee54eadfab993c0b6b0e42",
+  "sha256_doc": "ebf924b0a61f339d72638e66226ac1267f915f442f37b08b083305357b157c20",
+  "fecha_generacion_utc": "2026-11-09T06:06:47.613781+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 76.0,
+  "compases": 36,
+  "duracion_s": 113.7,
+  "notas_por_pista": {
+    "sax_tenor": 24,
+    "rhodes": 94,
+    "vibraphone": 6,
+    "bass": 84,
+    "drums": 328,
+    "pad": 72
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "motif_repeat"
+  ],
+  "avisos_compilador": [],
+  "resumen_actividad": {
+    "frases_sax": 3,
+    "rhodes_melodico_por_seccion": {
+      "intro": 2,
+      "verse_1": 3,
+      "chorus_1": 3,
+      "break_1": 0,
+      "chorus_2": 0,
+      "outro": 0
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse_1": 0,
+      "chorus_1": 2,
+      "break_1": 0,
+      "chorus_2": 0,
+      "outro": 0
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production atmospheric --seed 4413 --out output/albumes/noches_largas/13_ultimo_metro --verify 9ccab4118229e2e774438b70a1f0e22234a8e34bd2ee54eadfab993c0b6b0e42",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"13_ultimo_metro.mid\" -F salida.wav -r 44100"
+  },
+  "harmonia": {
+    "activacion": {
+      "keyword": "familiarity_auto",
+      "variacion": "subtle"
+    },
+    "resumen": {
+      "reescritas": 6,
+      "respetadas": 0
+    },
+    "eleccion": {
+      "outro": {
+        "id": "SOUL06",
+        "nombre": "Andaluz Soul"
+      },
+      "chorus_2": {
+        "id": "BAL06",
+        "nombre": "Andaluza de Balada"
+      },
+      "break_1": {
+        "id": "CINE04",
+        "nombre": "Tráiler Épico"
+      },
+      "chorus_1": {
+        "id": "BAL06",
+        "nombre": "Andaluza de Balada"
+      },
+      "verse_1": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      },
+      "intro": {
+        "id": "MEL02",
+        "nombre": "Cadencia Andaluza"
+      }
+    },
+    "respetadas_material": []
+  }
+}

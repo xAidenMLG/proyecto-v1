@@ -1,0 +1,124 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Pórtico Sur",
+    "notes": "FASE 8 — álbum «Noches Largas» (composición nueva)."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 79,
+    "seed": 8106
+  },
+  "harmony": {
+    "key": "D minor",
+    "language": "pop_dream_pop",
+    "harmonic_rhythm_bars": 1,
+    "progressions": {
+      "verse": [
+        "Dm9",
+        "Gm7",
+        "Bbmaj7",
+        "Asus4"
+      ],
+      "chorus": [
+        "Gm9",
+        "Bbmaj7",
+        "Fmaj9",
+        "C7sus4"
+      ]
+    },
+    "resolution": "tonal"
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4,
+      "energy": 0.18,
+      "tension": 0.18,
+      "density": 0.18,
+      "focus": [
+        "pad",
+        "rhodes"
+      ],
+      "drums": "air"
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.38,
+      "tension": 0.3,
+      "density": 0.38,
+      "focus": [
+        "rhodes",
+        "bass"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.6,
+      "tension": 0.42,
+      "density": 0.52,
+      "focus": [
+        "rhodes",
+        "vibraphone"
+      ],
+      "drums": "heavy"
+    },
+    {
+      "id": "break_1",
+      "type": "break",
+      "bars": 4,
+      "energy": 0.28,
+      "tension": 0.5,
+      "density": 0.28,
+      "focus": [
+        "vibraphone"
+      ],
+      "drums": "light",
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ]
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.4,
+      "tension": 0.32,
+      "density": 0.4,
+      "focus": [
+        "rhodes",
+        "bass"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 4,
+      "energy": 0.12,
+      "tension": 0.12,
+      "density": 0.12,
+      "focus": [
+        "pad"
+      ],
+      "drums": "air"
+    }
+  ],
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 3
+    }
+  }
+}

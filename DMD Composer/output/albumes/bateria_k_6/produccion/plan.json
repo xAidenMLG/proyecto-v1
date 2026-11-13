@@ -1,0 +1,160 @@
+{
+  "schema": "dmd-album-plan/1",
+  "album": "Bateria K",
+  "identidad": "dark_triphop",
+  "semilla_album": 73334,
+  "restricciones": {
+    "perfil_frac_max": 0.4,
+    "respiro_cada": 5,
+    "prohibir_consecutivos_iguales": true
+  },
+  "raiz": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_6/produccion",
+  "creado_utc": "2026-11-11T08:40:24.572422+00:00",
+  "versiones": {
+    "album": "8.0.0",
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "pistas": [
+    {
+      "indice": 1,
+      "id": "track01",
+      "titulo": "Track 01",
+      "rol": null,
+      "doc": "docs/track01.json",
+      "doc_resuelto": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_6/produccion/docs/track01.json",
+      "sha256_doc": "7e42459280381eae70a978e58e4f2667b5d3d464ec72469a4c21559fb1aca55e",
+      "perfil": "full",
+      "seed": 220584,
+      "origen_seed": "especificado",
+      "harmony": null,
+      "digest": {
+        "titulo": "Bateria K · Track 01",
+        "bpm": 80,
+        "seed_global": 220584,
+        "tonalidad": "F minor",
+        "lenguaje": "hybrid",
+        "resolucion": null,
+        "compases": 64,
+        "n_secciones": 6,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "chorus",
+          "bridge",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.0,
+        "energia_max": 0.0,
+        "tension_media": 0.0,
+        "densidad_media": 0.0,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    },
+    {
+      "indice": 2,
+      "id": "track02",
+      "titulo": "Track 02",
+      "rol": null,
+      "doc": "docs/track02.json",
+      "doc_resuelto": "/home/z/my-project/DMD_Composer/output/albumes/bateria_k_6/produccion/docs/track02.json",
+      "sha256_doc": "a4577d0f4dadb7d5432590128149f1118c8eb10b64a42a0548e3111e86944631",
+      "perfil": "full",
+      "seed": 528685,
+      "origen_seed": "especificado",
+      "harmony": null,
+      "digest": {
+        "titulo": "Bateria K · Track 02",
+        "bpm": 85,
+        "seed_global": 528685,
+        "tonalidad": "D minor",
+        "lenguaje": "hybrid",
+        "resolucion": null,
+        "compases": 64,
+        "n_secciones": 6,
+        "tipos_seccion": [
+          "intro",
+          "verse",
+          "chorus",
+          "bridge",
+          "chorus",
+          "outro"
+        ],
+        "energia_media": 0.0,
+        "energia_max": 0.0,
+        "tension_media": 0.0,
+        "densidad_media": 0.0,
+        "secciones_con_material_escrito": [],
+        "ending": [
+          "fade_out"
+        ]
+      },
+      "perfil_origen": "especificado"
+    }
+  ],
+  "errores_documentos": [],
+  "analisis": {
+    "diversidad_pre": {
+      "perfiles": {
+        "full": 2
+      },
+      "frac_max_config": 0.4,
+      "exceso_perfil": [
+        {
+          "perfil": "full",
+          "cuenta": 2,
+          "frac": 1.0
+        }
+      ],
+      "respiro_cada": 5,
+      "ventanas_sin_respiro": [
+        [
+          "track01",
+          "track02"
+        ]
+      ],
+      "consecutivos_iguales": [
+        {
+          "pistas": [
+            "track01",
+            "track02"
+          ],
+          "motivo": "perfil repetido consecutivo"
+        }
+      ],
+      "tonalidades_pegadas": [],
+      "bpm_fuera_de_rango": [],
+      "bpm_rango_sano": [
+        76,
+        92
+      ],
+      "distancia_tonal_consecutivas": [
+        3
+      ]
+    },
+    "curva_energia": {
+      "objetivo": null,
+      "real": [
+        0.0,
+        0.0
+      ],
+      "desviacion": null
+    },
+    "avisos": [
+      "W-A4: el perfil 'full' cubre 2/2 pistas (> 40%) — perfiles explícitos del compositor: se respetan",
+      "W-A5: ventana track01–track02 sin pista de respiro (original/atmospheric)",
+      "W-A6: consecutivas sospechosas track01<->track02 (perfil repetido consecutivo)"
+    ]
+  }
+}

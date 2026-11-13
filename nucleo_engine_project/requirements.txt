@@ -1,0 +1,5 @@
+# DMD STUDIO — dependencias del servidor local (Python 3.12, 64 bits).
+# Los motores (dark_director, jazz_engine, forge, scripts/produce.py) son
+# 100 % librería estándar: NO requieren nada de esto. Solo la capa web usa:
+fastapi==0.115.6
+uvicorn==0.34.0

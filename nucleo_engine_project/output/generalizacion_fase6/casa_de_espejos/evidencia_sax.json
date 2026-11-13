@@ -1,0 +1,51 @@
+{
+  "composicion": "casa_de_espejos",
+  "perfil": "sax",
+  "seed": 5150,
+  "sha256": "05762affe885c27f35037ee7db594b5a52f60e0c35cc85f3d49cdc33830e09d7",
+  "bytes": 7549,
+  "bpm": 84.0,
+  "compases": 44,
+  "duracion_s": 125.7,
+  "notas_por_pista": {
+    "sax_tenor": 29,
+    "rhodes": 104,
+    "vibraphone": 10,
+    "bass": 100,
+    "drums": 342,
+    "pad": 76
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 0,
+    "lead_coherencia_armonica": 0.793,
+    "rhodes_secciones_melodicas": [],
+    "rhodes_modos": {},
+    "rhodes_fuera_registro": 0,
+    "rhodes_pisa_sax": 0,
+    "vibes_eco_fuera_registro": 0,
+    "vibes_ecos_en_secciones_sin_sax": [],
+    "vibes_presupuesto": 3,
+    "vibes_usadas": 3,
+    "drums_fills": [],
+    "drums_actitudes": {
+      "intro": "keep",
+      "verse_1": "vary",
+      "pre_1": "build",
+      "chorus_1": "build",
+      "break_1": "drop",
+      "bridge_1": "drop",
+      "chorus_2": "build",
+      "outro": "keep"
+    },
+    "secciones_triple_melodia": [],
+    "sax_share": 0.5,
+    "determinismo": true
+  },
+  "fallos": [],
+  "frases_sax": 4,
+  "rhodes_melodico": {},
+  "vibes_eco": null,
+  "seed_distinta_cambia": true
+}

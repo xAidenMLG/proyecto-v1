@@ -1,0 +1,161 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Sax Register Test",
+    "notes": "Controlled diagnostic for sax melodic register and phrase execution. Progressive expansion from middle to upper register."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 84,
+    "seed": 7351
+  },
+  "harmony": {
+    "key": "A minor",
+    "language": "hybrid",
+    "harmonic_rhythm_bars": 1,
+    "progressions": {
+      "verse": [
+        "Am9",
+        "Fmaj7",
+        "Cmaj9",
+        "G7sus4"
+      ],
+      "pre_chorus": [
+        "Dm9",
+        "Em7",
+        "Fmaj7",
+        "E7sus4"
+      ],
+      "chorus": [
+        "Fmaj9",
+        "Cmaj9",
+        "Dm9",
+        "E7sus4"
+      ]
+    }
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4,
+      "energy": 0.25,
+      "tension": 0.2,
+      "density": 0.25,
+      "focus": ["rhodes", "pad"],
+      "drums": "air"
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.45,
+      "tension": 0.3,
+      "density": 0.4,
+      "focus": ["sax_tenor"],
+      "drums": "groove"
+    },
+    {
+      "id": "pre_1",
+      "type": "pre_chorus",
+      "bars": 4,
+      "energy": 0.6,
+      "tension": 0.55,
+      "density": 0.5,
+      "focus": ["sax_tenor", "pad"],
+      "drums": "light"
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.8,
+      "tension": 0.55,
+      "density": 0.65,
+      "focus": ["sax_tenor", "bass"],
+      "drums": "heavy"
+    },
+    {
+      "id": "verse_2",
+      "type": "verse",
+      "bars": 4,
+      "energy": 0.48,
+      "tension": 0.35,
+      "density": 0.4,
+      "focus": ["sax_tenor"],
+      "drums": "groove"
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 4,
+      "energy": 0.9,
+      "tension": 0.65,
+      "density": 0.7,
+      "focus": ["sax_tenor", "drums"],
+      "drums": "heavy",
+      "final": true
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 4,
+      "energy": 0.2,
+      "tension": 0.15,
+      "density": 0.2,
+      "focus": ["rhodes"],
+      "drums": "air"
+    }
+  ],
+  "development": {
+    "melody": {
+      "phrases": {
+        "verse_1": [
+          {"bar": 0, "beat": 0.5, "pitch": 67, "dur": 1.5, "vel": 68},
+          {"bar": 1, "beat": 0.0, "pitch": 69, "dur": 1.5, "vel": 70},
+          {"bar": 2, "beat": 1.0, "pitch": 72, "dur": 1.0, "vel": 72},
+          {"bar": 3, "beat": 0.5, "pitch": 71, "dur": 1.5, "vel": 68},
+          {"bar": 5, "beat": 0.0, "pitch": 74, "dur": 2.0, "vel": 74},
+          {"bar": 6, "beat": 1.0, "pitch": 72, "dur": 1.5, "vel": 70}
+        ],
+        "pre_1": [
+          {"bar": 0, "beat": 0.0, "pitch": 72, "dur": 1.0, "vel": 72},
+          {"bar": 1, "beat": 0.5, "pitch": 74, "dur": 1.0, "vel": 74},
+          {"bar": 2, "beat": 0.0, "pitch": 76, "dur": 1.5, "vel": 78},
+          {"bar": 3, "beat": 1.0, "pitch": 77, "dur": 1.5, "vel": 80}
+        ],
+        "chorus_1": [
+          {"bar": 0, "beat": 0.0, "pitch": 76, "dur": 1.0, "vel": 82},
+          {"bar": 0, "beat": 1.5, "pitch": 79, "dur": 1.0, "vel": 84},
+          {"bar": 1, "beat": 0.0, "pitch": 81, "dur": 1.5, "vel": 86},
+          {"bar": 2, "beat": 0.5, "pitch": 79, "dur": 1.0, "vel": 80},
+          {"bar": 3, "beat": 0.0, "pitch": 77, "dur": 2.0, "vel": 78},
+          {"bar": 5, "beat": 0.0, "pitch": 81, "dur": 1.5, "vel": 86},
+          {"bar": 6, "beat": 0.5, "pitch": 79, "dur": 1.0, "vel": 82},
+          {"bar": 7, "beat": 0.0, "pitch": 76, "dur": 2.0, "vel": 78}
+        ],
+        "verse_2": [
+          {"bar": 0, "beat": 0.5, "pitch": 69, "dur": 1.5, "vel": 68},
+          {"bar": 1, "beat": 0.0, "pitch": 72, "dur": 1.5, "vel": 72},
+          {"bar": 2, "beat": 0.5, "pitch": 74, "dur": 1.5, "vel": 74},
+          {"bar": 3, "beat": 0.0, "pitch": 76, "dur": 2.0, "vel": 76}
+        ],
+        "chorus_2": [
+          {"bar": 0, "beat": 0.0, "pitch": 79, "dur": 1.0, "vel": 84},
+          {"bar": 1, "beat": 0.5, "pitch": 81, "dur": 1.5, "vel": 88},
+          {"bar": 2, "beat": 0.0, "pitch": 79, "dur": 1.0, "vel": 84},
+          {"bar": 3, "beat": 0.5, "pitch": 76, "dur": 2.0, "vel": 80}
+        ]
+      }
+    }
+  },
+  "ending": {
+    "fade_out": {
+      "enabled": true,
+      "bars": 2
+    }
+  }
+}

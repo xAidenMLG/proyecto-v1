@@ -1,0 +1,89 @@
+{
+  "format": "dmd-composer/1",
+  "pid": "bateria_k_4_track_01",
+  "name": "Bateria K · Track 01",
+  "notes": "",
+  "created": 1794386419.5360718,
+  "updated": 1794386419.5361297,
+  "decisions": {
+    "identity": {
+      "mode": "fixed",
+      "value": "dark_triphop"
+    },
+    "accessibility": {
+      "mode": "fixed",
+      "value": "experimental"
+    },
+    "bpm": {
+      "mode": "fixed",
+      "value": 76
+    },
+    "key": {
+      "mode": "fixed",
+      "value": "D minor"
+    },
+    "language": {
+      "mode": "fixed",
+      "value": "pop_dream_pop"
+    },
+    "resolution": {
+      "mode": "free",
+      "value": null
+    },
+    "harmonic_rhythm_bars": {
+      "mode": "auto",
+      "value": null
+    },
+    "harmony_mode": {
+      "mode": "fixed",
+      "value": "native"
+    },
+    "mood": {
+      "mode": "fixed",
+      "value": "dark"
+    },
+    "atmosphere": {
+      "mode": "auto",
+      "value": null
+    },
+    "groove": {
+      "mode": "fixed",
+      "value": "driving"
+    },
+    "spaces": {
+      "mode": "free",
+      "value": null
+    },
+    "protagonist": {
+      "mode": "free",
+      "value": null
+    },
+    "production": {
+      "mode": "auto",
+      "value": null
+    },
+    "ending": {
+      "mode": "auto",
+      "value": null
+    },
+    "seed": {
+      "mode": "fixed",
+      "value": 659135
+    }
+  },
+  "instruments": {},
+  "sections": [],
+  "harmony_sections": {},
+  "production": {
+    "profile": null,
+    "f7_keyword": null,
+    "f7_variation": null,
+    "wav": false
+  },
+  "diversity": "balanced",
+  "album": {
+    "album_id": "bateria_k_4",
+    "track": 1
+  },
+  "protagonist_proposal": null
+}

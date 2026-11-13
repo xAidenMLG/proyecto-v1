@@ -1,0 +1,171 @@
+{
+  "nombre": "demo_2_solo_vibraphone",
+  "seed": 2026,
+  "sha256_doc": "d387bb66d9ee1e5f2782964a4749826d98b68b48dacfc915b3a792bf3a356cc8",
+  "sha256_song_map": "fa7dd869991f062a6836219845bb23d42b4828629bebf8d8cbaab32454d4cab2",
+  "validacion": {
+    "errores": [],
+    "avisos": [
+      [
+        "W421",
+        "transición 'intro' → 'solo': bass inactivo en el origen, approach omitido; el split sí se aplica"
+      ],
+      [
+        "W421",
+        "transición 'solo' → 'eco': bass inactivo en el origen, approach omitido; el split sí se aplica"
+      ],
+      [
+        "W421",
+        "transición 'eco' → 'outro': bass inactivo en el origen, approach omitido; el split sí se aplica"
+      ]
+    ],
+    "e3xx": []
+  },
+  "compilado": {
+    "total_bars": 40,
+    "target_schema": "midi-forge/1"
+  },
+  "decisiones": {
+    "fijadas": {
+      "identity": "dark_triphop",
+      "key": "D minor",
+      "harmony_mode": "guided",
+      "mood": "melancholic",
+      "spaces": "mandatory",
+      "protagonist": "vibraphone"
+    },
+    "automaticas": {
+      "seed": 2026,
+      "accessibility": "balanced",
+      "language": "pop_dream_pop",
+      "atmosphere": "medium",
+      "groove": "driving",
+      "bpm": 71,
+      "harmonic_rhythm_bars": 2,
+      "production": "drums",
+      "ending": "tape_stop"
+    },
+    "log": [
+      {
+        "axis": "seed",
+        "estado": "auto",
+        "valor": 2026,
+        "razon": "semilla generada deterministamente (guardada para reproducir)",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "identity",
+        "estado": "fixed",
+        "valor": "dark_triphop",
+        "razon": "decisión del usuario",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "accessibility",
+        "estado": "auto",
+        "valor": "balanced",
+        "razon": "preferencia ponderada por mood 'melancholic'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "language",
+        "estado": "auto",
+        "valor": "pop_dream_pop",
+        "razon": "preferencia ponderada por mood 'melancholic'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "atmosphere",
+        "estado": "auto",
+        "valor": "medium",
+        "razon": "preferencia ponderada por mood 'melancholic'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "groove",
+        "estado": "auto",
+        "valor": "driving",
+        "razon": "preferencia ponderada por mood 'melancholic'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "bpm",
+        "estado": "auto",
+        "valor": 71,
+        "razon": "curva por mood 'melancholic' dentro del rango típico de dark_triphop [70, 96]",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "key",
+        "estado": "fixed",
+        "valor": "D minor",
+        "razon": "decisión del usuario",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "resolution",
+        "estado": "free",
+        "valor": null,
+        "razon": "default del lenguaje (sin campo)",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "harmonic_rhythm_bars",
+        "estado": "auto",
+        "valor": 2,
+        "razon": "default de la receta dark_triphop (1) con jitter; regla de compatibilidad: nunca menor que la receta en identidades doom",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "protagonist",
+        "estado": "fixed",
+        "valor": "vibraphone",
+        "razon": "decisión del usuario (prioridad funcional)",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "harmony_mode",
+        "estado": "fixed",
+        "valor": "guided",
+        "razon": "native = recetas N1 del motor | guided = progresiones explícitas por sección",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "spaces",
+        "estado": "fixed",
+        "valor": "mandatory",
+        "razon": "obligatorios → el plan favorece densidades bajas y secciones de aire",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "production",
+        "estado": "auto",
+        "valor": "drums",
+        "razon": "perfil coherente con atmósfera 'medium'",
+        "descartadas": [],
+        "reglas": []
+      },
+      {
+        "axis": "ending",
+        "estado": "auto",
+        "valor": "tape_stop",
+        "razon": "cierre coherente con mood 'melancholic'",
+        "descartadas": [],
+        "reglas": []
+      }
+    ]
+  }
+}

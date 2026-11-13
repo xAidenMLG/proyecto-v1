@@ -1,0 +1,11 @@
+{
+  "composicion": "calles_de_neon",
+  "run": "A_original",
+  "keyword": null,
+  "seed_doc": 9021,
+  "seed_harmony": 902,
+  "sha256_midi": "8e3775dcd947939a2fbdca2a41edb27a9912afbecd2df8498fc1d3b1c568849e",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/calles_de_neon/doc.json --dark-director --production full --seed 9021 -o regen.mid",
+  "compliance_fails": [],
+  "duracion_s": 93.9
+}

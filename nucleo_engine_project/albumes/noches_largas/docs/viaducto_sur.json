@@ -1,0 +1,153 @@
+{
+  "schema": "dark-director/1",
+  "meta": {
+    "title": "Viaducto Sur",
+    "notes": "FASE 8 — álbum «Noches Largas» (composición nueva)."
+  },
+  "direction": {
+    "identity": "dark_triphop",
+    "accessibility": "balanced"
+  },
+  "global": {
+    "bpm": 90,
+    "seed": 8103
+  },
+  "harmony": {
+    "key": "D minor",
+    "language": "pop_dream_pop",
+    "harmonic_rhythm_bars": 1,
+    "progressions": {
+      "verse": [
+        "Dm9",
+        "Bbmaj7",
+        "Fmaj9",
+        "C7sus4"
+      ],
+      "chorus": [
+        "Bbmaj9",
+        "Fmaj9",
+        "Gm9",
+        "A7sus4"
+      ]
+    },
+    "resolution": "tonal"
+  },
+  "structure": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "bars": 4,
+      "energy": 0.25,
+      "tension": 0.25,
+      "density": 0.25,
+      "focus": [
+        "pad",
+        "drums"
+      ],
+      "drums": "air"
+    },
+    {
+      "id": "verse_1",
+      "type": "verse",
+      "bars": 8,
+      "energy": 0.45,
+      "tension": 0.4,
+      "density": 0.45,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "drums": "groove"
+    },
+    {
+      "id": "pre_1",
+      "type": "pre_chorus",
+      "bars": 4,
+      "energy": 0.58,
+      "tension": 0.55,
+      "density": 0.55,
+      "focus": [
+        "rhodes",
+        "bass"
+      ],
+      "drums": "light"
+    },
+    {
+      "id": "chorus_1",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.75,
+      "tension": 0.55,
+      "density": 0.65,
+      "focus": [
+        "sax_tenor",
+        "rhodes",
+        "drums"
+      ],
+      "drums": "heavy"
+    },
+    {
+      "id": "break_1",
+      "type": "break",
+      "bars": 4,
+      "energy": 0.32,
+      "tension": 0.62,
+      "density": 0.32,
+      "focus": [
+        "vibraphone"
+      ],
+      "drums": "light",
+      "active": [
+        "vibraphone",
+        "rhodes",
+        "pad"
+      ]
+    },
+    {
+      "id": "bridge_1",
+      "type": "bridge",
+      "bars": 4,
+      "energy": 0.55,
+      "tension": 0.68,
+      "density": 0.5,
+      "focus": [
+        "rhodes",
+        "strings"
+      ],
+      "drums": "light"
+    },
+    {
+      "id": "chorus_2",
+      "type": "chorus",
+      "bars": 8,
+      "energy": 0.8,
+      "tension": 0.6,
+      "density": 0.65,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "drums": "heavy"
+    },
+    {
+      "id": "outro",
+      "type": "outro",
+      "bars": 4,
+      "energy": 0.18,
+      "tension": 0.18,
+      "density": 0.18,
+      "focus": [
+        "pad",
+        "rhodes"
+      ],
+      "drums": "air"
+    }
+  ],
+  "ending": {
+    "tape_stop": {
+      "enabled": true,
+      "bars": 3,
+      "semitones": 8
+    }
+  }
+}

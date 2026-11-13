@@ -1,0 +1,104 @@
+{
+  "composicion": "casa_de_espejos",
+  "run": "B_familiar_soulful",
+  "keyword": "soulful",
+  "seed_doc": 5150,
+  "seed_harmony": 555,
+  "sha256_midi": "aeafe7b5b7397491f25f8dd4f476ceaf00dcd54fd111719e4da924c19b0a6c02",
+  "regeneracion": "python3 -m jazz_engine output/generalizacion_fase6/casa_de_espejos/doc.json --dark-director --production full --seed 5150 -o regen.mid --harmony soulful --harmony-seed 555 --harmony-variacion none",
+  "compliance_fails": [],
+  "duracion_s": 125.7,
+  "armonia": {
+    "eleccion_por_seccion": {
+      "outro": {
+        "entrada": "SOUL06",
+        "simbolos": [
+          "Cm9",
+          "Bb9",
+          "Abmaj7",
+          "G7"
+        ]
+      },
+      "chorus_2": {
+        "entrada": "SOUL06",
+        "simbolos": [
+          "Cm9",
+          "Bb9",
+          "Abmaj7",
+          "G7",
+          "Cm9",
+          "Bb9",
+          "Abmaj7",
+          "G7"
+        ]
+      },
+      "bridge_1": {
+        "entrada": "SOUL05",
+        "simbolos": [
+          "Cm7",
+          "Fm7",
+          "Cm7",
+          "Fm7"
+        ]
+      },
+      "break_1": {
+        "entrada": "SOUL05",
+        "simbolos": [
+          "Cm7",
+          "Fm7",
+          "Cm7",
+          "Fm7"
+        ]
+      },
+      "chorus_1": {
+        "entrada": "SOUL06",
+        "simbolos": [
+          "Cm9",
+          "Bb9",
+          "Abmaj7",
+          "G7",
+          "Cm9",
+          "Bb9",
+          "Abmaj7",
+          "G7"
+        ]
+      },
+      "pre_1": {
+        "entrada": "SOUL06",
+        "simbolos": [
+          "Cm9",
+          "Bb9",
+          "Abmaj7",
+          "G7"
+        ]
+      },
+      "verse_1": {
+        "entrada": "SOUL05",
+        "simbolos": [
+          "Cm7",
+          "Fm7",
+          "Cm7",
+          "Fm7",
+          "Cm7",
+          "Fm7",
+          "Cm7",
+          "Fm7"
+        ]
+      },
+      "intro": {
+        "entrada": "SOUL06",
+        "simbolos": [
+          "Cm9",
+          "Bb9",
+          "Abmaj7",
+          "G7"
+        ]
+      }
+    },
+    "respetadas_material": [],
+    "resumen": {
+      "reescritas": 8,
+      "respetadas": 0
+    }
+  }
+}

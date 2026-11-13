@@ -1,0 +1,110 @@
+{
+  "composicion": "Viaducto Sur",
+  "perfil_produccion": "full",
+  "seed": 3807,
+  "sha256_midi": "bd123097c269dec9f667c83c8e2efecc4dc3e888ba229d1f726bba570b81be65",
+  "sha256_doc": "4e6c9da08791d2dba951f7898de36c1046af21d7bf90b8418dfd153669b7a9a4",
+  "fecha_generacion_utc": "2026-11-09T06:06:47.343556+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 90.0,
+  "compases": 44,
+  "duracion_s": 117.3,
+  "notas_por_pista": {
+    "sax_tenor": 10,
+    "rhodes": 118,
+    "vibraphone": 18,
+    "bass": 100,
+    "drums": 369,
+    "pad": 88
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "section_bounds",
+    "motif_repeat"
+  ],
+  "avisos_compilador": [
+    "W421: transición 'break_1' → 'bridge_1': bass inactivo en el origen, approach omitido; el split sí se aplica",
+    "W406: 'strings' no suena en 'bridge_1' → entrada de active/focus ignorada"
+  ],
+  "resumen_actividad": {
+    "frases_sax": 4,
+    "rhodes_melodico_por_seccion": {
+      "intro": 0,
+      "verse_1": 2,
+      "pre_1": 0,
+      "chorus_1": 2,
+      "break_1": 0,
+      "bridge_1": 2,
+      "chorus_2": 2,
+      "outro": 0
+    },
+    "vibes_eco_por_seccion": {
+      "intro": 0,
+      "verse_1": 0,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "break_1": 0,
+      "bridge_1": 1,
+      "chorus_2": 2,
+      "outro": 0
+    }
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production full --seed 3807 --out output/albumes/noches_largas/07_viaducto_sur --verify bd123097c269dec9f667c83c8e2efecc4dc3e888ba229d1f726bba570b81be65",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"07_viaducto_sur.mid\" -F salida.wav -r 44100"
+  },
+  "harmonia": {
+    "activacion": {
+      "id": "CINE01",
+      "variacion": "medium"
+    },
+    "resumen": {
+      "reescritas": 8,
+      "respetadas": 0
+    },
+    "eleccion": {
+      "outro": {
+        "id": "CINE01",
+        "nombre": "Andaluz Cinematográfico"
+      },
+      "chorus_2": {
+        "id": "CINE01",
+        "nombre": "Andaluz Cinematográfico"
+      },
+      "bridge_1": {
+        "id": "CINE01",
+        "nombre": "Andaluz Cinematográfico"
+      },
+      "break_1": {
+        "id": "CINE01",
+        "nombre": "Andaluz Cinematográfico"
+      },
+      "chorus_1": {
+        "id": "CINE01",
+        "nombre": "Andaluz Cinematográfico"
+      },
+      "pre_1": {
+        "id": "CINE01",
+        "nombre": "Andaluz Cinematográfico"
+      },
+      "verse_1": {
+        "id": "CINE01",
+        "nombre": "Andaluz Cinematográfico"
+      },
+      "intro": {
+        "id": "CINE01",
+        "nombre": "Andaluz Cinematográfico"
+      }
+    },
+    "respetadas_material": []
+  }
+}

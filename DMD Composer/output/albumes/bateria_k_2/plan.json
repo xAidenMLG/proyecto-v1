@@ -1,0 +1,65 @@
+{
+  "formato": "dmd-album/1",
+  "album_id": "bateria_k_2",
+  "name": "Bateria K",
+  "tracks_total": 2,
+  "creado": 1794385629.7302508,
+  "compartido": {
+    "identity": "dark_triphop",
+    "mood": "dark",
+    "protagonist": null,
+    "harmony_mode": "native",
+    "spaces": null,
+    "instruments": {},
+    "diversity": "balanced",
+    "estructura": "variable",
+    "_secciones": [],
+    "_harmonias": {}
+  },
+  "pistas": [
+    {
+      "n": 1,
+      "estado": "lista",
+      "seed": 296522,
+      "key": "B minor",
+      "bpm": 93,
+      "language": "hybrid",
+      "plantilla": 1,
+      "gen": "gen_0001",
+      "groove": "steady",
+      "accessibility": "experimental",
+      "pid": "bateria_k_2_track_01",
+      "doc_sha256": "5202d3f2cd61ae2086c61777a2b1d83c5ad376804384b66f9deecf71a83a5404"
+    },
+    {
+      "n": 2,
+      "estado": "lista",
+      "seed": 346470,
+      "key": "E minor",
+      "bpm": 80,
+      "language": "hybrid",
+      "plantilla": 0,
+      "gen": "gen_0001",
+      "groove": "laid_back",
+      "accessibility": "commercial",
+      "pid": "bateria_k_2_track_02",
+      "doc_sha256": "0cd4e430db1fced7b6292fb4a739d83a25757a39dca4f98ebdfef9c26a2e6ba1"
+    }
+  ],
+  "huellas": [
+    {
+      "key": "B minor",
+      "plantilla": 1,
+      "language": "hybrid",
+      "bpm": 93,
+      "groove": "steady"
+    },
+    {
+      "key": "E minor",
+      "plantilla": 0,
+      "language": "hybrid",
+      "bpm": 80,
+      "groove": "laid_back"
+    }
+  ]
+}

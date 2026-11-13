@@ -1,0 +1,181 @@
+{
+  "format": "dmd-composer/1",
+  "pid": "demo_3_sax_rhodes_espacios",
+  "name": "Sax y Rhodes en el Puro",
+  "notes": "Demo 3: sax protagonista, Rhodes acompañante, vibráfono fuera, espacios de aire.",
+  "created": 1794340627.5054088,
+  "updated": 1794340627.5054088,
+  "decisions": {
+    "identity": {
+      "mode": "fixed",
+      "value": "dark_triphop"
+    },
+    "accessibility": {
+      "mode": "auto",
+      "value": null
+    },
+    "bpm": {
+      "mode": "fixed",
+      "value": 82
+    },
+    "key": {
+      "mode": "fixed",
+      "value": "C minor"
+    },
+    "language": {
+      "mode": "fixed",
+      "value": "hybrid"
+    },
+    "resolution": {
+      "mode": "free",
+      "value": null
+    },
+    "harmonic_rhythm_bars": {
+      "mode": "auto",
+      "value": null
+    },
+    "harmony_mode": {
+      "mode": "fixed",
+      "value": "guided"
+    },
+    "mood": {
+      "mode": "fixed",
+      "value": "dark"
+    },
+    "atmosphere": {
+      "mode": "auto",
+      "value": null
+    },
+    "groove": {
+      "mode": "auto",
+      "value": null
+    },
+    "spaces": {
+      "mode": "fixed",
+      "value": "suggested"
+    },
+    "protagonist": {
+      "mode": "free",
+      "value": null
+    },
+    "production": {
+      "mode": "auto",
+      "value": null
+    },
+    "ending": {
+      "mode": "auto",
+      "value": null
+    },
+    "seed": {
+      "mode": "auto",
+      "value": null
+    }
+  },
+  "instruments": {
+    "sax_tenor": {
+      "role": "protagonist"
+    },
+    "rhodes": {
+      "role": "support"
+    },
+    "vibraphone": {
+      "role": "off"
+    },
+    "pad": {
+      "role": "support"
+    }
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "label": "Intro",
+      "type": "intro",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "rhodes",
+        "pad"
+      ],
+      "final": false
+    },
+    {
+      "id": "verso_1",
+      "label": "Verse 1",
+      "type": "verse",
+      "bars": 16,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "final": false
+    },
+    {
+      "id": "puente_aire",
+      "label": "Puente de Aire",
+      "type": "bridge",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "rhodes"
+      ],
+      "active": [
+        "sax_tenor",
+        "rhodes",
+        "pad"
+      ],
+      "final": false
+    },
+    {
+      "id": "verso_2",
+      "label": "Verse 2",
+      "type": "verse",
+      "bars": 16,
+      "focus": [
+        "sax_tenor",
+        "drums"
+      ],
+      "final": false
+    },
+    {
+      "id": "outro",
+      "label": "Outro",
+      "type": "outro",
+      "bars": 8,
+      "drums": "air",
+      "focus": [
+        "rhodes"
+      ],
+      "final": true
+    }
+  ],
+  "harmony_sections": {
+    "intro": {
+      "mode": "guided",
+      "numerals": "i - bVI"
+    },
+    "verso_1": {
+      "mode": "guided",
+      "numerals": "i - iim7b5 - bVI - V7"
+    },
+    "puente_aire": {
+      "mode": "guided",
+      "numerals": "bVI - bVII"
+    },
+    "verso_2": {
+      "mode": "guided",
+      "numerals": "i - i - bVI - bVII - i - i - bVI - V7:2"
+    },
+    "outro": {
+      "mode": "guided",
+      "numerals": "i - bVI"
+    }
+  },
+  "production": {
+    "profile": null,
+    "f7_keyword": null,
+    "f7_variation": null,
+    "wav": false
+  },
+  "diversity": "balanced",
+  "album": null
+}

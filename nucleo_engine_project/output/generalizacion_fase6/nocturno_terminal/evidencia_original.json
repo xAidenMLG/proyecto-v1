@@ -1,0 +1,25 @@
+{
+  "composicion": "nocturno_terminal",
+  "perfil": "original",
+  "seed": 2026,
+  "sha256": "046c94b1599e34fed228e6dd997611a27ac46835bc4946632a8cebb96d76271f",
+  "bytes": 9829,
+  "bpm": 86.0,
+  "compases": 52,
+  "duracion_s": 145.1,
+  "notas_por_pista": {
+    "sax_tenor": 85,
+    "rhodes": 120,
+    "vibraphone": 2,
+    "bass": 124,
+    "drums": 431,
+    "pad": 92
+  },
+  "checks": {
+    "compliance_fails": [],
+    "notas_arranque_fuera": 0,
+    "notas_cola_final": 0,
+    "determinismo": true
+  },
+  "fallos": []
+}

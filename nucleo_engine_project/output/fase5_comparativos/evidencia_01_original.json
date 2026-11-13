@@ -1,0 +1,46 @@
+{
+  "escenario": "01_original",
+  "sha256_midi": "046c94b1599e34fed228e6dd997611a27ac46835bc4946632a8cebb96d76271f",
+  "bytes": 9829,
+  "bpm": 86.0,
+  "compases": 52,
+  "duracion_segundos": 145.1,
+  "seed": 2026,
+  "motores": "ninguno (ORIGINAL)",
+  "variacion": "n/a",
+  "notas_por_pista": {
+    "sax_tenor": 85,
+    "rhodes": 120,
+    "vibraphone": 2,
+    "bass": 124,
+    "drums": 431,
+    "pad": 92
+  },
+  "frases_sax": [],
+  "frases_sax_total": 0,
+  "rhodes_melodico_por_seccion": {},
+  "vibes_eco_por_seccion": null,
+  "densidad_notas_por_compas": {
+    "sax_tenor": 1.63,
+    "rhodes": 2.31,
+    "vibraphone": 0.04,
+    "bass": 2.38,
+    "drums": 8.29,
+    "pad": 1.77
+  },
+  "compliance_fails": [],
+  "compliance_warns": [
+    "lead_coverage",
+    "section_bounds",
+    "motif_repeat"
+  ],
+  "choques_semitono": 0,
+  "avisos_compilador": [
+    "W403: vibraphone con density efectiva 0.7 en banda B3 y mallet_sparse ON ('chorus_2')",
+    "W421: transición 'break_1' → 'verse_2': bass inactivo en el origen, approach omitido; el split sí se aplica"
+  ],
+  "evidencia_motores": {
+    "path": "original (sin jazz_engine)",
+    "engines": "none"
+  }
+}

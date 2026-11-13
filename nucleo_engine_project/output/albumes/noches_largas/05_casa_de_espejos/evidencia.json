@@ -1,0 +1,95 @@
+{
+  "composicion": "Casa de Espejos",
+  "perfil_produccion": "sax_rhodes",
+  "seed": 2026,
+  "sha256_midi": "75cb88be775105d09c76ab8c87180b6c665138844ce576e08883d3ba5ff20b59",
+  "sha256_doc": "d429c69277639394211c64b6156784a610cf0f21b2b886e839739f3765719639",
+  "fecha_generacion_utc": "2026-11-09T06:06:47.255353+00:00",
+  "versiones": {
+    "jazz_engine": "7.0.0",
+    "contrato": {
+      "contract": "dark-director/1",
+      "contract_rev": "3.2",
+      "compiler_version": "0.1.0",
+      "compiler_stage": "fase1",
+      "target_schema": "midi-forge/1"
+    }
+  },
+  "bpm": 84.0,
+  "compases": 44,
+  "duracion_s": 125.7,
+  "notas_por_pista": {
+    "sax_tenor": 22,
+    "rhodes": 116,
+    "vibraphone": 12,
+    "bass": 100,
+    "drums": 342,
+    "pad": 88
+  },
+  "compliance_fails": [],
+  "compliance_warns": [],
+  "avisos_compilador": [],
+  "resumen_actividad": {
+    "frases_sax": 5,
+    "rhodes_melodico_por_seccion": {
+      "intro": 0,
+      "verse_1": 0,
+      "pre_1": 0,
+      "chorus_1": 0,
+      "break_1": 0,
+      "bridge_1": 3,
+      "chorus_2": 0,
+      "outro": 2
+    },
+    "vibes_eco_por_seccion": null
+  },
+  "reproduccion": {
+    "regenerar": "python3 scripts/produce.py doc.json --production sax_rhodes --seed 2026 --out output/albumes/noches_largas/05_casa_de_espejos --verify 75cb88be775105d09c76ab8c87180b6c665138844ce576e08883d3ba5ff20b59",
+    "fluidsynth_windows": "fluidsynth -ni soundfont.sf2 \"05_casa_de_espejos.mid\" -F salida.wav -r 44100"
+  },
+  "harmonia": {
+    "activacion": {
+      "keyword": "soulful",
+      "variacion": "medium"
+    },
+    "resumen": {
+      "reescritas": 8,
+      "respetadas": 0
+    },
+    "eleccion": {
+      "outro": {
+        "id": "SOUL06",
+        "nombre": "Andaluz Soul"
+      },
+      "chorus_2": {
+        "id": "SOUL06",
+        "nombre": "Andaluz Soul"
+      },
+      "bridge_1": {
+        "id": "SOUL05",
+        "nombre": "Menor Soul"
+      },
+      "break_1": {
+        "id": "SOUL05",
+        "nombre": "Menor Soul"
+      },
+      "chorus_1": {
+        "id": "SOUL06",
+        "nombre": "Andaluz Soul"
+      },
+      "pre_1": {
+        "id": "SOUL06",
+        "nombre": "Andaluz Soul"
+      },
+      "verse_1": {
+        "id": "SOUL05",
+        "nombre": "Menor Soul"
+      },
+      "intro": {
+        "id": "SOUL06",
+        "nombre": "Andaluz Soul"
+      }
+    },
+    "respetadas_material": []
+  }
+}
